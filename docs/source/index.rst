@@ -16,7 +16,9 @@ Contents
 
 .. toctree::
 
-   KookaBlockly Conventions
+   api
+
+KookaBlockly Conventions
    KookaBlockly Function Block Reference
      Control
      Clock
