@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+KookaBlockly Reference Manual
+=============================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This site contains the documentation for the KookaBlockly graphical scripting tool which generates MicroPython code for the Kookaberry STEM microcomputer.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+The documents here are still under development and not yet stable enough for public release
