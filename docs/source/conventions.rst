@@ -12,8 +12,12 @@ KookaBlockly Conventions
 KookaBlockly contains three basic block shapes:
 
 1.	A C-shaped block directs program flow and contains a sequence of action blocks.  The C-shaped block may be a loop, or may be a sequence of blocks that are run conditionally subject to one or more logical tests.
-.. image:: images/every-loop.png
-.. |customsub| image:: images/if-do.png
+  .. image:: images/every-loop.png
+     :width: 50
+
+  .. image:: images/if-do.png
+     :width: 500
+
 2.	An action or “do” block which performs an operation.  The block has an indent in the top border and a matching protrusion on the bottom border.  These blocks click together like jigsaw pieces and may be placed in a vertical column and within a C-shaped block.
 
 
