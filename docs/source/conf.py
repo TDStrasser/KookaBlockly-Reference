@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'KookaBlockly Reference'
+copyright = '2023, AustSTEM'
+author = 'Julian Dinsdale'
 
 release = '0.1'
 version = '0.1.0'
