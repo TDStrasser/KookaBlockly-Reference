@@ -2,8 +2,10 @@ KOOKABLOCKLY REFERENCE GUIDE
 ============================
 
 This reference guide provides a reference for each of the Blocks in the 18 multi coloured KookaBlockly categories.
+
 .. image:: images/kblockly-canvas.png
-   :width: 500
+   :width: 80%
+   :align: center
    :alt: KookaBlockly Canvas
 
 KookaBlockly Conventions
@@ -12,11 +14,14 @@ KookaBlockly Conventions
 KookaBlockly contains three basic block shapes:
 
 1.	A C-shaped block directs program flow and contains a sequence of action blocks.  The C-shaped block may be a loop, or may be a sequence of blocks that are run conditionally subject to one or more logical tests.
-  .. image:: images/every-loop.png
-     :width: 50
 
-  .. image:: images/if-do.png
-     :width: 500
+.. image:: images/every-loop.png
+   :width: 25%
+   :align: center
+
+.. image:: images/if-do.png
+   :width: 25%
+   :align: right
 
 2.	An action or “do” block which performs an operation.  The block has an indent in the top border and a matching protrusion on the bottom border.  These blocks click together like jigsaw pieces and may be placed in a vertical column and within a C-shaped block.
 
