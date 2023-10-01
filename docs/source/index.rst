@@ -1,13 +1,11 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to the KookaBlockly Reference Guide!
+============================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This document relates to the KookaBlockly graphucal scripting tool created by Damien George for the Kookaberry
+The document is in TWO parts
+The First part – Working with KookaBlockly - relates to KookaBlockly set-up, basic screen displays and usage
+The Second part is a Reference Document for the graphical functional blocks in KookaBlockly
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -18,5 +16,25 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   KookaBlockly Conventions
+   KookaBlockly Function Block Reference
+     Control
+     Clock
+     Display
+     Buttons
+     LEDs
+     Pins
+     Sensors
+     Actuators
+     Radio
+     Logging
+     Boolean
+     If-Else
+     Loops
+     Strings
+     Lists
+     Math
+     Variables
+     Functions
+     Advanced
+
