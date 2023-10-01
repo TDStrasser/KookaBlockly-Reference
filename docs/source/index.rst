@@ -16,7 +16,7 @@ Contents
 
 .. toctree::
 
-   api
+   conventions
 
 KookaBlockly Conventions
    KookaBlockly Function Block Reference
