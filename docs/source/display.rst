@@ -130,12 +130,17 @@ Display Image
  
 This block allows for the creation of an 8 x 8 pixel array which can be displayed on the 
 Kookaberry display at the locations of x and y.
+
 The “transparent?” box if ticked will not extinguish any pre-existing pixels that were on giving an 
 impression of transparency.
+
 By manipulating the values of x and y using value blocks, the pixel array can be made to move 
-around the screen.  The following is an example where a pixel block shaped as an arrow moves
- diagonally from the top left to the bottom right of the display then wraps around to the top ad-
-infinitum.  See also the descriptions of the variable and if-do statements later in this manual.
+around the screen.  
+
+The following is an example where a pixel block shaped as an arrow moves
+diagonally from the top left to the bottom right of the display then wraps around to the top ad-infinitum.  
+
+See also the descriptions of the variable and if-do statements later in this manual.
 
  
 

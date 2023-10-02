@@ -56,7 +56,7 @@ Log Timestamped Value
 TEXT TEXT TEXT
 
 Log Two Timestamped Values
----------------------
+--------------------------
 
  
 

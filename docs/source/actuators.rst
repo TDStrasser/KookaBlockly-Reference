@@ -43,10 +43,10 @@ The servo block sets the angle to which a servo motor should move specified in d
 angle can be calculated by other value blocks or be specified as a fixed value.  The option for this 
 block is which connector the servo is attached.
 
-Please note that all but the smallest 9g servos should not be directly plugged into a 
-Kookaberry connector.  These devices require special electronics to supply them with more
- power.  Plugging in large servos without the necessary driving electronics may irreparably
- damage the Kookaberry!
+.. note:
+  Please note that all but the smallest 9g servos should not be directly plugged into a 
+  Kookaberry connector.  These devices require special electronics to supply them with more power.  
+  Plugging in large servos without the necessary driving electronics may irreparably damage the Kookaberry!
 
 Servo – Set to Angle over Time
 ------------------------------
