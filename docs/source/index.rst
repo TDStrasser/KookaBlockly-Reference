@@ -19,24 +19,3 @@ Contents
    conventions.rst
    blocks.rst
 
-   KookaBlockly Function Block Reference
-     Control
-     Clock
-     Display
-     Buttons
-     LEDs
-     Pins
-     Sensors
-     Actuators
-     Radio
-     Logging
-     Boolean
-     If-Else
-     Loops
-     Strings
-     Lists
-     Math
-     Variables
-     Functions
-     Advanced
-
