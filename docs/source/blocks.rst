@@ -24,7 +24,7 @@ Contents
      loops.rst
      strings.rst
      lists.rst
-     math.rst
+     maths.rst
      variables.rst
      functions.rst
      advanced.rst
