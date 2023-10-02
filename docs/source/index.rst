@@ -16,9 +16,9 @@ Contents
 
 .. toctree::
 
-   conventions
+   conventions.rst
+   blocks.rst
 
-KookaBlockly Conventions
    KookaBlockly Function Block Reference
      Control
      Clock
