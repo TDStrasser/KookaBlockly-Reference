@@ -33,10 +33,8 @@ The time specification is in decimal seconds, for example 0.001 is 1 millisecond
 Repeat
 ------
 
- 
 
-This block runs the blocks nested inside it in a repeated loop.  The loop will run forever unless
- externally stopped.  Another name is a Repeat Forever loop.
+This block runs the blocks nested inside it in a repeated loop.  The loop will run forever unless externally stopped.  Another name is a Repeat Forever loop.
 
 Exit Program
 ------------

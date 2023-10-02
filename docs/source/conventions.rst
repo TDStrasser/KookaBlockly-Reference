@@ -1,3 +1,4 @@
+============================
 KOOKABLOCKLY REFERENCE GUIDE
 ============================
 
@@ -8,9 +9,8 @@ This reference guide provides a reference for each of the Blocks in the 18 multi
    :align: center
    :alt: KookaBlockly Canvas
 
-------------------------
 KookaBlockly Conventions
-------------------------
+========================
 
 KookaBlockly contains three basic block shapes:
 
