@@ -126,8 +126,7 @@ Round Number
 
 This value block rounds the socketed numerical value block with the chosen method.  Round 
 rounds the number in the standard manner, ie 0.5 rounds up and below 0.5 rounds down. 
- Round Up always rounds up if there is any fraction and Rounds Down removes any fractional 
-component.
+Round Up always rounds up if there is any fraction and Rounds Down removes any fractional component.
 
 
 

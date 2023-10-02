@@ -43,6 +43,7 @@ This action block allows the user to change the selected variable by a number sp
 block
 
 Attach Variable
+---------------
 
 This value block allows a user to attach a variable’s value to the socket of another block.
 

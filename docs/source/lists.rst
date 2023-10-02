@@ -45,8 +45,7 @@ Create List With
 This value block creates a new list with the socketed items.  The block can be configured with the 
 gear icon to add or remove sockets.
 
-Here is an example of setting the value of a variable called “letters” to a list of the names of
- Greek letters: [“alpha”, “beta”, “gamma” and “delta”]
+Here is an example of setting the value of a variable called “letters” to a list of the names of Greek letters: [“alpha”, “beta”, “gamma” and “delta”]
 
  
 

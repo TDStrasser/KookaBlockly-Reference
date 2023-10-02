@@ -8,7 +8,7 @@ combined temperature and humidity sensors.
 The Sensors category provides blocks that enable the use of these sensors.
 
 -----------------
-Internals Sensors
+Internal Sensors
 -----------------
 
 Accelerometer (raw)
@@ -48,12 +48,9 @@ Accelerometer (scaled)
 
 
 
-The scaled accelerometer compound block is a convenient combination applying a multiplier and
- an offset to the raw accelerometer reading.  The scale and offset factors are also the results of 
-value blocks.
+The scaled accelerometer compound block is a convenient combination applying a multiplier and an offset to the raw accelerometer reading.  The scale and offset factors are also the results of value blocks.
 
-This block is useful to reduce the sensitivity of the accelerometer and to compensate for offsets 
-in tilt along the selected axis.
+This block is useful to reduce the sensitivity of the accelerometer and to compensate for offsets in tilt along the selected axis.
 
 
 Compass

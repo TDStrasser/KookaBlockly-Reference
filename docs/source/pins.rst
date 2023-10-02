@@ -103,10 +103,7 @@ Pin – Scale Volts Out
 
 Where available on the Kookaberry the Pin scale volts out block causes the selected pin to be 
 used as an analogue output and to be set to the voltage which is the product of the results of the 
-attached value blocks.  The first value block is interpreted as a percentage in the range 0 to 100,
- and the second value block provides the maximum voltage (with 3.3 volts being the maximum 
-that can be produced by the Kookaberry).   This feature is not available on Kookaberry using the 
-RP2040 microprocessor
+attached value blocks.  The first value block is interpreted as a percentage in the range 0 to 100, and the second value block provides the maximum voltage (with 3.3 volts being the maximum that can be produced by the Kookaberry).   This feature is not available on Kookaberry using the RP2040 microprocessor.
 
 
 Pin – Pulse Width Modulation (PWM)
