@@ -35,7 +35,7 @@ KookaBlockly contains three basic block shapes:
 2.	An action or “do” block which performs an operation.  The block has an indent in the top border and a matching protrusion on the bottom border.  These blocks click together like jigsaw pieces and may be placed in a vertical column and within a C-shaped block.
 
 .. image:: images/display-clear.png
-   :width: 150
+   :width: 200
    :align: center
 
 
@@ -49,7 +49,7 @@ KookaBlockly contains three basic block shapes:
 Some blocks have configuration options denoted by a cog symbol.  Clicking on the cog symbol presents options that may be used to configure the block.
 
 .. image:: images/if-do-config.png
-   :width: 150
+   :width: 200
    :align: center
 
 
