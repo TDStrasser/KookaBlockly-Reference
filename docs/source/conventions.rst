@@ -49,7 +49,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/show-script-display-buttons.png
-   :width: 150
+   :width: 250
    :align: center
 
 
@@ -69,7 +69,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/scripts-dropdowns.png
-   :width: 300
+   :width: 500
    :align: center
 
 
