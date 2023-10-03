@@ -74,7 +74,7 @@ Reads the Kookaberry’s external Real Time Clock (RTC) and returns a date or ti
 The external RTC is connected to the Kookaberry's connector ports as selected from the SCK and SDA dropdown lists. The default setting of SCL as 'P3A' and SDA as 'P3B' is usually correct, meaning the external RTC is connected to the Kookaberry using the 4-pin P3 port.
 
 .. image:: images/get-external-clock-simple.png
-   :width: 250
+   :width: 350
    :align: center
 
 
@@ -129,7 +129,7 @@ The external RTC is connected to the Kookaberry's connector ports as selected fr
 
 
 .. image:: images/set-external-clock-from-string.png
-   :width: 400
+   :width: 450
    :align: center
 
 
