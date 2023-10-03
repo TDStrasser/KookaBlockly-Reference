@@ -39,7 +39,7 @@ Get Clock - Extended Time
 Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and time in two parts per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character “-“).
 
 .. image:: images/get-clock-extended.png
-   :width: 300
+   :width: 400
    :align: center
 
 
