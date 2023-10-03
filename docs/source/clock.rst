@@ -12,7 +12,7 @@ An external RTC, connected as an accessory to the Kookaberry, usually has a batt
 Clicking on the Clock category in the KookaSuite palette reveals the available blocks, as below.  Click and drag any of the required blocks to the KooaBlockly workspace and connect with other blocks to build a script that can use and/or set the time.
 
 .. figure:: images/clock-palette.png
-   :width: 400
+   :width: 500
    :align: center
    
    The palette of KookaBlockly Clock blocks.
