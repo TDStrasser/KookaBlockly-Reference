@@ -38,7 +38,7 @@ Get Clock - Extended Time
 -------------------------
 
 
-Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and time in two parts per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character “-“).
+Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and time as a character string comprising two parts per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character “-“).
 
 .. image:: images/get-clock-extended.png
    :width: 500
@@ -74,14 +74,14 @@ Reads the Kookaberry’s external Real Time Clock (RTC) and returns a date or ti
 The external RTC is connected to the Kookaberry's connector ports as selected from the SCK and SDA dropdown lists. The default setting of SCL as 'P3A' and SDA as 'P3B' is usually correct, meaning the external RTC is connected to the Kookaberry using the 4-pin P3 port.
 
 .. image:: images/get-external-clock-simple.png
-   :width: 350
+   :width: 450
    :align: center
 
 
 Get External Clock – Extended Time
 ----------------------------------
 
-Reads the Kookaberry’s external Real Time Clock (RTC) and returns the date and time in two parts per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character “-“).
+Reads the Kookaberry’s external Real Time Clock (RTC) and returns the date and time as a character string comprising two parts per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character “-“).
 
 The external RTC is connected to the Kookaberry's connector ports as selected from the SCK and SDA dropdown lists. The default setting of SCL as 'P3A' and SDA as 'P3B' is usually correct, meaning the external RTC is connected to the Kookaberry using the 4-pin P3 port.
 
@@ -101,7 +101,7 @@ The external RTC is connected to the Kookaberry's connector ports as selected fr
 
 
 .. image:: images/set-internal-clock-from-external-clock.png
-   :width: 400
+   :width: 450
    :align: center
 
 
@@ -115,7 +115,7 @@ The external RTC is connected to the Kookaberry's connector ports as selected fr
 
 
 .. image:: images/set-external-clock-from-internal-clock.png
-   :width: 400
+   :width: 450
    :align: center
 
 
@@ -129,7 +129,7 @@ The external RTC is connected to the Kookaberry's connector ports as selected fr
 
 
 .. image:: images/set-external-clock-from-string.png
-   :width: 450
+   :width: 500
    :align: center
 
 

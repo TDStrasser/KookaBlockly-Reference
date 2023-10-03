@@ -4,38 +4,42 @@ Display
 Kookaberry Display
 ------------------
 
-The Kookaberry’s display is a 64 x 128 pixel blue OLED display.  The x direction is the width of the 
-display having a range specified as 0 to 127 pixels and the y direction is the height of the display having a range specified as 0 to 63 pixels.  The 0,0 ( i.e. x,y )  location is at the top left-hand corner of the display.  The bottom right of the display has a location reference x,y of 127, 63.
+The Kookaberry’s display is a 128 pixel wide x 64 pixel high cyan OLED display.  
 
-The display is driven from an internal frame buffer which the software writes to prior to its 
-contents being displayed on the Kookaberry display.  This reduces any display flicker.  The method of writing to a display is generally:
+The x direction is the width of the display having a range specified as 0 to 127 pixels and the y direction is the height of the display having a range specified as 0 to 63 pixels.  
+
+The (x,y) location (0,0) is at the top left-hand corner of the display.  The bottom right of the display has a location reference (x,y) of (127,63).
+
+The display is driven from an internal memory array known as a frame-buffer, into which the software writes the pixel data prior to its contents being transferred to the physical Kookaberry display.  This reduces any display flicker.  
+
+The method of writing to a display is generally:
+
 1.	“Clear” the frame buffer
 2.	Write information to the frame buffer in one or more parts to build up the entirety of it contents, and then
 3.	“Show” the display buffer on the display.
 
+The following blocks provide the functionality to clear and show the display, as well as locating and specifying the text and graphics to be shown on the Kookaberry's display.
 
 
-
-
-
- 
 Display Clear
 -------------
  
-This block clears the display’s frame buffer.
+This block clears the display’s frame buffer.  The physical display will not be updates until a "Display Show" is used.
 
 Display Show
 ------------
  
-This block transfers the display’s frame buffer to the Kookaberry’s display.
+This block transfers the display’s frame buffer to the Kookaberry’s physical display.  If not specified in the KookaBlockly script, the generated MicroPython script will contain the equivalent "Display Show" code towards the end of the script.
 
-Display Fonts
--------------
+Display Set Font
+----------------
  
 This block sets the character font to that selected from the drop down box.  The display fonts 
 available for selection are from smallest to largest: mono5x5 (i.e. each character occupies 5  pixels wide by 5 pixels tall), mono6x7, mono6x8, mono8x13 and sans12.
 
+The selected font will be applied from the point of selection.
 
+A display using several fonts sizes may be constructed by using the "Display Set Font" block as the display frame-buffer is constructed by the KookaBlockly script.
 
 
 
@@ -44,23 +48,24 @@ Display Print
 -------------
 
  
-This block prints the editable text in the socketed block to the Kookaberry display at x position 0 
-on the current line).  The current line is set to the top of the screen immediately after the display 
-is cleared. If the line is longer than the display’s width, the line is wrapped onto 
-successive lines of the display. The current display line is increased by each successive “display 
-print” until the bottom of the display is reached.  Thereafter each successive “display print” will 
-scroll the display upwards by one line and the current line is shown at the bottom of the screen.
+This block prints the editable text in the socketed block to the Kookaberry display at position x=0 on a new line.  The current line is set to the top of the screen immediately after the display 
+is cleared. 
+
+If the line is longer than the display’s width, the line is wrapped onto successive lines of the display. The current display line is increased by each successive “Display 
+Print” until the bottom of the display is reached.  
+
+Thereafter each successive “Display Print” will scroll the display upwards by one line and the current line is shown at the bottom of the display.
 
 Display Print ..and
 -------------------
  
-This block displays the editable text or value in the attached socketed block on the current line 
-of the display, followed by the output of any value block.
+This block displays the editable text or value in the attached socketed block on the current line of the display, followed by the output of any value block.
+
 The following is an example using the date and time:
  
-This example results in a display that looks like this and is updated every second.  By using 
-“display clear” the displayed text stays at the top of the screen instead of scrolling down the 
-display.
+This example results in a display that looks like this and is updated every second.  
+
+By using “Display Clear” the displayed text stays at the top of the screen instead of scrolling down the display.
 
  
 
