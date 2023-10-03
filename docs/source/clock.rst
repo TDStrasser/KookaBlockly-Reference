@@ -14,7 +14,9 @@ Clicking on the Clock category in the KookaSuite palette reveals the available b
 .. figure:: images/clock-palette.png
    :width: 300
    :align: center
-   The palette of KookaBlockly Clock blocks
+   
+   The palette of KookaBlockly Clock blocks.
+
 
 Each of the Clock blocks is described in the following sections.
 
@@ -46,13 +48,16 @@ Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and
 Below is a KookaBlockly example script demonstrating a loop which updates the Kookaberry’s display every second with the current time and date
 
 .. figure:: images/get-clock-extended-script.png
-   :width: 300
+   :width: 400
    :align: center
+   
    A KookaBlockly Script that shows the current time and date on the Kookaberry display.
+
 
 .. figure:: images/get-clock-extended-display.png
    :width: 200
    :align: center
+   
    The Kookaberry display resulting from the example KookaBlockly Script.
 
 
