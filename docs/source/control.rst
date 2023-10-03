@@ -4,9 +4,11 @@ Control
 
 Control blocks direct program flow or provide time-related functionality.
 
-.. image:: images/control-palette.png
-   :width: 200
+.. figure:: images/control-palette.png
+   :width: 300
    :align: center
+   The palette of KookaBlockly Control blocks
+
 
 Each block is described in turn below.
 
@@ -15,7 +17,7 @@ On Start
 
 The "on start" block is intended to contain other action blocks that will run first and only once when the KookaBlockly script starts.
 
-Typically the blocks are for the initialisation of :ref:'variables', :ref:'sensors', and :ref:'actuators'.
+Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
 
 .. image:: images/on-start.png
    :width: 150
@@ -73,7 +75,7 @@ January 2000).  By subtracting successive values given by this block, the elapse
 seconds between the samples may be calculated which is useful for timing functions.
 
 .. image:: images/time-secs.png
-   :width: 200
+   :width: 150
    :align: center
 
 
@@ -86,5 +88,5 @@ milliseconds between the samples may be calculated which is useful for high-reso
 functions.
 
 .. image:: images/time-msecs.png
-   :width: 200
+   :width: 150
    :align: center
