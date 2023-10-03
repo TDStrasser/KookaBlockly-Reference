@@ -28,7 +28,7 @@ Get Clock – Simple Time
 Reads the Kookaberry’s internal Real Time Clock (RTC) and returns a date or time in the chosen format selected from the drop-down menu on the block.  The value returned is a character string.
 
 .. image:: images/get-clock-simple.png
-   :width: 300
+   :width: 250
    :align: center
 
 
