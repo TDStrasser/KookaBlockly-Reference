@@ -29,7 +29,21 @@ The application window has numerous controls, as are described below:
    :width: 500
    :align: center
 
-
++-------+-------------------------------------------------------------------------------------------------------------------+
+|New    |Empty the workspace to start a new script. If the current contents have not been saved then a save prompt is given.|
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Load   |Load a script from a file appending it to the current script.                                                      |
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Save   |Save the cuurently named script to the corresponding file.                                                         |
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Save As|Save the current script to a new file within a selected folder.                                                    |
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Print  |Print the current script.                                                                                          |
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Run    |Transfer the current script to the tethered Kookaberry and run it on the Kookaberry.                               |
++-------+-------------------------------------------------------------------------------------------------------------------+
+|Stop   |Terminate the script currently running on the Kookaberry.                                                          |
++-------+-------------------------------------------------------------------------------------------------------------------+
 
 2. At the top-right of the window, the "Show display" button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, and clickable buttons.
 
@@ -71,7 +85,7 @@ The application window has numerous controls, as are described below:
 
 7. In the centre of the window is the KookaBlockly workspace.  Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or trackpad.
 
-8. At the bottom-right of the window is a set of icons for centering the KookaBlockly script, for zooming in and out, and a Trash symbol for retrieving blocks that were deleted during the current editing session.
+8. At the bottom-right of the window is a set of icons for centering the KookaBlockly script, for zooming in and out, and a Trash symbol for retrieving blocks that were deleted during the current editing session.  There are also horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.
 
 
 .. image:: images/workspace-zoom-trash-scrollbars.png
