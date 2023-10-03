@@ -26,7 +26,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/script-control-buttons.png
-   :width: 300
+   :width: 500
    :align: center
 
 
@@ -35,7 +35,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/show-script-display-buttons.png
-   :width: 300
+   :width: 150
    :align: center
 
 
@@ -54,7 +54,7 @@ The application window has numerous controls, as are described below:
 5. Below the "Serial" box are two drop-down boxes.  The left one contains a list of folders in the "Kookaberry Scripts / KookaBlockly" folder.  The right box contains a list of KookaBlockly scripts within the folder selected in the left-hand box.  Together these allow the selection and loading of any pre-existing KookBlockly script in the KookaBlockly folder and sub-folders.
 
 
-.. image:: images/scripts-dropdown.png
+.. image:: images/scripts-dropdowns.png
    :width: 300
    :align: center
 
@@ -64,7 +64,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/blocks-palette.png
-   :width: 200
+   :width: 100
    :align: center
 
 
@@ -75,7 +75,7 @@ The application window has numerous controls, as are described below:
 
 
 .. image:: images/workspace-zoom-trash-scrollbars.png
-   :width: 300
+   :width: 400
    :align: center
 
 
