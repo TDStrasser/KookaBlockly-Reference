@@ -19,6 +19,8 @@ Contents
 
 .. toctree::
 
+   introduction.rst
+   using.rst
    conventions.rst
    blocks.rst
 
