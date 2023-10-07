@@ -100,9 +100,9 @@ Load
    KookaBlockly script load file selection dialogue. 
 
 
-  The default directory for Kookaberry scripts within the current user’s account is ''/KookaberryScripts/KookaBlockly'' and the user can navigate away from this as desired.  KookaBlockly script files have a type designation of ''.kby.py''.
+The default directory for Kookaberry scripts within the current user’s account is ''/KookaberryScripts/KookaBlockly'' and the user can navigate away from this as desired.  KookaBlockly script files have a type designation of ''.kby.py''.
 
-  Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
+Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
 
 ..Important!::
     
