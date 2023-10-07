@@ -1,56 +1,110 @@
 Using the KookaBlockly Application
 ==================================
 
-A KookaBlockly script is assembled from graphical function blocks dragged onto the workspace from the palette of blocks on the left of the display.  The blocks click together like pieces of a jigsaw puzzle to form a series of steps that the Kookaberry microcomputer will perform.
+Launching KookaBlockly on a personal computer will result in the following display.
 
-.. figure:: images/kblockly-welcome-script.png
+.. figure:: images/kookablockly-display.png
    :width: 80%
    :align: center
    :alt: KookaBlockly Canvas
 
-   This is the KookaBlockly display with an example KookaBlockly script. 
-
-The example shown above shows a loop that writes a welcome message on the Kookaberry display and flashes the Kookaberry's LEDs.  It then sleeps for 2 seconds and then goes back to the beginning of the loop.  The loop will run until the Kookaberry is reset or power is removed.
-
-This reference guide provides a reference for using KookaBlockly and for each of the blocks in the palette of KookaBlockly block categories.
+   This is the KookaBlockly display with the controls labelled. 
 
 The application window has numerous controls, as are described below:
 
-1. At the top-left of the window, a set of buttons with which KookaBlockly scripts may be created, loaded, saved, run and stopped.
+Version
+-------
+
+The version of KookaBlockly is shown at the top-left of the KookaBlockly window.
+
+Resize / Exit
+-------------
+
+These controls allow the KookaBlockly window to be minimises or maximised, and the KookBlockly application to be exited.
+
+If the KookBlockly script has not been saved before attempting to exit KookaBlockly, a prompt dialogue will appear providing an opportunity to save or not save the current script to a file.
+
+Resizing of the window can also be accomplished by clicking on the window edges and dragging to resize.
+
+The appearance and location of these controls varies between Windows, MacOS and Raspbian and conforms to the conventions used by the user interface of those operating systems. 
+
+Workspace
+---------
+
+In the centre of the window is the KookaBlockly workspace.  Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or trackpad.
+
+Blocks Palette
+--------------
+
+Down the left of the window is a vertically-oriented list of the KookaBlockly pallete categories. 
+
+Click on any category to reveal the pallete of blocks, click on and drag the desired block to the workspace, position it and release to drop the block in place.
+
+
+.. image:: images/blocks-palette.png
+   :width: 100
+   :align: center
+
+   The Blocks Palette showing the Block Categories
+
+Script Controls
+---------------
+
+At the top-left of the window, a set of buttons with which KookaBlockly scripts may be created, loaded, saved, run and stopped.
 
 
 .. image:: images/script-control-buttons.png
    :width: 500
    :align: center
 
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|New    |Empty the workspace to start a new script. If the current contents have not been saved then a save prompt is given.|
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Load   |Load a script from a file appending it to the current script.                                                      |
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Save   |Save the cuurently named script to the corresponding file.                                                         |
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Save As|Save the current script to a new file within a selected folder.                                                    |
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Print  |Print the current script.                                                                                          |
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Run    |Transfer the current script to the tethered Kookaberry and run it on the Kookaberry.                               |
-+-------+-------------------------------------------------------------------------------------------------------------------+
-|Stop   |Terminate the script currently running on the Kookaberry.                                                          |
-+-------+-------------------------------------------------------------------------------------------------------------------+
+   The KookaBlockly Script Control Buttons
 
-2. At the top-right of the window, the "Show display" button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, and clickable buttons.
+The functions of each of the KookaBlockly Script Control buttons is:
+
+New
+  Empty the workspace to start a new script. If the current script contents have not been saved then a save prompt is given.
+
+Load
+  Load a script from a file appending it to the current script.
+
+Save 
+  Save the currently named script to the corresponding file.
+
+Save As
+  Save the current script to a new file within a selected folder.
+
+Print
+  Print the current script.
+
+Run
+  Transfer the current script to the tethered Kookaberry and run it on the Kookaberry.
+
+Stop
+  Terminate the script currently running on the Kookaberry.
+
+
+Inspection Buttons
+------------------
+
+At the top-right of the window, the Inspection Buttons will open separate windows.
 
 
 .. image:: images/show-script-display-buttons.png
    :width: 250
    :align: center
 
+   The Inspection Buttons: Show script and Show display
 
+"Show display" 
+  This button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, and clickable buttons.
 
-3. Second to the top-right is the "Show script" button which opens a window in which the MicroPython script generated by the loaded KookaBlockly script is displayed.  This script cannot be edited within this window.
+"Show script" 
+  This button opens a window in which the MicroPython script generated by the loaded KookaBlockly script is displayed.  This script cannot be edited within this window.
 
-4. At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which connected to a tethered Kookaberry.
+Connection
+----------
+
+At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which is connected to a tethered Kookaberry.
 
 
 .. image:: images/serial-dropdown.png
@@ -58,33 +112,45 @@ The application window has numerous controls, as are described below:
    :align: center
 
 
-
-5. Below the "Serial" box are two drop-down boxes.  The left one contains a list of folders in the "Kookaberry Scripts / KookaBlockly" folder.  The right box contains a list of KookaBlockly scripts within the folder selected in the left-hand box.  Together these allow the selection and loading of any pre-existing KookBlockly script in the KookaBlockly folder and sub-folders.
-
+Script Selection
+----------------
 
 .. image:: images/scripts-dropdowns.png
    :width: 500
    :align: center
 
+   The Script Sellection dropdown boxes
 
 
-6. Down the left of the window is a vertically-oriented list of the KookaBlockly pallete categories. Click on any category to reveal the pallete of blocks, click on and drag the desired block to the workspace, position it and release to drop the block in place.
+"Scripts" dropdown box
+  This contains a list of folders in the "Kookaberry Scripts / KookaBlockly" folder.  
+
+"Choose a script"
+  This contains a list of KookaBlockly scripts within the folder selected in the left-hand box.  Together these allow the selection and loading of any pre-existing KookBlockly script in the KookaBlockly folder and sub-folders.
 
 
-.. image:: images/blocks-palette.png
-   :width: 100
-   :align: center
+Scroll Bars, Centre, Zoom and Trash
+-----------------------------------
 
-
-
-7. In the centre of the window is the KookaBlockly workspace.  Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or trackpad.
-
-8. At the bottom-right of the window is a set of icons for centering the KookaBlockly script, for zooming in and out, and a Trash symbol for retrieving blocks that were deleted during the current editing session.  There are also horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.
-
+At the bottom-right of the window is a set of control icons:
 
 .. image:: images/workspace-zoom-trash-scrollbars.png
    :width: 400
    :align: center
+
+   Control icons at the bottom right of the KookaBlockly window
+
+Centre Script
+  for centering the KookaBlockly script
+
+Zoom Script
+  for changing the size of the KookaBlockly script by zooming in and out
+
+Trash
+  for retrieving blocks that were deleted during the current editing session.  
+
+Scrollbars
+  there are horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.
 
 
  
