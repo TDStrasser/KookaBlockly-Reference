@@ -100,11 +100,11 @@ Load
    KookaBlockly script load file selection dialogue. 
 
 
-  |  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this as desired.  
+The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
-  |  KookaBlockly script files have a type designation of ``.kby.py``.
+KookaBlockly script files have a type designation of ``.kby.py``.
 
-  |  Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
+Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
 
 .. Note::
     
@@ -128,11 +128,11 @@ Save As
    KookaBlockly script save file selection dialogue. 
 
 
-  |  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
+The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
 
-  |  KookaBlockly script files have a type designation of ``.kby.py``.
+KookaBlockly script files have a type designation of ``.kby.py``.
 
-  |  Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
+Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
 
 .. figure:: images/kblockly-confirm-saveas.png
    :width: 300
