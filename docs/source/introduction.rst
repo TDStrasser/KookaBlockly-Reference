@@ -28,7 +28,7 @@ Key Features
 
 3. Platform Compatibility: KookaBlockly runs as a standalone program on personal computers with Microsoft Windows 10 or 11, Apple MacOS, or Raspberry Pi Raspbian operating systems.
 
-4. Easy Access: The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry.
+4. Easy Access: The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
 
 Working with KookaBlockly
 -------------------------
