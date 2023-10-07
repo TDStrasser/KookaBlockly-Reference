@@ -100,20 +100,20 @@ Load
    KookaBlockly script load file selection dialogue. 
 
 
-|  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this as desired.  
+  |  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
-|  KookaBlockly script files have a type designation of ``.kby.py``.
+  |  KookaBlockly script files have a type designation of ``.kby.py``.
 
-|  Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
+  |  Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
 
 .. Note::
     
-   **Important!** When assembling scripts from a number of files, the name of the last loaded file becomes the default for saving the script.  If the script is intended to be saved into a new or differently-named file then use the **Save As** button to identify the file.
+   **Important!** When assembling scripts from a number of files, the name of the last loaded file becomes the default for saving the script.  If the script is intended to be saved into a new or differently-named file then use the **Save As** button to give a different name to the file.
 
 Save 
   Save the currently named script to the corresponding file. If the script was loaded from a file, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version and the script will be save to that file.
 
-  If the script has not been previously saved, the **Save As** procedure is used.
+  If the script has not been previously saved, the **Save As** procedure is automatically used.
 
 
 Save As
@@ -128,27 +128,41 @@ Save As
    KookaBlockly script save file selection dialogue. 
 
 
-|  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
+  |  The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
 
-|  KookaBlockly script files have a type designation of ``.kby.py``.
+  |  KookaBlockly script files have a type designation of ``.kby.py``.
 
-|  Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
+  |  Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
 
 .. figure:: images/kblockly-confirm-saveas.png
    :width: 300
    :align: center
 
-   KookaBlockly file name already exists dialogue. 
+   KookaBlockly existing file name dialogue. 
 
 
 Print
-  Print the current script.
+  Prints the current view of the script in the workspace, *which may not be the whole script*.  Using the **Zoom** buttons and **Scroll Bars**, adjust the view of the script to suit the printout desired.
+
+  When the **Print** button is clicked, a Print dialogue (per the operating system convention) appears as below.
+
+  Choose the print options, which again are specific to the PC operating system and the installed printer, and then press the **Print** button to finalise prining options and then printing to the chosen printer.  
+
+  Print options may include paper size, paper orientation, multi-page layout, printer selection and printer setup.
+
+.. figure:: images/kblockly-print-dialogue.png
+   :width: 400
+   :align: center
+
+   KookaBlockly script Print dialogue. 
+
+
 
 Run
-  Transfer the current script to the tethered Kookaberry and run it on the Kookaberry.
+  Transfers the current script to the tethered Kookaberry and run it on the Kookaberry.
 
 Stop
-  Terminate the script currently running on the Kookaberry.
+  Terminates the script currently running on the Kookaberry.
 
 
 Inspection Buttons
@@ -164,10 +178,42 @@ At the top-right of the window, the Inspection Buttons will open separate window
    The Inspection Buttons: Show script and Show display
 
 Show display
-  This button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, and clickable buttons.
+  This button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, buttons A to D and reset, and a button to start the Kookaberry's internal menu.
+
+  The display will mirror the real display on the Kookaberry.
+
+  The LEDs will change colour to mirror illumination of the real LEDs on the Kookaberry.
+
+  The buttons can be clicked using a mouse or trackpad on the PC, and will respond in the same way as the real buttons on the Kookaberry.
+
+.. figure:: images/kblockly-show-display-window.png
+   :width: 400
+   :align: center
+
+   Virtual Kookaberry window
+
+.. Note::
+  
+   It is also possible to load Kookaberry firmware onto standard Pi Pico microcomputer boards.  These boards do not have the Kookaberry display, LEDs or buttons.  In this case the virtual Kookaberry window can be used to view and operate the Kookaberry's user interface.
+
 
 Show script
-  This button opens a window in which the MicroPython script generated by the loaded KookaBlockly script is displayed.  This script cannot be edited within this window.
+  This button opens a window in which the MicroPython script generated by the loaded KookaBlockly script is displayed.  
+
+  The size of the window showing the script can be adjusted by clicking on and dragging the edges of the script window using the cursor.
+
+  The MicroPython is read-only and cannot be edited within this window.
+
+  There is a check-box which when ticked will cause the script window to stay visible in front of other windows on the computer screen.
+
+  This window presents a live view of the generated MicroPython script and it is possible to watch the MicroPython script being dynamically altered as the KookaBlockly script is being edited.
+
+.. figure:: images/kblockly-show-script-window.png
+   :width: 400
+   :align: center
+
+   KookaBlockly-generated MicroPython script window
+
 
 Connection
 ----------
