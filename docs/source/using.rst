@@ -106,9 +106,9 @@ KookaBlockly script files have a type designation of ``.kby.py``.
 
 Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
 
-..note::
+.. Important!::
     
-    **Important!** When assembling scripts in this way, the name of the last loaded file becomes the default for saving the script.  If the script is intended to be saved into a new or differently-named file then use the **Save As** button to identify the file.
+   When assembling scripts in this way, the name of the last loaded file becomes the default for saving the script.  If the script is intended to be saved into a new or differently-named file then use the **Save As** button to identify the file.
 
 Save 
   Save the currently named script to the corresponding file.
