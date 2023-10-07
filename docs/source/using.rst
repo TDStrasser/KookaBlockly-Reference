@@ -62,7 +62,7 @@ Click on any category to reveal the pallete of blocks, click on and drag the des
 
    The Blocks Palette showing the Block Categories
 
-The block categories and blocks are fully described in the `KookaBlockly Function Blocks Reference<blocks.rst#>` __.
+The block categories and blocks are fully described in the `KookaBlockly Function Blocks Reference <blocks.rst#>` __.
 
 Script Controls
 ---------------
