@@ -62,7 +62,7 @@ Click on any category to reveal the pallete of blocks, click on and drag the des
 
    The Blocks Palette showing the Block Categories
 
-The block categories and blocks are fully described in <blocks.rst>__.
+The block categories and blocks are fully described in the `KookaBlockly Function Blocks Reference<blocks.rst#>` __.
 
 Script Controls
 ---------------
@@ -100,7 +100,7 @@ Load
    KookaBlockly script load file selection dialogue. 
 
 
-The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this as desired.  
+The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
 KookaBlockly script files have a type designation of ``.kby.py``.
 
@@ -128,7 +128,7 @@ Save As
    KookaBlockly script save file selection dialogue. 
 
 
-The default directory for Kookaberry scripts within the current user’s account is ``/KookaberryScripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
+The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
 
 KookaBlockly script files have a type designation of ``.kby.py``.
 
