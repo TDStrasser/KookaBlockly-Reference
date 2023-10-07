@@ -41,7 +41,7 @@ Down the left of the window is a vertically-oriented list of the KookaBlockly pa
 Click on any category to reveal the pallete of blocks, click on and drag the desired block to the workspace, position it and release to drop the block in place.
 
 
-.. image:: images/blocks-palette.png
+.. figure:: images/blocks-palette.png
    :width: 100
    :align: center
 
@@ -53,7 +53,7 @@ Script Controls
 At the top-left of the window, a set of buttons with which KookaBlockly scripts may be created, loaded, saved, run and stopped.
 
 
-.. image:: images/script-control-buttons.png
+.. figure:: images/script-control-buttons.png
    :width: 500
    :align: center
 
@@ -89,7 +89,7 @@ Inspection Buttons
 At the top-right of the window, the Inspection Buttons will open separate windows.
 
 
-.. image:: images/show-script-display-buttons.png
+.. figure:: images/show-script-display-buttons.png
    :width: 250
    :align: center
 
@@ -107,15 +107,22 @@ Connection
 At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which is connected to a tethered Kookaberry.
 
 
-.. image:: images/serial-dropdown.png
+.. figure:: images/serial-dropdown.png
    :width: 300
    :align: center
 
+   The Serial drop-down showing the available and used USB serial connection ports
+
+Plugging in a Kookaberry usually automatically assigns a USB serial port.
+
+If the Kookaberry is not responding, select the Auto-connect option to reset the serial connection to the Kookaberry.
+
+It is also possible to block a Kookaberry connection by selecting Disable from the dropdown-box.
 
 Script Selection
 ----------------
 
-.. image:: images/scripts-dropdowns.png
+.. figure:: images/scripts-dropdowns.png
    :width: 500
    :align: center
 
@@ -134,7 +141,7 @@ Scroll Bars, Centre, Zoom and Trash
 
 At the bottom-right of the window is a set of control icons:
 
-.. image:: images/workspace-zoom-trash-scrollbars.png
+.. figure:: images/workspace-zoom-trash-scrollbars.png
    :width: 400
    :align: center
 
