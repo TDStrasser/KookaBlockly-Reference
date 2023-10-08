@@ -6,7 +6,6 @@ Launching KookaBlockly on a personal computer will result in the following displ
 .. figure:: images/kookablockly-display.png
    :width: 100%
    :align: center
-   :alt: KookaBlockly Canvas
 
    This is the KookaBlockly display with the controls labelled. 
 
@@ -79,7 +78,7 @@ At the top-left of the window, a set of buttons with which KookaBlockly scripts 
 The functions of each of the KookaBlockly Script Control buttons is:
 
 New
-  Empty the workspace to start a new script. If the current script contents have not been saved then a save prompt is given.
+  Empties the workspace to start a new script. If the current script contents have not been saved then a save prompt is given.
 
 .. figure:: images/unsaved-new-prompt.png
    :width: 200
@@ -111,13 +110,15 @@ Selecting a script and pressing the dialogue's **Open** button, or alternatively
    **Important!** When assembling scripts from a number of files, the name of the last loaded file becomes the default for saving the script.  If the script is intended to be saved into a new or differently-named file then use the **Save As** button to give a different name to the file.
 
 Save 
-  Save the currently named script to the corresponding file. If the script was loaded from a file, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version and the script will be save to that file.
+  Saves the currently named script to the corresponding file. 
+
+  If the script was loaded from a file, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version and the script will be save to that file.
 
   If the script has not been previously saved, the **Save As** procedure is automatically used.
 
 
 Save As
-  Save the current script to a new file within a selected folder.
+  Saves the current script to a new file within a selected folder.
 
   Move the cursor to this button, press click on the mouse and the following file dialogue will be displayed:
 
@@ -159,7 +160,7 @@ Print
 
 
 Run
-  Transfers the current script to the tethered Kookaberry and run it on the Kookaberry.
+  Transfers the current script to the tethered Kookaberry and runs the script on the Kookaberry.
 
 Stop
   Terminates the script currently running on the Kookaberry.
@@ -229,9 +230,9 @@ At the top-centre is the "Serial" drop-down box which shows which serial USB por
 
 Plugging in a Kookaberry usually automatically assigns a USB serial port.
 
-If the Kookaberry is not responding, select the Auto-connect option to reset the serial connection to the Kookaberry.
+If the Kookaberry is not responding, select the `Auto-connect` option to reset the serial connection to the Kookaberry.
 
-It is also possible to block a Kookaberry connection by selecting Disable from the dropdown-box.
+It is also possible to block a Kookaberry connection by selecting `Disable` from the dropdown-box.
 
 Script Selection
 ----------------
@@ -275,15 +276,29 @@ At the bottom-right of the window is a set of control icons:
 
 Centre Script
   for centering the KookaBlockly script.
+  Clicking on the Centre icon will centre the script in the Workspace and zoom it to fit the KookaBlockly window.
 
 Zoom Script
   for changing the size of the KookaBlockly script by zooming in and out.
 
+  Click on the `+` icon to zoom in and visually enlarge the script.
+
+  Click on the `-` icon to zoom out and visually shrink the script.
+  
+
 Trash
   for retrieving blocks that were deleted during the current editing session.  
 
+  Click on the Trash icon to open it and show the blocks that have been deleted in the current editing session.
+
+  To retrieve a block from the Trash, click on the block and drag it back into the Workspace.
+
+  When KookaBlockly is closed the contents of the Trash are deleted.
+
 Scrollbars
-  there are horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.
+  there are horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.  
+
+  Click on a scrollbar and drag it up/down or left/right as appropriate to reposition the Workspace in the KookaBlockly window.
 
 
  

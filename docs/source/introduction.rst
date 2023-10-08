@@ -4,7 +4,7 @@ Introduction to KookaBlockly
 KookaBlockly: Graphical Programming Editor for Kookaberry Microprocessor Boards
 -------------------------------------------------------------------------------
 
-KookaBlockly is a powerful standalone graphical editor designed for creating scripts and programs for Kookaberry and related microprocessor boards. This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive. It's built upon the open-source Google Blockly library (Apache 2 license), created by Google to facilitate the development of beginner-friendly programming languages.
+KookaBlockly is a powerful standalone graphical editor designed for creating program scripts for Kookaberry and related microprocessor boards. This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive. It's built upon the open-source Google Blockly library (Apache 2 license), created by Google to facilitate the development of beginner-friendly programming languages.
 
 A KookaBlockly script is assembled from graphical function blocks dragged onto the workspace from the palette of blocks on the left of the display.  The blocks click together like pieces of a jigsaw puzzle to form a series of steps that the Kookaberry microcomputer will perform.
 
