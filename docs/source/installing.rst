@@ -115,7 +115,26 @@ Installing KookaSuite on Microsoft Windows
 Installing KookaSuite on MacOS
 ------------------------------
 
-Double-click on the downloaded ``KookaSuite-<version>-macOS.dmg`` file to launch the MacOS Installer.
+1.  Double-click on the downloaded ``KookaSuite-<version>-macOS.dmg`` file to open it.  You will see it contains the three KookaSuite apps.
+
+.. figure:: images/mac-install-1.png
+   :width: 400
+   :align: center
+
+   The contents of the MacOS KookaSuite download package.
+
+
+2.  Create a suitably named folder in the Macintosh ``Applications\`` folder and drag the KookaSuite apps into it, as shown below.
+
+   KookaBlockly will then be available to launch (as will KookaIDE and KookTW) from the Applications icon in the Macintosh taskbar and by any other regular methods for starting Macintosh applications.
+
+.. figure:: images/mac-install-2.png
+   :width: 400
+   :align: center
+
+   KookaSuite apps copied to the Applications folder.
+
+
 
 
 Installing KookaSuite on Raspberry Pi
