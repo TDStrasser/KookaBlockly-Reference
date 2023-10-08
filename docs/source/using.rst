@@ -230,9 +230,9 @@ At the top-centre is the "Serial" drop-down box which shows which serial USB por
 
 Plugging in a Kookaberry usually automatically assigns a USB serial port.
 
-If the Kookaberry is not responding, select the `Auto-connect` option to reset the serial connection to the Kookaberry.
+If the Kookaberry is not responding, select the ``Auto-connect`` option to reset the serial connection to the Kookaberry.
 
-It is also possible to block a Kookaberry connection by selecting `Disable` from the dropdown-box.
+It is also possible to block a Kookaberry connection by selecting ``Disable`` from the dropdown-box.
 
 Script Selection
 ----------------
@@ -245,7 +245,7 @@ Script Selection
 
 
 Scripts dropdown box
-  This contains a list of folders in the "Kookaberry Scripts / KookaBlockly" folder.  
+  This contains a list of folders in the ``Kookaberry Scripts/KookaBlockly`` folder.  
 
 Choose a script
   This contains a list of KookaBlockly scripts within the folder selected in the left-hand box.  
