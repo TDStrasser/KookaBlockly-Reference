@@ -38,12 +38,13 @@ Installing KookaSuite on Microsoft Windows
 
 1.  Double-click on the downloaded ``KookaSuite-<version>-Win64.msi`` file to launch the Windows Installer.  The following display will then appear.
 
+    Click on **Next** to proceed.
+
 .. image:: images/win-install-1.png
    :width: 400
    :align: center
 
 
-Click on **Next** to proceed.
 
 2.  KookaSuite does not (as yet) have an application trust certificate, so Windows Defender will alert you with the following dialogue:
 
