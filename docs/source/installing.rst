@@ -126,7 +126,7 @@ Installing KookaSuite on MacOS
 
 2.  Create a suitably named folder in the Macintosh ``Applications\`` folder and drag the KookaSuite apps into it, as shown below.
 
-   KookaBlockly will then be available to launch (as will KookaIDE and KookTW) from the Applications icon in the Macintosh taskbar and by any other regular methods for starting Macintosh applications.
+    KookaBlockly will then be available to launch (as will KookaIDE and KookTW) from the Applications icon in the Macintosh taskbar and by any other regular methods for starting Macintosh applications.
 
 .. figure:: images/mac-install-2.png
    :width: 400
