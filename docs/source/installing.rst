@@ -43,7 +43,7 @@ Installing KookaSuite on Microsoft Windows
    :align: center
 
 
-   Click on **Next** to proceed.
+Click on **Next** to proceed.
 
 2.  KookaSuite does not (as yet) have an application trust certificate, so Windows Defender will alert you with the following dialogue:
 
@@ -51,13 +51,13 @@ Installing KookaSuite on Microsoft Windows
    :width: 400
    :align: center
 
-   Click on **More info** to proceed to the next dialogue:
+Click on **More info** to proceed to the next dialogue:
 
 .. image:: images/windows-protect2.png
    :width: 400
    :align: center
 
-   Click on **Run Anyway** to proceed.
+Click on **Run Anyway** to proceed.
 
 3. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, then a series of open-source licences for the software that is embedded within KookaSuite.
 
