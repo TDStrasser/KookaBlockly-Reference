@@ -4,7 +4,7 @@
 
 project = 'KookaBlockly Reference'
 copyright = '2023, AustSTEM'
-author = 'Julian Dinsdale'
+author = 'Julian Dinsdale and Tony Strasser'
 
 release = '0.1'
 version = '0.1.0'
