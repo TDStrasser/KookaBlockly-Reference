@@ -45,13 +45,13 @@ Installing KookaSuite on Microsoft Windows
    Click on **Next** to proceed.
 
 
-2.  KookaSuite does not (as yet) have an application trust certificate, so Windows Defender will alert you with the following dialogue:
+2.  KookaSuite does not (as yet) have an application trust certificate, so Windows Defender will alert you with the following dialogue.
 
 .. figure:: images/windows-protect1.png
    :width: 400
    :align: center
 
-   Click on **More info** to proceed to the next dialogue:
+   Click on **More info** to proceed to the next dialogue.
 
 .. figure:: images/windows-protect2.png
    :width: 400
@@ -61,11 +61,16 @@ Installing KookaSuite on Microsoft Windows
 
 3. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, then a series of open-source licences for the software that is embedded within KookaSuite.
 
+   To obtain a printed copy of the licence, press **Print**.
+
    Please read the licence conditions and if you accept them, click on the acceptance checkbox to place a tick (as shown) and then click on **Next**.
 
 .. figure:: images/win-install-2.png
    :width: 400
    :align: center
+
+   Click the checkbox to accept the licence, then click on **Next** to proceed.
+
 
 4. A dialogue will then appear showing where on your computer the KookaSuite programs will be installed.  
 
@@ -75,6 +80,8 @@ Installing KookaSuite on Microsoft Windows
    :width: 400
    :align: center
 
+   Installation location dialogue. Click on **Next** to proceed.
+
 5. The next dialogue specifies the folder in which KookaSuite will store files.  
 
    The default location is ``C:\Users\Public\Kookaberry Scripts\`` which all users share on a Windows PC.  If another location (for example) ``C:\Users\<your account>\Kookaberry Scripts\`` which is unique and private to <your account>) is desired, click on **Change** and select the prefered location using the file explorer dialogue which will open.
@@ -82,6 +89,8 @@ Installing KookaSuite on Microsoft Windows
 .. figure:: images/win-install-4.png
    :width: 400
    :align: center
+
+   Scripts location dialogue.  Click **Next** to proceed.
 
 6. A dialogue that provides the opportunity to select which elements if not all of KookaSuite are to be installed.  It is recommended that all elements be installed for a fully functional KookaSuite.
 
