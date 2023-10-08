@@ -20,6 +20,9 @@ The version of KookaBlockly is shown at the top-left of the KookaBlockly window.
   
    The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
 
+   See the section `Installing KookaBlockly` for instructions.
+
+
 If a KookaBlockly script has been loaded, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version.
 
 Resize / Exit
