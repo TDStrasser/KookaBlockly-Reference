@@ -42,6 +42,18 @@ The method of writing to a display is generally:
 
 The following blocks provide the functionality to operate the Kookaberry's Display.
 
+Text coordinates
+----------------
+
+The coordinates at which text is positioned on the Display differs from the graphical elements (``pixel``,``line``,``rectangle``, and ``image``).
+
+*  Graphical elemnts are positioned at their top-left corner.
+*  Text is positioned at its bottom-left corner.
+
+To accurately position text, one can use trial-and-error, or make a calculation that depends on the text font size (the default being ``mono8x8``).
+
+* To position a pixel at the top-left of the Display (0,0) simply specify x=0 and y=0 in the **Display Pixel** block.
+* To position text at the top-left of the Display, specify (0,7) being x=0 and y=7 (the mono8x8 font height) in the **Display Print** block.
 
 Display Clear
 -------------
@@ -69,7 +81,7 @@ Display Set Font
  
 This block sets the character font to that selected from the drop down box.  The display fonts 
 available for selection are from smallest to largest: ``mono5x5`` (i.e. each character occupies 5  pixels wide by 5 pixels tall), 
-``mono6x7``, ``mono6x8``, ``mono8x13`` and ``sans12``.
+``mono6x7``, ``mono6x8``, ``mono8x8``, ``mono8x13`` and ``sans12``.
 
 The selected font will be applied from the point of selection.
 
