@@ -1,7 +1,8 @@
 Installing KookaBlockly
 =======================
 
-KookaBlockly is part of the KookaSuite set of code development and editing tools for the Kookaberry microcomputer and other microcomputer boards that can use the Kooka firmware.
+KookaBlockly is part of the KookaSuite set of code development and editing tools for the Kookaberry microcomputer 
+and other microcomputer boards that can use the Kooka firmware.
 
 The tools that are in KookaSuite are:
 
@@ -14,14 +15,16 @@ KookaIDE
   *IDE is short for Integrated Development Environment.*
 
 KookaTW
-  A virtual Kookaberry user interface that replicates the physical user interface on a Kookaberry and provides a user interface for compatible microprocessor boards that do not have a physical user interface.
+  A virtual Kookaberry user interface that replicates the physical user interface on a Kookaberry and provides 
+  a user interface for compatible microprocessor boards that do not have a physical user interface.
 
   *TW originated as Teacher's Window, but also stands for TWin.*
 
 Downloading KookaSuite
 ----------------------
 
-The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
+The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github 
+repository at https://github.com/kookaberry/kooka-releases/releases.
 
 Choose the latest version compatible with your personal computer.  KookaSuite versions available are for:
 
@@ -29,7 +32,7 @@ Choose the latest version compatible with your personal computer.  KookaSuite ve
 
 * Apple MacOS V10.15 and later
 
-* Raspian for the Raspberry Pi
+* Raspbian for the Raspberry Pi
 
 Click on the hyperlink for the appropriate version of KookaSuite and download it to a folder (default is in the **Downloads** folder) on your personal computer.
 
@@ -59,7 +62,8 @@ Installing KookaSuite on Microsoft Windows
 
    Click on **Run Anyway** to proceed.
 
-3. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, then a series of open-source licences for the software that is embedded within KookaSuite.
+3. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, 
+   then a series of open-source licences for the software that is embedded within KookaSuite.
 
    To obtain a printed copy of the licence, press **Print**.
 
@@ -72,9 +76,9 @@ Installing KookaSuite on Microsoft Windows
    Click the checkbox to accept the licence, then click on **Next** to proceed.
 
 
-4. A dialogue will then appear showing where on your computer the KookaSuite programs will be installed.  
+1. A dialogue will then appear showing where on your computer the KookaSuite programs will be installed.  
 
-   Usually the default location of ``C:\Program Files\Kookaberry\KookaSuite`` is fine, but your or your system administrator may wish to put them elsewhere.  If so, click on **Change** and select the prefered location using the file explorer dialogue which will open.
+   Usually the default location of ``C:\Program Files\Kookaberry\KookaSuite`` is fine, but you or your system administrator may wish to put them elsewhere.  If so, click on **Change** and select the prefered location using the file explorer dialogue which will open.
 
 .. figure:: images/win-install-3.png
    :width: 400
@@ -84,7 +88,9 @@ Installing KookaSuite on Microsoft Windows
 
 5. The next dialogue specifies the folder in which KookaSuite will store files.  
 
-   The default location is ``C:\Users\Public\Kookaberry Scripts\`` which all users share on a Windows PC.  If another location (for example) ``C:\Users\<your account>\Kookaberry Scripts\`` which is unique and private to <your account>) is desired, click on **Change** and select the prefered location using the file explorer dialogue which will open.
+   The default location is ``C:\Users\Public\Kookaberry Scripts\`` which all users share on a Windows PC.  
+   If another location (for example) ``C:\Users\<your account>\Kookaberry Scripts\`` which is unique and private to <your account>) is desired, 
+   click on **Change** and select the preferred location using the file explorer dialogue which will open.
 
 .. figure:: images/win-install-4.png
    :width: 400
@@ -92,7 +98,8 @@ Installing KookaSuite on Microsoft Windows
 
    Scripts location dialogue.  Click **Next** to proceed.
 
-6. A dialogue that provides the opportunity to select which elements if not all of KookaSuite are to be installed.  It is recommended that all elements be installed for a fully functional KookaSuite.
+6. A dialogue that provides the opportunity to select which elements if not all of KookaSuite are to be installed.  
+   It is recommended that all elements be installed for a fully functional KookaSuite.
 
 .. figure:: images/win-install-5.png
    :width: 400
@@ -100,7 +107,7 @@ Installing KookaSuite on Microsoft Windows
 
    Press **Install** to proceed with the KookaSuite installation.
 
-7. A dialogue with a progress bar that tracks the installation progress will appear.
+1. A dialogue with a progress bar that tracks the installation progress will appear.
 
    There may be a Windows alert asking for permission to proceed.  Accept the installation by clicking **Yes**.
 
@@ -134,13 +141,11 @@ Installing KookaSuite on MacOS
 
    KookaSuite apps copied to the Applications folder.
 
-
-
-
 Installing KookaSuite on Raspberry Pi
 -------------------------------------
 
-Unzip the downloaded ``KookaSuite-<version>-RPI400.tgz`` file into the home folder.  This will create a folder containing the three executables KookaBlockly, KookaIDE and KookaTW.
+Unzip the downloaded ``KookaSuite-<version>-RPI400.tgz`` file into the home folder.  
+This will create a folder containing the three executables KookaBlockly, KookaIDE and KookaTW.
 
 Using the terminal program, install the needed Qt5 modules:
 
@@ -151,12 +156,15 @@ Using the terminal program, install the needed Qt5 modules:
    sudo apt install libqt5websockets5-dev
    sudo apt install libqt5serialport5
 
-If desired, create Raspberry Pi menu items under `Programming` using the `Preferences/Main Menu Editor`.
+If desired, create Raspberry Pi menu items under ``Programming`` using the ``Preferences/Main Menu Editor``.
 
 Script Folders
 --------------
 
-During installation or first running KookaSuite, the ``Kookaberry Scripts\`` folder will be created in the location specified during the installation process.  If the ``Kookaberry Scripts\`` folder already existed it will not be altered.
+During installation or first running KookaSuite, the ``Kookaberry Scripts\`` folder will be created 
+in the location specified during the installation process or on MacOS and Raspbian in the user's home folder.  
+
+If the ``Kookaberry Scripts\`` folder already existed it will not be altered.
 
 .. figure:: images/win-install-folders.png
    :width: 500

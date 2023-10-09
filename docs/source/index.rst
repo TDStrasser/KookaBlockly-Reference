@@ -6,7 +6,7 @@
 Welcome to the KookaBlockly Reference Guide!
 """"""""""""""""""""""""""""""""""""""""""""
 
-This document relates to the KookaBlockly graphucal scripting tool created by Damien George for the Kookaberry.
+This document relates to the KookaBlockly graphical scripting tool created by Damien George for the Kookaberry.
 
 The document is in TWO parts:
 

@@ -47,7 +47,7 @@ Text coordinates
 
 The coordinates at which text is positioned on the Display differs from the graphical elements (``pixel``, ``line``, ``rectangle``, and ``image``).
 
-*  Graphical elemnts are positioned at their top-left corner.
+*  Graphical elements are positioned at their top-left corner.
 *  Text is positioned at its bottom-left corner.
 
 To accurately position text, one can use trial-and-error, or make a calculation that depends on the text font size (the default being ``mono8x8``).

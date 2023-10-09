@@ -42,7 +42,11 @@ The time specification is a number in decimal seconds, for example: 1 is 1 secon
 Every Loop
 ----------
 
-This block runs the blocks nested inside in a repeated loop.  The loop will run forever unless externally stopped by exiting the script, or resetting the Kookaberry or removing power from the Kookaberry.  Another name is a Repeat Forever loop.
+This block runs the blocks nested inside in a repeated loop.  
+
+The loop will run forever unless externally stopped by exiting the script, or resetting the Kookaberry or removing power from the Kookaberry.  
+
+Another name for this block is the Repeat Forever loop.
 
 .. image:: images/every-loop.png
    :width: 150
@@ -61,7 +65,9 @@ This block directs the running program to exit.
 Sleep
 -----
  
-This block causes the program to wait / pause for the specified time before continuing to the next block.  The number in the box specifies the duration of sleep in decimal seconds.
+This block causes the program to wait / pause for the specified time before continuing to the next block.  
+
+The number in the box specifies the duration of sleep in decimal seconds.
 
 .. image:: images/sleep.png
    :width: 200
@@ -72,7 +78,9 @@ Time (s)
 --------
 
 This block returns a value in whole seconds since the Kookaberry’s epoch time ( 00:00:00 on 1st 
-January 2000).  By subtracting successive values given by this block, the elapsed interval in 
+January 2000).  
+
+By subtracting successive values given by this block, the elapsed interval in 
 seconds between the samples may be calculated which is useful for timing functions.
 
 .. image:: images/time-secs.png
@@ -84,9 +92,10 @@ Time (ms)
 ---------
 
 This block returns a value in milliseconds since the Kookaberry’s epoch time (00:00:00 on 1st 
-January 2000).  By subtracting successive values given by this block, the elapsed interval in 
-milliseconds between the samples may be calculated which is useful for high-resolution timing 
-functions.
+January 2000).  
+
+By subtracting successive values given by this block, the elapsed interval in 
+milliseconds between the samples may be calculated which is useful for high-resolution timing functions.
 
 .. image:: images/time-msecs.png
    :width: 150
