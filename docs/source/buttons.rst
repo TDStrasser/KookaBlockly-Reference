@@ -3,9 +3,23 @@ Buttons
 
 The Kookaberry has four buttons beneath the display labelled A, B, C and D.  
 
-These buttons are coloured red, blue, yellow, and green respectively.  
+These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ''D'' yellow.  
+
+.. figure:: images/kberry-front-photo.png
+   :width: 300
+   :align: center
+   
+   Kookaberry - front view
+
 
 Button functions are also available on the virtual Kookaberry which is shown when KookaBlockly's **Show display** button is clicked.
+
+.. figure:: images/kberry-virtual-blank.png
+   :width: 300
+   :align: center
+   
+   Virtual Kookaberry
+
 
 Button blocks are used to specify the actions to be taken when a specific button is pressed.
 
