@@ -45,7 +45,7 @@ The following blocks provide the functionality to operate the Kookaberry's Displ
 Text coordinates
 ----------------
 
-The coordinates at which text is positioned on the Display differs from the graphical elements (``pixel``,``line``,``rectangle``, and ``image``).
+The coordinates at which text is positioned on the Display differs from the graphical elements (``pixel``, ``line``, ``rectangle``, and ``image``).
 
 *  Graphical elemnts are positioned at their top-left corner.
 *  Text is positioned at its bottom-left corner.
@@ -80,8 +80,13 @@ Display Set Font
 ----------------
  
 This block sets the character font to that selected from the drop down box.  The display fonts 
-available for selection are from smallest to largest: ``mono5x5`` (i.e. each character occupies 5  pixels wide by 5 pixels tall), 
-``mono6x7``, ``mono6x8``, ``mono8x8``, ``mono8x13`` and ``sans12``.
+available for selection are from smallest to largest: 
+* ``mono5x5`` - each text character is 5  pixels wide by 5 pixels tall
+* ``mono6x7``,- 6 pixels wide by 7 pixels tall
+* ``mono6x8`` - 6 pixels wide by 8 pixels tall
+* ``mono8x8`` - 8 pixels wide by 8 pixels tall (the default font)
+* ``mono8x13`` - 8 pixels wide by 13 pixels tall, and 
+* ``sans12``.- 12 pixels wide by 12 pixels tall
 
 The selected font will be applied from the point of selection.
 
