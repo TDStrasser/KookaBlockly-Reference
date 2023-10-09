@@ -81,11 +81,17 @@ Display Set Font
  
 This block sets the character font to that selected from the drop down box.  The display fonts 
 available for selection are from smallest to largest: 
+
 * ``mono5x5`` - each text character is 5  pixels wide by 5 pixels tall
+
 * ``mono6x7``,- 6 pixels wide by 7 pixels tall
+
 * ``mono6x8`` - 6 pixels wide by 8 pixels tall
+
 * ``mono8x8`` - 8 pixels wide by 8 pixels tall (the default font)
+
 * ``mono8x13`` - 8 pixels wide by 13 pixels tall, and 
+
 * ``sans12``.- 12 pixels wide by 12 pixels tall
 
 The selected font will be applied from the point of selection.
