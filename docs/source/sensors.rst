@@ -1,5 +1,6 @@
+-------
 Sensors
-=======
+-------
 
 
 The Kookaberry contains a variety of on-board sensors being a 3-axis accelerometer and a 

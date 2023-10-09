@@ -1,5 +1,6 @@
+----
 LEDs
-====
+----
 
 This LEDs category supports the three LED’s that are beneath the display on the 
 Kookaberry.   ( Also supported are the LEDS on the “Show Display” pane in KookaSuite)

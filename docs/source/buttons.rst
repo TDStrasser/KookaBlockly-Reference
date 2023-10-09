@@ -1,5 +1,6 @@
+-------
 Buttons
-=======
+-------
 
 The Kookaberry has four buttons beneath the display labelled A, B, C and D.  
 

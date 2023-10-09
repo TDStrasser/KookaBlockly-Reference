@@ -1,6 +1,6 @@
-=======
+-------
 Control
-=======
+-------
 
 Control blocks direct program flow or provide time-related functionality.
 

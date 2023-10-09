@@ -1,5 +1,6 @@
+-----
 Clock
-=====
+-----
 
 The blocks in the Clock category provide the functions to read and set the electronic real-time-clocks (RTCs).  
 
@@ -25,12 +26,12 @@ Click and drag any of the required blocks to the KookaBlockly workspace and conn
 
 Each of the Clock blocks is described in the following sections.
 
---------------
+
 Internal Clock
 --------------
 
 Get Clock – Simple Time
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Reads the Kookaberry’s internal Real Time Clock (RTC) and returns a date or time in the chosen format selected from the drop-down menu on the block.  
 
@@ -42,7 +43,7 @@ The value returned is a character string.
 
 
 Get Clock - Extended Time
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and time as a character string comprising two parts 
@@ -70,12 +71,11 @@ Below is a KookaBlockly example script demonstrating a loop which updates the Ko
 
 
  
---------------
 External Clock
 --------------
 
 Get External Clock - Simple Time
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Reads the Kookaberry’s external Real Time Clock (RTC) and returns a date or time in the chosen format selected from the drop-down menu on the block.  
 
@@ -90,7 +90,7 @@ The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, mea
 
 
 Get External Clock – Extended Time
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Reads the Kookaberry’s external Real Time Clock (RTC) and returns the date and time as a character string comprising two parts 
 per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character ``-``).

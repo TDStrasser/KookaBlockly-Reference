@@ -1,5 +1,6 @@
+-------
 Display
-=======
+-------
 
 Display blocks control what appears on the Kookaberry's display.
 

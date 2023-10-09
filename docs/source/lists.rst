@@ -1,21 +1,9 @@
+-----
 Lists
-=====
+-----
 
 A list is an array of zero or more items which can be variables, numbers, characters or text.
 The usual usage is to create a variable and set its value to that returned by the list blocks.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Create Empty List
@@ -32,14 +20,6 @@ This value block gives back a new, empty list.  The gear icon in the block allow
 
 Create List With
 ----------------
-
-
-
-
-
-
-
-
 
 
 This value block creates a new list with the socketed items.  The block can be configured with the 
