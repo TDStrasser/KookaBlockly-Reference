@@ -3,7 +3,7 @@ Buttons
 
 The Kookaberry has four buttons beneath the display labelled A, B, C and D.  
 
-These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ''D'' yellow.  
+These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ``D`` yellow.  
 
 .. figure:: images/kberry-front-photo.png
    :width: 300
