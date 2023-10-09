@@ -1,6 +1,16 @@
 Display
 =======
 
+.. figure:: images/display-palette.png
+   :width: 300
+   :align: center
+   
+   The palette of KookaBlockly Display blocks
+
+
+Each block is described in turn below.
+
+
 Kookaberry Display
 ------------------
 

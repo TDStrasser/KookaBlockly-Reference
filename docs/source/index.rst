@@ -1,5 +1,5 @@
 .. image:: images/kblockly-logo.png
-   :width: 80%
+   :width: 70%
    :align: center
 
 """"""""""""""""""""""""""""""""""""""""""""
