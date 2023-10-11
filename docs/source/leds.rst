@@ -23,7 +23,7 @@ Turn ON LED
 This block turns the LED selected from the drop-down box ON.
 
 .. image:: images/leds-turn-on.png
-   :width: 200
+   :width: 300
    :align: center
    
 
@@ -64,7 +64,7 @@ Neopixels come as single units or in chains of multiple Neopixels.
 
 
 .. image:: images/leds-set-neopixel.png
-   :width: 400
+   :width: 500
    :align: center
    
 The following are the controls that can be set or manipulated on this block:
@@ -89,7 +89,7 @@ RGB values
 
 
 .. figure:: images/leds-rgb-venn-diagram.png
-   :width: 400
+   :width: 300
    :align: center
    
    RGB Primary Colour Combinations
