@@ -1,3 +1,11 @@
 {
-    "esbonio.sphinx.confDir": ""
+    "esbonio.sphinx.confDir": "",
+    "cSpell.words": [
+        "colour",
+        "colours",
+        "Kookaberry",
+        "multicolour",
+        "Neopixel",
+        "Neopixels"
+    ]
 }
