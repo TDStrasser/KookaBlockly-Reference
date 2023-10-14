@@ -39,4 +39,18 @@ statement is typed into the text box in the block.
 Typical usage might be to import a library module “import math”, or “import sensor”, or 
 anything else that is permitted in Python syntax.
 
+.. code:: Python
+
+    import machine, kooka 
+
+    # A comment
+
+    while True:
+      time.sleep(0.5)
+      if kooka.button_a.was_pressed():
+        raise SystemExit
+
+      machine.idle()
+
+
 
