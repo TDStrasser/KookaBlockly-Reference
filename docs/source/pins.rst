@@ -30,7 +30,7 @@ The Pins category provides the means to control what the pins do.
   
 
 .. figure:: images/pins-string-nomination.png
-   :width: 300
+   :height: 80
    :align: center
    
    Using a String Variable instead of a Pins drop-down selection.
@@ -44,7 +44,7 @@ The Pin Turn ON block causes the selected pin to behave as a digital output and 
 
 
 .. image:: images/pins-turn-on.png
-   :width: 300
+   :height: 120
    :align: center
 
 
@@ -145,7 +145,7 @@ as an analogue output and to be set to the voltage specified by the input block.
 This feature is not available on Kookaberry using the Raspberry Pi Pico RP2040 microprocessor.
 
 .. image:: images/pins-set-voltage.png
-   :height: 120
+   :height: 100
    :align: center
 
 Set Pin to Percentage of Maximum
@@ -157,7 +157,7 @@ as an analogue output and to be set to the percentage of maximum voltage specifi
 The output voltage will rise from 0 volts DC to +3.3 volts DC linearly with the input block rising from ``0`` to ``100``.
 
 .. image:: images/pins-set-percentage.png
-   :height: 120
+   :height: 100
    :align: center
 
 
