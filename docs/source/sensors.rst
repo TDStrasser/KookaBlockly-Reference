@@ -70,9 +70,9 @@ The Kookaberry has an internal 3-axis magnetometer which can measure the magneti
 
 The value returned is an integer that is the vector sum of the xyz components of the magnetic field experienced by the sensor.
 
-.. comment::
+.. note::
 
-    (Missing blocks for compass_get_xyz and compass.get_heading()
+   Blocks are missing for compass_get_xyz() and compass.get_heading()
 
 
 External Sensors
