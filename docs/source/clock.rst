@@ -38,7 +38,7 @@ Reads the Kookaberry’s internal Real Time Clock (RTC) and returns a date or ti
 The value returned is a character string.
 
 .. image:: images/get-clock-simple.png
-   :width: 250
+   :height: 120
    :align: center
 
 
@@ -50,21 +50,21 @@ Reads the Kookaberry’s internal Real Time Clock (RTC) and returns the date and
 per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character ``-``).
 
 .. image:: images/get-clock-extended.png
-   :width: 500
+   :height: 120
    :align: center
 
 
 Below is a KookaBlockly example script demonstrating a loop which updates the Kookaberry’s display every second with the current time and date.
 
 .. figure:: images/get-clock-extended-script.png
-   :width: 500
+   :height: 120
    :align: center
    
    A KookaBlockly Script that shows the current time and date on the Kookaberry display.
 
 
 .. figure:: images/get-clock-extended-display.png
-   :width: 200
+   :height: 120
    :align: center
    
    The Kookaberry display resulting from the example KookaBlockly Script.
@@ -85,7 +85,7 @@ The external RTC is connected to the Kookaberry's connector ports as selected fr
 The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external RTC is connected to the Kookaberry using the 4-pin P3 port.
 
 .. image:: images/get-external-clock-simple.png
-   :width: 450
+   :height: 120
    :align: center
 
 
@@ -100,7 +100,7 @@ The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, mea
 
 
 .. image:: images/get-external-clock-extended.png
-   :width: 500
+   :height: 120
    :align: center
 
 
@@ -115,7 +115,7 @@ The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, mea
 
 
 .. image:: images/set-internal-clock-from-external-clock.png
-   :width: 450
+   :height: 120
    :align: center
 
 
@@ -132,7 +132,7 @@ The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, mea
 
 
 .. image:: images/set-external-clock-from-internal-clock.png
-   :width: 450
+   :height: 120
    :align: center
 
 
@@ -150,7 +150,7 @@ The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, mea
 
 
 .. image:: images/set-external-clock-from-string.png
-   :width: 500
+   :height: 120
    :align: center
 
 

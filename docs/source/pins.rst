@@ -54,7 +54,7 @@ Pin Turn OFF
 The Pin OFF block causes the selected pin to behave as a digital output and to be turned off with an output voltage of 0 volts DC.
 
 .. image:: images/pins-turn-off.png
-   :width: 300
+   :height: 120
    :align: center
 
 
@@ -66,7 +66,7 @@ The Pin Toggle  block causes the selected pin to behave as a digital output and 
 OFF sets the Pin to 0 volts DC, and ON sets the Pin to +3.3 volts DC.
 
 .. image:: images/pins-toggle.png
-   :width: 300
+   :height: 120
    :align: center
 
 
@@ -80,7 +80,7 @@ If the input value is ``0``, the output of the Pin will be set to OFF which is 0
 If the input value is not ``0``, typically ``1`` or greater, then the output of the Pin will be set to ``1`` which is +3.3 volts DC.
 
 .. image:: images/pins-set-digital.png
-   :width: 300
+   :height: 120
    :align: center
 
 
@@ -93,7 +93,7 @@ volts DC.
 
 
 .. image:: images/pins-get-digital.png
-   :width: 300
+   :height: 120
    :align: center
 
 
@@ -109,7 +109,7 @@ This value block designates the selected pin as an analogue input and returns a 
 
 
 .. image:: images/pins-get-voltage.png
-   :width: 300
+   :height: 120
    :align: center
 
 .. note:: 
@@ -127,7 +127,7 @@ Applying 0 volts DC to the input Pin will resturn a value of ``0``.
 Applying +3.3 volts DC to the input Pin will resturn a value of ``100``.
 
 .. image:: images/pins-get-percentage.png
-   :width: 400
+   :height: 120
    :align: center
 
 
@@ -145,7 +145,7 @@ as an analogue output and to be set to the voltage specified by the input block.
 This feature is not available on Kookaberry using the Raspberry Pi Pico RP2040 microprocessor.
 
 .. image:: images/pins-set-voltage.png
-   :width: 300
+   :height: 120
    :align: center
 
 Set Pin to Percentage of Maximum
@@ -157,7 +157,7 @@ as an analogue output and to be set to the percentage of maximum voltage specifi
 The output voltage will rise from 0 volts DC to +3.3 volts DC linearly with the input block rising from ``0`` to ``100``.
 
 .. image:: images/pins-set-percentage.png
-   :width: 400
+   :height: 120
    :align: center
 
 
@@ -175,7 +175,7 @@ The frequency is the number of times the output cycles per second.  Frequency ca
 Both frequency and duty can be derived from other value blocks or specified directly.
 
 .. image:: images/pins-set-pwm.png
-   :width: 400
+   :height: 120
    :align: center
 
 

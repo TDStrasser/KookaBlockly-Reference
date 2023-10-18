@@ -62,7 +62,7 @@ Display Clear
 This block clears the display’s frame buffer.  The physical display will not be updates until a "Display Show" is used.
 
 .. image:: images/display-clear.png
-   :width: 300
+   :height: 60
    :align: center
    
 
@@ -73,7 +73,7 @@ This block transfers the display’s frame buffer to the Kookaberry’s physical
 If not specified in the KookaBlockly script, the generated MicroPython script will contain the equivalent **Display Show** code towards the end of the script.
 
 .. image:: images/display-show.png
-   :width: 300
+   :height: 60
    :align: center
    
 
@@ -101,7 +101,7 @@ A display using several fonts sizes may be constructed by using the **Display Se
 as the display Framebuffer is constructed by the KookaBlockly script.
 
 .. image:: images/display-setfont.png
-   :width: 300
+   :height: 200
    :align: center
    
 
@@ -117,7 +117,7 @@ The current display line is increased by each successive **Display Print** until
 Thereafter each successive **Display Print** will scroll the display upwards by one line and the current line is shown at the bottom of the display.
 
 .. image:: images/display-print.png
-   :width: 300
+   :height: 60
    :align: center
    
 
@@ -128,7 +128,7 @@ This block displays the editable text or value in the attached socketed block on
 followed by the output of any value block.
 
 .. image:: images/display-print-and.png
-   :width: 300
+   :height: 120
    :align: center
    
 

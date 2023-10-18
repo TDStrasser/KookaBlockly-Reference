@@ -2,165 +2,229 @@
 Sensors
 -------
 
+The Kookaberry contains two on-board sensors, being a 3-axis accelerometer and a 
+3-axis magnetometer.  
 
-The Kookaberry contains a variety of on-board sensors being a 3-axis accelerometer and a 
-magnetic compass, and it also supports two types of temperature sensor and two types of 
-combined temperature and humidity sensors.
+A large variety of external sensors may also be connected to the Kookaberry via its Pin connectors.  
+KookaBlockly supports many external sensors as are listed under the EXternal Sensors section.  
+These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
+
 The Sensors category provides blocks that enable the use of these sensors.
 
------------------
+.. figure:: images/sensors-palette.png
+   :width: 500
+   :align: center
+   
+   The palette of KookaBlockly Sensors blocks
+
+
 Internal Sensors
 -----------------
 
-Accelerometer (raw)
--------------------
+Get Accelerometer (raw)
+~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+The Kookaberry contains an internal 3-axis accelerometer.  
 
-
-The Kookaberry contains an internal 3-axis accelerometer based on the LMS303 integrated 
-circuit.  
-
-The accelerometer block provides the acceleration value of one of the X, Y and Z axes in the 
-sensor’s frame of reference.  The X, Y and Z axes are selected via the second drop-down list on 
+The accelerometer block provides the acceleration value of the selected axis (one of the X, Y and Z axes in the 
+sensor’s frame of reference), or the magnitude of the vector sum of all the axes.  The X, Y and Z axes are selected using the  drop-down list on 
 the right of the block.  The values are in metres per second squared. 
+
+.. image:: images/sensors-get-accelerometer.png
+   :height: 120
+   :align: center
+
 
 The Kookaberry’s internal accelerometer is oriented so that the X axis is along the horizontal 
 dimension of the display, the Y axis is aligned with the vertical dimension of the display, and the 
 Z axis is perpendicular to the Kookaberry’s circuit board.
 
-This example shows the X, Y and Z acceleration values being retrieved and displayed once per 
-second.  The Kookaberry is lying on a horizontal surface.
-
- 
-
- 
-
-A typical value for acceleration in the Z direction is 9.81 m/sec^2.  This will vary as a function of 
-Latitude.  To obtain accurate results from the LSM303 in the X, Y or Z axis calibration may be 
-necessary
+A typical value for acceleration is due to the earth's gravity, being 9.81 m/sec^2.  This will vary slightly with geographic
+latitude and height as distances from the earth's centre of mass vary.
 
 
-Accelerometer (scaled)
-----------------------
+Get Accelerometer (scaled)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+The scaled accelerometer compound block is a convenient combination applying a multiplier and an offset to the raw accelerometer reading.  
 
+The scale and offset factors can be typed in directly or provided by plugging in other value blocks.
 
-
-
-The scaled accelerometer compound block is a convenient combination applying a multiplier and an offset to the raw accelerometer reading.  The scale and offset factors are also the results of value blocks.
-
-This block is useful to reduce the sensitivity of the accelerometer and to compensate for offsets in tilt along the selected axis.
-
-
-Compass
--------
-
- 
-
-The magnetic compass is part of the LMS303 integrated circuit, and the magnetic field strength 
-value may be obtained from either the Kookaberry’s internal sensor
-
-The value returned is an integer that is the vector sum of the xyz components of the magnetic 
-field experienced by the sensor.
-
-(Missing blocks for compass_get_xyz and compass.get_heading()
+.. image:: images/sensors-get-accelerometer-maths.png
+   :height: 120
+   :align: center
 
 
-----------------
+This block is useful to adjust the sensitivity of the accelerometer and to compensate for offsets such as the ever-present acceleration due to gravity.
+
+
+Get Compass Strength
+~~~~~~~~~~~~~~~~~~~~
+
+The Kookaberry has an internal 3-axis magnetometer which can measure the magnetic field strength it is subjected to.
+
+.. image:: images/sensors-get-compass-strength.png
+   :height: 100
+   :align: center
+
+
+The value returned is an integer that is the vector sum of the xyz components of the magnetic field experienced by the sensor.
+
+.. comment::
+
+    (Missing blocks for compass_get_xyz and compass.get_heading()
+
+
 External Sensors
 ----------------
 
-DS18x20 Temp Sensor
--------------------
-
- 
+Get Temperature from DS18x20
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The DS18x20 is an electronic temperature probe and this DS18x20 value block enables 
-reading of the probe and returns the temperature in degrees centigrade.  The option on this 
-block enables selection of which connector it is attached to.
+reading of the probe and returns the temperature in degrees centigrade.  The drop-down box on this 
+block enables selection of which connector the sensor is attached to.
 
-The DS18x20 sensor is used for measuring temperature in air and in liquid.  The sensor is pre-
-calibrated and performs all of the temperature calculations within the sensor.
-
-
-
+.. image:: images/sensors-get-temp-ds18b20.png
+   :height: 120
+   :align: center
 
 
-NTC Temp Sensor
----------------
+The DS18x20 sensor is used for measuring temperature in air and in liquid.  
+
+The sensor is pre-calibrated and performs all of the temperature calculations within the sensor.
+
+Get Temperature from NTC
+~~~~~~~~~~~~~~~~~~~~~~~~
  
-
-The NTC (Negative Temperature Coefficient) thermocouple sensor works by varying its 
-resistance which lowers as temperature rises.  The Kookaberry performs the necessary 
-calculations to convert the sensor’s resistance to a temperature reading in degrees centigrade.
+The NTC (Negative Temperature Coefficient) thermocouple sensor works through measuring its resistance which reduces as temperature rises.  
+The Kookaberry performs the necessary calculations to convert the sensor’s resistance to a temperature reading in degrees centigrade.
 
 The options on the NTC value block are:
 •	The connector to which the sensor is attached
-•	The parameters A, B and C are the coefficients used in the Stein-Hart equation that is used to convert thermocouple resistance to temperature.  Explaining this in more depth is beyond the scope of this manual.  It is recommended that the default values not be altered.
+•	The parameters A, B and C are the coefficients used in the Stein-Hart equation that is used to convert thermocouple resistance to temperature.  
+Explaining this in more depth is beyond the scope of this manual.  It is recommended that the default values not be altered.
+
+.. image:: images/sensors-get-temp-ntc.png
+   :height: 120
+   :align: center
 
 
-DHT11-DHT22
------------
+Get Temperature or Humidity from DHT11 or DHT22
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Kookaberry supports the DHT11 and DHT22 temperature and humidity sensors.  This block obtains the value of the selected parameter from the DHT sensor.
+
+The drop-down boxes on the DHT value block permit the selection of:
+
+* the sensor reading to be returned: temperature (in degrees Centigrade) or relative humidity (as a percentage)
+* the sensor type being used: DHT11 or DHT22
+* the connector to which the sensor is connected.
+
+
+.. image:: images/sensors-get-temp-dht.png
+   :height: 120
+   :align: center
+
+
+.. image:: images/sensors-get-temp-dht-select.png
+   :height: 120
+   :align: center
+
+
+The DHT sensors are only suitable for measuring air temperature.
+
+The difference between the two sensor types is that the slightly more expensive DHT22 sensor has a higher level of accuracy and precision.  
+
+Please be sure to select the type of DHT sensor that matches the connected sensor or else erroneous readings will result.
+
+The manufacturers of the DHT11 and DHT22 sensors recommend an interval between successive readings of no less than 2 seconds.  
+Attempting shorter intervals will result in no reading and could also cause the Kookaberry script to terminate.
+
+
+Get Temperature / Humidity / Pressure from BME280
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+
+.. image:: images/sensors-get-temp-bme.png
+   :height: 120
+   :align: center
 
 
 
-The Kookaberry supports the DHT11 and DHT22 temperature and humidity sensors.  The option 
-on the DHT value block permit the selection of the sensor type (DHT11 or DHT22), the connector 
-to which the sensor is connected, and whether to read temperature (in degrees centigrade) or 
-relative humidity (as a percentage).
+.. image:: images/sensors-get-temp-bme-adx.png
+   :height: 120
+   :align: center
 
-The DHT sensors are for measuring air temperature and the difference between the two sensors 
-is that the slightly more expensive DHT22 sensor has a higher level of accuracy and precision.
-The manufacturers of the DHT11 and DHT22 recommend a sampling period of greater than 2 
-seconds
 
+.. image:: images/sensors-get-temp-bme-pins.png
+   :height: 120
+   :align: center
 
 
 
-BME280 Temperature, Humidity and Pressure Sensor
-------------------------------------------------
+
+
+
+Get Acceleration from LSM303
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
 
 
-
-
-
-External LSM303
----------------
-
- 
+.. image:: images/sensors-get-accelerometer-lsm303.png
+   :height: 120
+   :align: center
 
 
 
 
-
-
-
+.. image:: images/sensors-get-accelerometer-lsm303-pins.png
+   :height: 120
+   :align: center
 
 
 
 
 
 
-LUX Sensor VEML7700
--------------------
+Get LUX from VEML7700
+~~~~~~~~~~~~~~~~~~~~~
 
  
 
+.. image:: images/sensors-get-lux-veml7700-pins.png
+   :height: 120
+   :align: center
 
-Power Sensor INA219
--------------------
+
+
+Get Power / Voltage / Current from INA219
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.. image:: images/sensors-get-power-ina219.png
+   :height: 120
+   :align: center
+
+
+
+.. image:: images/sensors-get-power-ina219-pins.png
+   :height: 120
+   :align: center
+
+
+Get Soil Moisture
+~~~~~~~~~~~~~~~~~
 
  
 
-Soil Moisture Sensor
---------------------
+.. image:: images/sensors-get-soil-moisture.png
+   :height: 120
+   :align: center
 
- 
 
 
 

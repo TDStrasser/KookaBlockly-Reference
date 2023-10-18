@@ -44,7 +44,7 @@ The button options are ``A``, ``B``, ``C``, or ``D``.
 *was pressed* means that the actions within the loop will be performed only once after the selected button press.
 
 .. image:: images/buttons-when-was-pressed.png
-   :width: 250
+   :height: 120
    :align: center
 
 
@@ -59,7 +59,7 @@ The button options are ``A``, ``B``, ``C``, or ``D``.
 *is pressed* means that the actions will be performed repeatedly as long as the selected button is being pressed.
 
 .. image:: images/buttons-when-is-pressed.png
-   :width: 250
+   :height: 120
    :align: center
 
 
@@ -73,7 +73,7 @@ The button options are ``A``, ``B``, ``C``, or ``D``.
 After this value block is used its output reverts to ``False`` (= ``0``) until the next time the button was pressed.
 
 .. image:: images/buttons-was-pressed.png
-   :width: 250
+   :height: 120
    :align: center
 
 
@@ -86,7 +86,7 @@ The button options are ``A``, ``B``, ``C``, or ``D``.
 Th output of this value block reverts to ``False`` (= ``0``) when the button is not being pressed.
 
 .. image:: images/buttons-is-pressed.png
-   :width: 250
+   :height: 120
    :align: center
 
 
@@ -98,6 +98,6 @@ This is a combination of two blocks: the **button was pressed** control loop, as
 The result of using this combination is whenever the button selected was pressed the currently running program will finish.
 
 .. image:: images/buttons-when-was-pressed-exit.png
-   :width: 250
+   :height: 120
    :align: center
 

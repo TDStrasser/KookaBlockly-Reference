@@ -21,7 +21,7 @@ The "on start" block is intended to contain other action blocks that will run fi
 Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
 
 .. image:: images/on-start.png
-   :width: 150
+   :height: 200
    :align: center
 
 
@@ -35,7 +35,7 @@ The loop will continue forever at the defined period unless the program is exter
 The time specification is a number in decimal seconds, for example: 1 is 1 second, and 0.001 is 1 millisecond.
 
 .. image:: images/scheduled-loop.png
-   :width: 150
+   :height: 200
    :align: center
 
 
@@ -49,7 +49,7 @@ The loop will run forever unless externally stopped by exiting the script, or re
 Another name for this block is the Repeat Forever loop.
 
 .. image:: images/every-loop.png
-   :width: 150
+   :height: 200
    :align: center
 
 
@@ -59,7 +59,7 @@ Exit Program
 This block directs the running program to exit.
 
 .. image:: images/exit-program.png
-   :width: 150
+   :height: 200
    :align: center
 
 Sleep
@@ -70,7 +70,7 @@ This block causes the program to wait / pause for the specified time before cont
 The number in the box specifies the duration of sleep in decimal seconds.
 
 .. image:: images/sleep.png
-   :width: 200
+   :height: 120
    :align: center
 
 
@@ -84,7 +84,7 @@ By subtracting successive values given by this block, the elapsed interval in
 seconds between the samples may be calculated which is useful for timing functions.
 
 .. image:: images/time-secs.png
-   :width: 150
+   :height: 120
    :align: center
 
 
@@ -98,5 +98,5 @@ By subtracting successive values given by this block, the elapsed interval in
 milliseconds between the samples may be calculated which is useful for high-resolution timing functions.
 
 .. image:: images/time-msecs.png
-   :width: 150
+   :height: 120
    :align: center

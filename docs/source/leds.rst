@@ -23,7 +23,7 @@ Turn ON LED
 This block turns the LED selected from the drop-down box ON.
 
 .. image:: images/leds-turn-on.png
-   :width: 300
+   :height: 120
    :align: center
    
 
@@ -34,7 +34,7 @@ This block turns the LED selected from the drop-down box OFF.
 
 
 .. image:: images/leds-turn-off.png
-   :width: 300
+   :height: 120
    :align: center
    
 
@@ -46,7 +46,7 @@ This block toggles the LED selected in the drop-down box.
 Toggle means to change the state of the LED from OFF to ON, or from ON to OFF, depending on the LED’s state. 
 
 .. image:: images/leds-toggle.png
-   :width: 300
+   :height: 120
    :align: center
    
 
