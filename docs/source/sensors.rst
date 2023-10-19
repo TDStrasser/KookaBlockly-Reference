@@ -145,26 +145,55 @@ Attempting shorter intervals will result in no reading and could also cause the 
 Get Temperature / Humidity / Pressure from BME280
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+The BME280 sensor measures air temperature, relative humidity, and barometric air pressure. 
+
+There is also a compatible BMP280 sensor that measures air temperature and barometric air pressure, 
+but does not measure relative humidity.  Using the blocks below will return a reading of zero for humidity.
+
+This sophisticated sensor is available mounted on Kookaberry-compatible circuit boards distributed by a variety of manufacturers.  
+
+The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
+
+There are four wires in the I2C interface, being: 
+* ``Vcc`` power at +3.3 volts DC
+* ``Gnd`` ground (or negative) for signal and power at 0 volts
+* ``SCL`` being the serial clock signal for communications timing
+* ``SDA`` being the serial data signal which conveys the digital data being communicated
+
+When using BME280 circuit boards it is important that these signals are connected to the correct Pins on the Kookaberry.
+
+The **Get Temperature from BME280** block is shown below with the three sets of options available from the drop-down boxes on the block.
+
+The first drop-down box provides the list of measurements available which are:
+
+1.  Temperature in degrees Centigrade
+2.  Air pressure in hectoPascals (aka milliBars)
+3.  Relative air humidity in percent
+4.  Altitude in metres relative to the first reading taken by the KookaBlockly script. That is, the first reading calibrates the altitude to zero metres.
+    
 
 .. image:: images/sensors-get-temp-bme.png
    :height: 120
    :align: center
 
-
+The second drop-down box provides two options for the BME280's address on the I2C bus, that is ``0x77`` or ``0x76``.  
+The default of ``0x77`` is usually the best to use but it depends on what address the manufacturer of the BME280 sensor board has chosen.
+It is possible to have two BME280 sensors, each with a different address, on the same Kookaberry interface.
 
 .. image:: images/sensors-get-temp-bme-adx.png
    :height: 120
    :align: center
 
+The third and fourth drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+Some BME280 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
+Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-temp-bme-pins.png
    :height: 120
    :align: center
-
-
-
-
 
 
 Get Acceleration from LSM303
