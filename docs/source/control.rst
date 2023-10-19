@@ -5,7 +5,7 @@ Control
 Control blocks direct program flow or provide time-related functionality.
 
 .. figure:: images/control-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The palette of KookaBlockly Control blocks

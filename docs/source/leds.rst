@@ -9,7 +9,7 @@ These LEDs are coloured ``red``, ``orange`` and ``green``.
 In addition, support is provided for NeoPixel RGB LEDs.
 
 .. figure:: images/leds-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The palette of KookaBlockly LED blocks

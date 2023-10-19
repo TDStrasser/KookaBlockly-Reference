@@ -5,7 +5,7 @@ Display
 Display blocks control what appears on the Kookaberry's display.
 
 .. figure:: images/display-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The palette of KookaBlockly Display blocks
