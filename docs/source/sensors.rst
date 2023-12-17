@@ -15,7 +15,7 @@ The Sensors category provides blocks that enable the use of these sensors.
    :width: 500
    :align: center
    
-   The palette of KookaBlockly Sensors blocks
+   The palette of KookaBlockly Sensor blocks
 
 
 Internal Sensors
