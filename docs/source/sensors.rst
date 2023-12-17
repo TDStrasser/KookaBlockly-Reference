@@ -42,6 +42,10 @@ Z axis is perpendicular to the Kookaberry’s circuit board.
 A typical value for acceleration is due to the earth's gravity, being 9.81 m/sec^2.  This will vary slightly with geographic
 latitude and height as distances from the earth's centre of mass vary.
 
+.. note::
+
+   The vector sum of all acceleration axes is the square root of the sum of the squares of the three axes. That is sqrt(x^2 + y^2 + z^2).
+
 
 Get Accelerometer (scaled)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -196,10 +200,34 @@ A string block can also be used instead of the drop-down selector blocks and the
    :align: center
 
 
-Get Acceleration from LSM303
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Get Acceleration / Compass Strength from LSM303
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+The LSM303 sensor contains a 3-axis accelerometer and a 3-axis magnetometer.  
+The Kookaberry contains a LSM303 sensor internally, and this block provides functionality to use an externally connected LSM303 sensor.
+
+This sensor can provide acceleration values in all three axes, as well as total acceleration strength, as well as compass strength.
+
+The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
+
+There are four wires in the I2C interface, being: 
+* ``Vcc`` power at +3.3 volts DC
+* ``Gnd`` ground (or negative) for signal and power at 0 volts
+* ``SCL`` being the serial clock signal for communications timing
+* ``SDA`` being the serial data signal which conveys the digital data being communicated
+
+When using LSM303 circuit boards it is important that these signals are connected to the correct Pins on the Kookaberry.
+
+The **Get Acceleration from LSM303** block is shown below with the three sets of options available from the drop-down boxes on the block.
+
+The first drop-down box provides the list of measurements available which are:
+
+1.  X axis acceleration in metres / second squared
+2.  Y axis acceleration in metres / second squared
+3.  Z axis acceleration in metres / second squared
+4.  Acceleration total magnitude in metres / second squared
+5.  Compass total magnetic strength in ...
 
 
 
@@ -208,7 +236,11 @@ Get Acceleration from LSM303
    :align: center
 
 
-
+The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+Some LSM303 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
+Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-accelerometer-lsm303-pins.png
    :height: 120
@@ -216,46 +248,118 @@ Get Acceleration from LSM303
 
 
 
-
-
-
 Get LUX from VEML7700
 ~~~~~~~~~~~~~~~~~~~~~
 
- 
+The VEML7700 is a high-accuracy ambient light sensor with an I2C serial interface to the Kookaberry.  
+
+The ambient light readings are measured in Lux. Lux is the unit of illuminance, or luminous flux per unit area, in the International System of Units (SI), 
+and is equal to one lumen per square metre.  See https://en.wikipedia.org/wiki/Lux for more detail.
+
+The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
+
+There are four wires in the I2C interface, being: 
+* ``Vcc`` power at +3.3 volts DC
+* ``Gnd`` ground (or negative) for signal and power at 0 volts
+* ``SCL`` being the serial clock signal for communications timing
+* ``SDA`` being the serial data signal which conveys the digital data being communicated
+
+When using a VEML7700 circuit board it is important that these signals are connected to the correct Pins on the Kookaberry.
+
+The **Get Lux from VEML7700** block is shown below with the two sets of options available from the drop-down boxes on the block.
 
 .. image:: images/sensors-get-lux-veml7700-pins.png
    :height: 120
    :align: center
 
+The two drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+Some VEML7700 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
+Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 
 Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The INA219 sensor measures direct current, voltage and power from the circuit to which it is connected. It is commonly called a wattmeter.
+
+The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
+
+There are four wires in the I2C interface, being: 
+* ``Vcc`` power at +3.3 volts DC
+* ``Gnd`` ground (or negative) for signal and power at 0 volts
+* ``SCL`` being the serial clock signal for communications timing
+* ``SDA`` being the serial data signal which conveys the digital data being communicated
+
+When using a INA219 circuit board it is important that these signals are connected to the correct Pins on the Kookaberry.
+
+The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
+
+The first drop-down box provides the list of measurements available which are:
+
+1.  Power in watts DC (direct current).  The range is 0 to 206 watts with a resolution of 20 milli-watts.
+2.  Voltage in volts DC. The range is 0 to +/- 26 volts with a resolution of 4 milli-volts.
+3.  Current in amperes (amps) DC. The range is 0 to +/- 8 amps with a resolution of 1 milli-amps.
+
+.. note::
+
+   The range and resolution of the INA219 sensor readings are set by the value of an internal shunt resistor and the interfacing software. 
+   The shunt resistor in the default configuration is 10 milli-ohms.
 
 
 .. image:: images/sensors-get-power-ina219.png
    :height: 120
    :align: center
 
+The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+Some INA219 boards on the market may have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
+Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 
 .. image:: images/sensors-get-power-ina219-pins.png
    :height: 120
    :align: center
 
+The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus with addresses 
+in the range ``64`` (hex ``0x40``) to ``67`` (hex ``0x43``) inclusive.  Each board must have a unique I2C address.
+To change the address in the block simply click on the filed and over-type the default value.
+
 
 Get Soil Moisture
 ~~~~~~~~~~~~~~~~~
 
- 
+There are two types of soil moisture sensor available:
+
+1. Resistive soil moisture sensor which measures the conductivity of soil by applying an electrical voltage using two spikes or pins.
+2. Capacitive soil moisture sensor which consists of a single broad spike which measures changes in the soils capacitance due to the presence of moisture.
+
+While both kinds of sensor are effective, the capacitive soil moisture sensor is much more durable as it is not susceptible to corrosion which affects
+resistive sensors in prolonged use.
+
+The **Get Soil Moisture** block is shown below with three options available on the block.
+Soil moisture is given as a percentage, nominally in the range 0 to 100.  
+Values outside that range can be returned depending on the calibration values set in the ``dry=`` and ``wet=`` fields on the block.
+
+The first option is a drop-down block to select which Pin the sensor is connected to.
+A string block can also be used instead of the drop-down selector block and the name of the Pin typed into the block.
+
 
 .. image:: images/sensors-get-soil-moisture.png
    :height: 120
    :align: center
 
+To the right of the Pin selector drop-down list are two fields which can be manually edited.
+These are the voltages given by the sensor when it is dry and when it is wet. The default values suit a capacitive sensor.
 
+1. For a resistive sensor, the dry value should be lower than the wet value.  ``Dry=`` 0 volts and ``wet=`` 3.3 volts are suitable starting values.
+2. For a capacitive sensor, the dry value should be higher than the wet value.  ``Dry=`` 3.3 volts and ``wet=`` 0 volts are suitable starting values.
 
+These value can be tuned with experience and the use of a calibrated soil moisture meter to improve the accuracy of the readings.
 
 
 
