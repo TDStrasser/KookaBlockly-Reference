@@ -60,6 +60,7 @@ The block has two parameters:
    :align: center
 
 
+
 .. note:
   Please note that all but the smallest 9g servos should not be directly plugged into a 
   Kookaberry connector.  These devices require special electronics to supply them with more power.  
@@ -106,6 +107,7 @@ The block has two parameters:
 .. image:: images/actuators-set-servo-to-speed.png
    :height: 120
    :align: center
+
 
 
 .. note:
