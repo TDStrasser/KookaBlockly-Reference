@@ -325,8 +325,8 @@ A string block can also be used instead of the drop-down selector blocks and the
    :height: 120
    :align: center
 
-The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus with addresses 
-in the range ``64`` (hex ``0x40``) to ``67`` (hex ``0x43``) inclusive.  Each board must have a unique I2C address.
+The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus with any of the addresses 
+ ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  Each board must have a unique I2C address.
 To change the address in the block simply click on the filed and over-type the default value.
 
 
