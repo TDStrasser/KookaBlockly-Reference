@@ -314,6 +314,7 @@ The first drop-down box provides the list of measurements available which are:
    :height: 120
    :align: center
 
+
 The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
 Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
 Some INA219 boards on the market may have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
@@ -325,8 +326,10 @@ A string block can also be used instead of the drop-down selector blocks and the
    :height: 120
    :align: center
 
-The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus with any of the addresses 
- ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  Each board must have a unique I2C address.
+
+
+The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus 
+with any of the addresses ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  Each board must have a unique I2C address.
 To change the address in the block simply click on the filed and over-type the default value.
 
 
