@@ -20,7 +20,7 @@ Each block is described in turn below.
 Turn ON LED
 -----------
 
-This block turns the LED selected from the drop-down box ON.
+This block turns the LED, selected from the drop-down box, ON.
 
 .. image:: images/leds-turn-on.png
    :height: 120
@@ -30,7 +30,7 @@ This block turns the LED selected from the drop-down box ON.
 Turn OFF LED
 ------------
 
-This block turns the LED selected from the drop-down box OFF.
+This block turns the LED, selected from the drop-down box, OFF.
 
 
 .. image:: images/leds-turn-off.png
@@ -71,7 +71,7 @@ The following are the controls that can be set or manipulated on this block:
 
 Pin
     The Kookaberry has five connectors on the back, ``P1`` through to ``P5``, with connector ``P3`` having 
-    two possible connection points: ``P3A`` and ''P3B``. (see the **Pins** category description).
+    two possible connection points: ``P3A`` and ''P3B``. (see the :doc:`pins` category description).
 
 pixel
     This is an integer commencing at ``0`` which specifies which pixel in the array will be set.

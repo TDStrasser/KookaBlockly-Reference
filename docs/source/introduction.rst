@@ -57,4 +57,4 @@ These sockets represent fundamental code concepts, including program controls (a
 
 The intuitive graphical process empowers users to apply programming concepts and principles when designing scripts or programs, eliminating the need to worry about the syntax and semantics of MicroPython. 
 
-With KookaBlockly, programming becomes an enjoyable and accessible endeavor.
+With KookaBlockly, programming becomes an enjoyable and accessible endeavour.

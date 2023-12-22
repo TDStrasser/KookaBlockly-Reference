@@ -128,7 +128,7 @@ This block displays the editable text or value in the attached socketed block on
 followed by the output of any value block.
 
 .. image:: images/display-print-and.png
-   :height: 120
+   :height: 60
    :align: center
    
 
@@ -164,7 +164,7 @@ If the values of x or y are outside of the display dimensions then the pixel wil
 The values for colour should be either 0 or 1, where 0 is pixel off (black) and 1 is pixel on (cyan).
 
 .. image:: images/display-pixel.png
-   :width: 300
+   :height: 60
    :align: center
    
 
@@ -202,7 +202,7 @@ the location specified by the value blocks at x and y on the display, with the c
 value block output of 0 or 1.
 
 .. image:: images/display-text.png
-   :width: 300
+   :height: 60
    :align: center
    
 

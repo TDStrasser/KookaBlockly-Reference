@@ -5,6 +5,9 @@ KookaBlockly provides an extensive palette of blocks to assemble into scripts.  
 
 Clicking on a category, for example the Control category, reveals the blocks available within that category.  To use the block, click on it and drag it onto the KookaBlockly workspace and release, and/or drag it into position until it snaps onto an adjacent block. Any block in the workspace can be clicked on and dragged into position.
 
+Block Shapes
+------------
+
 KookaBlockly contains three basic block shapes:
 
 1.	A C-shaped block directs program flow and contains a sequence of action blocks.  The C-shaped block may be a loop, or may be a sequence of blocks that are run conditionally subject to one or more logical tests.
@@ -28,12 +31,18 @@ KookaBlockly contains three basic block shapes:
    :align: center
 
 
+Block Configuration
+-------------------
+
 Some blocks have configuration options denoted by a cog symbol.  Clicking on the cog symbol presents options that may be used to configure the block.
 
 .. image:: images/if-do-config.png
    :width: 200
    :align: center
 
+
+Right-clicking
+--------------
 
 Right-clicking on a block also presents a set of option as below.  These include: duplicate the current block; add a comment; collapse the block into a compact presentation or expand a collapsed block; disable or enable a block; remove the block from the program; or display some Help text about the block (if the Help text has been provided).
 
@@ -80,3 +89,11 @@ Delete Block
 
    Clicking on a blank area of the workspace closes the Trash.
 
+Text Delimiters
+---------------
+
+Many blocks contain text fields.  In KookaBlockly, text is enclosed by double-quotes ``"``, and these are automatically applied.
+
+However there are some exceptions, particularly in the **Advanced** block which permits any valid MicroPython statement to be entered.  
+Here it is important to use the double-quotes ``"`` and no single quotes ``'`` to delimit text, as single-quotes are used in KookaBlockly's XML block code 
+and will be misinterpreted rendering the saved KookaBlockly file unusable (with manually correcting the XML block code).
