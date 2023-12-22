@@ -27,7 +27,7 @@ the required servo power being higher than the Kookaberry can provide.
 A directly connected servo will be weak and slow, and may result in the Kookaberry's power supply shutting down on overload.
 
 Motors operate differently from servos and are typically controlled by a PWM (pulse width 
-modulation) signal. See the **Pins** category where PWM is described.
+modulation) signal. See the :doc:`pins` category where PWM is described.
 
 The Actuators category provides blocks that enable the use of these servos.
 
