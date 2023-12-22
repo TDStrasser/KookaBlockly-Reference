@@ -61,7 +61,7 @@ File type conventions are determined by the computer operating system that will 
 Log To File
 -----------
 
-The **log to file** block writes the text provided by the attached value block(s) as a new line appended to the named text file.
+The **Log To File** block writes the text provided by the attached value block(s) as a new line appended to the named text file.
 If the text file name does not already exist, a new empty text file with the specified name will be created.
 
 The value blocks attached as inputs to this block will provide text values to be written to the line in the file, separated by commas.
