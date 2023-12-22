@@ -90,8 +90,8 @@ Th output of this value block reverts to ``False`` (= ``0``) when the button is 
    :align: center
 
 
-Exit Program
-------------
+Button to Exit Program
+----------------------
 
 This is a combination of two blocks: the **button was pressed** control loop, as described above, and the **exit program** action.
 
