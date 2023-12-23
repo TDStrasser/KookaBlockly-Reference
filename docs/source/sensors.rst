@@ -87,7 +87,7 @@ Get Temperature from DS18x20
 The DS18B20 Probe is a waterproof digital temperature sensor that can measure temperature from -55°C to + 125°C with an accuracy of 0.5 ° C.
 
 This block enables reading of the probe and returns the temperature in degrees centigrade.  The drop-down box on this 
-block enables selection of which :doc:`Ppn` connector the sensor is attached to.
+block enables selection of which Pin connector the sensor is attached to.
 
 .. image:: images/sensors-get-temp-ds18b20.png
    :height: 120
