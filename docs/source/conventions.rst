@@ -94,6 +94,6 @@ Text Delimiters
 
 Many blocks contain text fields.  In KookaBlockly, text is enclosed by double-quotes ``"``, and these are automatically applied.
 
-However there are some exceptions, particularly in the **Advanced** block which permits any valid MicroPython statement to be entered.  
+However there are some exceptions, particularly in the :doc:`advanced` block which permits any valid MicroPython statement to be entered.  
 Here it is important to use the double-quotes ``"`` and no single quotes ``'`` to delimit text, as single-quotes are used in KookaBlockly's XML block code 
 and will be misinterpreted rendering the saved KookaBlockly file unusable (with manually correcting the XML block code).

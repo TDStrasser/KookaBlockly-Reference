@@ -6,7 +6,7 @@ The Kookaberry contains two on-board sensors, being a 3-axis accelerometer and a
 3-axis magnetometer.  
 
 A large variety of external sensors may also be connected to the Kookaberry via its Pin connectors.  
-KookaBlockly supports many external sensors as are listed under the EXternal Sensors section.  
+KookaBlockly supports many external sensors as are listed under the **External Sensors** section.  
 These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
 
 The Sensors category provides blocks that enable the use of these sensors.
@@ -24,7 +24,7 @@ Internal Sensors
 Get Accelerometer (raw)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The Kookaberry contains an internal 3-axis accelerometer.  
+The Kookaberry contains an internal 3-axis accelerometer.  See https://www.explainthatstuff.com/accelerometers.html
 
 The accelerometer block provides the acceleration value of the selected axis (one of the X, Y and Z axes in the 
 sensor’s frame of reference), or the magnitude of the vector sum of all the axes.  The X, Y and Z axes are selected using the  drop-down list on 
@@ -62,21 +62,20 @@ The scale and offset factors can be typed in directly or provided by plugging in
 This block is useful to adjust the sensitivity of the accelerometer and to compensate for offsets such as the ever-present acceleration due to gravity.
 
 
-Get Compass Strength
-~~~~~~~~~~~~~~~~~~~~
+Get Compass
+~~~~~~~~~~~
 
-The Kookaberry has an internal 3-axis magnetometer which can measure the magnetic field strength it is subjected to.
+The Kookaberry has an internal 3-axis magnetometer (see https://en.wikipedia.org/wiki/Magnetometer) which can measure the magnetic field strength
+ it is subjected to in three axes (X, Y and Z), as well as the total magnetic field strength, and the compass heading.
+
+ * The readings for magnetic field strength are in Gauss.
+ * The reading for ``heading`` are in degrees in the range ``0`` to ``359`` with ``0`` being North
 
 .. image:: images/sensors-get-compass-strength.png
-   :height: 100
+   :height: 120
    :align: center
 
 
-The value returned is an integer that is the vector sum of the xyz components of the magnetic field experienced by the sensor.
-
-.. note::
-
-   Blocks are missing for compass_get_xyz() and compass.get_heading()
 
 
 External Sensors
@@ -85,9 +84,10 @@ External Sensors
 Get Temperature from DS18x20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The DS18x20 is an electronic temperature probe and this DS18x20 value block enables 
-reading of the probe and returns the temperature in degrees centigrade.  The drop-down box on this 
-block enables selection of which connector the sensor is attached to.
+The DS18B20 Probe is a waterproof digital temperature sensor that can measure temperature from -55°C to + 125°C with an accuracy of 0.5 ° C.
+
+This block enables reading of the probe and returns the temperature in degrees centigrade.  The drop-down box on this 
+block enables selection of which :doc:`Ppn` connector the sensor is attached to.
 
 .. image:: images/sensors-get-temp-ds18b20.png
    :height: 120
@@ -98,16 +98,22 @@ The DS18x20 sensor is used for measuring temperature in air and in liquid.
 
 The sensor is pre-calibrated and performs all of the temperature calculations within the sensor.
 
+Learn how to use the sensor here: https://learn.auststem.com.au/peripheral/ds18b20/
+
 Get Temperature from NTC
 ~~~~~~~~~~~~~~~~~~~~~~~~
  
 The NTC (Negative Temperature Coefficient) thermocouple sensor works through measuring its resistance which reduces as temperature rises.  
 The Kookaberry performs the necessary calculations to convert the sensor’s resistance to a temperature reading in degrees centigrade.
 
+See also https://www.explainthatstuff.com/howthermocoupleswork.html for an explanation of thermocouples.
+
 The options on the NTC value block are:
-•	The connector to which the sensor is attached
-•	The parameters A, B and C are the coefficients used in the Stein-Hart equation that is used to convert thermocouple resistance to temperature.  
-Explaining this in more depth is beyond the scope of this manual.  It is recommended that the default values not be altered.
+
+* The connector to which the sensor is attached
+* The parameters A, B and C are the coefficients used in the Stein-Hart equation that is used to convert thermocouple resistance to temperature.  
+  Explaining this in more depth is beyond the scope of this manual.  It is recommended that the default values not be altered.
+
 
 .. image:: images/sensors-get-temp-ntc.png
    :height: 120
@@ -140,11 +146,17 @@ The DHT sensors are only suitable for measuring air temperature.
 
 The difference between the two sensor types is that the slightly more expensive DHT22 sensor has a higher level of accuracy and precision.  
 
+* the DHT11 temperature range is from 0 to 50 degrees Celsius with +-2 degrees accuracy.
+* the DHT11 humidity range is from 20 to 80% with 5% accuracy.
+* the DHT22 temperature measuring range is from -40 to +125 degrees Celsius with +-0.5 degrees accuracy.
+* the DHT22 humidity measuring range is from 0 to 100% with 2-5% accuracy.
+
 Please be sure to select the type of DHT sensor that matches the connected sensor or else erroneous readings will result.
 
 The manufacturers of the DHT11 and DHT22 sensors recommend an interval between successive readings of no less than 2 seconds.  
 Attempting shorter intervals will result in no reading and could also cause the Kookaberry script to terminate.
 
+Learn more about using the DHT11 here: https://learn.auststem.com.au/peripheral/dht11/ and the DHT22 here: https://learn.auststem.com.au/peripheral/dht22/
 
 Get Temperature / Humidity / Pressure from BME280
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -178,7 +190,7 @@ The first drop-down box provides the list of measurements available which are:
     
 
 .. image:: images/sensors-get-temp-bme.png
-   :height: 120
+   :height: 140
    :align: center
 
 The second drop-down box provides two options for the BME280's address on the I2C bus, that is ``0x77`` or ``0x76``.  
@@ -196,7 +208,7 @@ Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-temp-bme-pins.png
-   :height: 120
+   :height: 180
    :align: center
 
 
@@ -206,7 +218,13 @@ Get Acceleration / Compass Strength from LSM303
 The LSM303 sensor contains a 3-axis accelerometer and a 3-axis magnetometer.  
 The Kookaberry contains a LSM303 sensor internally, and this block provides functionality to use an externally connected LSM303 sensor.
 
-This sensor can provide acceleration values in all three axes, as well as total acceleration strength, as well as compass strength.
+This sensor can provide acceleration values and magnetic field strength in all three axes, 
+total acceleration and total magnetic field strengths, as well as compass heading.
+
+See https://www.explainthatstuff.com/accelerometers.html for a simple explanation of what an accelerometer is.
+
+For an explanation of what a magnetometer is, see https://en.wikipedia.org/wiki/Magnetometer.
+
 
 The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
@@ -223,16 +241,20 @@ The **Get Acceleration from LSM303** block is shown below with the three sets of
 
 The first drop-down box provides the list of measurements available which are:
 
-1.  X axis acceleration in metres / second squared
-2.  Y axis acceleration in metres / second squared
-3.  Z axis acceleration in metres / second squared
-4.  Acceleration total magnitude in metres / second squared
-5.  Compass total magnetic strength in ...
+1.  Acceleration total magnitude in metres / second squared
+2.  X axis acceleration in metres / second squared
+3.  Y axis acceleration in metres / second squared
+4.  Z axis acceleration in metres / second squared
+5.  Compass total magnetic field strength in Gauss
+6.  Compass heading in degrees from North
+7.  Magnetic field strength along the X axis in Gauss
+8.  Magnetic field strength along the Y axis in Gauss
+9.  Magnetic field strength along the Z axis in Gauss
 
 
 
 .. image:: images/sensors-get-accelerometer-lsm303.png
-   :height: 120
+   :height: 180
    :align: center
 
 
@@ -243,7 +265,7 @@ Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-accelerometer-lsm303-pins.png
-   :height: 120
+   :height: 180
    :align: center
 
 
@@ -270,7 +292,7 @@ When using a VEML7700 circuit board it is important that these signals are conne
 The **Get Lux from VEML7700** block is shown below with the two sets of options available from the drop-down boxes on the block.
 
 .. image:: images/sensors-get-lux-veml7700-pins.png
-   :height: 120
+   :height: 180
    :align: center
 
 The two drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
@@ -282,6 +304,13 @@ A string block can also be used instead of the drop-down selector blocks and the
 
 Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note:: 
+   This section is still under development in regard to the ranges and resolutions of readings that are configured by KookaBlockly.
+
+
+
+
 
 The INA219 sensor measures direct current, voltage and power from the circuit to which it is connected. It is commonly called a wattmeter.
 
@@ -300,14 +329,19 @@ The **Get Power / Voltage / Current from INA219** block is shown below with the 
 
 The first drop-down box provides the list of measurements available which are:
 
-1.  Power in watts DC (direct current).  The range is 0 to 206 watts with a resolution of 20 milli-watts.
-2.  Voltage in volts DC. The range is 0 to +/- 26 volts with a resolution of 4 milli-volts.
-3.  Current in amperes (amps) DC. The range is 0 to +/- 8 amps with a resolution of 1 milli-amps.
+1.  Power in watts DC (direct current).  
+2.  Current in amperes (amps) DC. 
+3.  Load voltage in volts DC. 
+4.  Power supply voltage in volts DC. 
 
 .. note::
 
-   The range and resolution of the INA219 sensor readings are set by the value of an internal shunt resistor and the interfacing software. 
-   The shunt resistor in the default configuration is 10 milli-ohms.
+   The range and resolution of the INA219 sensor readings are set by the value of an internal shunt resistor, the gain, and the interfacing software. 
+
+
+.. important:: 
+   The safe operating range of the INA219 is given by the device's data sheet.  Nominally the maximum voltage is 26 volts, maximum current is 8 amps.
+
 
 
 .. image:: images/sensors-get-power-ina219.png
@@ -328,9 +362,38 @@ A string block can also be used instead of the drop-down selector blocks and the
 
 
 
-The final option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus 
+The fourth option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus 
 with any of the addresses ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  Each board must have a unique I2C address.
 To change the address in the block simply click on the filed and over-type the default value.
+
+.. image:: images/sensors-get-power-ina219-address.png
+   :height: 120
+   :align: center
+
+
+The fifth option is a drop-down list of shunt resistors fitted to the sensor.  
+The correct value can be obtained by consulting the data sheet for the sensor board that is being used. 
+This value must be set correctly or else erroneous readings will result.
+There are three options for shunt resistor values: ``0.01`` ohms, ``0.05`` ohms, and ``0.1`` ohms. 
+Larger shunt resistance will improve the resolution of the current reading but will reduce the maximum current that can be measured.
+Care must also be taken to not exceed the shunt resistor's power rating which is typically 2 watts.  
+Power in the shunt resistor is dissipated as heat and is equal to i^2 x R, where i is current in amps, and R the resistance in ohms.
+
+.. image:: images/sensors-get-power-ina219-shunt.png
+   :height: 120
+   :align: center
+
+
+The sixth option is a drop-down of gains applied to the current readings, and consequently the power readings.
+The available values for gain are: ``1``, ``1/2``, ``1/4`` and ``1/8``.
+Lower gains improve the resolution of the current readings, useful for monitoring low-current devices, 
+but they also limit the range of current that can be read by the sensor.
+
+
+.. image:: images/sensors-get-power-ina219-gain.png
+   :height: 120
+   :align: center
+
 
 
 Get Soil Moisture
@@ -364,6 +427,11 @@ These are the voltages given by the sensor when it is dry and when it is wet. Th
 
 These value can be tuned with experience and the use of a calibrated soil moisture meter to improve the accuracy of the readings.
 
+Learn more about using the resistive soil moisture sensor here: https://learn.auststem.com.au/peripheral/analogue-soil-moisture-sensor/
 
 
+More Sensor Learning Resources
+------------------------------
+
+More information on sensors that can be used with the Kookaberry is here: https://learn.auststem.com.au/peripherals/
  

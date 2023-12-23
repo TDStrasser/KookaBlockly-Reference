@@ -76,7 +76,7 @@ Pin
 pixel
     This is an integer commencing at ``0`` which specifies which pixel in the array will be set.
 
-.. note:: 
+.. important:: 
     The Kookaberry can only supply a limited amount of current power a NeoPixel array.  
     It is recommended to use no more than 8 NeoPixels, and also to limit the brightness of each to no more than ``50`` when using more than 4 NeoPixels.
 
@@ -95,4 +95,4 @@ RGB values
    RGB Primary Colour Combinations
 
 
-
+Learn more about using NeoPixels here: https://learn.auststem.com.au/peripheral/rgb-led/

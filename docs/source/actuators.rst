@@ -61,7 +61,7 @@ The block has two parameters:
 
 
 
-.. note:
+.. important::
   Please note that all but the smallest 9g servos should not be directly plugged into a 
   Kookaberry connector.  These devices require special electronics to supply them with more power.  
   Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the Kookaberry!
@@ -110,7 +110,7 @@ The block has two parameters:
 
 
 
-.. note:
+.. important::
   Please note that all but the smallest 9g servos should not be directly plugged into a 
   Kookaberry connector.  These devices require special electronics to supply them with more power.  
   Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the Kookaberry!
@@ -139,4 +139,10 @@ The block has three parameters:
    :align: center
 
 
- 
+Learn more about using servos here: https://learn.auststem.com.au/peripheral/micro-servo/
+
+
+More Actuator Learning Resources
+--------------------------------
+
+More information on using actuators with the Kookaberry can be found here: https://learn.auststem.com.au/peripherals/

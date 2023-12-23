@@ -93,8 +93,8 @@ and plug in text string value blocks with the names of each of the columns.
 
 .. note:: 
     KookaBlockly presently supports a maximum of four data items per file record.
-    If more data items are required then it is possible to use an **Advanced** block with the required MicroPython script in it.
+    If more data items are required then it is possible to use an :doc:`advanced` block with the required MicroPython script in it.
     The **Show Script** button on the **KookaBlockly** editor will open a window with the MicroPython script derived from the current KookaBlockly script.
     Hint: Use a **Log To File** block to model the first four data items, copy the equivalent MicroPython (it all has to be on one line), 
-    paste it into the **Advanced** block and modify it to suit your application.  
+    paste it into the :doc:`advanced` block and modify it to suit your application.  
     You will need to learn about MicroPython nonetheless to make it work correctly.

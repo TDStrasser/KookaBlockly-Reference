@@ -207,7 +207,7 @@ value block output of 0 or 1.
    
 
 
-.. Note::    The (x, y) coordinate is where the bottom left corner of the display text is positioned.
+.. note::    The (x, y) coordinate is where the bottom left corner of the display text is positioned.
 
 
 Display Image

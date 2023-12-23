@@ -97,7 +97,7 @@ volts DC.
    :align: center
 
 
-.. note:: 
+.. important:: 
     The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
     Applying voltages outside that range may irreparably damage the Kookaberry.
 
@@ -112,7 +112,7 @@ This value block designates the selected pin as an analogue input and returns a 
    :height: 120
    :align: center
 
-.. note:: 
+.. important:: 
     The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
     Applying voltages outside that range may irreparably damage the Kookaberry.
 
@@ -131,7 +131,7 @@ Applying +3.3 volts DC to the input Pin will resturn a value of ``100``.
    :align: center
 
 
-.. note:: 
+.. important:: 
     The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
     Applying voltages outside that range may irreparably damage the Kookaberry.
 
@@ -189,7 +189,7 @@ piano, for example.  Duty cycle is usually set to 50% but other interesting harm
 produced by varying the duty cycle over a limited range around 50%.  Additional circuitry is also 
 required to successfully drive a loudspeaker.
 
-.. note::
+.. important::
   Please note that motors and loudspeakers should not be directly plugged into a Kookaberry 
   connector.  These devices require special electronics to supply more power.  
   
