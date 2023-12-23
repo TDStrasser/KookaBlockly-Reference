@@ -139,10 +139,9 @@ The block has three parameters:
    :align: center
 
 
-Learn more about using servos here: https://learn.auststem.com.au/peripheral/micro-servo/
 
 
 More Actuator Learning Resources
 --------------------------------
 
-More information on using actuators with the Kookaberry can be found here: https://learn.auststem.com.au/peripherals/
+More information on using actuators with the Kookaberry can be found here: https://learn.auststem.com.au/peripheral/micro-servo/

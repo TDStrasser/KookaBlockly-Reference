@@ -58,3 +58,9 @@ These sockets represent fundamental code concepts, including program controls (a
 The intuitive graphical process empowers users to apply programming concepts and principles when designing scripts or programs, eliminating the need to worry about the syntax and semantics of MicroPython. 
 
 With KookaBlockly, programming becomes an enjoyable and accessible endeavour.
+
+AustSTEM Learning Hub
+---------------------
+
+AustSTEM has assembled a collection of resources on its Learning Hub at https://learn.auststem.com.au.  
+These resources complement the material in this manual with examples, lesson plans, descriptions of equipment and of their application.
