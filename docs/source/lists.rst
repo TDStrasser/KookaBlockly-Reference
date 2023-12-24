@@ -89,7 +89,7 @@ In this example the number of items in ``"list"`` which contains ``[“alpha”,
 Is Empty
 --------
 
-This :doc:`boolean`` value block is ``True`` if the socketed list is empty (i.e. it has no items in it) or is ``False`` if the list has members.
+This :doc:`boolean` value block is ``True`` if the socketed list is empty (i.e. it has no items in it) or is ``False`` if the list has members.
 
  
 .. image:: images/lists-is-empty.png
