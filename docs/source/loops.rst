@@ -98,8 +98,8 @@ This block must be placed inside a loop.  If the block is not placed in a loop i
 
 This block is used to either break out of the loop, or to stop the current iteration of a loop.
 
-* “break out” immediately ends the loop and jumps to the next block after the loop.   
-* “continue with next iteration” stops the current iteration and jumps back to the top of the loop and will run again if the loop allows it.
+* **break out** immediately ends the loop and jumps to the next block after the loop.   
+* **continue with next iteration** stops the current iteration and jumps back to the top of the loop and will run again if the loop allows it.
   
 
 The usual way to use this block is in an **If-Do** block where breaking a loop is subject to a logical test.
