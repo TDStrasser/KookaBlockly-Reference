@@ -132,8 +132,19 @@ The options that are available are:
 Trigonometric Function
 ----------------------
 
-This value block performs the basic selected trigonometric functions on the socketed numerical 
-value block.  It also has the inverse of the basic trigonometric functions.
+This value block performs the basic selected trigonometric functions on the input numerical angles 
+which are expected to be in degrees, or floating point numbers between ``-1`` and ``+1`` inclusive.  
+
+See also https://en.wikipedia.org/wiki/Trigonometric_functions
+
+The functions available for selection in the drop-down list are:
+
+1. sine (``sin``) of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
+2. cosine (``cos``) of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
+3. tangent (``tan``) of the input angle - see https://en.wikipedia.org/wiki/Trigonometric_functions
+4. arc-sine (``asin``) of the input value - the inverse of sine.
+5. arc-cosine (``acos``) of the input value - the inverse of cosine.
+6. arc-tangent (``atan``) of the input value - the inverse of tangent.
 
 
 .. image:: images/math-trig.png
@@ -141,15 +152,21 @@ value block.  It also has the inverse of the basic trigonometric functions.
    :align: center
 
 
-
-
-
 Special Constants
 -----------------
 
-This value block has several special numbers to choose from including pi(π) used in dealing with 
-circles; e , a mathematical constant; phi(ϕ) being the golden ratio; the square root of 2; the 
-square root of ½ and infinity (∞).
+This value block provides several special constants that are important and often used numbers in mathematics.
+
+For a list of most of the mathematical special constants see https://en.wikipedia.org/wiki/List_of_mathematical_constants
+
+To choose a constant use the drop-down list and select from
+
+1. Pi (**π**) used in dealing with circles - see https://en.wikipedia.org/wiki/Pi
+2. Euler's number (**e**) used in exponential function - see https://en.wikipedia.org/wiki/E_(mathematical_constant)
+3. The Golden Ratio phi (**ϕ**) - see https://en.wikipedia.org/wiki/Golden_ratio
+4. The square root of 2 - see https://en.wikipedia.org/wiki/Square_root_of_2
+5. The square root of ½ - see https://en.wikipedia.org/wiki/Square_root_of_2#Multiplicative_inverse
+6. Infinity (**∞**) - see https://en.wikipedia.org/wiki/Infinity
 
 
 .. image:: images/math-constants.png
@@ -161,10 +178,19 @@ square root of ½ and infinity (∞).
 Number Property Test
 --------------------
 
-This value block gives a True or False value depending on whether the socketed numerical value 
-block has the chosen property or not.  Properties to test include:  even, odd, prime, whole, 
-positive, negative and divisible by.  If ‘divisible by’ is selected it will add a second socket for the 
-number to test against.
+This value block gives a :doc:`boolean' ``True`` or ``False`` value depending on whether the numerical input value 
+ has the chosen property or not.  
+ 
+The property to test is selected from the drop-down list which includes:  
+
+1. **even** - whether the input is divisible by ``2`` - see https://en.wikipedia.org/wiki/Parity_(mathematics)
+2. **odd** - whether the input is not divisible by ``2`` - see https://en.wikipedia.org/wiki/Parity_(mathematics)
+3. **prime** - whether the input is divisible only by ``1`` and itself - see https://en.wikipedia.org/wiki/Prime_number
+4. **whole** - whether the input when divided by ``1`` leaves no remainder - see https://en.wikipedia.org/wiki/Whole_number
+5. **positive** - whether the input is greater than  ``0`` - see https://en.wikipedia.org/wiki/Sign_(mathematics)
+6. **negative** - whether the input is less than ``0`` - see https://en.wikipedia.org/wiki/Sign_(mathematics)
+7. **divisible by** - whether the input when divided by the number in the second input leaves no remainder.  
+   If **divisible by** is selected it will add a second socket for the number to test against. - See https://en.wikipedia.org/wiki/Remainder
 
 
 .. image:: images/math-is-test.png
@@ -172,16 +198,29 @@ number to test against.
    :align: center
 
 
+.. image:: images/math-is-divisible-by.png
+   :height: 80
+   :align: center
+
 
 
 
 Round Number
 ------------
 
-This value block rounds the socketed numerical value block with the chosen method.  Round 
-rounds the number in the standard manner, ie 0.5 rounds up and below 0.5 rounds down. 
-Round Up always rounds up if there is any fraction and Rounds Down removes any fractional component.
+This value block rounds the numerical input value to a whole number using the chosen method.
 
+The method is chosen from the block's drop-down list:
+
+1. **round** - rounds the number in the standard manner, if the fraction is greater than or equal to 0.5 it rounds up to the next more positive whole number, 
+   and if the fraction is below 0.5 the block rounds down towards the negative direction. 
+2. **round up** - if there is a fractional component the block always rounds up to the next more positive whole number.
+3. **round down** - removes any fractional component.
+
+Input numbers are floating point and output numbers are integers.
+
+* **round up** means in the positive direction.
+* **round down** means in the negative direction.
 
 .. image:: images/math-round.png
    :height: 200
