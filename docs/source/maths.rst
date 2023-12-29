@@ -178,8 +178,8 @@ To choose a constant use the drop-down list and select from
 Number Property Test
 --------------------
 
-This value block gives a :doc:`boolean' ``True`` or ``False`` value depending on whether the numerical input value 
- has the chosen property or not.  
+This value block gives a :doc:`boolean' value of ``True`` or ``False`` depending on whether the numerical input value 
+has the chosen property or not.  
  
 The property to test is selected from the drop-down list which includes:  
 
