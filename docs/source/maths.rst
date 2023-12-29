@@ -230,15 +230,48 @@ Input numbers are floating point and output numbers are integers.
 List Operations
 ---------------
 
+This block computes a mathematical function based on the content of a list which is connected to the input to the block.
+
+The function to be used is selected from the drop-down list:
+
+1. **sum** - computes the arithmetic sum of the members of the list - see https://en.wikipedia.org/wiki/Summation
+2. **minimum** - returns the number with the minimum value from the list - see https://en.wikipedia.org/wiki/Maximum_and_minimum
+3. **maximum** - returns the number with the maximum value from the list - see https://en.wikipedia.org/wiki/Maximum_and_minimum
+4. **average** - returns the arithmetic mean of the items in the list - see https://en.wikipedia.org/wiki/Arithmetic_mean
+5. **median** - returns the arithmetic median of the items in the list - see https://en.wikipedia.org/wiki/Median
+6. **modes** - returns a list of the most numerous items in the list (example below) - see https://en.wikipedia.org/wiki/Mode_(statistics)
+7. **standard deviation** - computes the statistical standard deviation of the items in the list - see https://en.wikipedia.org/wiki/Standard_deviation
+8. **random item** - returns an item from the list that has been selected at random - see also https://en.wikipedia.org/wiki/Random_variable
+
+
+.. note:: 
+    All functions except **modes** and **random** require that the input list contain only numerical or :doc:`boolean` items.
+    Boolean items are evaluated as ``False`` = ``0`` and ``True`` = ``1``.
+    The **modes** and **random** functions accept list with members of any type, i.e. numeric integer and floating point, boolean, and character strings.
+
 
 
 .. image:: images/math-of-list.png
    :height: 300
    :align: center
 
+
+This is an example of the use of **modes**.  The input list contains ``[-123, 123, 123, -123]``.  
+The block returns a list of the most numerous items in the list, being ``[-123, 123]``.
+If we changed the input list to ``[-123, -123, 123, -123]``, the block would return ``[-123]``, a list of one item being the most numerous.
+
+.. image:: images/math-modes-of-list-example.png
+   :height: 200
+   :align: center
+
 Remainder
 ---------
 
+This block returns the fractional portion of the number that results when the number at the first input is divided by the number at the second input.
+
+For example, when ``3`` is divided by ``2`` the result is ``1.5``.  The remainder is the fractional portion which is ``0.5``.
+
+See also https://en.wikipedia.org/wiki/Remainder
 
 
 .. image:: images/math-remainder.png
@@ -249,6 +282,14 @@ Remainder
 Constrain
 ---------
 
+This block constrains the number at the first input to be between the minimum number defined as the second input 
+and the maximum number defined as the third input.
+
+There are three possible outputs from this block:
+
+1. if the input number is less than the minimum number, the output will be set to the minimum number.
+2. if the input is between the minimum and maximum inclusive, the number is passed through as-is.
+3. if the input number is greater than the maximum number, the output will be set to the maximum number.
 
 
 .. image:: images/math-constrain.png
@@ -256,10 +297,15 @@ Constrain
    :align: center
 
 
-Random integer
+Random Integer
 --------------
 
+This block generates an integer number that is constrained to be from a minimum integer defined by the first input, 
+and a maximum integer defined by the second input.
 
+For example, to simulate the roll of a six-sided die, set the minimum to ``1`` and the maximum to ``6``.
+
+See also https://en.wikipedia.org/wiki/Random_variable
 
 .. image:: images/math-random-integer.png
    :height: 80
@@ -269,7 +315,9 @@ Random integer
 Random Fraction
 ---------------
 
-This value block creates a random number from 0 up to but not including 1
+This value block creates a random floating point number from 0 up to but not including 1.
+
+See also https://en.wikipedia.org/wiki/Random_variable
 
 
 .. image:: images/math-random-fraction.png
@@ -278,13 +326,13 @@ This value block creates a random number from 0 up to but not including 1
 
 
 
-
 Atan2 of X
 ----------
 
-This value block returns the arc tangent of two numerical value blocks x and y .  It is similar to 
-calculating the arc tangent of y/x, except that the signs of both arguments are used to determine 
-the quadrant of the result.  The result is an angle expressed in radians.
+This value block returns the arc tangent of two numerical values at inputs x and y .  
+
+This function is similar to calculating the arc tangent of y/x, except that the signs of both arguments are used to determine 
+the quadrant of the result.  The result is an angle expressed in degrees in the range ``-180`` to ``+180``.
 
 See also https://en.wikipedia.org/wiki/Atan2
 
