@@ -4,7 +4,7 @@ Math
 
 Fundamental to any computer program is the ability to do mathematical computations.  
 
-The Math Category provides the repertoire of mathematical functions.
+The Math Category provides this repertoire of mathematical functions.
 
 
 .. figure:: images/math-palette.png
@@ -50,11 +50,11 @@ arithmetic operator.
 
 The operations that can be chosen from the drop-down list are:
 
-1. addition (+)
-2. subtraction (-)
-3. multiplication (x)
-4. division (÷) 
-5. and raised to the power of (^)
+1. addition (**+**)
+2. subtraction (**-**)
+3. multiplication (**x**)
+4. division (**÷**) 
+5. and raised to the power of (**^**)
 
 .. image:: images/math-arithmetic.png
    :height: 200
@@ -115,13 +115,13 @@ This value block performs the chosen mathematical function on the numerical valu
 
 The options that are available are:
 
-1. square root - see https://en.wikipedia.org/wiki/Square_root
-2. absolute value - see https://en.wikipedia.org/wiki/Absolute_value
-3. negation (change the number's sign from positive to negative or negative to positive - the same as multiplying by ``-1``)
-4. natural (base e) logarithm - see https://en.wikipedia.org/wiki/Natural_logarithm
-5. base 10 logarithm - see https://en.wikipedia.org/wiki/Logarithm
-6. natural exponent e^ - see https://en.wikipedia.org/wiki/Exponential_function
-7. and base 10 exponent 10^ - see https://en.wikipedia.org/wiki/Exponentiation
+1. **square root** - gives the number that when multiplied by itself is equal to the input - see https://en.wikipedia.org/wiki/Square_root
+2. **absolute** - the unsigned magnitude of the input value - see https://en.wikipedia.org/wiki/Absolute_value
+3. **-** - changes the input number's sign from positive to negative or negative to positive - the same as multiplying by ``-1``
+4. **ln** - natural (base e) logarithm of the input number - see https://en.wikipedia.org/wiki/Natural_logarithm
+5. **log10** - base 10 logarithm of the input number - see https://en.wikipedia.org/wiki/Logarithm
+6. **e^** - the constant e raised to the power of the input number - see https://en.wikipedia.org/wiki/Exponential_function
+7. **10^** - 10 raised to the power of the input number - see https://en.wikipedia.org/wiki/Exponentiation
 
 
 .. image:: images/math-sqroot.png
@@ -132,20 +132,24 @@ The options that are available are:
 Trigonometric Function
 ----------------------
 
-This value block performs the basic selected trigonometric functions on the input numerical angles 
-which are expected to be in degrees, or floating point numbers between ``-1`` and ``+1`` inclusive.  
+This value block performs the basic selected trigonometric functions. on the input numerical angles 
 
 See also https://en.wikipedia.org/wiki/Trigonometric_functions
 
 The functions available for selection in the drop-down list are:
 
-1. sine (``sin``) of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
-2. cosine (``cos``) of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
-3. tangent (``tan``) of the input angle - see https://en.wikipedia.org/wiki/Trigonometric_functions
-4. arc-sine (``asin``) of the input value - the inverse of sine.
-5. arc-cosine (``acos``) of the input value - the inverse of cosine.
+1. **sin** - sine of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
+2. **cos** - cosine of the input angle - see https://en.wikipedia.org/wiki/Sine_and_cosine
+3. **tan** - tangent of the input angle - see https://en.wikipedia.org/wiki/Trigonometric_functions
+4. **asin** - arc-sine of the input value - the inverse of sine.
+5. **acos** - arc-cosine of the input value - the inverse of cosine.
 6. arc-tangent (``atan``) of the input value - the inverse of tangent.
 
+The functions **sin**, **cos** and **tan** expect the input to be in degrees. 
+The outputs for these functions are floating point numbers between ``-1`` and ``+1`` inclusive.  
+
+The inverse functions **asin**, **acos** and **atan** expect the input to be floating point numbers between ``-1`` and ``+1``.  
+The outputs will be in degrees ranging from ``-180`` to ``+180`` inclusive.
 
 .. image:: images/math-trig.png
    :height: 300
@@ -161,12 +165,12 @@ For a list of most of the mathematical special constants see https://en.wikipedi
 
 To choose a constant use the drop-down list and select from
 
-1. Pi (**π**) used in dealing with circles - see https://en.wikipedia.org/wiki/Pi
-2. Euler's number (**e**) used in exponential function - see https://en.wikipedia.org/wiki/E_(mathematical_constant)
-3. The Golden Ratio phi (**ϕ**) - see https://en.wikipedia.org/wiki/Golden_ratio
-4. The square root of 2 - see https://en.wikipedia.org/wiki/Square_root_of_2
-5. The square root of ½ - see https://en.wikipedia.org/wiki/Square_root_of_2#Multiplicative_inverse
-6. Infinity (**∞**) - see https://en.wikipedia.org/wiki/Infinity
+1. **π** - pi used in dealing with circles - see https://en.wikipedia.org/wiki/Pi
+2. **e** - Euler's number used in exponential function - see https://en.wikipedia.org/wiki/E_(mathematical_constant)
+3. **ϕ** - the Golden Ratio phi - see https://en.wikipedia.org/wiki/Golden_ratio
+4. **sqrt(2)** - the square root of 2 - see https://en.wikipedia.org/wiki/Square_root_of_2
+5. **sqrt(½)** - the square root of ½ - see https://en.wikipedia.org/wiki/Square_root_of_2#Multiplicative_inverse
+6. **∞** - infinity - see https://en.wikipedia.org/wiki/Infinity
 
 
 .. image:: images/math-constants.png
