@@ -59,7 +59,7 @@ To accurately position text, one can use trial-and-error, or make a calculation 
 Display Clear
 -------------
  
-This block clears the display’s frame buffer.  The physical display will not be updates until a "Display Show" is used.
+This block clears the display’s frame buffer.  The physical display will not be updated until a "Display Show" is used.
 
 .. image:: images/display-clear.png
    :height: 60

@@ -16,9 +16,7 @@ When KookaBlockly is first started, or when a new script is started, the **Varia
    :width: 300
    :align: center
    
-   The initial  Variables palette
-
-
+   The initial Variables palette
 
 
 Create Variable

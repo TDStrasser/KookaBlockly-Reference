@@ -87,6 +87,15 @@ seconds between the samples may be calculated which is useful for timing functio
    :height: 60
    :align: center
 
+.. note:: 
+
+   **epoch time** is the point from which time is measured.  This point differs for different operating systems.  
+   For MicroPython on micro-computers, the **epoch time** is 2000-01-01 00:00:00.
+
+   **epoch time** should not be confused with the **default time** set on the Kookaberry's internal real-time-clock (RTC), which is 2015-01-01 00:00:00.
+   Using KookaBlockly, however, the Kookaberry's internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
+
+
 
 Time (ms)
 ---------
