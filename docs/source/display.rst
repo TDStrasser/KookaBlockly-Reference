@@ -70,7 +70,11 @@ Display Show
 ------------
  
 This block transfers the display’s frame buffer to the Kookaberry’s physical display.  
-If not specified in the KookaBlockly script, the generated MicroPython script will contain the equivalent **Display Show** code towards the end of the script.
+
+KookaBlockly automatically inserts the equivalent **Display Show** code towards the end of the generated MicroPython script.
+However it may be desirable to refresh the physical display earlier in the KookaBlockly script, 
+such as at the end of a loop that updates the display.  
+Use this **Display Show** block in such circumstances as otherwise the display will not update until the end of the script.
 
 .. image:: images/display-show.png
    :height: 60
