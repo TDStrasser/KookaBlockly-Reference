@@ -38,7 +38,7 @@ The results will in some cases vary:
 * if the integer is wider than the specified width, the format will be enlarged to accommodate the number of characters required.
   For example, if the width is specified as ``2`` but the number is ``1000``, the output will have width of ``4`` being ``"1000"``.
 * if the specified width of the output is greater than the width required, then leading spaces will be added.
-  For example, if the width is specified as ``2`` but the number is 4, the output will be ``" 4"``.
+  For example, if the width is specified as ``2`` but the number is 4, the output will be ``"4"``.
 
 
 .. image:: images/strings-format-integer.png

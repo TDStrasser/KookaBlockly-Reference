@@ -8,7 +8,7 @@ The **Lists** category provides a large number of blocks to create and manipulat
 
 
 .. figure:: images/lists-palette.png
-   :width: 400
+   :width: 500
    :align: center
    
    The palette of KookaBlockly List blocks
@@ -39,12 +39,12 @@ The gear icon in the block allows the user custom tailor the block to add items.
 
 
 .. image:: images/lists-create-with-1.png
-   :height: 200
+   :width: 200
    :align: center
 
 
 .. image:: images/lists-create-with-2.png
-   :height: 200
+   :width: 200
    :align: center
 
 
@@ -52,7 +52,7 @@ Here is an example of setting the value of a variable called ``"list"`` to a lis
 
 
 .. image:: images/lists-create-example.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -81,7 +81,7 @@ In this example the number of items in ``"list"`` which contains ``[“alpha”,
 
  
 .. image:: images/lists-length-example.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -115,7 +115,7 @@ The drop-down list gives the choice of finding the ``first`` or the ``last`` occ
 
  
 .. image:: images/lists-find-occurrence.png
-   :height: 80
+   :width: 500
    :align: center
 
 
@@ -125,7 +125,7 @@ and print the result on the display as ``Index is 2``,  ``"gamma"`` being the th
 
  
 .. image:: images/lists-find-occurrence-example.png
-   :height: 200
+   :width: 500
    :align: center
 
 
@@ -143,12 +143,12 @@ The graphic shows the block and the drop-down list of the operation choices avai
 
  
 .. image:: images/lists-get.png
-   :height: 200
+   :width: 400
    :align: center
 
  
 .. image:: images/lists-remove.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -163,7 +163,7 @@ The second drop-down list has a number of choices as to which item in the list t
 
  
 .. image:: images/lists-get-index.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -173,14 +173,14 @@ The result is printed on the display as ``Item is gamma``.
 
  
 .. image:: images/lists-get-example.png
-   :height: 200
+   :width: 600
    :align: center
 
 In this example, items from a list containing ``[“alpha”, “beta”, “gamma”]``, are removed and printed on the display until the list is empty.
 
 
 .. image:: images/lists-get-remove-example.png
-   :height: 200
+   :width: 600
    :align: center
 
 
@@ -199,7 +199,7 @@ The first parameter is a drop-down list with the operation choices:
 
 
 .. image:: images/lists-set.png
-   :height: 180
+   :width: 400
    :align: center
 
 
@@ -213,7 +213,7 @@ The second drop-down list has a number of choices as to which item in the list t
 
 
 .. image:: images/lists-set-index.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -222,7 +222,7 @@ By way of example, we may wish to add ``"delta"`` to the end of the list initial
 
 
  .. image:: images/lists-insert-at-example.png
-   :height: 200
+   :width: 400
    :align: center
 
 
@@ -245,7 +245,7 @@ Two drop-down boxes provide options for specifying the beginning index and the e
 The beginning index must be less than or equal to the ending index. If not, an error will be raised and the script will terminate.
 
  .. image:: images/lists-get-sublist.png
-   :height: 200
+   :width: 500
    :align: center
 
 
@@ -256,7 +256,7 @@ The sublist will contain ``[“beta”, ”gamma”, delta”]``.
 
 
  .. image:: images/lists-get-sublist-example.png
-   :height: 200
+   :width: 500
    :align: center
 
 
@@ -265,13 +265,13 @@ Make List / Text With Delimiter
 
 This value block will, depending on the option chosen in the drop-down list:
 
-1. **list from text** parse a text string into items separated by the delimiter text and arranges the items into a list.
-2. **text from list** take the items in a list and concatenates them into a text string separated by the delimiter text.
+1. **list from text** parses a text string into items separated by the delimiter text and arranges the items into a list.
+2. **text from list** takes the items in a list and concatenates them into a text string separated by the delimiter text.
 
 
 
  .. image:: images/lists-make-with-delimiter.png
-   :height: 120
+   :width: 500
    :align: center
 
 
@@ -280,7 +280,7 @@ separated by commas.  The results is a list of the Greek letters as the variable
 
 
  .. image:: images/lists-create-with-delimiter.png
-   :height: 120
+   :width: 600
    :align: center
 
 
@@ -289,7 +289,7 @@ it on the Kookaberry’s display.
 
 
  .. image:: images/lists-text-with-delimiter-example.png
-   :height: 200
+   :width: 600
    :align: center
 
 
@@ -306,7 +306,7 @@ The first option is for the type of sorting:
 
 
  .. image:: images/lists-sort-type.png
-   :height: 120
+   :width: 400
    :align: center
 
 The second option is for the order of sorting:
@@ -315,7 +315,7 @@ The second option is for the order of sorting:
 2. **descending** the list is ordered from high to low values
 
  .. image:: images/lists-sort-order.png
-   :height: 120
+   :width: 400
    :align: center
 
 
@@ -325,7 +325,7 @@ alphabetical order.
 
 
  .. image:: images/lists-sort-example.png
-   :height: 300
+   :width: 500
    :align: center
 
 

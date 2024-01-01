@@ -99,7 +99,7 @@ from a scale defined by the second input, to another scale defined by the third 
    :height: 160
    :align: center
 
-By way of example, this block will convert a Celsius water temperature sensor reading (range freezing pont ``0`` to boiling point ``100``)
+By way of example, this block will convert a Celsius water temperature sensor reading (range freezing point ``0`` to boiling point ``100``)
 into the equivalent degrees Fahrenheit (range freezing point ``32`` F to boiling point ``212`` F) and print it on the Kookaberry display.
 
 

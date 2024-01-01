@@ -21,8 +21,9 @@ An example of a CSV file is:
 
 During experiments, data is collected over time from instruments comprising sensors.
 These data are stored in a CSV file at time intervals as above.
+
 When the experiment is finished, the data can be retrieved from the CSV file stored on the Kookaberry using a computer to perform analysis of the results.
-Most commonly CSV data is used to draw graphs of the data over time using a spreadsheet program.
+CSV text data is most commonly used to draw graphs of the data values over time using a spreadsheet program.
 
 These blocks provide a facility for writing data into files on the Kookaberry.
 
@@ -54,7 +55,7 @@ usually three letter, file type description.
 File type conventions are determined by the computer operating system that will read these files.
 
 .. image:: images/logging-clear-file.png
-   :height: 120
+   :height: 80
    :align: center
 
 
@@ -66,25 +67,25 @@ If the text file name does not already exist, a new empty text file with the spe
 
 The value blocks attached as inputs to this block will provide text values to be written to the line in the file, separated by commas.
 
-The first input, be default, is a text representation of the current time read from the Kookaberry's internal clock.  
+The first input, by default, is a text representation of the current time read from the Kookaberry's internal clock.  
 This input block can be replaced by any other value block that provides a text string.
 
 There are three varieties of the **Log To File** block, accepting one two or three further inputs.
-These inputs also are expected to be text string representations of the data to be recorded in the file record.
+These inputs are also expected to be text string representations of the data to be recorded in the file record.
 
 
 .. image:: images/logging-to-file-1.png
-   :height: 120
-   :align: center
-
-
-.. image:: images/logging-to-file-1.png
-   :height: 120
+   :width: 400
    :align: center
 
 
 .. image:: images/logging-to-file-2.png
-   :height: 120
+   :width: 400
+   :align: center
+
+
+.. image:: images/logging-to-file-3.png
+   :width: 400
    :align: center
  
 

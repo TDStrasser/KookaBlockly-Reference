@@ -66,16 +66,14 @@ Get Compass
 ~~~~~~~~~~~
 
 The Kookaberry has an internal 3-axis magnetometer (see https://en.wikipedia.org/wiki/Magnetometer) which can measure the magnetic field strength
- it is subjected to in three axes (X, Y and Z), as well as the total magnetic field strength, and the compass heading.
+it is subjected to in three axes (X, Y and Z), as well as the total magnetic field strength, and the compass heading.
 
- * The readings for magnetic field strength are in Gauss.
- * The reading for ``heading`` are in degrees in the range ``0`` to ``359`` with ``0`` being North
+* The readings for magnetic field strength are in Gauss.
+* The reading for ``heading`` are in degrees in the range ``0`` to ``359`` with ``0`` being North
 
 .. image:: images/sensors-get-compass-strength.png
    :height: 120
    :align: center
-
-
 
 
 External Sensors
@@ -402,7 +400,7 @@ Get Soil Moisture
 There are two types of soil moisture sensor available:
 
 1. Resistive soil moisture sensor which measures the conductivity of soil by applying an electrical voltage using two spikes or pins.
-2. Capacitive soil moisture sensor which consists of a single broad spike which measures changes in the soils capacitance due to the presence of moisture.
+2. Capacitive soil moisture sensor, consisting of a single broad spike, which measures changes in the soil's capacitance due to the presence of moisture.
 
 While both kinds of sensor are effective, the capacitive soil moisture sensor is much more durable as it is not susceptible to corrosion which affects
 resistive sensors in prolonged use.
@@ -425,7 +423,7 @@ These are the voltages given by the sensor when it is dry and when it is wet. Th
 1. For a resistive sensor, the dry value should be lower than the wet value.  ``Dry=`` 0 volts and ``wet=`` 3.3 volts are suitable starting values.
 2. For a capacitive sensor, the dry value should be higher than the wet value.  ``Dry=`` 3.3 volts and ``wet=`` 0 volts are suitable starting values.
 
-These value can be tuned with experience and the use of a calibrated soil moisture meter to improve the accuracy of the readings.
+These values can be tuned with experience and the use of a calibrated soil moisture meter to improve the accuracy of the readings.
 
 Learn more about using the resistive soil moisture sensor here: https://learn.auststem.com.au/peripheral/analogue-soil-moisture-sensor/
 

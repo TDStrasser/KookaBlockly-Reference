@@ -75,8 +75,8 @@ over which the angular motion should occur.  This allows for a less abrupt and m
 
 The block has three parameters:
 
-1. A dropdown block to selected which Pin the servo's control signal is connected to. 
-   A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
+1. A dropdown block to select which Pin the servo's control signal is connected to. 
+   A string block can also be used instead of the drop-down selector block and the name of the Pin typed into the block.
 
 2. The angle, in degrees, to which the servo is to rotate.  
 3. The time, in seconds, over which the rotation will occur.
@@ -98,8 +98,8 @@ block is which connector the servo is attached.
 
 The block has two parameters:
 
-1. A dropdown block to selected which Pin the servo's control signal is connected to. 
-   A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
+1. A dropdown block to select which Pin the servo's control signal is connected to. 
+   A string block can also be used instead of the drop-down selector block and the name of the Pin typed into the block.
 
 2. The speed at which the servo is to rotate in degrees / second.  The target speed will occur almost instantly.
 
@@ -127,8 +127,8 @@ over which the change in angular speed should occur.  This allows for a less abr
 
 The block has three parameters:
 
-1. A dropdown block to selected which Pin the servo's control signal is connected to. 
-   A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
+1. A dropdown block to select which Pin the servo's control signal is connected to. 
+   A string block can also be used instead of the drop-down selector block and the name of the Pin typed into the block.
 
 2. The speed, in degrees / second, at which the servo is to rotate.  
 3. The time, in seconds, over which change to target speed will occur.

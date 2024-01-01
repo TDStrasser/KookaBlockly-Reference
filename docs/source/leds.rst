@@ -77,13 +77,13 @@ pixel
     This is an integer commencing at ``0`` which specifies which pixel in the array will be set.
 
 .. important:: 
-    The Kookaberry can only supply a limited amount of current power a NeoPixel array.  
+    The Kookaberry can only supply a limited amount of current power to a NeoPixel array.  
     It is recommended to use no more than 8 NeoPixels, and also to limit the brightness of each to no more than ``50`` when using more than 4 NeoPixels.
 
     If more NeoPixels and/or brighter illumination is required, then a special power adapter between the Kookaberry and the NeoPixel array is recommended.
 
 RGB values
-    Each of the R (red), G (green) and B (blue) values can be set with integers in the rang ``0`` to ``100`` inclusive.
+    Each of the R (red), G (green) and B (blue) values can be set with integers in the range ``0`` to ``100`` inclusive.
 
     By varying the ratio of RGB values set, a wide range of colours can be achieved.
 

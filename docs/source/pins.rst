@@ -23,10 +23,10 @@ The Pins category provides the means to control what the pins do.
 
 
 .. note::
-  In  some the Pins blocks it is possible to replace the Pins dropdown selection block with a 
+  In some of the Pins blocks it is possible to replace the Pins dropdown selection block with a 
   String block.   This is useful when using Pins other than those exposed on the rear of the Kookaberry, 
   or when other microprocessor boards that are compatible with Kookaberry firmware are being used.  
-  In those cases type in the Pins identifier into the String block.
+  In those cases type in the Pin's identifier into the String block.
   
 
 .. figure:: images/pins-string-nomination.png
