@@ -21,13 +21,10 @@ c. A pulse servo signal that controls the servo motion.
 
 A typical Hobby Servo operates with a power supply voltage of around 4.5 to 6 volts.  
 
-While it may be possible to drive some small servos directly from the 
+While it is possible to drive some small servos directly from the 
 Kookaberry, it is recommended that the servo be powered a separate power supply due to 
 the required servo power being higher than the Kookaberry can provide. 
 A directly connected servo will be weak and slow, and may result in the Kookaberry's power supply shutting down on overload.
-
-Motors operate differently from servos and are typically controlled by a PWM (pulse width 
-modulation) signal. See the :doc:`pins` category where PWM is described.
 
 The Actuators category provides blocks that enable the use of these servos.
 
