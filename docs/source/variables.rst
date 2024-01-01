@@ -87,6 +87,19 @@ Character strings and boolean values will not be accepted.
    :height: 80
    :align: center
 
+This examples illustrates how this block may be used as a counter.
+Three variables are set up: ``count_b``, ``count_c`` and ``count_d`` to count the number of times buttons B, C and D are pressed.
+The running totals are printed on the Kookaberry's display.
+
+.. image:: images/variables-change-example.png
+   :height: 500
+   :align: center
+
+ 
+
+.. image:: images/variables-change-example-display.png
+   :height: 200
+   :align: center
 
 
 Variable Value

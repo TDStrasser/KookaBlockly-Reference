@@ -19,7 +19,8 @@ Loop Repeat
 
 This block runs the blocks nested inside of it for the specified number of times. 
 
-The number of iterations is provided by an input from a numeric value block which can contain a fixed number, a numeric computation, or a variable. 
+The number of iterations is provided by an input from a numeric value block which can contain a fixed number (from the :doc:`maths` blocks category), 
+a numeric computation  (using blocks from the :doc:`maths` blocks category), or a variable. 
 See also the :doc:`variables` category.
 
 When the iterations of the loop are complete the program moves on to the blocks below it.
@@ -34,7 +35,7 @@ When the iterations of the loop are complete the program moves on to the blocks 
 Loop Repeat While / Until
 -------------------------
 
-In this block the two operations of While and Until are very similar to each other.  Both require a Boolean
+In this block the two operations of While and Until are very similar to each other.  Both require a :doc:`boolean` 
 ``True`` / ``False`` value block in their input socket.  
 
 Repeat While will continue as long as the input value block is ``True``.  
@@ -52,11 +53,16 @@ Count With Variable From-To-By
 
 This loop will run its nested blocks several times depending upon the input numbers given.  
 
-The loop will start by setting the chosen variable to the first number.  If the variable is smaller than the second 
-number it will run the nested blocks then increase the value of the variable by the third number.  
+.. image:: images/loops-count-with.png
+   :height: 120
+   :align: center
 
-The loop will continue to iterate until the value of the variable is equal to or greater than the 
-second number.  
+
+The loop will start by setting the chosen variable to its starting value using the first input.  
+
+Each time the loop completes (known as an iteration), the variable's value is changed by the number in the third input.
+
+The loop will continue to iterate until the value of the variable is equal to or greater than the number in the second input.  
 
 So if the loop is configured to run from ``0`` to ``3`` by ``1``, it would run the nested blocks with the variable’s 
 value being ``0``, ``1`` and ``2``.  Then the program would advance to the next block after the 
@@ -67,10 +73,20 @@ The variable drop-down list contains the names of the available variables. The d
 The options **Rename variable** and **Delete variable** are configuration functions to manage the 
 creation of new variables or deletion of existing variables. See also the :doc:`variables` Category.
 
+Here is an example of the loop counting between 1 and 16 by 3.  
+On each iteration of the loop, the value of the variable ``i`` is printed on a new line on the display:
 
-.. image:: images/loops-count-with.png
-   :height: 120
+.. image:: images/loops-count-with-example.png
+   :width: 400
    :align: center
+
+
+
+.. image:: images/loops-count-with-example-display.png
+   :height: 200
+   :align: center
+
+
 
 
 
