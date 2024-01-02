@@ -136,7 +136,7 @@ followed by the output of any value block.
    :align: center
    
 
-The following is an example using the date and time:
+The following is an example to display the time:
  
 .. figure:: images/display-print-and-example.png
    :width: 400

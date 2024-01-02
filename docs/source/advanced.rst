@@ -96,8 +96,7 @@ The MicroPython code that the KookaBlockly script generates is shown below.
       kooka.display.setfont(fonts.mono6x7)
       kooka.display.print('Printing', filename, show=0)
       f = open(filename,'rt')
-      line = ''
-      # Loop that reads and prints each line of the file
+       # Loop that reads and prints each line of the file
       for line in f:
         kooka.display.print(line, show=0)
       kooka.display.print('End', show=0)
