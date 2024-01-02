@@ -44,7 +44,7 @@ Easy Access:
    The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository 
    at https://github.com/kookaberry/kooka-releases/releases.
 
-   Follow the :doc:`installation` guide in the next section to install **KookaBlockly**.
+   Follow the :doc:`installing` guide in the next section to install **KookaBlockly**.
 
 Working with KookaBlockly
 -------------------------
