@@ -2,10 +2,10 @@
 Advanced
 --------
 
-The Advanced Category is provided to extend the capability of KookaBlockly by allowing the 
+The Advanced Category is provided to extend the capability of **KookaBlockly** by allowing the 
 definition of additional blocks using Python programming statements.  
 
-This category is available to the more advanced user as a way of transitioning from KookaBlockly to Python scripts, and 
+This category is available to the more advanced user as a way of transitioning from **KookaBlockly** to Python scripts, and 
 also to add extended functionality such as using special sensors and actuators and other 
 Kookaberry peripherals, or using Python module libraries.
 
@@ -20,7 +20,7 @@ Kookaberry peripherals, or using Python module libraries.
 Python Value
 ------------
 
-This value block allows the result of any Python statement to be passed to KookaBlockly block input sockets.  
+This value block allows the result of any Python statement to be passed to **KookaBlockly** block input sockets.  
 
 The Python statement is typed into the text box in the block.  In the default block, the statement ``1+1``
 results in the output value of ``2``.
@@ -34,7 +34,7 @@ results in the output value of ``2``.
 Python Action
 -------------
 
-This action block permits any Python statement to be inserted into a KookaBlockly script.  The 
+This action block permits any Python statement to be inserted into a **KookaBlockly** script.  The 
 statement is typed into the text box in the block.
 
 
@@ -59,7 +59,7 @@ designating that the following text is a comment.
 Advanced Example
 ----------------
 
-KookaBlockly does not, at this stage, provide any blocks to read a text file.  
+**KookaBlockly** does not, at this stage, provide any blocks to read a text file.  
 
 This example reads a plain text file using the **Advanced** blocks and prints each line that is read on the display.
 
@@ -68,7 +68,7 @@ This example reads a plain text file using the **Advanced** blocks and prints ea
    :width: 600
    :align: center
 
-This script uses two **Python Action** blocks to insert in-line comments in the KookaBlockly and the resulting MicroPython script.
+This script uses two **Python Action** blocks to insert in-line comments in the **KookaBlockly** and the resulting MicroPython script.
 
 Three variables need to be created:
 
@@ -78,7 +78,7 @@ Three variables need to be created:
 
 Only one **Python Value** block is needed that sets the variable ``f`` to a list of lines created by opening the text file using a Python statement.
 
-The MicroPython code that the KookaBlockly script generates is shown below.
+The MicroPython code that the **KookaBlockly** script generates is shown below.
 
 .. code:: Python
 

@@ -11,7 +11,7 @@ The Math Category provides this repertoire of mathematical functions.
    :width: 400
    :align: center
    
-   The palette of KookaBlockly Math blocks
+   The palette of **KookaBlockly** Math blocks
 
 
 

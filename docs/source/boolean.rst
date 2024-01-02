@@ -10,7 +10,7 @@ Boolean blocks are value blocks used to test whether a specified condition is ``
    :width: 200
    :align: center
    
-   The palette of KookaBlockly Boolean blocks
+   The palette of **KookaBlockly** Boolean blocks
 
 
 Comparison

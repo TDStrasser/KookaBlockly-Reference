@@ -13,7 +13,7 @@ These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ``D`` yellow.
    Kookaberry - front view
 
 
-Button functions are also available on the virtual Kookaberry which is shown when KookaBlockly's **Show display** button is clicked.
+Button functions are also available on the virtual Kookaberry which is shown when **KookaBlockly**'s **Show display** button is clicked.
 
 .. figure:: images/kberry-virtual-blank.png
    :width: 300
@@ -28,7 +28,7 @@ Button blocks are used to specify the actions to be taken when a specific button
    :width: 300
    :align: center
    
-   The palette of KookaBlockly Buttons blocks
+   The palette of **KookaBlockly** Buttons blocks
 
 
 Each block is described in turn below.

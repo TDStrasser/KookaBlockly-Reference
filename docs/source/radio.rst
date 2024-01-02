@@ -12,7 +12,7 @@ The Kookaberry has an internal short-range radio, and can also connect to one or
    :width: 500
    :align: center
    
-   The palette of KookaBlockly Radio blocks
+   The palette of **KookaBlockly** Radio blocks
 
 
 Internal Radio
@@ -27,10 +27,10 @@ Similarly, multiple Kookaberries transmitting on the same channel may interfere 
 Errors caused during radio communications are detected and messages with errors caused by interference will be discarded.
 
 By default, the length of the messages that can be sent is 30 bytes or 
-less when using KookaBlockly.  Other radio parameters such as the radio channel and speed of 
+less when using **KookaBlockly**.  Other radio parameters such as the radio channel and speed of 
 transmission are also set to default values.  
 
-In the latest release of KookaBlockly, functionality has been added to alter the default parameters of the internal radio.
+In the latest release of **KookaBlockly**, functionality has been added to alter the default parameters of the internal radio.
 Care must be taken however that all the Kookaberries involved in communication have their radio parameters set in the same way.
 
 The following blocks are available to control, receive and send messages using the internal Kookaberry radio.
@@ -114,7 +114,7 @@ The block contains a drop-down list that enables selection of which parameter is
 
 
 .. note:: 
-    It would be very unusual to alter any of the radio parameters, other than the channel, when coding using KookaBlockly.
+    It would be very unusual to alter any of the radio parameters, other than the channel, when coding using **KookaBlockly**.
 
 
 External Radio
@@ -128,7 +128,7 @@ It offers the advantage of communicating over a longer range than the Kookaberry
 Depending on the antenna fitted and the intervening radio environment, a range of at least 100 metres can be expected, with up to 1 kilometre possible in the right circumstances.
 Successful communication requires that all transceivers are set to the same parameters, particularly the same radio channel.
 
-Setting up the HC-12 to other than its default parameters is beyond the scope of KookaBlockly.
+Setting up the HC-12 to other than its default parameters is beyond the scope of **KookaBlockly**.
 Please refer to the HC-12 data sheet at https://www.elecrow.com/download/HC-12.pdf.
 
 Radios other than the HC-12 can be used provided they emulate a wired connection and do not require any control commands.  

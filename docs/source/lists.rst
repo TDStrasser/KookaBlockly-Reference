@@ -11,7 +11,7 @@ The **Lists** category provides a large number of blocks to create and manipulat
    :width: 500
    :align: center
    
-   The palette of KookaBlockly List blocks
+   The palette of **KookaBlockly** List blocks
 
 
 To create a **List**, first create a **Variable** with the name of the List, and then set its value to that returned by the **Create List** block.
@@ -104,7 +104,7 @@ This value block searches a list for a given item and is set to the index, a num
 in the list at which the item was found, if it was found. 
 
 A list index ranges from ``0`` to ``n-1``, where ``n`` is the number of items in the list. 
-List indexing follows the rules of KookaBlockly's underlying Python programming language.
+List indexing follows the rules of **KookaBlockly**'s underlying Python programming language.
 
 If the item  was not found the value block is set to ``-1`` instead.  
 

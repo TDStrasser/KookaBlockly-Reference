@@ -3,12 +3,12 @@ Variables
 ---------
 
 Variables are a way of creating and manipulating a named value, in the same way that algebra uses names to refer to a value.  
-A **Variable** is useful as a named container to store a value for later use in one or more places in a KookaBlockly script.
+A **Variable** is useful as a named container to store a value for later use in one or more places in a **KookaBlockly** script.
 
 Examples of typical variable names are **X**, **Y** and **Z** when referring to cartesian coordinates; **H**, **W** and **D** as dimensions of an object; 
 and **i** or **j** as an index into a list.  Variable names can of course be longer, for example **height**, or **temperature**
 
-When KookaBlockly is first started, or when a new script is started, the **Variables** palette looks like this:
+When **KookaBlockly** is first started, or when a new script is started, the **Variables** palette looks like this:
 
 
 .. figure:: images/variables-create.png

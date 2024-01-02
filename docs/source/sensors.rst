@@ -6,7 +6,7 @@ The Kookaberry contains two on-board sensors, being a 3-axis accelerometer and a
 3-axis magnetometer.  
 
 A large variety of external sensors may also be connected to the Kookaberry via its Pin connectors.  
-KookaBlockly supports many external sensors as are listed under the **External Sensors** section.  
+**KookaBlockly** supports many external sensors as are listed under the **External Sensors** section.  
 These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
 
 The Sensors category provides blocks that enable the use of these sensors.
@@ -15,7 +15,7 @@ The Sensors category provides blocks that enable the use of these sensors.
    :width: 500
    :align: center
    
-   The palette of KookaBlockly Sensor blocks
+   The palette of **KookaBlockly** Sensor blocks
 
 
 Internal Sensors
@@ -184,7 +184,7 @@ The first drop-down box provides the list of measurements available which are:
 1.  Temperature in degrees Centigrade
 2.  Air pressure in hectoPascals (aka milliBars)
 3.  Relative air humidity in percent
-4.  Altitude in metres relative to the first reading taken by the KookaBlockly script. That is, the first reading calibrates the altitude to zero metres.
+4.  Altitude in metres relative to the first reading taken by the **KookaBlockly** script. That is, the first reading calibrates the altitude to zero metres.
     
 
 .. image:: images/sensors-get-temp-bme.png
@@ -304,7 +304,7 @@ Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note:: 
-   This section is still under development in regard to the ranges and resolutions of readings that are configured by KookaBlockly.
+   This section is still under development in regard to the ranges and resolutions of readings that are configured by **KookaBlockly**.
 
 
 

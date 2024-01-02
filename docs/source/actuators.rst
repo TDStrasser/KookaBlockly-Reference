@@ -32,7 +32,7 @@ The Actuators category provides blocks that enable the use of these servos.
    :width: 500
    :align: center
    
-   The palette of KookaBlockly Actuator blocks
+   The palette of **KookaBlockly** Actuator blocks
 
 
 Set Servo to Angle

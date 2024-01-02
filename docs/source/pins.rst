@@ -18,7 +18,7 @@ The Pins category provides the means to control what the pins do.
    :width: 400
    :align: center
    
-   The palette of KookaBlockly Pins blocks
+   The palette of **KookaBlockly** Pins blocks
 
 
 

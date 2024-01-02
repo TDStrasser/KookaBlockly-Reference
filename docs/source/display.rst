@@ -8,7 +8,7 @@ Display blocks control what appears on the Kookaberry's display.
    :width: 400
    :align: center
    
-   The palette of KookaBlockly Display blocks
+   The palette of **KookaBlockly** Display blocks
 
 
 Each block is described in turn below.
@@ -71,8 +71,8 @@ Display Show
  
 This block transfers the display’s frame buffer to the Kookaberry’s physical display.  
 
-KookaBlockly automatically inserts the equivalent **Display Show** code towards the end of the generated MicroPython script.
-However it may be desirable to refresh the physical display earlier in the KookaBlockly script, 
+**KookaBlockly** automatically inserts the equivalent **Display Show** code towards the end of the generated MicroPython script.
+However it may be desirable to refresh the physical display earlier in the **KookaBlockly** script, 
 such as at the end of a loop that updates the display.  
 Use this **Display Show** block in such circumstances as otherwise the display will not update until the end of the script.
 
@@ -102,7 +102,7 @@ available for selection are from smallest to largest:
 The selected font will be applied from the point of selection.
 
 A display using several fonts sizes may be constructed by using the **Display Set Font** block 
-as the display Framebuffer is constructed by the KookaBlockly script.
+as the display Framebuffer is constructed by the **KookaBlockly** script.
 
 .. image:: images/display-setfont.png
    :height: 200

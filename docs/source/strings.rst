@@ -11,7 +11,7 @@ The Strings Category provides a set of value blocks for specifying and formattin
    :width: 300
    :align: center
    
-   The palette of KookaBlockly String blocks
+   The palette of **KookaBlockly** String blocks
 
 
 Text

@@ -6,12 +6,12 @@
 Welcome to the KookaBlockly Reference Guide!
 """"""""""""""""""""""""""""""""""""""""""""
 
-This document relates to the KookaBlockly graphical scripting tool commissioned by the AustSTEM Foundation and created by Damien George for the Kookaberry.
+This document relates to the **KookaBlockly** graphical scripting tool commissioned by the AustSTEM Foundation and created by Damien George for the Kookaberry.
 
 The document is in TWO parts:
 
-1. Working with KookaBlockly - relates to KookaBlockly set-up, basic screen displays and usage.
-2. A Reference Document for the graphical functional blocks in KookaBlockly.
+1. Working with **KookaBlockly** - relates to **KookaBlockly** set-up, basic screen displays and usage.
+2. A Reference Document for the graphical functional blocks in **KookaBlockly**.
 
 
 .. note::

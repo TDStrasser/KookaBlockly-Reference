@@ -1,36 +1,36 @@
 Using the KookaBlockly Application
 ==================================
 
-Launching KookaBlockly on a personal computer will result in the following display.
+Launching **KookaBlockly** on a personal computer will result in the following display.
 
 .. figure:: images/kookablockly-display.png
    :width: 100%
    :align: center
 
-   This is the KookaBlockly display with the controls labelled. 
+   This is the **KookaBlockly** display with the controls labelled. 
 
 The application window has numerous controls, as are described below:
 
 Version
 -------
 
-The version of KookaBlockly is shown at the top-left of the KookaBlockly window.
+The version of **KookaBlockly** is shown at the top-left of the **KookaBlockly** window.
 
 .. Note::
   
-   The latest version of KookaBlockly can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
+   The latest version of **KookaBlockly** can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
 
    See the section :doc:`installing` for instructions.
 
 
-If a KookaBlockly script has been loaded, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version.
+If a **KookaBlockly** script has been loaded, the path and name of the file from which the script was loaded is shown next to the **KookaBlockly** version.
 
 Resize / Exit
 -------------
 
-These controls allow the KookaBlockly window to be minimises or maximised, and the KookBlockly application to be exited.
+These controls allow the **KookaBlockly** window to be minimises or maximised, and the KookBlockly application to be exited.
 
-If the KookBlockly script has not been saved before attempting to exit KookaBlockly, a prompt dialogue will appear providing an opportunity to save or not save the current script to a file.
+If the KookBlockly script has not been saved before attempting to exit **KookaBlockly**, a prompt dialogue will appear providing an opportunity to save or not save the current script to a file.
 
 .. figure:: images/unsaved-exit-prompt.png
    :width: 200
@@ -46,14 +46,14 @@ The appearance and location of these controls varies between Windows, MacOS and 
 Workspace
 ---------
 
-In the centre of the window is the KookaBlockly workspace.  
+In the centre of the window is the **KookaBlockly** workspace.  
 
 Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or track-pad or pointing device.
 
 Blocks Palette
 --------------
 
-Down the left of the window is a vertically-oriented list of the KookaBlockly palette categories. 
+Down the left of the window is a vertically-oriented list of the **KookaBlockly** palette categories. 
 
 Click on any category to reveal the palette of blocks, click on and drag the desired block to the workspace, 
 position it and release to drop the block in place.  The blocks palette will then automatically close.
@@ -68,21 +68,21 @@ or press the ``Esc`` key.
 
    The Blocks Palette showing the Block Categories
 
-The block categories and blocks are fully described in the *KookaBlockly Function Blocks Reference* section.
+The block categories and blocks are fully described in the :doc:`blocks` section.
 
 Script Controls
 ---------------
 
-At the top-left of the window, a set of buttons with which KookaBlockly scripts may be created, loaded, saved, run and stopped.
+At the top-left of the window, a set of buttons with which **KookaBlockly** scripts may be created, loaded, saved, run and stopped.
 
 
 .. figure:: images/script-control-buttons.png
    :width: 500
    :align: center
 
-   The KookaBlockly Script Control Buttons
+   The **KookaBlockly** Script Control Buttons
 
-The functions of each of the KookaBlockly Script Control buttons is:
+The functions of each of the **KookaBlockly** Script Control buttons is:
 
 New
   Empties the workspace to start a new script. If the current script contents have not been saved then a save prompt is given.
@@ -95,7 +95,7 @@ New
 
 
 Load
-  The **Load** button allows the user to select a KookaBlockly program to be loaded into the Workspace, appending it to the current script.  This feature enables the assembling of scripts by combining separate script files.
+  The **Load** button allows the user to select a **KookaBlockly** program to be loaded into the Workspace, appending it to the current script.  This feature enables the assembling of scripts by combining separate script files.
 
   Move the cursor to this button, press click on the mouse and the following file dialogue will be displayed:
 
@@ -103,14 +103,15 @@ Load
    :width: 500
    :align: center
 
-   KookaBlockly script load file selection dialogue. 
+   **KookaBlockly** script load file selection dialogue. 
 
 
 The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
-KookaBlockly script files have a type designation of ``.kby.py``.
+**KookaBlockly** script files have a type designation of ``.kby.py``.
 
-Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected KookaBlockly script file will place a copy of that script in the KookaBlockly Workspace from where it can be modified, saved and run on the Kookaberry.
+Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected **KookaBlockly** script file 
+will place a copy of that script in the **KookaBlockly** Workspace from where it can be modified, saved and run on the Kookaberry.
 
 .. important::
     
@@ -119,7 +120,7 @@ Selecting a script and pressing the dialogue's **Open** button, or alternatively
 Save 
   Saves the currently named script to the corresponding file. 
 
-  If the script was loaded from a file, the path and name of the file from which the script was loaded is shown next to the KookaBlockly version and the script will be save to that file.
+  If the script was loaded from a file, the path and name of the file from which the script was loaded is shown next to the **KookaBlockly** version and the script will be save to that file.
 
   If the script has not been previously saved, the **Save As** procedure is automatically used.
 
@@ -133,12 +134,13 @@ Save As
    :width: 500
    :align: center
 
-   KookaBlockly script save file selection dialogue. 
+   **KookaBlockly** script save file selection dialogue. 
 
 
-The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this to another folder as desired.  
+The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` 
+and the user can navigate away from this to another folder as desired.  
 
-KookaBlockly script files have a type designation of ``.kby.py``.
+**KookaBlockly** script files have a type designation of ``.kby.py``.
 
 Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
 
@@ -146,7 +148,7 @@ Enter the new file's name and press the dialogue's **Save** button will save the
    :width: 300
    :align: center
 
-   KookaBlockly existing file name dialogue. 
+   **KookaBlockly** existing file name dialogue. 
 
 
 Print
@@ -162,7 +164,7 @@ Print
    :width: 400
    :align: center
 
-   KookaBlockly script Print dialogue. 
+   **KookaBlockly** script Print dialogue. 
 
 
 
@@ -206,7 +208,7 @@ Show display
 
 
 Show script
-  This button opens a window in which the MicroPython script generated by the loaded KookaBlockly script is displayed.  
+  This button opens a window in which the MicroPython script generated by the loaded **KookaBlockly** script is displayed.  
 
   The size of the window showing the script can be adjusted by clicking on and dragging the edges of the script window using the cursor.
 
@@ -214,13 +216,14 @@ Show script
 
   There is a check-box which when ticked will cause the script window to stay visible in front of other windows on the computer screen.
 
-  This window presents a live view of the generated MicroPython script and it is possible to watch the MicroPython script being dynamically altered as the KookaBlockly script is being edited.
+  This window presents a live view of the generated MicroPython script and it is possible to watch the MicroPython script being dynamically 
+  altered as the **KookaBlockly** script is being edited.
 
 .. figure:: images/kblockly-show-script-window.png
    :width: 400
    :align: center
 
-   KookaBlockly-generated MicroPython script window
+   **KookaBlockly**-generated MicroPython script window
 
 
 Connection
@@ -255,11 +258,11 @@ Scripts dropdown box
   This contains a list of folders in the ``Kookaberry Scripts/KookaBlockly`` folder.  
 
 Choose a script
-  This contains a list of KookaBlockly scripts within the folder selected in the left-hand box.  
+  This contains a list of **KookaBlockly** scripts within the folder selected in the left-hand box.  
 
-Together these dropdown-boxes allow the selection and loading of any pre-existing KookBlockly script in the KookaBlockly folder and sub-folders.
+Together these dropdown-boxes allow the selection and loading of any pre-existing KookBlockly script in the **KookaBlockly** folder and sub-folders.
 
-If an unsaved KookaBlockly script is in the workspace, a prompt will appear giving the opportunity to save the existing script to a file before replacing it with the selected script.
+If an unsaved **KookaBlockly** script is in the workspace, a prompt will appear giving the opportunity to save the existing script to a file before replacing it with the selected script.
 
 .. figure:: images/unsaved-script-load.png
    :width: 200
@@ -279,14 +282,14 @@ At the bottom-right of the window is a set of control icons:
    :width: 400
    :align: center
 
-   Control icons at the bottom right of the KookaBlockly window
+   Control icons at the bottom right of the **KookaBlockly** window
 
 Centre Script
-  for centering the KookaBlockly script.
-  Clicking on the Centre icon will centre the script in the Workspace and zoom it to fit the KookaBlockly window.
+  for centering the **KookaBlockly** script.
+  Clicking on the Centre icon will centre the script in the Workspace and zoom it to fit the **KookaBlockly** window.
 
 Zoom Script
-  for changing the size of the KookaBlockly script by zooming in and out.
+  for changing the visual size of the **KookaBlockly** script by zooming in and out.
 
   Click on the `+` icon to zoom in and visually enlarge the script.
 
@@ -302,12 +305,12 @@ Trash
 
   To close the Trash press the ``Esc`` key.
 
-  When KookaBlockly is closed the contents of the Trash are deleted.
+  When **KookaBlockly** is closed the contents of the Trash are deleted.
 
 Scrollbars
-  there are horizontal and vertical scrollbars for positioning the KookaBlockly workspace within the window.  
+  there are horizontal and vertical scrollbars for positioning the **KookaBlockly** workspace within the window.  
 
-  Click on a scrollbar and drag it up/down or left/right as appropriate to reposition the Workspace in the KookaBlockly window.
+  Click on a scrollbar and drag it up/down or left/right as appropriate to reposition the Workspace in the **KookaBlockly** window.
 
 
  

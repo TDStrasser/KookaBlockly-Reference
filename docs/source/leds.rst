@@ -12,7 +12,7 @@ In addition, support is provided for NeoPixel RGB LEDs.
    :width: 400
    :align: center
    
-   The palette of KookaBlockly LED blocks
+   The palette of **KookaBlockly** LED blocks
 
 
 Each block is described in turn below.

@@ -4,11 +4,11 @@ Functions
 
 Functions are blocks that contain a sequence of other blocks.  
 
-Once defined, functions are available on the **Functions** palette for use in the KookaBlockly script in which they are defined.
+Once defined, functions are available on the **Functions** palette for use in the **KookaBlockly** script in which they are defined.
 
 .. important:: 
 
-    The function definition must remain in the KookaBlockly workspace for it to remain available in the **Functions** palette.
+    The function definition must remain in the **KookaBlockly** workspace for it to remain available in the **Functions** palette.
     Deleting the function definition will remove the function block from the palette and all instances of it from the script.
 
 
@@ -29,7 +29,7 @@ Define Function
 This block allows a user to define a sequence of blocks that will be run together when 
 the function’s block is used.  
 
-To define a function, drag this block into the KookaBlockly workspace.
+To define a function, drag this block into the **KookaBlockly** workspace.
 
 The block has a gear wheel which when clicked causes the definition box to appear:
 
@@ -39,7 +39,7 @@ The block has a gear wheel which when clicked causes the definition box to appea
 
 
 Once the definition of the function block is complete, click on the cog symbol once again to close the definition box.  
-Remember to leave the function definition block in the KookaBlockly workspace!
+Remember to leave the function definition block in the **KookaBlockly** workspace!
 
 The function block will then be available in the palette for use elsewhere in the script:
 
@@ -58,7 +58,7 @@ To define the inputs, drag the input block on the left of the box into the brack
 To remove an input, drag the input block out of the bracket back to the grey box on the left.
 
 Rename the inputs as desired by editing their names (click on the name and type the new name).  
-It is best to give the inputs names that are meaningful so the KookaBlockly script can be more easily understood by humans.
+It is best to give the inputs names that are meaningful so the **KookaBlockly** script can be more easily understood by humans.
 
 All the inputs will become :doc:`variables`, do take care not to duplicate their names!
 
@@ -77,7 +77,7 @@ All the inputs will become :doc:`variables`, do take care not to duplicate their
 Function Name
 ~~~~~~~~~~~~~
 
-Functions must have unique names within the context of the KookaBlockly script they are in.
+Functions must have unique names within the context of the **KookaBlockly** script they are in.
 
 To define the function name, click on its name and edit the text.
 
@@ -121,7 +121,7 @@ Here is an example where a function is defined to calculate the circumference of
 
 
 Once the definition of the function block is complete, click on the cog symbol once again to close the definition box.  
-Remember to leave the function definition block in the KookaBlockly workspace!
+Remember to leave the function definition block in the **KookaBlockly** workspace!
 
 The function block will then be available in the palette for use elsewhere in the script:
 

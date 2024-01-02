@@ -9,7 +9,7 @@ The If-Else category comprises control blocks which direct the flow of a program
    :width: 120
    :align: center
    
-   The palette of KookaBlockly If-Else blocks
+   The palette of **KookaBlockly** If-Else blocks
 
 
 If-Do

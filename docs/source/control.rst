@@ -8,7 +8,7 @@ Control blocks direct program flow or provide time-related functionality.
    :width: 400
    :align: center
    
-   The palette of KookaBlockly Control blocks
+   The palette of **KookaBlockly** Control blocks
 
 
 Each block is described in turn below.
@@ -16,7 +16,7 @@ Each block is described in turn below.
 On Start
 --------
 
-The "on start" block is intended to contain other action blocks that will run first and only once when the KookaBlockly script starts.
+The "on start" block is intended to contain other action blocks that will run first and only once when the **KookaBlockly** script starts.
 
 Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
 
@@ -93,7 +93,7 @@ seconds between the samples may be calculated which is useful for timing functio
    For MicroPython on micro-computers, the **epoch time** is 2000-01-01 00:00:00.
 
    **epoch time** should not be confused with the **default time** set on the Kookaberry's internal real-time-clock (RTC), which is 2015-01-01 00:00:00.
-   Using KookaBlockly, however, the Kookaberry's internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
+   Using **KookaBlockly**, however, the Kookaberry's internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
 
 
 
