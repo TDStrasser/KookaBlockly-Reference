@@ -6,7 +6,7 @@
 Welcome to the KookaBlockly Reference Guide!
 """"""""""""""""""""""""""""""""""""""""""""
 
-This document relates to the **KookaBlockly** visual scripting tool commissioned by the AustSTEM Foundation and created by Damien George for the Kookaberry.
+This document relates to the **KookaBlockly** visual scripting tool commissioned by the AustSTEM Foundation and created by Damien George for the **Kookaberry**.
 
 The document is in TWO parts:
 

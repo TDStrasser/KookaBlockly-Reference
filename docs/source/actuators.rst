@@ -22,9 +22,9 @@ c. A pulse servo signal that controls the servo motion.
 A typical Hobby Servo operates with a power supply voltage of around 4.5 to 6 volts.  
 
 While it is possible to drive some small servos directly from the 
-Kookaberry, it is recommended that the servo be powered a separate power supply due to 
-the required servo power being higher than the Kookaberry can provide. 
-A directly connected servo will be weak and slow, and may result in the Kookaberry's power supply shutting down on overload.
+**Kookaberry**, it is recommended that the servo be powered a separate power supply due to 
+the required servo power being higher than the **Kookaberry** can provide. 
+A directly connected servo will be weak and slow, and may result in the **Kookaberry**'s power supply shutting down on overload.
 
 The Actuators category provides blocks that enable the use of these servos.
 
@@ -60,8 +60,8 @@ The block has two parameters:
 
 .. important::
   Please note that all but the smallest 9g servos should not be directly plugged into a 
-  Kookaberry connector.  These devices require special electronics to supply them with more power.  
-  Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the Kookaberry!
+  **Kookaberry** connector.  These devices require special electronics to supply them with more power.  
+  Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the **Kookaberry**!
 
 
 Set Servo to Angle Taking Seconds
@@ -109,8 +109,8 @@ The block has two parameters:
 
 .. important::
   Please note that all but the smallest 9g servos should not be directly plugged into a 
-  Kookaberry connector.  These devices require special electronics to supply them with more power.  
-  Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the Kookaberry!
+  **Kookaberry** connector.  These devices require special electronics to supply them with more power.  
+  Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the **Kookaberry**!
 
 
 
@@ -141,4 +141,4 @@ The block has three parameters:
 More Actuator Learning Resources
 --------------------------------
 
-More information on using actuators with the Kookaberry can be found here: https://learn.auststem.com.au/peripheral/micro-servo/
+More information on using actuators with the **Kookaberry** can be found here: https://learn.auststem.com.au/peripheral/micro-servo/

@@ -34,7 +34,7 @@ The number can be any valid integer or floating point number:
    :height: 80
    :align: center
 
-This example prints a number on the Kookaberry's display:
+This example prints a number on the **Kookaberry**'s display:
 
 .. image:: images/math-number-example.png
    :height: 80
@@ -60,7 +60,7 @@ The operations that can be chosen from the drop-down list are:
    :height: 200
    :align: center
 
-This example prints the result of ``2`` raised to the power of ``3`` (ie. 2 cubed which is ``8``) on the Kookaberry's display:
+This example prints the result of ``2`` raised to the power of ``3`` (ie. 2 cubed which is ``8``) on the **Kookaberry**'s display:
 
 
 .. image:: images/math-arithmetic-example.png
@@ -100,7 +100,7 @@ from a scale defined by the second input, to another scale defined by the third 
    :align: center
 
 By way of example, this block will convert a Celsius water temperature sensor reading (range freezing point ``0`` to boiling point ``100``)
-into the equivalent degrees Fahrenheit (range freezing point ``32`` F to boiling point ``212`` F) and print it on the Kookaberry display.
+into the equivalent degrees Fahrenheit (range freezing point ``32`` F to boiling point ``212`` F) and print it on the **Kookaberry**'s display.
 
 
 .. image:: images/math-scale-example-fahrenheit.png

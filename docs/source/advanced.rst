@@ -7,7 +7,7 @@ definition of additional blocks using Python programming statements.
 
 This category is available to the more advanced user as a way of transitioning from **KookaBlockly** to Python scripts, and 
 also to add extended functionality such as using special sensors and actuators and other 
-Kookaberry peripherals, or using Python module libraries.
+**Kookaberry** peripherals, or using Python module libraries.
 
 
 .. figure:: images/advanced-palette.png
@@ -107,7 +107,7 @@ The MicroPython code that the **KookaBlockly** script generates is shown below.
       machine.idle()
 
 
-To run the above script, a text file called ``my_file.txt`` should be stored on the Kookaberry's file system in its root folder.
+To run the above script, a text file called ``my_file.txt`` should be stored on the **Kookaberry**'s file system in its root folder.
 The file contains the following:
 
 .. code::
@@ -118,7 +118,7 @@ The file contains the following:
   Line 4
   The last line
 
-When the script is run, the appearance of the Kookaberry display is as below:
+When the script is run, the appearance of the **Kookaberry** display is as below:
 
 .. image:: images/advanced-example-display.png
    :height: 200

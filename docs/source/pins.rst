@@ -2,9 +2,9 @@
 Pins
 ----
 
-Pins are electrical connectors on the Kookaberry.  
+Pins are electrical connectors on the **Kookaberry**.  
 
-The Kookaberry circuit board has five plugs on the rear numbered ``P1`` to ``P5``.  
+The **Kookaberry** circuit board has five plugs on the rear numbered ``P1`` to ``P5``.  
 
 ``P3`` has four pins and the rest have 3 pins.  
 
@@ -24,8 +24,8 @@ The Pins category provides the means to control what the pins do.
 
 .. note::
   In some of the Pins blocks it is possible to replace the Pins dropdown selection block with a 
-  String block.   This is useful when using Pins other than those exposed on the rear of the Kookaberry, 
-  or when other microprocessor boards that are compatible with Kookaberry firmware are being used.  
+  String block.   This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+  or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
   In those cases type in the Pin's identifier into the String block.
   
 
@@ -98,8 +98,8 @@ volts DC.
 
 
 .. important:: 
-    The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
-    Applying voltages outside that range may irreparably damage the Kookaberry.
+    The allowable input voltage range for the **Kookaberry** is 0 volts to +3.3 volts DC.  
+    Applying voltages outside that range may irreparably damage the **Kookaberry**.
 
 
 Get Pin Voltage
@@ -113,14 +113,14 @@ This value block designates the selected pin as an analogue input and returns a 
    :align: center
 
 .. important:: 
-    The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
-    Applying voltages outside that range may irreparably damage the Kookaberry.
+    The allowable input voltage range for the **Kookaberry** is 0 volts to +3.3 volts DC.  
+    Applying voltages outside that range may irreparably damage the **Kookaberry**.
 
 
 Get Pin Voltage as Percentage of Maximum
 ----------------------------------------
  
-This value block designates the selected pin as an analogue input and returns an integer percentage value of the allowable Kookaberry input voltage range.
+This value block designates the selected pin as an analogue input and returns an integer percentage value of the allowable **Kookaberry** input voltage range.
 
 Applying 0 volts DC to the input Pin will resturn a value of ``0``.
 
@@ -132,17 +132,17 @@ Applying +3.3 volts DC to the input Pin will resturn a value of ``100``.
 
 
 .. important:: 
-    The allowable input voltage range for the Kookaberry is 0 volts to +3.3 volts DC.  
-    Applying voltages outside that range may irreparably damage the Kookaberry.
+    The allowable input voltage range for the **Kookaberry** is 0 volts to +3.3 volts DC.  
+    Applying voltages outside that range may irreparably damage the **Kookaberry**.
 
 
 Set Pin to Voltage
 ------------------
 
-Where available on the Kookaberry the Set Pin to Voltage block causes the selected pin to behave 
+Where available on the **Kookaberry** the Set Pin to Voltage block causes the selected pin to behave 
 as an analogue output and to be set to the voltage specified by the input block.
 
-This feature is not available on Kookaberry using the Raspberry Pi Pico RP2040 microprocessor.
+This feature is not available on **Kookaberry** using the Raspberry Pi Pico RP2040 microprocessor.
 
 .. image:: images/pins-set-voltage.png
    :height: 100
@@ -151,7 +151,7 @@ This feature is not available on Kookaberry using the Raspberry Pi Pico RP2040 m
 Set Pin to Percentage of Maximum
 --------------------------------
 
-Where available on the Kookaberry the Set Pin to Percentage of Maximum block causes the selected pin to behave 
+Where available on the **Kookaberry** the Set Pin to Percentage of Maximum block causes the selected pin to behave 
 as an analogue output and to be set to the percentage of maximum voltage specified by the input block.  
 
 The output voltage will rise from 0 volts DC to +3.3 volts DC linearly with the input block rising from ``0`` to ``100``.
@@ -190,10 +190,10 @@ produced by varying the duty cycle over a limited range around 50%.  Additional 
 required to successfully drive a loudspeaker.
 
 .. important::
-  Please note that motors and loudspeakers should not be directly plugged into a Kookaberry 
+  Please note that motors and loudspeakers should not be directly plugged into a **Kookaberry** 
   connector.  These devices require special electronics to supply more power.  
   
-  Plugging in motors or loud speakers without the necessary driving electronics may irreparably damage the Kookaberry
+  Plugging in motors or loud speakers without the necessary driving electronics may irreparably damage the **Kookaberry**.
 
 
 

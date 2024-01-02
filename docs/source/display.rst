@@ -2,7 +2,7 @@
 Display
 -------
 
-Display blocks control what appears on the Kookaberry's display.
+Display blocks control what appears on the **Kookaberry**'s display.
 
 .. figure:: images/display-palette.png
    :width: 400
@@ -17,7 +17,7 @@ Each block is described in turn below.
 Kookaberry Display
 ------------------
 
-The Kookaberry’s display is a 128 pixel wide x 64 pixel high cyan OLED display.  
+The **Kookaberry’s** display is a 128 pixel wide x 64 pixel high cyan OLED (Organic Light Emitting Diode) display.  
 
 The x direction is the width of the display having a range specified as 0 to 127 pixels and the y direction 
 is the height of the display having a range specified as 0 to 63 pixels.  
@@ -32,7 +32,7 @@ The bottom right of the display has a location reference (x,y) of (127,63).
    The Display coordinates
 
 The display is driven from an internal memory array known as a Framebuffer, 
-into which the software writes the pixel data prior to its contents being transferred to the physical Kookaberry display.  
+into which the software writes the pixel data prior to its contents being transferred to the physical **Kookaberry** display.  
 This reduces any display flicker.  
 
 The method of writing to a display is generally:
@@ -41,7 +41,7 @@ The method of writing to a display is generally:
 2.	Write text and/or graphics to the Framebuffer in one or more parts to build up the entirety of the Display's contents, and then
 3. **Show** the display buffer on the display.
 
-The following blocks provide the functionality to operate the Kookaberry's Display.
+The following blocks provide the functionality to operate the **Kookaberry**'s Display.
 
 Text coordinates
 ----------------
@@ -69,7 +69,7 @@ This block clears the display’s frame buffer.  The physical display will not b
 Display Show
 ------------
  
-This block transfers the display’s frame buffer to the Kookaberry’s physical display.  
+This block transfers the display’s frame buffer to the **Kookaberry’s** physical display.  
 
 **KookaBlockly** automatically inserts the equivalent **Display Show** code towards the end of the generated MicroPython script.
 However it may be desirable to refresh the physical display earlier in the **KookaBlockly** script, 
@@ -112,7 +112,7 @@ as the display Framebuffer is constructed by the **KookaBlockly** script.
 Display Print
 -------------
  
-This block prints the editable text in the socketed block to the Kookaberry display at position x=0 on a new line.  
+This block prints the editable text in the socketed block to the **Kookaberry** display at position x=0 on a new line.  
 The current line is set to the top of the screen immediately after the display is cleared. 
 
 If the line is longer than the display’s width, the line is wrapped onto successive lines of the display. 
@@ -217,7 +217,7 @@ value block output of 0 or 1.
 Display Image
 -------------
 
-This block allows for the creation of an 8 x 8 pixel array positioned on the Kookaberry display at the coordinates of x and y.
+This block allows for the creation of an 8 x 8 pixel array positioned on the **Kookaberry** display at the coordinates of x and y.
 
 The **transparent?** box if ticked will not extinguish any pixels that were already on, thereby giving an 
 impression of transparency.

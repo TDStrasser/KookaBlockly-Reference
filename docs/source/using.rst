@@ -18,7 +18,7 @@ The version of **KookaBlockly** is shown at the top-left of the **KookaBlockly**
 
 .. Note::
   
-   The latest version of **KookaBlockly** can be conveniently downloaded from the Kookaberry Github repository at https://github.com/kookaberry/kooka-releases/releases.
+   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository at https://github.com/kookaberry/kooka-releases/releases.
 
    See the section :doc:`installing` for instructions.
 
@@ -106,12 +106,12 @@ Load
    **KookaBlockly** script load file selection dialogue. 
 
 
-The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this as desired.  
+The default directory for **Kookaberry** scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
 **KookaBlockly** script files have a type designation of ``.kby.py``.
 
 Selecting a script and pressing the dialogue's **Open** button, or alternatively double-clicking on a selected **KookaBlockly** script file 
-will place a copy of that script in the **KookaBlockly** Workspace from where it can be modified, saved and run on the Kookaberry.
+will place a copy of that script in the **KookaBlockly** Workspace from where it can be modified, saved and run on the **Kookaberry**.
 
 .. important::
     
@@ -137,7 +137,7 @@ Save As
    **KookaBlockly** script save file selection dialogue. 
 
 
-The default directory for Kookaberry scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` 
+The default directory for **Kookaberry** scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` 
 and the user can navigate away from this to another folder as desired.  
 
 **KookaBlockly** script files have a type designation of ``.kby.py``.
@@ -169,10 +169,10 @@ Print
 
 
 Run
-  Transfers the current script to the tethered Kookaberry and runs the script on the Kookaberry.
+  Transfers the current script to the tethered **Kookaberry** and runs the script on the **Kookaberry**.
 
 Stop
-  Terminates the script currently running on the Kookaberry.
+  Terminates the script currently running on the tethered **Kookaberry**.
 
 
 Inspection Buttons
@@ -188,23 +188,26 @@ At the top-right of the window, the Inspection Buttons will open separate window
    The Inspection Buttons: Show script and Show display
 
 Show display
-  This button which will open a window on which the attached Kookaberry is shown in virtual form.  This includes the Kookaberry's display, LEDs, buttons A to D and reset, and a button to start the Kookaberry's internal menu.
+  This button which will open a window on which the attached **Kookaberry** is shown in virtual form.  
+  This includes the **Kookaberry**'s display, LEDs, buttons A to D and reset, and a button to start the **Kookaberry**'s internal menu.
 
-  The display will mirror the real display on the Kookaberry.
+  The display will mirror the physical display on the **Kookaberry**.
 
-  The LEDs will change colour to mirror illumination of the real LEDs on the Kookaberry.
+  The LEDs will change colour to mirror illumination of the real LEDs on the **Kookaberry**.
 
-  The buttons can be clicked using a mouse or trackpad on the PC, and will respond in the same way as the real buttons on the Kookaberry.
+  The buttons can be clicked using a mouse or trackpad on the PC, and will respond in the same way as the physical buttons on the **Kookaberry**.
 
 .. figure:: images/kblockly-show-display-window.png
    :width: 400
    :align: center
 
-   Virtual Kookaberry window
+   Virtual **Kookaberry** window
 
 .. Note::
   
-   It is also possible to load Kookaberry firmware onto standard Pi Pico microcomputer boards.  These boards do not have the Kookaberry display, LEDs or buttons.  In this case the virtual Kookaberry window can be used to view and operate the Kookaberry's user interface.
+   It is also possible to load **Kookaberry** firmware onto standard Pi Pico microcomputer boards.  
+   These boards do not have the pyhsical **Kookaberry** display, LEDs or buttons.  
+   In this case the virtual **Kookaberry** window can be used to view and operate the **Kookaberry**'s user interface.
 
 
 Show script
@@ -229,7 +232,7 @@ Show script
 Connection
 ----------
 
-At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which is connected to a tethered Kookaberry.
+At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which is connected to a tethered **Kookaberry**.
 
 
 .. figure:: images/serial-dropdown.png
@@ -238,11 +241,11 @@ At the top-centre is the "Serial" drop-down box which shows which serial USB por
 
    The Serial drop-down showing the available and used USB serial connection ports
 
-Plugging in a Kookaberry usually automatically assigns a USB serial port.
+Plugging in a **Kookaberry** usually automatically assigns a USB serial port.
 
-If the Kookaberry is not responding, select the ``Auto-connect`` option to reset the serial connection to the Kookaberry.
+If the **Kookaberry** is not responding, select the ``Auto-connect`` option to reset the serial connection to the **Kookaberry**.
 
-It is also possible to block a Kookaberry connection by selecting ``Disable`` from the dropdown-box.
+It is also possible to block a **Kookaberry** connection by selecting ``Disable`` from the dropdown-box.
 
 Script Selection
 ----------------

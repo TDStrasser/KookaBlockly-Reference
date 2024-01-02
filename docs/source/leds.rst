@@ -2,7 +2,7 @@
 LEDs
 ----
 
-This LEDs category supports the three LED’s that are beneath the display on the Kookaberry. 
+This LEDs category supports the three LED’s that are beneath the display on the **Kookaberry**. 
 
 These LEDs are coloured ``red``, ``orange`` and ``green``.
 
@@ -70,17 +70,17 @@ Neopixels come as single units or in chains of multiple Neopixels.
 The following are the controls that can be set or manipulated on this block:
 
 Pin
-    The Kookaberry has five connectors on the back, ``P1`` through to ``P5``, with connector ``P3`` having 
+    The **Kookaberry** has five connectors on the back, ``P1`` through to ``P5``, with connector ``P3`` having 
     two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
 
 pixel
     This is an integer commencing at ``0`` which specifies which pixel in the array will be set.
 
 .. important:: 
-    The Kookaberry can only supply a limited amount of current power to a NeoPixel array.  
+    The **Kookaberry** can only supply a limited amount of current power to a NeoPixel array.  
     It is recommended to use no more than 8 NeoPixels, and also to limit the brightness of each to no more than ``50`` when using more than 4 NeoPixels.
 
-    If more NeoPixels and/or brighter illumination is required, then a special power adapter between the Kookaberry and the NeoPixel array is recommended.
+    If more NeoPixels and/or brighter illumination is required, then a special power adapter between the **Kookaberry** and the NeoPixel array is recommended.
 
 RGB values
     Each of the R (red), G (green) and B (blue) values can be set with integers in the range ``0`` to ``100`` inclusive.

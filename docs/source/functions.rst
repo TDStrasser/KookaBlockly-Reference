@@ -158,11 +158,11 @@ This block cannot be used outside of the **Function Definition** blocks.  If thi
 The following is an example of the use of the **If Condition Return** block with a function named ``direction``.
 
 The function tests the sign of the acceleration read from the Z axis of the internal accelerometer.  
-If Z acceleration is negative then the tested condition is ``True`` which means the Kookaberry is facing up, and the string ``"up"`` is returned.
-Otherwise, that is the condition is ``False``, which means the Kookaberry is tilted face-down. The function completes and returns the string ``"down"``.
+If Z acceleration is negative then the tested condition is ``True`` which means the **Kookaberry** is facing up, and the string ``"up"`` is returned.
+Otherwise, that is the condition is ``False``, which means the **Kookaberry** is tilted face-down. The function completes and returns the string ``"down"``.
 
 The main script is a loop which repeats every second and prints the value of the function on the display.  
-The display will change as the Kookaberry is oriented face-up or face-down.
+The display will change as the **Kookaberry** is oriented face-up or face-down.
 
 
 .. image:: images/functions-return-conditional-example.png

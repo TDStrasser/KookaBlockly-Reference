@@ -4,12 +4,12 @@ Introduction to KookaBlockly
 **KookaBlockly**: Visual Programming Editor for Kookaberry Microprocessor Boards
 -------------------------------------------------------------------------------
 
-**KookaBlockly** is a powerful standalone visual editor designed for creating program scripts for Kookaberry and related microprocessor boards. 
+**KookaBlockly** is a powerful standalone visual editor designed for creating program scripts for **Kookaberry** and related microprocessor boards. 
 This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive. 
 It's built upon the open-source Google Blockly library (Apache 2 license), created by Google to facilitate the development of beginner-friendly programming languages.
 
 A **KookaBlockly** script is assembled from visual function blocks dragged onto the workspace from the palette of blocks on the left of the display.  
-The blocks click together like pieces of a jigsaw puzzle to form a series of steps that the Kookaberry microcomputer will perform.
+The blocks click together like pieces of a jigsaw puzzle to form a series of steps that the **Kookaberry** microcomputer will perform.
 
 .. figure:: images/kblockly-welcome-script.png
    :width: 80%
@@ -18,8 +18,8 @@ The blocks click together like pieces of a jigsaw puzzle to form a series of ste
 
    This is the **KookaBlockly** display with an example **KookaBlockly** script. 
 
-The example shown above shows a loop that writes a welcome message on the Kookaberry display and flashes the Kookaberry's LEDs.  
-It then sleeps for 2 seconds and then goes back to the beginning of the loop.  The loop will run until the Kookaberry is reset or power is removed.
+The example shown above shows a loop that writes a welcome message on the **Kookaberry** display and flashes the **Kookaberry**'s LEDs.  
+It then sleeps for 2 seconds and then goes back to the beginning of the loop.  The loop will run until the **Kookaberry** is reset or power is removed.
 
 **KookaBlockly** was meticulously crafted by Damien George (George Robotics – MicroPython) in collaboration with Kookaberry Pty Ltd. 
 It also received support from the AustSTEM Foundation, the Warren Centre, and the Vonwiller Foundation.
@@ -35,13 +35,13 @@ Intuitive Visual Interface:
 
 Compatibility: 
    The generated code can be utilized on most microprocessor boards that use MicroPython, 
-   but is particularly suited to those with Kookaberry firmware for STM and RP2040 microprocessors.
+   but is particularly suited to those with **Kookaberry** firmware for STM and RP2040 microprocessors.
 
 Platform Compatibility: 
    **KookaBlockly** runs as a standalone program on personal computers with Microsoft Windows 10 or 11, Apple MacOS, or Raspberry Pi Raspbian operating systems.
 
 Easy Access: 
-   The latest version of **KookaBlockly** can be conveniently downloaded from the Kookaberry Github repository 
+   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository 
    at https://github.com/kookaberry/kooka-releases/releases.
 
    Follow the :doc:`installation` guide in the next section to install **KookaBlockly**.

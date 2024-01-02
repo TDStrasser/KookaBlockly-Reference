@@ -2,8 +2,8 @@
 Logging
 -------
 
-The Kookaberry contains a 3 to 4 megabyte (depending on hardware model) non-volatile serial memory store which is used to store 
-files.  These files can be written and read by the Kookaberry and also via a USB interface by any attached computer.
+The **Kookaberry** contains a 3 to 4 megabyte (depending on hardware model) non-volatile serial memory store which is used to store 
+files.  These files can be written and read by the **Kookaberry** and also via a USB interface by any attached computer.
 
 Logging files are text files which are in the comma-separated-variable (CSV) format.  
 That is, each line contains alphanumeric text data which are separated by commas. 
@@ -22,10 +22,10 @@ An example of a CSV file is:
 During experiments, data is collected over time from instruments comprising sensors.
 These data are stored in a CSV file at time intervals as above.
 
-When the experiment is finished, the data can be retrieved from the CSV file stored on the Kookaberry using a computer to perform analysis of the results.
+When the experiment is finished, the data can be retrieved from the CSV file stored on the **Kookaberry** using a computer to perform analysis of the results.
 CSV text data is most commonly used to draw graphs of the data values over time using a spreadsheet program.
 
-These blocks provide a facility for writing data into files on the Kookaberry.
+These blocks provide a facility for writing data into files on the **Kookaberry**.
 
 .. figure:: images/logging-palette.png
    :width: 300
@@ -36,15 +36,15 @@ These blocks provide a facility for writing data into files on the Kookaberry.
 
 .. note:: 
 
-    At present **KookaBlockly** does not directly support the reading of files from the Kookaberry's file system.
-    MicroPython scripting does however contain extensive functionality for reading, writing and manipulating the Kookaberry's files.
+    At present **KookaBlockly** does not directly support the reading of files from the **Kookaberry**'s file system.
+    MicroPython scripting does however contain extensive functionality for reading, writing and manipulating the **Kookaberry**'s files.
 
 
 
 Clear File
 ----------
 
-The file block creates a new empty text file with the specified name in the Kookaberry's file system. 
+The file block creates a new empty text file with the specified name in the **Kookaberry**'s file system. 
 If a file with the same name already exists, then it will overwritten with an empty file.
 
 The name of the file is specified in the **to file** parameter with ``log.csv`` the default name.  Edit this field to change the file name.
@@ -67,7 +67,7 @@ If the text file name does not already exist, a new empty text file with the spe
 
 The value blocks attached as inputs to this block will provide text values to be written to the line in the file, separated by commas.
 
-The first input, by default, is a text representation of the current time read from the Kookaberry's internal clock.  
+The first input, by default, is a text representation of the current time read from the **Kookaberry**'s internal clock.  
 This input block can be replaced by any other value block that provides a text string.
 
 There are three varieties of the **Log To File** block, accepting one two or three further inputs.

@@ -2,10 +2,10 @@
 Sensors
 -------
 
-The Kookaberry contains two on-board sensors, being a 3-axis accelerometer and a 
+The **Kookaberry** contains two on-board sensors, being a 3-axis accelerometer and a 
 3-axis magnetometer.  
 
-A large variety of external sensors may also be connected to the Kookaberry via its Pin connectors.  
+A large variety of external sensors may also be connected to the **Kookaberry** via its Pin connectors.  
 **KookaBlockly** supports many external sensors as are listed under the **External Sensors** section.  
 These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
 
@@ -24,7 +24,7 @@ Internal Sensors
 Get Accelerometer (raw)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The Kookaberry contains an internal 3-axis accelerometer.  See https://www.explainthatstuff.com/accelerometers.html
+The **Kookaberry** contains an internal 3-axis accelerometer.  See https://www.explainthatstuff.com/accelerometers.html
 
 The accelerometer block provides the acceleration value of the selected axis (one of the X, Y and Z axes in the 
 sensor’s frame of reference), or the magnitude of the vector sum of all the axes.  The X, Y and Z axes are selected using the  drop-down list on 
@@ -35,9 +35,9 @@ the right of the block.  The values are in metres per second squared.
    :align: center
 
 
-The Kookaberry’s internal accelerometer is oriented so that the X axis is along the horizontal 
+The **Kookaberry’s** internal accelerometer is oriented so that the X axis is along the horizontal 
 dimension of the display, the Y axis is aligned with the vertical dimension of the display, and the 
-Z axis is perpendicular to the Kookaberry’s circuit board.
+Z axis is perpendicular to the **Kookaberry’s** circuit board.
 
 A typical value for acceleration is due to the earth's gravity, being 9.81 m/sec^2.  This will vary slightly with geographic
 latitude and height as distances from the earth's centre of mass vary.
@@ -65,7 +65,7 @@ This block is useful to adjust the sensitivity of the accelerometer and to compe
 Get Compass
 ~~~~~~~~~~~
 
-The Kookaberry has an internal 3-axis magnetometer (see https://en.wikipedia.org/wiki/Magnetometer) which can measure the magnetic field strength
+The **Kookaberry** has an internal 3-axis magnetometer (see https://en.wikipedia.org/wiki/Magnetometer) which can measure the magnetic field strength
 it is subjected to in three axes (X, Y and Z), as well as the total magnetic field strength, and the compass heading.
 
 * The readings for magnetic field strength are in Gauss.
@@ -102,7 +102,7 @@ Get Temperature from NTC
 ~~~~~~~~~~~~~~~~~~~~~~~~
  
 The NTC (Negative Temperature Coefficient) thermocouple sensor works through measuring its resistance which reduces as temperature rises.  
-The Kookaberry performs the necessary calculations to convert the sensor’s resistance to a temperature reading in degrees centigrade.
+The **Kookaberry** performs the necessary calculations to convert the sensor’s resistance to a temperature reading in degrees centigrade.
 
 See also https://www.explainthatstuff.com/howthermocoupleswork.html for an explanation of thermocouples.
 
@@ -121,7 +121,7 @@ The options on the NTC value block are:
 Get Temperature or Humidity from DHT11 or DHT22
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Kookaberry supports the DHT11 and DHT22 temperature and humidity sensors.  This block obtains the value of the selected parameter from the DHT sensor.
+The **Kookaberry** supports the DHT11 and DHT22 temperature and humidity sensors.  This block obtains the value of the selected parameter from the DHT sensor.
 
 The drop-down boxes on the DHT value block permit the selection of:
 
@@ -152,7 +152,7 @@ The difference between the two sensor types is that the slightly more expensive 
 Please be sure to select the type of DHT sensor that matches the connected sensor or else erroneous readings will result.
 
 The manufacturers of the DHT11 and DHT22 sensors recommend an interval between successive readings of no less than 2 seconds.  
-Attempting shorter intervals will result in no reading and could also cause the Kookaberry script to terminate.
+Attempting shorter intervals will result in no reading and could also cause the **Kookaberry** script to terminate.
 
 Learn more about using the DHT11 here: https://learn.auststem.com.au/peripheral/dht11/ and the DHT22 here: https://learn.auststem.com.au/peripheral/dht22/
 
@@ -164,9 +164,9 @@ The BME280 sensor measures air temperature, relative humidity, and barometric ai
 There is also a compatible BMP280 sensor that measures air temperature and barometric air pressure, 
 but does not measure relative humidity.  Using the blocks below will return a reading of zero for humidity.
 
-This sophisticated sensor is available mounted on Kookaberry-compatible circuit boards distributed by a variety of manufacturers.  
+This sophisticated sensor is available mounted on **Kookaberry**-compatible circuit boards distributed by a variety of manufacturers.  
 
-The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+The interface with the **Kookaberry** is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
 
 There are four wires in the I2C interface, being: 
@@ -175,7 +175,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using BME280 circuit boards it is important that these signals are connected to the correct Pins on the Kookaberry.
+When using BME280 circuit boards it is important that these signals are connected to the correct Pins on the **Kookaberry**.
 
 The **Get Temperature from BME280** block is shown below with the three sets of options available from the drop-down boxes on the block.
 
@@ -193,16 +193,16 @@ The first drop-down box provides the list of measurements available which are:
 
 The second drop-down box provides two options for the BME280's address on the I2C bus, that is ``0x77`` or ``0x76``.  
 The default of ``0x77`` is usually the best to use but it depends on what address the manufacturer of the BME280 sensor board has chosen.
-It is possible to have two BME280 sensors, each with a different address, on the same Kookaberry interface.
+It is possible to have two BME280 sensors, each with a different address, on the same **Kookaberry** interface.
 
 .. image:: images/sensors-get-temp-bme-adx.png
    :height: 120
    :align: center
 
-The third and fourth drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
-Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+The third and fourth drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some BME280 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
-Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-temp-bme-pins.png
@@ -214,7 +214,7 @@ Get Acceleration / Compass Strength from LSM303
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The LSM303 sensor contains a 3-axis accelerometer and a 3-axis magnetometer.  
-The Kookaberry contains a LSM303 sensor internally, and this block provides functionality to use an externally connected LSM303 sensor.
+The **Kookaberry** contains a LSM303 sensor internally, and this block provides functionality to use an externally connected LSM303 sensor.
 
 This sensor can provide acceleration values and magnetic field strength in all three axes, 
 total acceleration and total magnetic field strengths, as well as compass heading.
@@ -224,7 +224,7 @@ See https://www.explainthatstuff.com/accelerometers.html for a simple explanatio
 For an explanation of what a magnetometer is, see https://en.wikipedia.org/wiki/Magnetometer.
 
 
-The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+The interface with the **Kookaberry** is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
 
 There are four wires in the I2C interface, being: 
@@ -233,7 +233,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using LSM303 circuit boards it is important that these signals are connected to the correct Pins on the Kookaberry.
+When using LSM303 circuit boards it is important that these signals are connected to the correct Pins on the **Kookaberry**.
 
 The **Get Acceleration from LSM303** block is shown below with the three sets of options available from the drop-down boxes on the block.
 
@@ -256,10 +256,10 @@ The first drop-down box provides the list of measurements available which are:
    :align: center
 
 
-The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
-Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some LSM303 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
-Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 .. image:: images/sensors-get-accelerometer-lsm303-pins.png
@@ -271,12 +271,12 @@ A string block can also be used instead of the drop-down selector blocks and the
 Get LUX from VEML7700
 ~~~~~~~~~~~~~~~~~~~~~
 
-The VEML7700 is a high-accuracy ambient light sensor with an I2C serial interface to the Kookaberry.  
+The VEML7700 is a high-accuracy ambient light sensor with an I2C serial interface to the **Kookaberry**.  
 
 The ambient light readings are measured in Lux. Lux is the unit of illuminance, or luminous flux per unit area, in the International System of Units (SI), 
 and is equal to one lumen per square metre.  See https://en.wikipedia.org/wiki/Lux for more detail.
 
-The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+The interface with the **Kookaberry** is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
 
 There are four wires in the I2C interface, being: 
@@ -285,7 +285,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using a VEML7700 circuit board it is important that these signals are connected to the correct Pins on the Kookaberry.
+When using a VEML7700 circuit board it is important that these signals are connected to the correct Pins on the **Kookaberry**.
 
 The **Get Lux from VEML7700** block is shown below with the two sets of options available from the drop-down boxes on the block.
 
@@ -293,10 +293,10 @@ The **Get Lux from VEML7700** block is shown below with the two sets of options 
    :height: 180
    :align: center
 
-The two drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
-Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+The two drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some VEML7700 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
-Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 
@@ -312,7 +312,7 @@ Get Power / Voltage / Current from INA219
 
 The INA219 sensor measures direct current, voltage and power from the circuit to which it is connected. It is commonly called a wattmeter.
 
-The interface with the Kookaberry is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
+The interface with the **Kookaberry** is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
 
 There are four wires in the I2C interface, being: 
@@ -321,7 +321,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using a INA219 circuit board it is important that these signals are connected to the correct Pins on the Kookaberry.
+When using a INA219 circuit board it is important that these signals are connected to the correct Pins on the **Kookaberry**.
 
 The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
 
@@ -347,10 +347,10 @@ The first drop-down box provides the list of measurements available which are:
    :align: center
 
 
-The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the Kookaberry.
-Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the Kookaberry's **P3** 4-wire connector.  
+The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some INA219 boards on the market may have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
-Any other of the Kookaberry's connectors (**P1** to **P5**) can also be used.
+Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
 A string block can also be used instead of the drop-down selector blocks and the name of the Pin typed into the block.
 
 
@@ -431,5 +431,5 @@ Learn more about using the resistive soil moisture sensor here: https://learn.au
 More Sensor Learning Resources
 ------------------------------
 
-More information on sensors that can be used with the Kookaberry is here: https://learn.auststem.com.au/peripherals/
+More information on sensors that can be used with the **Kookaberry** is here: https://learn.auststem.com.au/peripherals/
  

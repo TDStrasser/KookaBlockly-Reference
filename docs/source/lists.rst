@@ -285,7 +285,7 @@ separated by commas.  The results is a list of the Greek letters as the variable
 
 
 The complementary operation is to generate the original text from the list containing ``[“alpha”, “beta”, “gamma”, "delta"]`` and to print 
-it on the Kookaberry’s display.
+it on the **Kookaberry’s** display.
 
 
  .. image:: images/lists-text-with-delimiter-example.png
@@ -320,7 +320,7 @@ The second option is for the order of sorting:
 
 
 
-This example prints the items in the list containing ``[“alpha”, “beta”, “gamma”, "delta"]`` on successive rows of the Kookaberry display in 
+This example prints the items in the list containing ``[“alpha”, “beta”, “gamma”, "delta"]`` on successive rows of the **Kookaberry** display in 
 alphabetical order.
 
 
@@ -329,7 +329,7 @@ alphabetical order.
    :align: center
 
 
-The result of the example can be seen on the Kookaberry's display where the sorted order of the list is printed on successive lines:
+The result of the example can be seen on the **Kookaberry**'s display where the sorted order of the list is printed on successive lines:
 
 
  .. image:: images/lists-sort-example-display.png

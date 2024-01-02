@@ -2,11 +2,11 @@
 Radio
 -----
 
-Radio communications between Kookaberries is possible using the Radio blocks shown below.
+Radio communications between **Kookaberries** is possible using the Radio blocks shown below.
 
 Radio communications is useful for sending messages, sharing data, for remote monitoring, and for remote control.
 
-The Kookaberry has an internal short-range radio, and can also connect to one or more external longer range radios.
+The **Kookaberry** has an internal short-range radio, and can also connect to one or more external longer range radios.
 
 .. figure:: images/radio-palette.png
    :width: 500
@@ -18,12 +18,12 @@ The Kookaberry has an internal short-range radio, and can also connect to one or
 Internal Radio
 --------------
 
-The Kookaberry is equipped with a built-in digital radio transceiver than is able to send and 
+The **Kookaberry** is equipped with a built-in digital radio transceiver than is able to send and 
 receive small amounts of digital data.  
 The radio uses the same radio spectrum as WiFi signals and Bluetooth signals, and therefore has a similar range of 10 to 20 metres.
 The internal radio cannot communicate using WiFi or Bluetooth directly.
-All Kookaberries on the same radio channel can listen in to the communications on that channel.  
-Similarly, multiple Kookaberries transmitting on the same channel may interfere with each others' communications.
+All **Kookaberries** on the same radio channel can listen in to the communications on that channel.  
+Similarly, multiple **Kookaberries** transmitting on the same channel may interfere with each others' communications.
 Errors caused during radio communications are detected and messages with errors caused by interference will be discarded.
 
 By default, the length of the messages that can be sent is 30 bytes or 
@@ -31,9 +31,9 @@ less when using **KookaBlockly**.  Other radio parameters such as the radio chan
 transmission are also set to default values.  
 
 In the latest release of **KookaBlockly**, functionality has been added to alter the default parameters of the internal radio.
-Care must be taken however that all the Kookaberries involved in communication have their radio parameters set in the same way.
+Care must be taken however that all the **Kookaberries** involved in communication have their radio parameters set in the same way.
 
-The following blocks are available to control, receive and send messages using the internal Kookaberry radio.
+The following blocks are available to control, receive and send messages using the internal **Kookaberry** radio.
 
 
 When Radio Receive
@@ -77,12 +77,16 @@ Typically an alphanumeric text character occupies only one byte but some special
 Set Radio channel
 ~~~~~~~~~~~~~~~~~
 
-The Kookaberry's internal radio is capable of transmitting and receiving on any of 84 channels.
+The **Kookaberry**'s internal radio is capable of transmitting and receiving on any of 84 channels.
 The default radio channel is 7.
+
 This block enables any of the available channels to be selected.
+
 An integer value between 0 and 83 can be selected by editing the number in the block.
+
 Messages will be sent via this channel and only messages received via this channel will be put onto the incoming message queue. 
-It is therefore important that for two or more Kookaberries to intercommunicate, that they all be set to the same channel.
+
+It is therefore important that for two or more **Kookaberries** to intercommunicate, that they all be set to the same channel.
 Each channel is 1MHz wide, starting at Channel 0 at 2400MHz and ending at Channel 83 at 2483MHz.
 
 
@@ -94,7 +98,7 @@ Each channel is 1MHz wide, starting at Channel 0 at 2400MHz and ending at Channe
 Set Radio Parameter
 ~~~~~~~~~~~~~~~~~~~
 
-The Kookaberry's internal radio can be configured in a variety of ways if the default settings are not suitable.
+The **Kookaberry**'s internal radio can be configured in a variety of ways if the default settings are not suitable.
 This block provides access to the numerous parameters that can be set.
 Only one parameter can be set per instance of the block.  Multiple instances of the block must be used to set multiple radio parameters.
 The block contains a drop-down list that enables selection of which parameter is to be set, and an input for a block that specifies the value of the selected parameter:
@@ -120,11 +124,11 @@ The block contains a drop-down list that enables selection of which parameter is
 External Radio
 --------------
 
-The Kookaberry can be connected to up to two external radio transceivers to communicate with other Kookaberries 
+The **Kookaberry** can be connected to up to two external radio transceivers to communicate with other **Kookaberries** 
 (or other computers) that use the same radio transceivers.
 The preferred radio transceiver is the HC-12 transceiver which operates in the 433Mhz radio band. 
 This radio band is the same as is used for domestic applications such as garage door openers and home weather stations.
-It offers the advantage of communicating over a longer range than the Kookaberry's internal radio.  
+It offers the advantage of communicating over a longer range than the **Kookaberry**'s internal radio.  
 Depending on the antenna fitted and the intervening radio environment, a range of at least 100 metres can be expected, with up to 1 kilometre possible in the right circumstances.
 Successful communication requires that all transceivers are set to the same parameters, particularly the same radio channel.
 
@@ -132,12 +136,12 @@ Setting up the HC-12 to other than its default parameters is beyond the scope of
 Please refer to the HC-12 data sheet at https://www.elecrow.com/download/HC-12.pdf.
 
 Radios other than the HC-12 can be used provided they emulate a wired connection and do not require any control commands.  
-The interface to the Kookaberry is via its UART (Universal Asynchronous Receiver and Transmitter) serial interface at 9600 bits/second.
+The interface to the **Kookaberry** is via its UART (Universal Asynchronous Receiver and Transmitter) serial interface at 9600 bits/second.
 
-Two UART interfaces are available on the Kookaberry:
+Two UART interfaces are available on the **Kookaberry**:
 
-A. This interface is accessed by using plug ``P3`` on the back of the Kookaberry.
-B. This interface requires an expansion board that connects via the Kookaberry's edge connector.  The plug on such a board is ``P6``.
+A. This interface is accessed by using plug ``P3`` on the back of the **Kookaberry**.
+B. This interface requires an expansion board that connects via the **Kookaberry**'s edge connector.  The plug on such a board is ``P6``.
 
 When HC-12 Receive
 ~~~~~~~~~~~~~~~~~~

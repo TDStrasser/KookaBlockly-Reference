@@ -44,7 +44,7 @@ Every Loop
 
 This block runs the blocks nested inside in a repeated loop.  
 
-The loop will run forever unless externally stopped by exiting the script, or resetting the Kookaberry or removing power from the Kookaberry.  
+The loop will run forever unless externally stopped by exiting the script, or resetting the **Kookaberry** or removing power from the **Kookaberry**.  
 
 Another name for this block is the Repeat Forever loop.
 
@@ -77,7 +77,7 @@ The number in the box specifies the duration of sleep in decimal seconds.
 Time (s)
 --------
 
-This block returns a value in whole seconds since the Kookaberry’s epoch time ( 00:00:00 on 1st 
+This block returns a value in whole seconds since the **Kookaberry’s** epoch time ( 00:00:00 on 1st 
 January 2000).  
 
 By subtracting successive values given by this block, the elapsed interval in 
@@ -92,15 +92,15 @@ seconds between the samples may be calculated which is useful for timing functio
    **epoch time** is the point from which time is measured.  This point differs for different operating systems.  
    For MicroPython on micro-computers, the **epoch time** is 2000-01-01 00:00:00.
 
-   **epoch time** should not be confused with the **default time** set on the Kookaberry's internal real-time-clock (RTC), which is 2015-01-01 00:00:00.
-   Using **KookaBlockly**, however, the Kookaberry's internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
+   **epoch time** should not be confused with the **default time** set on the **Kookaberry**'s internal real-time-clock (RTC), which is 2015-01-01 00:00:00.
+   Using **KookaBlockly**, however, the **Kookaberry**'s internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
 
 
 
 Time (ms)
 ---------
 
-This block returns a value in milliseconds since the Kookaberry’s epoch time (00:00:00 on 1st 
+This block returns a value in milliseconds since the **Kookaberry’s** epoch time (00:00:00 on 1st 
 January 2000).  
 
 By subtracting successive values given by this block, the elapsed interval in 

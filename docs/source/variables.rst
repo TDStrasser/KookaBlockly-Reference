@@ -89,7 +89,7 @@ Character strings and boolean values will not be accepted.
 
 This examples illustrates how this block may be used as a counter.
 Three variables are set up: ``count_b``, ``count_c`` and ``count_d`` to count the number of times buttons B, C and D are pressed.
-The running totals are printed on the Kookaberry's display.
+The running totals are printed on the **Kookaberry**'s display.
 
 .. image:: images/variables-change-example.png
    :height: 500
@@ -113,7 +113,7 @@ This value block allows a user to attach a variable’s value to the input of an
    :align: center
 
 This example reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
-and display the original and converted values on the Kookaberry display:
+and display the original and converted values on the **Kookaberry** display:
 
 
 .. image:: images/variables-example.png
