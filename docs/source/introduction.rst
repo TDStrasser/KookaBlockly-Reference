@@ -1,14 +1,14 @@
 Introduction to KookaBlockly
 ============================
 
-**KookaBlockly**: Graphical Programming Editor for Kookaberry Microprocessor Boards
+**KookaBlockly**: Visual Programming Editor for Kookaberry Microprocessor Boards
 -------------------------------------------------------------------------------
 
-**KookaBlockly** is a powerful standalone graphical editor designed for creating program scripts for Kookaberry and related microprocessor boards. 
+**KookaBlockly** is a powerful standalone visual editor designed for creating program scripts for Kookaberry and related microprocessor boards. 
 This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive. 
 It's built upon the open-source Google Blockly library (Apache 2 license), created by Google to facilitate the development of beginner-friendly programming languages.
 
-A **KookaBlockly** script is assembled from graphical function blocks dragged onto the workspace from the palette of blocks on the left of the display.  
+A **KookaBlockly** script is assembled from visual function blocks dragged onto the workspace from the palette of blocks on the left of the display.  
 The blocks click together like pieces of a jigsaw puzzle to form a series of steps that the Kookaberry microcomputer will perform.
 
 .. figure:: images/kblockly-welcome-script.png
@@ -27,11 +27,11 @@ It also received support from the AustSTEM Foundation, the Warren Centre, and th
 Key Features
 ------------
 
-Intuitive Graphical Interface: 
+Intuitive Visual Interface: 
     Users can create syntactically correct scripts and programs effortlessly, 
     even without prior knowledge of any programming language.
 
-    **KookaBlockly** enables users to assemble graphical blocks into structured MicroPython (Python 3.0) code.
+    **KookaBlockly** enables users to assemble visual blocks into structured MicroPython (Python 3.0) code.
 
 Compatibility: 
    The generated code can be utilized on most microprocessor boards that use MicroPython, 
@@ -51,11 +51,11 @@ Working with KookaBlockly
 
 Using **KookaBlockly** is straightforward and enjoyable. 
 
-Users can drag and drop graphical code blocks into the workspace, where they can be seamlessly interlocked or snapped together using sockets. 
+Users can drag and drop visual code blocks into the workspace, where they can be seamlessly interlocked or snapped together using sockets. 
 
 These sockets represent fundamental code concepts, including program controls (activation, termination, loops, and decisions), actions, and result computations (variables, values, mathematical and logical expressions). 
 
-The intuitive graphical process empowers users to apply programming concepts and principles when designing scripts or programs, eliminating the need to worry about the syntax and semantics of MicroPython. 
+The intuitive visual process empowers users to apply programming concepts and principles when designing scripts or programs, eliminating the need to worry about the syntax and semantics of MicroPython. 
 
 With **KookaBlockly**, programming becomes an enjoyable and accessible endeavour.
 

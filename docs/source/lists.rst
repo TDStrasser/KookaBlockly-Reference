@@ -135,7 +135,7 @@ In List Get / Remove Item
 This value block operates on a list to retrieve, retrieve and remove, or just remove an item at a 
 particular position in the list.  The value of the list item is returned as the result of the block.
 
-The graphic shows the block and the drop-down list of the operation choices available in the block:
+The images show the block and the drop-down list of the operation choices available in the block:
 
 1. **get** fetches the indexed item from the list without altering the list's content
 2. **get and remove** fetches the indexed item from the list and then deletes it from the list.  The length of the list reduces by one.
