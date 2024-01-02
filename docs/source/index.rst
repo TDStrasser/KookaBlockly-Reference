@@ -28,6 +28,7 @@ Contents
    using.rst
    conventions.rst
    blocks.rst
+   glossary.rst
 
 
 :Copyright:
