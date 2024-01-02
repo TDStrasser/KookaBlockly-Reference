@@ -48,14 +48,18 @@ Workspace
 
 In the centre of the window is the KookaBlockly workspace.  
 
-Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or trackpad.
+Blocks can be dragged into this space, repositioned, resized and deleted by using the mouse or track-pad or pointing device.
 
 Blocks Palette
 --------------
 
-Down the left of the window is a vertically-oriented list of the KookaBlockly pallete categories. 
+Down the left of the window is a vertically-oriented list of the KookaBlockly palette categories. 
 
-Click on any category to reveal the pallete of blocks, click on and drag the desired block to the workspace, position it and release to drop the block in place.
+Click on any category to reveal the palette of blocks, click on and drag the desired block to the workspace, 
+position it and release to drop the block in place.  The blocks palette will then automatically close.
+
+To close the blocks palette without dragging a block into the workspace, either click on the palette icon used to open the palette,
+or press the ``Esc`` key.
 
 
 .. figure:: images/blocks-palette.png
@@ -295,6 +299,8 @@ Trash
   Click on the Trash icon to open it and show the blocks that have been deleted in the current editing session.
 
   To retrieve a block from the Trash, click on the block and drag it back into the Workspace.
+
+  To close the Trash press the ``Esc`` key.
 
   When KookaBlockly is closed the contents of the Trash are deleted.
 

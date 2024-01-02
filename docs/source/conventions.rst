@@ -1,9 +1,16 @@
 KookaBlockly Conventions
 ========================
 
-KookaBlockly provides an extensive palette of blocks to assemble into scripts.  The block palette is on the left of the display organised into functionally related categories.  
+KookaBlockly provides an extensive palette of blocks to assemble into scripts.  
+The blocks palette is on the left of the display organised into functionally related categories.  
 
-Clicking on a category, for example the Control category, reveals the blocks available within that category.  To use the block, click on it and drag it onto the KookaBlockly workspace and release, and/or drag it into position until it snaps onto an adjacent block. Any block in the workspace can be clicked on and dragged into position.
+Clicking on a category, for example the Control category, reveals the blocks available within that category.  
+To use the block, click on it and drag it onto the KookaBlockly workspace and release, and/or drag it into position until it snaps onto an adjacent block. 
+Any block in the workspace can be clicked on and dragged into position.
+
+The blocks palette will close automatically when a block is dragged into the workspace.  
+Otherwise, the palette can be closed by clicking on the same block palette symbol that was used to open the palette,
+or by pressing the ``Esc`` key on the keyboard.
 
 Block Shapes
 ------------
@@ -97,3 +104,18 @@ Many blocks contain text fields.  In KookaBlockly, text is enclosed by double-qu
 However there are some exceptions, particularly in the :doc:`advanced` block which permits any valid MicroPython statement to be entered.  
 Here it is important to use the double-quotes ``"`` and not single quotes ``'`` to delimit text, as single-quotes are used in KookaBlockly's XML block code 
 and will be misinterpreted rendering the saved KookaBlockly file unusable (without manually correcting the XML block code).
+
+Deleting Blocks
+---------------
+
+Any block in the workspace, including any attached input blocks, can be removed from the script by:
+
+1. dragging the block to the Trash at the bottom-right of the workspace.  
+   The Trash icon will show an open lid when the dragged block is correctly positioned.
+2. or by clicking on the block to highlight it (shows a yellow outline), then pressing the ``delete`` key (or ``backspace`` key on Windows).
+
+
+Blocks removed can be retrieved from the Trash by clicking on the Trash icon.  A grey box will appear containing all of the deleted blocks.
+To retrieve a block, drag it back into the workspace. The Trash will then close automatically.
+
+To close the Trash without dragging a block into the workspace, press on the ``Esc`` key.
