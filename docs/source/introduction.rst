@@ -1,8 +1,8 @@
 Introduction to KookaBlockly
 ============================
 
-**KookaBlockly**: Visual Programming Editor for Kookaberry Microprocessor Boards
--------------------------------------------------------------------------------
+KookaBlockly: Visual Programming Editor for Kookaberry Microprocessor Boards
+----------------------------------------------------------------------------
 
 **KookaBlockly** is a powerful standalone visual editor designed for creating program scripts for **Kookaberry** and related microprocessor boards. 
 This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive. 
