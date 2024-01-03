@@ -17,6 +17,12 @@ also to add extended functionality such as using special sensors and actuators a
    The Advanced block palette
 
 
+.. important:: 
+   When typing in the Python statement, please do not use the single quotation mark ``'`` 
+   as this will cause the saved script to not be loaded back in from file correctly.
+   Always use the double quotes ``"`` character, as in the example shown at the end of this section.
+
+
 Python Value
 ------------
 
