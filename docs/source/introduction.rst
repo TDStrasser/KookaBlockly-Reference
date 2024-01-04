@@ -46,8 +46,8 @@ Easy Access:
 
    Follow the :doc:`installing` guide in the next section to install **KookaBlockly**.
 
-Working with KookaBlockly
--------------------------
+Programming With KookaBlockly
+-----------------------------
 
 Using **KookaBlockly** is straightforward and enjoyable. 
 
