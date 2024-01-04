@@ -1,12 +1,12 @@
-KookaBlockly Function Blocks Reference
-======================================
+Part 2 - KookaBlockly Function Blocks Reference
+===============================================
 
 In this Part 2 of the **KookaBlockly Reference Guide**, 
 each of the groups of function blocks available on the **KookaBlockly** palette are described in the following sections.
 
 
 .. toctree::
-   :caption: Contents
+   :caption: Contents of Part 2
 
    control.rst
    clock.rst

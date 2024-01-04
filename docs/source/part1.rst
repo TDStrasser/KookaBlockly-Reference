@@ -1,5 +1,5 @@
-Working With KookaBlockly
-=========================
+Part 1 - Working With KookaBlockly
+==================================
 
 In this Part 1 of the **KookaBlockly Reference Guide**, **KookaBlockly** in introduced, then instructions are given on how
 the **KookaSuite** software package, is installed on a personal computer, how **KookaBlockly** is used, 

@@ -18,7 +18,7 @@ KookaTW
   A virtual Kookaberry user interface that replicates the physical user interface on a Kookaberry and provides 
   a user interface for compatible microprocessor boards that do not have a physical user interface.
 
-  *TW originated as Teacher's Window, but also stands for TWin.*
+  *TW originated as Teacher's Window, but also stands for TWin, or in some cases Training Window.*
 
 Downloading KookaSuite
 ----------------------

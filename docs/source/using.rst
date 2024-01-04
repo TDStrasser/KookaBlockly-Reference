@@ -195,7 +195,7 @@ Show display
 
   The LEDs will change colour to mirror illumination of the real LEDs on the **Kookaberry**.
 
-  The buttons can be clicked using a mouse or trackpad on the PC, and will respond in the same way as the physical buttons on the **Kookaberry**.
+  The buttons can be clicked using a mouse or track-pad on the PC, and will respond in the same way as the physical buttons on the **Kookaberry**.
 
 .. figure:: images/kblockly-show-display-window.png
    :width: 400
@@ -203,11 +203,17 @@ Show display
 
    Virtual **Kookaberry** window
 
-.. Note::
+.. note::
   
    It is also possible to load **Kookaberry** firmware onto standard Pi Pico microcomputer boards.  
-   These boards do not have the pyhsical **Kookaberry** display, LEDs or buttons.  
+   These boards do not have the physical **Kookaberry** display, LEDs or buttons.  
+
    In this case the virtual **Kookaberry** window can be used to view and operate the **Kookaberry**'s user interface.
+   
+   1. the “Kookaberry Reset” button replicates the hardware Reset button the Kookaberry
+   2. the “Kookaberry menu” button replaces the “hold down button B and press and release Reset” on a physical Kookaberry
+   3. the three LEDs replicate the three hardware LEDs on the Kookaberry
+   4. the four buttons A, B, C and D, replicate the physical buttons on the KookaBerry
 
 
 Show script
