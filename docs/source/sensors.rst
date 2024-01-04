@@ -2,13 +2,6 @@
 Sensors
 -------
 
-The **Kookaberry** contains two on-board sensors, being a 3-axis accelerometer and a 
-3-axis magnetometer.  
-
-A large variety of external sensors may also be connected to the **Kookaberry** via its Pin connectors.  
-**KookaBlockly** supports many external sensors as are listed under the **External Sensors** section.  
-These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
-
 The Sensors category provides blocks that enable the use of these sensors.
 
 .. figure:: images/sensors-palette.png
@@ -17,6 +10,11 @@ The Sensors category provides blocks that enable the use of these sensors.
    
    The palette of **KookaBlockly** Sensor blocks
 
+The **Kookaberry** contains two on-board sensors, being a 3-axis accelerometer and a 3-axis magnetometer.  
+
+A large variety of external sensors may also be connected to the **Kookaberry** via its Pin connectors.  
+**KookaBlockly** supports many external sensors as are listed under the **External Sensors** section.  
+These encompass measuring temperature, humidity, barometric pressure, soil moisture, light, electrical power, voltage and current.
 
 Internal Sensors
 -----------------
@@ -79,10 +77,23 @@ it is subjected to in three axes (X, Y and Z), as well as the total magnetic fie
 External Sensors
 ----------------
 
+Sensors' Pins Connections
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+External sensors are connected to the **Kookaberry** by one of the five connectors on the back, ``P1`` through to ``P5``, 
+with connector ``P3`` having two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
+
+Each external sensor block has one or more input Pins drop-down selection blocks by which the input Pin can be selected. 
+
+It is possible to replace the Pins dropdown selection block with a String block.   
+This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
+In those cases type in the Pin's identifier into the String block.
+
 Get Temperature from DS18x20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The DS18B20 Probe is a waterproof digital temperature sensor that can measure temperature from -55°C to + 125°C with an accuracy of 0.5 ° C.
+The DS18x20 Probe is a waterproof digital temperature sensor that can measure temperature from -55°C to + 125°C with an accuracy of 0.5 ° C.
 
 This block enables reading of the probe and returns the temperature in degrees centigrade.  The drop-down box on this 
 block enables selection of which Pin connector the sensor is attached to.
@@ -97,6 +108,12 @@ The DS18x20 sensor is used for measuring temperature in air and in liquid.
 The sensor is pre-calibrated and performs all of the temperature calculations within the sensor.
 
 Learn how to use the sensor here: https://learn.auststem.com.au/peripheral/ds18b20/
+
+.. note:: 
+
+   The manufacturer of the temperature sensing DS18x20 chip requires a 4700 ohm (often referred to as a 4K7) pull-up resistor 
+   to make the chip work correctly. The **Kookaberry**'s and **Pi Pico**'s internal pull up resistor may work on some DS18x20 chips but not all of them.
+   Try a different make of DS18x20 sensor if troublesome operation occurs.
 
 Get Temperature from NTC
 ~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2,14 +2,6 @@
 Pins
 ----
 
-Pins are electrical connectors on the **Kookaberry**.  
-
-The **Kookaberry** circuit board has five plugs on the rear numbered ``P1`` to ``P5``.  
-
-``P3`` has four pins and the rest have 3 pins.  
-
-On each connector two of the pins are used for positive and negative power connections.  The remaining pin(s) have 
-multiple uses as digital or analogue inputs or outputs.
 
 The Pins category provides the means to control what the pins do.
 
@@ -20,6 +12,14 @@ The Pins category provides the means to control what the pins do.
    
    The palette of **KookaBlockly** Pins blocks
 
+Pins are electrical connectors on the **Kookaberry**.  
+
+The **Kookaberry** circuit board has five plugs on the rear numbered ``P1`` to ``P5``.  
+
+``P3`` has four pins and the rest have 3 pins.  
+
+On each connector two of the pins are used for positive and negative power connections.  The remaining pin(s) have 
+multiple uses as digital or analogue inputs or outputs.
 
 
 .. note::

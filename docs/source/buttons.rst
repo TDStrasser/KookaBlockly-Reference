@@ -2,15 +2,25 @@
 Buttons
 -------
 
+Button blocks are used to specify the actions to be taken when a specific button is pressed.
+
+.. figure:: images/buttons-palette.png
+   :width: 300
+   :align: center
+   
+   The palette of **KookaBlockly** Buttons blocks
+
+
+
 The **Kookaberry** has four buttons beneath the display labelled A, B, C and D.  
 
 These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ``D`` yellow.  
 
 .. figure:: images/kberry-front-photo.png
-   :width: 400
+   :width: 200
    :align: center
    
-   **Kookaberry** - front view
+   **Kookaberry** - front view showing Display, LEDs and Buttons
 
 
 Button functions are also available on the virtual **Kookaberry** which is shown when **KookaBlockly**'s **Show display** button is clicked.
@@ -22,16 +32,7 @@ Button functions are also available on the virtual **Kookaberry** which is shown
    Virtual **Kookaberry**
 
 
-Button blocks are used to specify the actions to be taken when a specific button is pressed.
-
-.. figure:: images/buttons-palette.png
-   :width: 300
-   :align: center
-   
-   The palette of **KookaBlockly** Buttons blocks
-
-
-Each block is described in turn below.
+Each block in the **Buttons** category is described in turn below.
 
 When Button Was Pressed
 -----------------------

@@ -4,9 +4,6 @@ Radio
 
 Radio communications between **Kookaberries** is possible using the Radio blocks shown below.
 
-Radio communications is useful for sending messages, sharing data, for remote monitoring, and for remote control.
-
-The **Kookaberry** has an internal short-range radio, and can also connect to one or more external longer range radios.
 
 .. figure:: images/radio-palette.png
    :width: 500
@@ -14,6 +11,14 @@ The **Kookaberry** has an internal short-range radio, and can also connect to on
    
    The palette of **KookaBlockly** Radio blocks
 
+
+Radio communications is useful for sending messages, sharing data, for remote monitoring, and for remote control.
+
+The **Kookaberry** has an internal short-range digital packet radio, and can also connect to one or more external longer range radios.
+
+The internal radio is compatible with the **BBC Micro:Bit**'s radio, as it uses the same radio chip, radio frequencies, and digital signalling.  
+It is possible to exchange messages between the **Kookaberry** and the **Micro:Bit** provided the same radio channel is selected on both devices, 
+nominally Channel 7.
 
 Internal Radio
 --------------
@@ -56,7 +61,7 @@ Once read the radio message is deleted from the message queue.
 
 
 .. image:: images/radio-read.png
-   :height: 120
+   :height: 80
    :align: center
 
 
@@ -70,7 +75,7 @@ Typically an alphanumeric text character occupies only one byte but some special
 
 
 .. image:: images/radio-send.png
-   :height: 120
+   :height: 80
    :align: center
 
 
@@ -91,7 +96,7 @@ Each channel is 1MHz wide, starting at Channel 0 at 2400MHz and ending at Channe
 
 
 .. image:: images/radio-set-channel.png
-   :height: 120
+   :height: 80
    :align: center
 
 
@@ -140,8 +145,9 @@ The interface to the **Kookaberry** is via its UART (Universal Asynchronous Rece
 
 Two UART interfaces are available on the **Kookaberry**:
 
-A. This interface is accessed by using plug ``P3`` on the back of the **Kookaberry**.
-B. This interface requires an expansion board that connects via the **Kookaberry**'s edge connector.  The plug on such a board is ``P6``.
+A. This interface is accessed by using plug ``P3`` on the back of the **Kookaberry**.  This is radio ``A``.
+B. This interface requires an expansion board that connects via the **Kookaberry**'s edge connector.  The plug on such a board is ``P6``.  
+   This radio is designated radio ``B``.
 
 When HC-12 Receive
 ~~~~~~~~~~~~~~~~~~

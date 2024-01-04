@@ -87,6 +87,19 @@ automatically synchronised using **KookaBlockly**.
 External Clock
 --------------
 
+External Clock's Pins Connections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The external clock is connected to the **Kookaberry** by two of the five connectors on the back, ``P1`` through to ``P5``, 
+with connector ``P3`` having two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
+
+The external clock block has two input Pins drop-down selection blocks by which the input Pin can be selected. 
+
+It is possible to replace the Pins dropdown selection block with a String block.   
+This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
+In those cases type in the Pin's identifier into the String block.
+
 Get External Clock - Simple Time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

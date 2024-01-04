@@ -21,6 +21,7 @@ Glossary of Terms
       Visual code editors often aim to make coding more accessible to beginners or those who are not familiar with traditional text-based coding environments.
       It differs from a graphical code editor that may involve more abstract graphical representations of code structures, while
       visual code editors usually retain a connection to the actual code, using visual elements to enhance the coding experience. 
+      See also https://en.wikipedia.org/wiki/Visual_programming_language
 
     OLED
       Organic Light Emitting Diode - the lighting technology that is used in the Kookaberry display - see https://en.wikipedia.org/wiki/OLED
@@ -57,6 +58,12 @@ Glossary of Terms
       A microcomputer developed by the Raspberry Pi Foundation based on their RP2040 microprocessor chip.  
       The RP2040 microprocessor chip is used in later hardware versions of the Kookaberry.
       See also https://en.wikipedia.org/wiki/Raspberry_Pi
+
+    Micro:Bit
+      A microcomputer for STEM applications developed in the United Kingdom by the BBC (British Broadcasting Corporation).  
+      It also is programmed using MicroPython, and has two official visual programming tools, being **Microsoft MakeCode**, and **Scratch**.
+      The Micro:Bit differs from the Kookaberry in that it can contain only one program at a time, and it has just two buttons and an 8x8 LED matrix display.
+      See also https://en.wikipedia.org/wiki/Micro_Bit, and https://en.wikipedia.org/wiki/Scratch_(programming_language).
 
     STM
       STMicroelectronics N.V. commonly referred to as ST or STMicro is a multinational corporation and technology company of French-Italian origin.

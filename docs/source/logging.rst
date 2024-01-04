@@ -2,6 +2,20 @@
 Logging
 -------
 
+These blocks provide a facility for writing data into files on the **Kookaberry**.
+
+.. figure:: images/logging-palette.png
+   :width: 300
+   :align: center
+   
+   The palette of **KookaBlockly** Logging blocks
+
+
+.. note:: 
+
+    At present **KookaBlockly** does not directly support the reading of files from the **Kookaberry**'s file system.
+    MicroPython scripting does however contain extensive functionality for reading, writing and manipulating the **Kookaberry**'s files.
+
 The **Kookaberry** contains a 3 to 4 megabyte (depending on hardware model) non-volatile serial memory store which is used to store 
 files.  These files can be written and read by the **Kookaberry** and also via a USB interface by any attached computer.
 
@@ -24,22 +38,6 @@ These data are stored in a CSV file at time intervals as above.
 
 When the experiment is finished, the data can be retrieved from the CSV file stored on the **Kookaberry** using a computer to perform analysis of the results.
 CSV text data is most commonly used to draw graphs of the data values over time using a spreadsheet program.
-
-These blocks provide a facility for writing data into files on the **Kookaberry**.
-
-.. figure:: images/logging-palette.png
-   :width: 300
-   :align: center
-   
-   The palette of **KookaBlockly** Logging blocks
-
-
-.. note:: 
-
-    At present **KookaBlockly** does not directly support the reading of files from the **Kookaberry**'s file system.
-    MicroPython scripting does however contain extensive functionality for reading, writing and manipulating the **Kookaberry**'s files.
-
-
 
 Clear File
 ----------

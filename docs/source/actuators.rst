@@ -2,6 +2,14 @@
 Actuators
 ---------
 
+The Actuators category provides blocks that enable the use of these servos.
+
+.. figure:: images/actuators-palette.png
+   :width: 500
+   :align: center
+   
+   The palette of **KookaBlockly** Actuator blocks
+
 The Actuators category comprises blocks to use Hobby Servos and Continuous Rotation Servo 
 Motors. 
 
@@ -26,13 +34,18 @@ While it is possible to drive some small servos directly from the
 the required servo power being higher than the **Kookaberry** can provide. 
 A directly connected servo will be weak and slow, and may result in the **Kookaberry**'s power supply shutting down on overload.
 
-The Actuators category provides blocks that enable the use of these servos.
+Actuators' Pins Connections
+---------------------------
 
-.. figure:: images/actuators-palette.png
-   :width: 500
-   :align: center
-   
-   The palette of **KookaBlockly** Actuator blocks
+Actuators are connected to the **Kookaberry** by one of the five connectors on the back, ``P1`` through to ``P5``, 
+with connector ``P3`` having two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
+
+Each actuator block has an input Pins drop-down selection blocks by which the input Pin can be selected. 
+
+It is possible to replace the Pins dropdown selection block with a String block.   
+This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
+In those cases type in the Pin's identifier into the String block.
 
 
 Set Servo to Angle
