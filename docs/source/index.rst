@@ -18,10 +18,9 @@ The document is in TWO parts:
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
+   :caption: Contents
 
    part1.rst
    part2.rst

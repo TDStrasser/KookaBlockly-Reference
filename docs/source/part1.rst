@@ -1,4 +1,3 @@
-=========================
 Working With KookaBlockly
 =========================
 
@@ -6,10 +5,9 @@ In this Part 1 of the **KookaBlockly Reference Guide**, **KookaBlockly** in intr
 the **KookaSuite** software package, is installed on a personal computer, how **KookaBlockly** is used, 
 and finally the conventions used by **KookaBlockly** are explained.
 
-Contents of Part 1
-------------------
 
 .. toctree::
+   :caption: Contents of Part 1
 
    introduction.rst
    installing.rst

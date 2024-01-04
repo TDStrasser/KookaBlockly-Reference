@@ -1,8 +1,11 @@
 KookaBlockly Function Blocks Reference
 ======================================
 
-Each of the groups of function blocks available on the **KookaBlockly** palette are described in the following sections.
+In this Part 2 of the **KookaBlockly Reference Guide**, 
+each of the groups of function blocks available on the **KookaBlockly** palette are described in the following sections.
 
+Contents of Part 2
+------------------
 
 .. toctree::
    :caption: Contents
