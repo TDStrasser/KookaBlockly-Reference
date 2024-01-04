@@ -1,13 +1,20 @@
 # Configuration file for the Sphinx documentation builder.
+from datetime import datetime
 
 # -- Project information
 
-project = 'KookaBlockly Reference'
-copyright = '2023, AustSTEM'
+project = 'KookaBlockly Reference Guide'
+now = datetime.now()
+today = f"{now.year}-{now.month:02}-{now.day:02}"
+
+rights_holders = 'the AustSTEM Foundation and contributors'
+copyright = '2019 - 2024 the AustSTEM Foundation and contributors'
+copyright = f"2019-{now.year}, {rights_holders}, Last updated: {today}"
+
 author = 'Julian Dinsdale and Tony Strasser'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.1'
 
 # -- General configuration
 

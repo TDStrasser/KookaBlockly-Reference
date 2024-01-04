@@ -23,11 +23,8 @@ Contents
 
 .. toctree::
 
-   introduction.rst
-   installing.rst
-   using.rst
-   conventions.rst
-   blocks.rst
+   part1.rst
+   part2.rst
    glossary.rst
 
 
