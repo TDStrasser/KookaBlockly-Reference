@@ -68,7 +68,7 @@ or press the ``Esc`` key.
 
    The Blocks Palette showing the Block Categories
 
-The block categories and blocks are fully described in the :doc:`blocks` section.
+The block categories and blocks are fully described in the :doc:`part2` section.
 
 Script Controls
 ---------------
