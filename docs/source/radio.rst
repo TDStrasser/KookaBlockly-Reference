@@ -6,7 +6,7 @@ Radio communications between **Kookaberries** is possible using the Radio blocks
 
 
 .. figure:: images/radio-palette.png
-   :width: 500
+   :width: 400
    :align: center
    
    The palette of **KookaBlockly** Radio blocks

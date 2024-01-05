@@ -8,7 +8,7 @@ The Math Category provides this repertoire of mathematical functions.
 
 
 .. figure:: images/math-palette.png
-   :width: 500
+   :width: 400
    :align: center
    
    The palette of **KookaBlockly** Math blocks
