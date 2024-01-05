@@ -16,6 +16,8 @@ author = 'Julian Dinsdale and Tony Strasser'
 release = '0.1'
 version = '0.1.1'
 
+numfig = True # Automatically number figures, code blocks and tables
+
 # -- General configuration
 
 extensions = [
