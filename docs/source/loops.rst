@@ -73,10 +73,11 @@ The variable drop-down list contains the names of the available variables. The d
 The options **Rename variable** and **Delete variable** are configuration functions to manage the 
 creation of new variables or deletion of existing variables. See also the :doc:`variables` Category.
 
-In :numref:`loopcountwithexample` is an example of the loop counting between 1 and 16 by 3.  
-On each iteration of the loop, the value of the variable ``i`` is printed on a new line on the display, as shown in :numref:`loopcountwithdisplay`.
+In :numref:`loopcountexample` is an example of the loop counting between 1 and 16 by 3.  
+On each iteration of the loop, the value of the variable ``i`` is printed on a new line on the display, as shown in :numref:`loopcountdisplay`.
 
-.. _loopcountwithexample:
+
+.. _loopcountexample:
 .. figure:: images/loops-count-with-example.png
    :width: 400
    :align: center
@@ -84,10 +85,12 @@ On each iteration of the loop, the value of the variable ``i`` is printed on a n
    Example script counts from 1 to 16
 
 
-.. _loopcountwithdisplay:
-.. image:: images/loops-count-with-example-display.png
+.. _loopcountdisplay:
+.. figure:: images/loops-count-with-example-display.png
    :height: 200
    :align: center
+
+   The display resulting from :numref:`loopcountexample`
 
 
 

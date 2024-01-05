@@ -120,12 +120,14 @@ This value block allows a user to attach a variable’s value to the input of an
    :height: 80
    :align: center
 
-The example in :numref:`varvalueexample` reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
+The example in :numref:`varvalexample` reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
 and display the original and converted values on the **Kookaberry** display:
 
 
-.. _varvalueexample:
-.. image:: images/variables-example.png
+.. _varvalexample:
+.. figure:: images/variables-example.png
    :width: 600
    :align: center
+
+   Example script reads converts temperature readings to Fahrenheit
 
