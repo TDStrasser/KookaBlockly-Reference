@@ -20,7 +20,7 @@ The blocks click together like pieces of a jigsaw puzzle to form a series of ste
 
    This is the **KookaBlockly** display with an example **KookaBlockly** script. 
 
-The example shown above shows a loop that writes a welcome message on the **Kookaberry** display and flashes the **Kookaberry**'s LEDs.  
+The example shown above shows a loop that writes a welcome message on the **Kookaberry** display and flashes the **Kookaberry**'s **LEDs**.  
 It then sleeps for 2 seconds and then goes back to the beginning of the loop.  The loop will run until the **Kookaberry** is reset or power is removed.
 
 **KookaBlockly** was meticulously crafted by Damien George (George Robotics – MicroPython) in collaboration with Kookaberry Pty Ltd. 

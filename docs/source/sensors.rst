@@ -2,14 +2,14 @@
 Sensors
 -------
 
-The Sensors category provides blocks that enable the use of these sensors, as shown in :numref:`senspalette`.
+The **Sensors** category provides blocks that enable the use of these sensors, as shown in :numref:`senspalette`.
 
 .. _senspalette:
 .. figure:: images/sensors-palette.png
    :width: 600
    :align: center
    
-   The palette of **KookaBlockly** Sensor blocks
+   The palette of **KookaBlockly** **Sensor** blocks
 
 The **Kookaberry** contains two on-board sensors, being a 3-axis accelerometer and a 3-axis magnetometer.  
 
@@ -84,12 +84,12 @@ Sensors' Pins Connections
 External sensors are connected to the **Kookaberry** by one of the five connectors on the back, ``P1`` through to ``P5``, 
 with connector ``P3`` having two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
 
-Each external sensor block has one or more input Pins drop-down selection blocks by which the input Pin can be selected. 
+Each external sensor block has one or more input **Pins** drop-down selection blocks by which the input Pin can be selected. 
 
-It is possible to replace the Pins dropdown selection block with a String block.   
-This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+It is possible to replace the **Pins** dropdown selection block with a **String** block.   
+This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
 or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
-In those cases type in the Pin's identifier into the String block.
+In those cases type in the Pin's identifier into the **String** block.
 
 Get Temperature from DS18x20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -193,7 +193,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using BME280 circuit boards it is important that these signals are connected to the correct Pins on the **Kookaberry**.
+When using BME280 circuit boards it is important that these signals are connected to the correct **Pins** on the **Kookaberry**.
 
 The **Get Temperature from BME280** block is shown below with the three sets of options available from the drop-down boxes on the block.
 
@@ -217,7 +217,7 @@ It is possible to have two BME280 sensors, each with a different address, on the
    :height: 120
    :align: center
 
-The third and fourth drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+The third and fourth drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some BME280 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
 Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
@@ -251,7 +251,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using LSM303 circuit boards it is important that these signals are connected to the correct Pins on the **Kookaberry**.
+When using LSM303 circuit boards it is important that these signals are connected to the correct **Pins** on the **Kookaberry**.
 
 The **Get Acceleration from LSM303** block is shown below with the three sets of options available from the drop-down boxes on the block.
 
@@ -274,7 +274,7 @@ The first drop-down box provides the list of measurements available which are:
    :align: center
 
 
-The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+The second and third drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some LSM303 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
 Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
@@ -303,7 +303,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using a VEML7700 circuit board it is important that these signals are connected to the correct Pins on the **Kookaberry**.
+When using a VEML7700 circuit board it is important that these signals are connected to the correct **Pins** on the **Kookaberry**.
 
 The **Get Lux from VEML7700** block is shown below with the two sets of options available from the drop-down boxes on the block.
 
@@ -311,7 +311,7 @@ The **Get Lux from VEML7700** block is shown below with the two sets of options 
    :height: 180
    :align: center
 
-The two drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+The two drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some VEML7700 boards on the market have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
 Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
@@ -339,7 +339,7 @@ There are four wires in the I2C interface, being:
 * ``SCL`` being the serial clock signal for communications timing
 * ``SDA`` being the serial data signal which conveys the digital data being communicated
 
-When using a INA219 circuit board it is important that these signals are connected to the correct Pins on the **Kookaberry**.
+When using a INA219 circuit board it is important that these signals are connected to the correct **Pins** on the **Kookaberry**.
 
 The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
 
@@ -365,7 +365,7 @@ The first drop-down box provides the list of measurements available which are:
    :align: center
 
 
-The second and third drop-down boxes provide options as to which Pins are used for the SCL and SDA signals on the **Kookaberry**.
+The second and third drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 Usually the defaults of ``P3A`` for SCL and ``P3B`` for SDA will work, using the **Kookaberry**'s **P3** 4-wire connector.  
 Some INA219 boards on the market may have the SCL and SDA wires swapped, which requires the selections on the block to be swapped.
 Any other of the **Kookaberry**'s connectors (**P1** to **P5**) can also be used.
@@ -417,7 +417,7 @@ Get Soil Moisture
 
 There are two types of soil moisture sensor available:
 
-1. Resistive soil moisture sensor which measures the conductivity of soil by applying an electrical voltage using two spikes or pins.
+1. Resistive soil moisture sensor which measures the conductivity of soil by applying an electrical voltage using two spikes.
 2. Capacitive soil moisture sensor, consisting of a single broad spike, which measures changes in the soil's capacitance due to the presence of moisture.
 
 While both kinds of sensor are effective, the capacitive soil moisture sensor is much more durable as it is not susceptible to corrosion which affects
@@ -435,7 +435,7 @@ A string block can also be used instead of the drop-down selector block and the 
    :height: 120
    :align: center
 
-To the right of the Pin selector drop-down list are two fields which can be manually edited.
+To the right of the **Pin** selector drop-down list are two fields which can be manually edited.
 These are the voltages given by the sensor when it is dry and when it is wet. The default values suit a capacitive sensor.
 
 1. For a resistive sensor, the dry value should be lower than the wet value.  ``Dry=`` 0 volts and ``wet=`` 3.3 volts are suitable starting values.

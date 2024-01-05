@@ -4,7 +4,7 @@ KookaBlockly Conventions
 **KookaBlockly** provides an extensive palette of blocks to assemble into scripts.  
 The blocks palette is on the left of the display organised into functionally related categories.  
 
-Clicking on a category, for example the Control category, reveals the blocks available within that category.  
+Clicking on a category, for example the **Control** category, reveals the blocks available within that category.  
 To use the block, click on it and drag it onto the **KookaBlockly** workspace and release, and/or drag it into position until it snaps onto an adjacent block. 
 Any block in the workspace can be clicked on and dragged into position.
 

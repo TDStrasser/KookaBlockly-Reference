@@ -3,38 +3,39 @@ Pins
 ----
 
 
-The Pins category, shown in :numref:`pinpalette`, provides the means to control what the pins do.
+The **Pins** category, shown in :numref:`pinpalette`, provides the means to control what the **Pins** do.
 
 .. _pinpalette:
 .. figure:: images/pins-palette.png
    :width: 500
    :align: center
    
-   The palette of **KookaBlockly** Pins blocks
+   The palette of **KookaBlockly** **Pins** blocks
 
-Pins are electrical connectors on the **Kookaberry**.  
+**Pins** are electrical connectors on the **Kookaberry**.  
 
 The **Kookaberry** circuit board has five plugs on the rear numbered ``P1`` to ``P5``.  
 
-``P3`` has four pins and the rest have 3 pins.  
+``P3`` has four electrical pins and the rest have 3 pins.  
 
 On each connector two of the pins are used for positive and negative power connections.  The remaining pin(s) have 
 multiple uses as digital or analogue inputs or outputs.
 
 
 .. note::
-  In some of the Pins blocks it is possible to replace the Pins dropdown selection block with a 
-  String block.   This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
-  or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
-  In those cases type in the Pin's identifier into the String block, as shown in :numref:`pinstring'.
-  
+   In some of the **Pins** blocks it is possible to replace the **Pins** dropdown selection block with a **String** block.   
+   This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
+   or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
+   In those cases type in the Pin's identifier into the **String** block, as shown in :numref:`pinstring'.
+
+
 
 .. _pinstring:
 .. figure:: images/pins-string-nomination.png
    :height: 80
    :align: center
    
-   Using a String Variable instead of a Pins drop-down selection.
+   Using a **String** value block instead of a **Pins** drop-down selection.
 
 		
 

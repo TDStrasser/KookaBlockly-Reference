@@ -26,6 +26,13 @@ Glossary of Terms
     OLED
       Organic Light Emitting Diode - the lighting technology that is used in the Kookaberry display - see https://en.wikipedia.org/wiki/OLED
 
+    LED
+      Light Emiting Diode - a semiconductor that emits a specific wavelength of light when energised.  
+      The **Kookaberry** has three LEDs on the front under the display. They emit red, yellow and green light.
+      There are two further LEDs on the back: a green LED indicating the Kookaberry has power, 
+      and a blue LED which indicates file writing activity, or if pulsing slowly indicates the Kookaberry's power supply voltage is low.
+      See also: https://en.wikipedia.org/wiki/Light-emitting_diode
+
     GPIO
       General Purpose Input and Output - the electrical signals to and from a microcomputer are connected by these, 
       and are referred to as :doc:`pins` by **KookaBlockly**. See also https://en.wikipedia.org/wiki/General-purpose_input/output
@@ -94,3 +101,21 @@ Glossary of Terms
       Firmware updates may sometimes be issued that extend the functionality of a computer, or to remedy bugs or security weaknesses in the firmware.
       The Kookaberry's firmware is updated from time to time for the same reasons.
       See also https://en.wikipedia.org/wiki/Firmware
+
+    Real Time Clock (RTC)
+      A specialised clock chip that keeps precise time.  RTCs can be built into a micrcomputer and / or be connected externally.  
+      Often external RTCs have a small battery that keeps the clock running when the microcomputer is turned off.  
+      The microcomputer can then synchronise its internal RTC with the battery-powered external RTC.
+      See also https://en.wikipedia.org/wiki/Real-time_clock
+
+    ASCII
+      American Standard Code for Information Interchange - a character encoding standard for electronic communication. 
+      ASCII codes represent text in computers, telecommunications equipment, and other devices.
+      **MicroPython** uses ASCII code when encoding character strings.
+      See also https://en.wikipedia.org/wiki/ASCII
+    
+    CSV
+      Comma-Separated-Values - a text file format in which each line contains alphanumeric text data which are separated by commas. 
+      The first line of the files can be used to represent headings for the data item columns that are in the following lines.
+      CSV formatted files are recognised and can be directly opened by spreadsheet programs.
+      See also https://en.wikipedia.org/wiki/Comma-separated_values

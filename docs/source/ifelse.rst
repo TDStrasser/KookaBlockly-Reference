@@ -2,7 +2,7 @@
 If–Else
 -------
 
-The If-Else category comprises control blocks which direct the flow of a program depending on the results of the tests carried out by these blocks.
+The **If-Else** category comprises control blocks which direct the flow of a program depending on the results of the tests carried out by these blocks.
 See :numref:`ifpalette`.
 
 .. _ifpalette:
@@ -10,7 +10,7 @@ See :numref:`ifpalette`.
    :width: 300
    :align: center
    
-   The palette of **KookaBlockly** If-Else blocks
+   The palette of **KookaBlockly** **If-Else** blocks
 
 
 If-Do
@@ -56,7 +56,7 @@ The **If-Do** block is configurable.
 By clicking the gear icon on the block, extra elections can be added by dragging the **else if** or **else** blocks 
 into the white area to connect under the **if** block in the configuration box:
 
-* **else if** sections can add more conditional sockets to check for further input Boolean values,
+* **else if** sections can add more conditional sockets to check for further input **Boolean** values,
   and a **do** bracket to contain action blocks to be run if the input is ``True``. 
   Multiple  **else if** sections can be configured.
 * a single **else** section can be added to the end to contain the action blocks to be run if none of the previous conditions are ``True``.

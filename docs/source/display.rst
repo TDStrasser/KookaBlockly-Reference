@@ -2,14 +2,14 @@
 Display
 -------
 
-Display blocks in :numref:`dispalette` control what appears on the **Kookaberry**'s display.
+**Display** blocks in :numref:`dispalette` control what appears on the **Kookaberry**'s display.
 
 .. _dispalette:
 .. figure:: images/display-palette.png
    :width: 500
    :align: center
    
-   The palette of **KookaBlockly** Display blocks
+   The palette of **KookaBlockly** **Display** blocks
 
 
 Each block is described in turn below.
@@ -31,7 +31,7 @@ The bottom right of the display has a location reference (x,y) of (127,63).
    :width: 300
    :align: center
    
-   The Display coordinates
+   The **Display** coordinates
 
 The display is driven from an internal memory array known as a Framebuffer, 
 into which the software writes the pixel data prior to its contents being transferred to the physical **Kookaberry** display.  
@@ -40,28 +40,28 @@ This reduces any display flicker.
 The method of writing to a display is generally:
 
 1.	**Clear** the Framebuffer
-2.	Write text and/or graphics to the Framebuffer in one or more parts to build up the entirety of the Display's contents, and then
+2.	Write text and/or graphics to the Framebuffer in one or more parts to build up the entirety of the **Display**'s contents, and then
 3. **Show** the display buffer on the display.
 
-The following blocks provide the functionality to operate the **Kookaberry**'s Display.
+The following blocks provide the functionality to operate the **Kookaberry**'s **Display**.
 
 Text coordinates
 ----------------
 
-The coordinates at which text is positioned on the Display differs from the graphical elements (``pixel``, ``line``, ``rectangle``, and ``image``).
+The coordinates at which text is positioned on the **Display** differs from the graphical elements (``pixel``, ``line``, ``rectangle``, and ``image``).
 
 *  Graphical elements are positioned at their top-left corner.
 *  Text is positioned at its bottom-left corner.
 
 To accurately position text, one can use trial-and-error, or make a calculation that depends on the text font size (the default being ``mono8x8``).
 
-* To position a pixel at the top-left of the Display (0,0) simply specify x=0 and y=0 in the **Display Pixel** block.
-* To position text at the top-left of the Display, specify (0,7) being x=0 and y=7 (the mono8x8 font height) in the **Display Print** block.
+* To position a pixel at the top-left of the **Display** (0,0) simply specify x=0 and y=0 in the **Display Pixel** block.
+* To position text at the top-left of the **Display**, specify (0,7) being x=0 and y=7 (the mono8x8 font height) in the **Display Print** block.
 
 Display Clear
 -------------
  
-This block clears the display’s frame buffer.  The physical display will not be updated until a "Display Show" is used.
+This block clears the display’s frame buffer.  The physical display will not be updated until a **Display Show** is used.
 
 .. image:: images/display-clear.png
    :height: 60
@@ -145,7 +145,7 @@ followed by the output of any value block.
    :width: 400
    :align: center
    
-   Display Print-and example script
+   **Display Print-and** example script
 
 
 This example results in a display that looks like :numref:`disprtoutput` and is updated every second. 
@@ -155,7 +155,7 @@ This example results in a display that looks like :numref:`disprtoutput` and is 
    :width: 300
    :align: center
    
-   Display Print-and example Display
+   **Display Print-and** example display
 
 By using “Display Clear” the displayed text stays at the top of the screen instead of scrolling down the display.
 

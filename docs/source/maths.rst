@@ -4,14 +4,14 @@ Math
 
 Fundamental to any computer program is the ability to do mathematical computations.  
 
-The Math Category provides the repertoire of mathematical functions shown in :numref:`mathpalette`.
+The **Math** Category provides the repertoire of mathematical functions shown in :numref:`mathpalette`.
 
 .. _mathpalette:
 .. figure:: images/math-palette.png
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** Math blocks
+   The palette of **KookaBlockly** **Math** blocks
 
 
 
@@ -234,24 +234,24 @@ Input numbers are floating point and output numbers are integers.
 List Operations
 ---------------
 
-This block computes a mathematical function based on the content of a list which is connected to the input to the block.
+This block computes a mathematical function based on the content of a **List** which is connected to the input to the block.
 
 The function to be used is selected from the drop-down list:
 
-1. **sum** - computes the arithmetic sum of the members of the list - see https://en.wikipedia.org/wiki/Summation
-2. **minimum** - returns the number with the minimum value from the list - see https://en.wikipedia.org/wiki/Maximum_and_minimum
-3. **maximum** - returns the number with the maximum value from the list - see https://en.wikipedia.org/wiki/Maximum_and_minimum
-4. **average** - returns the arithmetic mean of the items in the list - see https://en.wikipedia.org/wiki/Arithmetic_mean
-5. **median** - returns the arithmetic median of the items in the list - see https://en.wikipedia.org/wiki/Median
-6. **modes** - returns a list of the most numerous items in the list (example below) - see https://en.wikipedia.org/wiki/Mode_(statistics)
-7. **standard deviation** - computes the statistical standard deviation of the items in the list - see https://en.wikipedia.org/wiki/Standard_deviation
-8. **random item** - returns an item from the list that has been selected at random - see also https://en.wikipedia.org/wiki/Random_variable
+1. **sum** - computes the arithmetic sum of the members of the **List** - see https://en.wikipedia.org/wiki/Summation
+2. **minimum** - returns the number with the minimum value from the **List** - see https://en.wikipedia.org/wiki/Maximum_and_minimum
+3. **maximum** - returns the number with the maximum value from the **List** - see https://en.wikipedia.org/wiki/Maximum_and_minimum
+4. **average** - returns the arithmetic mean of the items in the **List** - see https://en.wikipedia.org/wiki/Arithmetic_mean
+5. **median** - returns the arithmetic median of the items in the **List** - see https://en.wikipedia.org/wiki/Median
+6. **modes** - returns a **List** of the most numerous items in the **List** (example below) - see https://en.wikipedia.org/wiki/Mode_(statistics)
+7. **standard deviation** - computes the statistical standard deviation of the items in the **List** - see https://en.wikipedia.org/wiki/Standard_deviation
+8. **random item** - returns an item from the **List** that has been selected at random - see also https://en.wikipedia.org/wiki/Random_variable
 
 
 .. note:: 
-    All functions except **modes** and **random** require that the input list contain only numerical or :doc:`boolean` items.
-    Boolean items are evaluated as ``False`` = ``0`` and ``True`` = ``1``.
-    The **modes** and **random** functions accept list with members of any type, i.e. numeric integer and floating point, boolean, and character strings.
+    All functions except **modes** and **random** require that the input **List** contain only numerical or :doc:`boolean` items.
+    **Boolean** items are evaluated as ``False`` = ``0`` and ``True`` = ``1``.
+    The **modes** and **random** functions accept **Lists** with members of any type, i.e. numeric integer and floating point, boolean, and character strings.
 
 
 
@@ -260,9 +260,9 @@ The function to be used is selected from the drop-down list:
    :align: center
 
 
-This is an example of the use of **modes**.  The input list contains ``[-123, 123, 123, -123]``.  
-The block returns a list of the most numerous items in the list, being ``[-123, 123]``.
-If we changed the input list to ``[-123, -123, 123, -123]``, the block would return ``[-123]``, a list of one item being the most numerous.
+This is an example of the use of **modes**.  The input **List** contains ``[-123, 123, 123, -123]``.  
+The block returns a **List** of the most numerous items in the **List**, being ``[-123, 123]``.
+If we changed the input **List** to ``[-123, -123, 123, -123]``, the block would return ``[-123]``, a **List** of one item being the most numerous.
 
 .. image:: images/math-modes-of-list-example.png
    :height: 200

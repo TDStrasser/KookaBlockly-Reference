@@ -2,14 +2,14 @@
 Logging
 -------
 
-The Logging blocks, shown in :numref:`logpalette`, provide a facility for writing data into files on the **Kookaberry**.
+The **Logging** blocks, shown in :numref:`logpalette`, provide a facility for writing data into files on the **Kookaberry**.
 
 .. _logpalette:
 .. figure:: images/logging-palette.png
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** Logging blocks
+   The palette of **KookaBlockly** **Logging** blocks
 
 
 .. note:: 
@@ -20,10 +20,10 @@ The Logging blocks, shown in :numref:`logpalette`, provide a facility for writin
 The **Kookaberry** contains a 3 to 4 megabyte (depending on hardware model) non-volatile serial memory store which is used to store 
 files.  These files can be written and read by the **Kookaberry** and also via a USB interface by any attached computer.
 
-Logging files are text files which are in the comma-separated-variable (CSV) format.  
+**Logging** files are text files which are in the comma-separated-values (**CSV**) format.  
 That is, each line contains alphanumeric text data which are separated by commas. 
 The first line of the files can be used to represent headings for the data item columns that are in the following lines.
-An example of a CSV file is:
+An example of a **CSV** file is:
 
 .. code:: 
 
@@ -35,10 +35,10 @@ An example of a CSV file is:
 
 
 During experiments, data is collected over time from instruments comprising sensors.
-These data are stored in a CSV file at time intervals as above.
+These data are stored in a **CSV** file at time intervals as above.
 
-When the experiment is finished, the data can be retrieved from the CSV file stored on the **Kookaberry** using a computer to perform analysis of the results.
-CSV text data is most commonly used to draw graphs of the data values over time using a spreadsheet program.
+When the experiment is finished, the data can be retrieved from the **CSV** file stored on the **Kookaberry** using a computer to perform analysis of the results.
+**CSV** text data is most commonly used to draw graphs of the data values over time using a spreadsheet program.
 
 Clear File
 ----------
@@ -88,7 +88,7 @@ These inputs are also expected to be text string representations of the data to 
    :align: center
  
 
-To create a heading line in the CSV file, use the appropriate **Log To File** block first within an **On Start** control block
+To create a heading line in the **CSV** file, use the appropriate **Log To File** block first within an **On Start** control block
 and plug in text string value blocks with the names of each of the columns.
 
 .. note:: 

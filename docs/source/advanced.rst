@@ -79,10 +79,10 @@ This script uses two **Python Action** blocks to insert in-line comments in the 
 Three variables need to be created:
 
 1. ``filename`` which is set to a string containing the files' name ``"my_file.txt"``
-2. ``f`` which is used to store a list of lines coming from the text file
+2. ``f`` which is used to store a **List** of lines coming from the text file
 3. ``line`` which temporarily stores each line from the file as they are read in the loop.
 
-Only one **Python Value** block is needed that sets the variable ``f`` to a list of lines created by opening the text file using a Python statement.
+Only one **Python Value** block is needed that sets the variable ``f`` to a **List** of lines created by opening the text file using a Python statement.
 
 The MicroPython code that the **KookaBlockly** script generates is shown below.
 

@@ -17,9 +17,10 @@ Version
 
 The version of **KookaBlockly** is shown at the top-left of the **KookaBlockly** window.
 
-.. Note::
+.. note::
   
-   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository at https://github.com/kookaberry/kooka-releases/releases.
+   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository 
+   at https://github.com/kookaberry/kooka-releases/releases.
 
    See the section :doc:`installing` for instructions.
 
@@ -203,11 +204,11 @@ At the top-right of the window, the Inspection Buttons will open separate window
 
 Show display
   This button which will open a window, shown in :numref:`kblocklyshowdisplay`, on which the attached **Kookaberry** is shown in virtual form.  
-  This includes the **Kookaberry**'s display, LEDs, buttons A to D and reset, and a button to start the **Kookaberry**'s internal menu.
+  This includes the **Kookaberry**'s display, **LEDs**, buttons A to D and reset, and a button to start the **Kookaberry**'s internal menu.
 
   The display will mirror the physical display on the **Kookaberry**.
 
-  The LEDs will change colour to mirror illumination of the real LEDs on the **Kookaberry**.
+  The **LEDs** will change colour to mirror illumination of the real **LEDs** on the **Kookaberry**.
 
   The buttons can be clicked using a mouse or track-pad on the PC, and will respond in the same way as the physical buttons on the **Kookaberry**.
 
@@ -227,7 +228,7 @@ Show display
    
    1. the “Kookaberry Reset” button replicates the hardware Reset button the Kookaberry
    2. the “Kookaberry menu” button replaces the “hold down button B and press and release Reset” on a physical Kookaberry
-   3. the three LEDs replicate the three hardware LEDs on the Kookaberry
+   3. the three **LEDs** replicate the three hardware **LEDs** on the Kookaberry
    4. the four buttons A, B, C and D, replicate the physical buttons on the KookaBerry
 
 

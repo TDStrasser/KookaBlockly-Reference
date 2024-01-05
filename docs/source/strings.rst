@@ -2,16 +2,16 @@
 Strings
 -------
 
-Strings are an array of consecutive text characters such as ``“Hello”``, or ``“this is a string”``.
+**Strings** are an array of consecutive text characters such as ``“Hello”``, or ``“this is a string”``.
 
-The Strings Category provides a set of value blocks for specifying and formatting strings, as shown in :numref:`strpalette`.
+The **Strings** Category provides a set of value blocks for specifying and formatting strings, as shown in :numref:`strpalette`.
 
 .. _strpalette:
 .. figure:: images/strings-palette.png
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** String blocks
+   The palette of **KookaBlockly** **String** blocks
 
 
 Text

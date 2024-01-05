@@ -2,7 +2,7 @@
 Boolean
 -------
 
-Boolean blocks are value blocks used to test whether a specified condition is ``True`` (1) or ``False`` (0). See :numref:`boolpalette`.
+**Boolean** blocks are value blocks used to test whether a specified condition is ``True`` (1) or ``False`` (0). See :numref:`boolpalette`.
 
  
 .. _boolpalette:
@@ -10,7 +10,7 @@ Boolean blocks are value blocks used to test whether a specified condition is ``
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** Boolean blocks
+   The palette of **KookaBlockly** **Boolean** blocks
 
 
 Comparison
@@ -40,9 +40,9 @@ The other operands only work for numbers.
 Boolean And / Or
 ----------------
 
-The Boolean And / Or block performs the selected Boolean operation on its two inputs. 
+The **Boolean And / Or** block performs the selected **Boolean** operation on its two inputs. 
 
-Both inputs are required to be Boolean.  It is not possible to plug numbers or text strings into the inputs.
+Both inputs are required to be **Boolean**.  It is not possible to plug numbers or text strings into the inputs.
 
 *  ``and`` will give back a ``True`` only if both of its inputs are ``True``.  
 *  ``or`` will give back ``True`` if either or both of its inputs are ``True``.
@@ -55,7 +55,7 @@ Both inputs are required to be Boolean.  It is not possible to plug numbers or t
 Not
 ---
 
-This block takes a ``True``/``False`` Boolean value block input and logically inverts it.  
+This block takes a ``True``/``False`` **Boolean** value block input and logically inverts it.  
 
 That is, ``True`` becomes ``False``, and ``False`` become ``True``.
 
@@ -68,7 +68,7 @@ That is, ``True`` becomes ``False``, and ``False`` become ``True``.
 True / False
 ------------
 
-This value block gives a Boolean ``True`` or ``False`` value depending on which option is selected.  
+This value block gives a **Boolean** ``True`` or ``False`` value depending on which option is selected.  
 It is generally used to initialise variables that are subsequently used in a program.
 
 

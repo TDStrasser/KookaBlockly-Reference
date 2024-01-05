@@ -10,7 +10,7 @@ Button blocks are used to specify the actions to be taken when a specific button
    :width: 500
    :align: center
    
-   The palette of **KookaBlockly** Buttons blocks
+   The palette of **KookaBlockly** **Buttons** blocks
 
 
 
@@ -23,7 +23,7 @@ These buttons are coloured ``A`` red, ``B`` green, ``C`` blue, and ``D`` yellow.
    :width: 200
    :align: center
    
-   **Kookaberry** - front view showing Display, LEDs and Buttons
+   **Kookaberry** - front view showing **Display**, **LEDs** and **Buttons**
 
 
 Button functions are also available on the virtual **Kookaberry** which is shown when **KookaBlockly**'s **Show display** button is clicked.

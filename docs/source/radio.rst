@@ -2,17 +2,17 @@
 Radio
 -----
 
-Radio communications between **Kookaberries** is possible using the Radio blocks shown in :numref:`radiopalette`.
+**Radio** communications between **Kookaberries** is possible using the **Radio** blocks shown in :numref:`radiopalette`.
 
 .. _radiopalette:
 .. figure:: images/radio-palette.png
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** Radio blocks
+   The palette of **KookaBlockly** **Radio** blocks
 
 
-Radio communications is useful for sending messages, sharing data, for remote monitoring, and for remote control.
+**Radio** communications is useful for sending messages, sharing data, for remote monitoring, and for remote control.
 
 The **Kookaberry** has an internal short-range digital packet radio, and can also connect to one or more external longer range radios.
 
@@ -32,7 +32,7 @@ Similarly, multiple **Kookaberries** transmitting on the same channel may interf
 Errors caused during radio communications are detected and messages with errors caused by interference will be discarded.
 
 By default, the length of the messages that can be sent is 30 bytes or 
-less when using **KookaBlockly**.  Other radio parameters such as the radio channel and speed of 
+less when using **KookaBlockly**.  Other **Radio** parameters such as the radio channel and speed of 
 transmission are also set to default values.  
 
 In the latest release of **KookaBlockly**, functionality has been added to alter the default parameters of the internal radio.
@@ -44,7 +44,7 @@ The following blocks are available to control, receive and send messages using t
 When Radio Receive
 ~~~~~~~~~~~~~~~~~~
 
-This is a control block which contains actions that will be taken when a message is received by the radio.  
+This is a control block which contains actions that will be taken when a message is received by the **Radio**.  
 If no message is received then no actions within the scope of the block will be taken.
 
 
@@ -56,8 +56,8 @@ If no message is received then no actions within the scope of the block will be 
 Radio Read
 ~~~~~~~~~~
 
-This value block will read the first radio message in the queue of radio messages received. 
-Once read the radio message is deleted from the message queue.
+This value block will read the first **Radio** message in the queue of **Radio** messages received. 
+Once read the **Radio** message is deleted from the message queue.
 
 
 .. image:: images/radio-read.png
@@ -68,7 +68,7 @@ Once read the radio message is deleted from the message queue.
 Radio Send
 ~~~~~~~~~~
 
-This action block sends the data within the attached value block as a message via the radio to be received by all other radios on the same channel.  
+This action block sends the data within the attached value block as a message via the **Radio** to be received by all other radios on the same channel.  
 The data can be the result of a value block, or be a fixed message as shown above.  
 The length of the message must conform to the message length limit or else a program error will result.  
 Typically an alphanumeric text character occupies only one byte but some special characters may occupy two or more bytes.
@@ -83,7 +83,7 @@ Set Radio channel
 ~~~~~~~~~~~~~~~~~
 
 The **Kookaberry**'s internal radio is capable of transmitting and receiving on any of 84 channels.
-The default radio channel is 7.
+The default **Radio** channel is 7.
 
 This block enables any of the available channels to be selected.
 
@@ -105,12 +105,12 @@ Set Radio Parameter
 
 The **Kookaberry**'s internal radio can be configured in a variety of ways if the default settings are not suitable.
 This block provides access to the numerous parameters that can be set.
-Only one parameter can be set per instance of the block.  Multiple instances of the block must be used to set multiple radio parameters.
+Only one parameter can be set per instance of the block.  Multiple instances of the block must be used to set multiple **Radio** parameters.
 The block contains a drop-down list that enables selection of which parameter is to be set, and an input for a block that specifies the value of the selected parameter:
 
-1. ``maximum payload`` (default=32) defines the maximum length, in bytes, of a message sent via the radio. It can be between 1 and 251 bytes long.
+1. ``maximum payload`` (default=32) defines the maximum length, in bytes, of a message sent via the **Radio**. It can be between 1 and 251 bytes long.
 2. ``queue length`` (default=3) specifies the number of messages that can be stored on the incoming message queue. If there is no space left on the queue then additional incoming messages are dropped. Can be between 1 and 254.
-3. ``channel`` (default=7) an integer value between 0 and 83 inclusive that defines the channel (actually frequency) to which the radio is tuned. Messages will be sent via this channel and only messages received via this channel will be put onto the incoming message queue. Each step is 1MHz wide, starting at 2400MHz.
+3. ``channel`` (default=7) an integer value between 0 and 83 inclusive that defines the channel (actually frequency) to which the **Radio** is tuned. Messages will be sent via this channel and only messages received via this channel will be put onto the incoming message queue. Each step is 1MHz wide, starting at 2400MHz.
 4. ``power`` (default=6) an integer value between 0 and 7 inclusive which indicates the strength of signal used when sending a message. The higher the value the stronger the signal, but the more power is consumed by the device. The numbering translates to positions in the following list of dBm (decibel milliwatt) values: -30, -20, -16, -12, -8, -4, 0, 4.
 5. ``data rate`` (default=1) indicates the speed at which data transfer (send and receive) takes place. It can be 0, 1 or 2, for 250kbit/sec, 1Mbit/sec, or 2Mbit/sec respectively
 6. ``address`` (default=0x75626974) an arbitrary name, expressed as a 32-bit address, that’s used to filter incoming packets at the hardware level, keeping only those that match the address you set. The default matches that used on the micro:bit.
@@ -123,7 +123,7 @@ The block contains a drop-down list that enables selection of which parameter is
 
 
 .. note:: 
-    It would be very unusual to alter any of the radio parameters, other than the channel, when coding using **KookaBlockly**.
+    It would be very unusual to alter any of the **Radio** parameters, other than the channel, when coding using **KookaBlockly**.
 
 
 External Radio
@@ -145,9 +145,9 @@ The interface to the **Kookaberry** is via its UART (Universal Asynchronous Rece
 
 Two UART interfaces are available on the **Kookaberry**:
 
-A. This interface is accessed by using plug ``P3`` on the back of the **Kookaberry**.  This is radio ``A``.
+A. This interface is accessed by using plug ``P3`` on the back of the **Kookaberry**.  This is **Radio** ``A``.
 B. This interface requires an expansion board that connects via the **Kookaberry**'s edge connector.  The plug on such a board is ``P6``.  
-   This radio is designated radio ``B``.
+   This **Radio** is designated **Radio** ``B``.
 
 When HC-12 Receive
 ~~~~~~~~~~~~~~~~~~
@@ -166,8 +166,8 @@ The drop-down list on the block selects which of the external radios (``A`` or `
 HC-12 Read
 ~~~~~~~~~~
 
-This value block will read the first radio message in the queue of radio messages received by the external radio. 
-Once read the radio message is deleted from the message queue.
+This value block will read the first **Radio** message in the queue of **Radio** messages received by the external radio. 
+Once read the **Radio** message is deleted from the message queue.
 
 
 The drop-down list on the block selects which of the external radios (``A`` or ``B``) is being used.

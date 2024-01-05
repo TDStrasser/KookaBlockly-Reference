@@ -2,7 +2,7 @@
 Functions
 ---------
 
-Functions are blocks that contain a sequence of other blocks.  
+**Functions** are blocks that contain a sequence of other blocks.  
 
 Once defined, functions are available on the **Functions** palette for use in the **KookaBlockly** script in which they are defined.
 See :numref:`funcpalette`.
@@ -13,7 +13,7 @@ See :numref:`funcpalette`.
    :width: 400
    :align: center
    
-   The initial Functions palette
+   The initial **Functions** palette
 
 Function blocks can be used repeatedly in a script without needing to repeat all the blocks they contain.
 This simplifies scripts and saves valuable computer memory space.
@@ -79,7 +79,7 @@ All the inputs will become :doc:`variables`, do take care not to duplicate their
 Function Name
 ~~~~~~~~~~~~~
 
-Functions must have unique names within the context of the **KookaBlockly** script they are in.
+**Functions** must have unique names within the context of the **KookaBlockly** script they are in.
 
 To define the function name, click on its name and edit the text.
 
@@ -92,7 +92,7 @@ To define the function name, click on its name and edit the text.
 Function Description
 ~~~~~~~~~~~~~~~~~~~~
 
-Functions can optionally be described.  
+**Functions** can optionally be described.  
 A description may say what the function does, what its inputs are, what computations it performs, and what its output is.
 
 Click on the question mark, **?**, and a description box will appear.  Type the description in the box.

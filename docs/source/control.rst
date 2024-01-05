@@ -2,14 +2,14 @@
 Control
 -------
 
-The Control blocks in :numref:`contpalette` direct program flow or provide time-related functionality.
+The **Control** blocks in :numref:`contpalette` direct program flow or provide time-related functionality.
 
 .. _contpalette:
 .. figure:: images/control-palette.png
    :width: 400
    :align: center
    
-   The palette of **KookaBlockly** Control blocks
+   The palette of **KookaBlockly** **Control** blocks
 
 
 Each block is described in turn below.
@@ -93,8 +93,8 @@ seconds between the samples may be calculated which is useful for timing functio
    **epoch time** is the point from which time is measured.  This point differs for different operating systems.  
    For MicroPython on micro-computers, the **epoch time** is 2000-01-01 00:00:00.
 
-   **epoch time** should not be confused with the **default time** set on the **Kookaberry**'s internal real-time-clock (RTC), which is 2015-01-01 00:00:00.
-   Using **KookaBlockly**, however, the **Kookaberry**'s internal RTC will be synchronised with the time on the PC it is tethered to using its USB connection.
+   **epoch time** should not be confused with the **default time** set on the **Kookaberry**'s internal Real Time Clock (**RTC**), which is 2015-01-01 00:00:00.
+   Using **KookaBlockly**, however, the **Kookaberry**'s internal **RTC** will be synchronised with the time on the PC it is tethered to using its USB connection.
 
 
 

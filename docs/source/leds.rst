@@ -2,11 +2,11 @@
 LEDs
 ----
 
-This LEDs category, shown in :numref:`ledpalette`, supports the three LED’s that are beneath the display on the **Kookaberry**. 
+This **LEDs** category, shown in :numref:`ledpalette`, supports the three LED’s that are beneath the display on the **Kookaberry**. 
 
-These LEDs are coloured ``red``, ``orange`` and ``green``.
+These **LEDs** are coloured ``red``, ``orange`` and ``green``.
 
-In addition, support is provided for NeoPixel RGB LEDs.
+In addition, support is provided for NeoPixel RGB **LEDs**.
 
 .. _ledpalette:
 .. figure:: images/leds-palette.png
@@ -57,7 +57,7 @@ Set NeoPixel
 This block supports NeoPixel arrays connected to one of the connections selected in the drop- 
 down box. 
 
-Neopixels are multicolour LEDs with Red, Green and Blue LEDs in every individual Neopixel.  The 
+Neopixels are multicolour **LEDs** with Red, Green and Blue **LEDs** in every individual Neopixel.  The 
 apparent colour of a Neopixel is the result of mixing the Red Green and Blue colours, in the same 
 way that a television screen produces colours.
 
@@ -74,10 +74,10 @@ Pin
     The **Kookaberry** has five connectors on the back, ``P1`` through to ``P5``, with connector ``P3`` having 
     two possible connection points: ``P3A`` and ``P3B``. (see the :doc:`pins` category description).
     
-    It is possible to replace the Pins dropdown selection block with a String block.   
-    This is useful when using Pins other than those exposed on the rear of the **Kookaberry**, 
+    It is possible to replace the **Pins** dropdown selection block with a **String** block.   
+    This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
     or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
-    In those cases type in the Pin's identifier into the String block.
+    In those cases type in the Pin's identifier into the **String** block.
   
 
 
