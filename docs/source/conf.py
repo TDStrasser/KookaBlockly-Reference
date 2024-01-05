@@ -8,8 +8,8 @@ now = datetime.now()
 today = f"{now.year}-{now.month:02}-{now.day:02}"
 
 rights_holders = 'the AustSTEM Foundation and contributors'
-copyright = '2019 - 2024 the AustSTEM Foundation and contributors'
-copyright = f"2019-{now.year}, {rights_holders}, Last updated: {today}"
+# copyright = '2019 - 2024 the AustSTEM Foundation and contributors'
+copyright = f"2019-{now.year} {rights_holders}. Last updated: {today}"
 
 author = 'Julian Dinsdale and Tony Strasser'
 
