@@ -22,11 +22,10 @@ On each connector two of the pins are used for positive and negative power conne
 multiple uses as digital or analogue inputs or outputs.
 
 
-.. note::
-   In some of the **Pins** blocks it is possible to replace the **Pins** dropdown selection block with a **String** block.   
-   This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
-   or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
-   In those cases type in the Pin's identifier into the **String** block, as shown in :numref:`pinstring'.
+In some of the **Pins** blocks it is possible to replace the **Pins** dropdown selection block with a **String** block.   
+This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
+or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
+In those cases type in the Pin's identifier into the **String** block, as shown in :numref:`pinstring'.
 
 
 
