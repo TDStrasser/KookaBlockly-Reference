@@ -28,6 +28,7 @@ multiple uses as digital or analogue inputs or outputs.
   or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
   In those cases type in the Pin's identifier into the String block, as shown in :numref:`pinstring'.
   
+
 .. _pinstring:
 .. figure:: images/pins-string-nomination.png
    :height: 80
