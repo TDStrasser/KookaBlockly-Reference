@@ -84,7 +84,8 @@ Installing KookaSuite on Microsoft Windows
 
    Usually the default location of ``C:\Program Files\Kookaberry\KookaSuite`` is fine, but you or your system administrator may wish to put them elsewhere.  If so, click on **Change** and select the prefered location using the file explorer dialogue which will open.
 
-.. _winisntall3:
+
+.. _wininstall3:
 .. figure:: images/win-install-3.png
    :width: 400
    :align: center

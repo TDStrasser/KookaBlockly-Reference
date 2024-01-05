@@ -4,7 +4,8 @@ Buttons
 
 Button blocks are used to specify the actions to be taken when a specific button is pressed. See :numref:`btnpalette`.
 
-.._btnpalette:
+
+.. _btnpalette:
 .. figure:: images/buttons-palette.png
    :width: 500
    :align: center

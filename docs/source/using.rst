@@ -291,8 +291,9 @@ Choose a script
 Together these dropdown-boxes allow the selection and loading of any pre-existing KookBlockly script in the **KookaBlockly** folder and sub-folders.
 
 If an unsaved **KookaBlockly** script is in the workspace, 
-a prompt as shown in :numref:`unsaveprompt2` will appear giving the opportunity to save the existing script to a file 
+a prompt as shown in :numref:`unsavedprompt2` will appear giving the opportunity to save the existing script to a file 
 before replacing it with the selected script.
+
 
 .. _unsavedprompt2:
 .. figure:: images/unsaved-script-load.png

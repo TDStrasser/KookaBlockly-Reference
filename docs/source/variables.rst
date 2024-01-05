@@ -123,6 +123,7 @@ This value block allows a user to attach a variable’s value to the input of an
 The example in :numref:`varvalueexample` reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
 and display the original and converted values on the **Kookaberry** display:
 
+
 .. _varvalueexample:
 .. image:: images/variables-example.png
    :width: 600
