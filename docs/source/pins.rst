@@ -21,11 +21,10 @@ The **Kookaberry** circuit board has five plugs on the rear numbered ``P1`` to `
 On each connector two of the pins are used for positive and negative power connections.  The remaining pin(s) have 
 multiple uses as digital or analogue inputs or outputs.
 
-
-In some of the **Pins** blocks it is possible to replace the **Pins** dropdown selection block with a **String** block.   
+In some of the **Pins** blocks it is possible to replace the drop-down selection block with a **String** block.   
 This is useful when using **Pins** other than those exposed on the rear of the **Kookaberry**, 
 or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.  
-In those cases type in the Pin's identifier into the **String** block, as shown in :numref:`pinstring'.
+In those cases type in the Pin's identifier into the **String** block, as shown in :numref:`pinstring`.
 
 
 
