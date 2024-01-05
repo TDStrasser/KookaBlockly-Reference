@@ -5,7 +5,7 @@ Buttons
 Button blocks are used to specify the actions to be taken when a specific button is pressed.
 
 .. figure:: images/buttons-palette.png
-   :width: 300
+   :width: 500
    :align: center
    
    The palette of **KookaBlockly** Buttons blocks

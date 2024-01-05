@@ -7,7 +7,7 @@ The Pins category provides the means to control what the pins do.
 
 
 .. figure:: images/pins-palette.png
-   :width: 400
+   :width: 500
    :align: center
    
    The palette of **KookaBlockly** Pins blocks

@@ -8,7 +8,7 @@ The Strings Category provides a set of value blocks for specifying and formattin
 
 
 .. figure:: images/strings-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The palette of **KookaBlockly** String blocks

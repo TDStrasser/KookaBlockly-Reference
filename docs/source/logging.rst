@@ -5,7 +5,7 @@ Logging
 These blocks provide a facility for writing data into files on the **Kookaberry**.
 
 .. figure:: images/logging-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The palette of **KookaBlockly** Logging blocks

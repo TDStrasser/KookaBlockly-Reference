@@ -11,7 +11,7 @@ also to add extended functionality such as using special sensors and actuators a
 
 
 .. figure:: images/advanced-palette.png
-   :width: 300
+   :width: 500
    :align: center
    
    The Advanced block palette

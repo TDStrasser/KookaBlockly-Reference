@@ -6,7 +6,7 @@ The If-Else category comprises control blocks which direct the flow of a program
 
 
 .. figure:: images/if-palette.png
-   :width: 120
+   :width: 300
    :align: center
    
    The palette of **KookaBlockly** If-Else blocks

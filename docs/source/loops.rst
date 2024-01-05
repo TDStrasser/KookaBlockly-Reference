@@ -7,7 +7,7 @@ They run the nested action blocks a number of times in accordance with the test 
 
 
 .. figure:: images/loops-palette.png
-   :width: 300
+   :width: 500
    :align: center
    
    The palette of **KookaBlockly** Loop blocks

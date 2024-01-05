@@ -5,7 +5,7 @@ Sensors
 The Sensors category provides blocks that enable the use of these sensors.
 
 .. figure:: images/sensors-palette.png
-   :width: 500
+   :width: 600
    :align: center
    
    The palette of **KookaBlockly** Sensor blocks

@@ -17,7 +17,7 @@ This simplifies scripts and saves valuable computer memory space.
 
 
 .. figure:: images/functions-palette.png
-   :width: 300
+   :width: 400
    :align: center
    
    The initial Functions palette

@@ -11,7 +11,7 @@ and **i** or **j** as an index into a list.  Variable names can of course be lon
 When **KookaBlockly** is first started, or when a new script is started, the **Variables** palette looks like this:
 
 
-.. figure:: images/variables-create.png
+.. figure:: images/variables-palette.png
    :width: 300
    :align: center
    
