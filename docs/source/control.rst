@@ -2,8 +2,9 @@
 Control
 -------
 
-Control blocks direct program flow or provide time-related functionality.
+The Control blocks in :numref:`contpalette` direct program flow or provide time-related functionality.
 
+.. _contpalette:
 .. figure:: images/control-palette.png
    :width: 400
    :align: center

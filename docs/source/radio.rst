@@ -2,9 +2,9 @@
 Radio
 -----
 
-Radio communications between **Kookaberries** is possible using the Radio blocks shown below.
+Radio communications between **Kookaberries** is possible using the Radio blocks shown in :numref:`radiopalette`.
 
-
+.. _radiopalette:
 .. figure:: images/radio-palette.png
    :width: 400
    :align: center

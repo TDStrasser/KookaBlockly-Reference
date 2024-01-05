@@ -3,8 +3,9 @@ If–Else
 -------
 
 The If-Else category comprises control blocks which direct the flow of a program depending on the results of the tests carried out by these blocks.
+See :numref:`ifpalette`.
 
-
+.. _ifpalette:
 .. figure:: images/if-palette.png
    :width: 300
    :align: center

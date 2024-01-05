@@ -4,9 +4,9 @@ Strings
 
 Strings are an array of consecutive text characters such as ``“Hello”``, or ``“this is a string”``.
 
-The Strings Category provides a set of value blocks for specifying and formatting strings.
+The Strings Category provides a set of value blocks for specifying and formatting strings, as shown in :numref:`strpalette`.
 
-
+.. _strpalette:
 .. figure:: images/strings-palette.png
    :width: 400
    :align: center

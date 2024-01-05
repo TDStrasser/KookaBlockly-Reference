@@ -4,9 +4,9 @@ Lists
 
 A **List** is an array of zero or more items which can be :doc:`variables`, numbers, characters, text, or other Lists.
 
-The **Lists** category provides a large number of blocks to create and manipulate Lists.
+The **Lists** category, shown in :numref:`listpalette`, provides a large number of blocks to create and manipulate Lists.
 
-
+.. _listpalette:
 .. figure:: images/lists-palette.png
    :width: 500
    :align: center

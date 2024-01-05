@@ -2,10 +2,10 @@
 Loops
 -----
 
-Loops are a category of control blocks that direct the flow of a program.  
+Loops are a category of control blocks, shown in :numref:`loopalette`, that direct the flow of a program.  
 They run the nested action blocks a number of times in accordance with the test taken at the beginning of the loop.
 
-
+.. _loopalette:
 .. figure:: images/loops-palette.png
    :width: 500
    :align: center
@@ -73,20 +73,21 @@ The variable drop-down list contains the names of the available variables. The d
 The options **Rename variable** and **Delete variable** are configuration functions to manage the 
 creation of new variables or deletion of existing variables. See also the :doc:`variables` Category.
 
-Here is an example of the loop counting between 1 and 16 by 3.  
-On each iteration of the loop, the value of the variable ``i`` is printed on a new line on the display:
+In :numref:`loopcountwithexample` is an example of the loop counting between 1 and 16 by 3.  
+On each iteration of the loop, the value of the variable ``i`` is printed on a new line on the display, as shown in :numref:`loopcountwithdisplay`.
 
-.. image:: images/loops-count-with-example.png
+.. _loopcountwithexample:
+.. figure:: images/loops-count-with-example.png
    :width: 400
    :align: center
 
+   Example script counts from 1 to 16
 
 
+.. _loopcountwithdisplay:
 .. image:: images/loops-count-with-example-display.png
    :height: 200
    :align: center
-
-
 
 
 
@@ -110,7 +111,7 @@ or for processing a list of readings gathered from sensors.
 Break / Continue Loop
 ---------------------
 
-This block must be placed inside a loop.  If the block is not placed in a loop it will turn white with a warning symbol - see the figure below.
+This block must be placed inside a loop.  If the block is not placed in a loop it will turn white with a warning symbol - see :numref:`loopbreakwarning`.
 
 This block is used to either break out of the loop, or to stop the current iteration of a loop.
 
@@ -118,14 +119,16 @@ This block is used to either break out of the loop, or to stop the current itera
 * **continue with next iteration** stops the current iteration and jumps back to the top of the loop and will run again if the loop allows it.
   
 
-The usual way to use this block is in an **If-Do** block where breaking a loop is subject to a logical test.
+The usual way to use this block is in an **If-Do** block where breaking a loop is subject to a logical test as in :numref:`loopbreakexample`.
 
+.. _loopbreakexample:
 .. figure:: images/loops-breakout-example.png
    :width: 400
    :align: center
 
    The Loop Breakout / Continue used in a loop
 
+.. _loopbreakwarning:
 .. figure:: images/loops-breakout-warning.png
    :height: 120
    :align: center

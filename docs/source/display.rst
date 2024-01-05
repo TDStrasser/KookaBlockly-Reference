@@ -2,8 +2,9 @@
 Display
 -------
 
-Display blocks control what appears on the **Kookaberry**'s display.
+Display blocks in :numref:`dispalette` control what appears on the **Kookaberry**'s display.
 
+.. _dispalette:
 .. figure:: images/display-palette.png
    :width: 500
    :align: center
@@ -22,9 +23,10 @@ The **Kookaberry’s** display is a 128 pixel wide x 64 pixel high cyan OLED (Or
 The x direction is the width of the display having a range specified as 0 to 127 pixels and the y direction 
 is the height of the display having a range specified as 0 to 63 pixels.  
 
-The (x,y) location (0,0) is at the top left-hand corner of the display.  
+As shown in :numref:`discoords`, the (x,y) location (0,0) is at the top left-hand corner of the display.  
 The bottom right of the display has a location reference (x,y) of (127,63).
 
+.. _discoords:
 .. figure:: images/display-coordinates.png
    :width: 300
    :align: center
@@ -136,8 +138,9 @@ followed by the output of any value block.
    :align: center
    
 
-The following is an example to display the time:
- 
+:numref:`disprtandexample` shows an example to display the time:
+
+.. _disprtandexample:
 .. figure:: images/display-print-and-example.png
    :width: 400
    :align: center
@@ -145,9 +148,9 @@ The following is an example to display the time:
    Display Print-and example script
 
 
-This example results in a display that looks like this and is updated every second. 
+This example results in a display that looks like :numref:`disprtoutput` and is updated every second. 
 
-
+.. _disprtoutput:
 .. figure:: images/display-print-and-tw.png
    :width: 300
    :align: center

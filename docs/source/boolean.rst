@@ -2,10 +2,10 @@
 Boolean
 -------
 
-Boolean blocks are value blocks used to test whether a specified condition is ``True`` (1) or ``False`` (0).
+Boolean blocks are value blocks used to test whether a specified condition is ``True`` (1) or ``False`` (0). See :numref:`boolpalette`.
 
  
-
+.._boolpalette:
 .. figure:: images/boolean-palette.png
    :width: 400
    :align: center

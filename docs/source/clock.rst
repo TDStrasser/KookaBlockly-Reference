@@ -2,9 +2,11 @@
 Clock
 -----
 
-Clicking on the Clock category in the **KookaSuite** palette reveals the available blocks, as below.  
-Click and drag any of the required blocks to the **KookaBlockly** workspace and connect with other blocks to build a script that can use and/or set the time.
+Clicking on the Clock category in the **KookaSuite** palette reveals the available blocks, as in :numref:`clkpalette`.  
+Click and drag any of the required blocks to the **KookaBlockly** workspace and connect with other blocks 
+to build a script that can use and/or set the time.
 
+.. _clkpalette:
 .. figure:: images/clock-palette.png
    :width: 600
    :align: center
@@ -54,20 +56,21 @@ per the selected formats and separated by a string of characters that can be spe
    :align: center
 
 
-Below is a **KookaBlockly** example script demonstrating a loop which updates the **Kookaberry’s** display every second with the current time and date.
+In :numref:`clkgetextendedscript` is a **KookaBlockly** example script demonstrating a loop which updates the **Kookaberry’s** display every second with the current time and date.
 
+.. _clkgetextendedscript:
 .. figure:: images/clock-get-extended-script.png
    :height: 300
    :align: center
    
    A **KookaBlockly** Script that shows the current time and date on the **Kookaberry** display.
 
-
+.. _clkgetextendeddisplay:
 .. figure:: images/clock-get-extended-display.png
    :height: 200
    :align: center
    
-   The **Kookaberry** display resulting from the example **KookaBlockly** Script.
+   The **Kookaberry** display resulting from the example **KookaBlockly** Script in :numref:`clkgetextendedscript`.
 
 Set Clock from Character String
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

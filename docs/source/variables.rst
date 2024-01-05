@@ -8,9 +8,10 @@ A **Variable** is useful as a named container to store a value for later use in 
 Examples of typical variable names are **X**, **Y** and **Z** when referring to cartesian coordinates; **H**, **W** and **D** as dimensions of an object; 
 and **i** or **j** as an index into a list.  Variable names can of course be longer, for example **height**, or **temperature**
 
-When **KookaBlockly** is first started, or when a new script is started, the **Variables** palette looks like this:
+When **KookaBlockly** is first started, or when a new script is started, the **Variables** palette looks like this :numref:`varpalette`.
 
 
+.. _varpalette:
 .. figure:: images/variables-palette.png
    :width: 300
    :align: center
@@ -21,13 +22,15 @@ When **KookaBlockly** is first started, or when a new script is started, the **V
 Create Variable
 ---------------
 
-Clicking on “Create variable”  brings up a dialogue box where the user can define the variable's name.  
+Clicking on “Create variable”  brings up a dialogue box, shown in :numref:`varcreatedialg`, where the user can define the variable's name.  
 Type in a name and then click on **OK**.  The figure shows an example name ``"my_variable"``.
 
-
-.. image:: images/variables-create-dialog.png
+.. _varcreatedialg:
+.. figure:: images/variables-create-dialog.png
    :height: 200
    :align: center
+
+   Creating a variable named my_variable
 
 
 
@@ -87,19 +90,24 @@ Character strings and boolean values will not be accepted.
    :height: 80
    :align: center
 
-This examples illustrates how this block may be used as a counter.
+The example in :numref:`varchangeexample` illustrates how this block may be used as a counter.
 Three variables are set up: ``count_b``, ``count_c`` and ``count_d`` to count the number of times buttons B, C and D are pressed.
-The running totals are printed on the **Kookaberry**'s display.
+The running totals are printed on the **Kookaberry**'s display, as shown in :numref:`varchangedisplay`.
 
-.. image:: images/variables-change-example.png
+.. _varchangeexample:
+.. figure:: images/variables-change-example.png
    :width: 600
    :align: center
 
- 
+   Example script counts button presses
 
-.. image:: images/variables-change-example-display.png
+ 
+.. _varchangedisplay:
+.. figure:: images/variables-change-example-display.png
    :height: 200
    :align: center
+
+   The Kookaberry display resulting from :numref:`varchangeexample`
 
 
 Variable Value
@@ -112,10 +120,10 @@ This value block allows a user to attach a variable’s value to the input of an
    :height: 80
    :align: center
 
-This example reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
+The example in :numref:`varvalueexample` reads a temperature from a sensor once per 5 seconds, storing it in a variable named ``"temperature"``, then using the stored value to perform a conversion calculation 
 and display the original and converted values on the **Kookaberry** display:
 
-
+.. _varvalueexample:
 .. image:: images/variables-example.png
    :width: 600
    :align: center

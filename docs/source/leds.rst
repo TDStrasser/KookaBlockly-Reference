@@ -2,12 +2,13 @@
 LEDs
 ----
 
-This LEDs category supports the three LED’s that are beneath the display on the **Kookaberry**. 
+This LEDs category, shown in :numref:`ledpalette`, supports the three LED’s that are beneath the display on the **Kookaberry**. 
 
 These LEDs are coloured ``red``, ``orange`` and ``green``.
 
 In addition, support is provided for NeoPixel RGB LEDs.
 
+.. _ledpalette:
 .. figure:: images/leds-palette.png
    :width: 500
    :align: center
@@ -92,9 +93,9 @@ pixel
 RGB values
     Each of the R (red), G (green) and B (blue) values can be set with integers in the range ``0`` to ``100`` inclusive.
 
-    By varying the ratio of RGB values set, a wide range of colours can be achieved.
+    By varying the ratio of RGB values set, a wide range of colours can be achieved, as shown in :numref:`ledrgbvenn`.
 
-
+.. _ledrgbvenn:
 .. figure:: images/leds-rgb-venn-diagram.png
    :width: 300
    :align: center

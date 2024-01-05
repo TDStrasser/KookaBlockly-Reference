@@ -39,8 +39,9 @@ Click on the hyperlink for the appropriate version of **KookaSuite** and downloa
 Installing KookaSuite on Microsoft Windows
 ------------------------------------------
 
-1.  Double-click on the downloaded ``KookaSuite-<version>-Win64.msi`` file to launch the Windows Installer.  The following display will then appear.
+1.  Double-click on the downloaded ``KookaSuite-<version>-Win64.msi`` file to launch the Windows Installer.  The display in :numref:`wininstall1` will then appear.
 
+.. _wininstall1:
 .. figure:: images/win-install-1.png
    :width: 400
    :align: center
@@ -48,14 +49,16 @@ Installing KookaSuite on Microsoft Windows
    Click on **Next** to proceed.
 
 
-2.  **KookaSuite** does not (as yet) have an application trust certificate, so Windows Defender will alert you with the following dialogue.
+2.  **KookaSuite** does not (as yet) have an application trust certificate, so Windows Defender will alert you with the dialogues in :numref:`winprot1` and :numref:`winprot2`.
 
+.. _winprot1:
 .. figure:: images/windows-protect1.png
    :width: 400
    :align: center
 
    Click on **More info** to proceed to the next dialogue.
 
+.. _winprot2:
 .. figure:: images/windows-protect2.png
    :width: 400
    :align: center
@@ -67,8 +70,9 @@ Installing KookaSuite on Microsoft Windows
 
    To obtain a printed copy of the licence, press **Print**.
 
-   Please read the licence conditions and if you accept them, click on the acceptance checkbox to place a tick (as shown) and then click on **Next**.
+   Please read the licence conditions and if you accept them, click on the acceptance checkbox to place a tick (as shown in :numref:`wininstall2`) and then click on **Next**.
 
+.. _wininstall2:
 .. figure:: images/win-install-2.png
    :width: 400
    :align: center
@@ -76,43 +80,47 @@ Installing KookaSuite on Microsoft Windows
    Click the checkbox to accept the licence, then click on **Next** to proceed.
 
 
-1. A dialogue will then appear showing where on your computer the **KookaSuite** programs will be installed.  
+4. The dialogue in :numref:`wininstall3` will then appear showing where on your computer the **KookaSuite** programs will be installed.  
 
    Usually the default location of ``C:\Program Files\Kookaberry\KookaSuite`` is fine, but you or your system administrator may wish to put them elsewhere.  If so, click on **Change** and select the prefered location using the file explorer dialogue which will open.
 
+.. _winisntall3:
 .. figure:: images/win-install-3.png
    :width: 400
    :align: center
 
    Installation location dialogue. Click on **Next** to proceed.
 
-5. The next dialogue specifies the folder in which **KookaSuite** will store files.  
+5. The next dialogue, shown in :numref:`wininstall4`, specifies the folder in which **KookaSuite** will store files.  
 
    The default location is ``C:\Users\Public\Kookaberry Scripts\`` which all users share on a Windows PC.  
    If another location (for example) ``C:\Users\<your account>\Kookaberry Scripts\`` which is unique and private to <your account>) is desired, 
    click on **Change** and select the preferred location using the file explorer dialogue which will open.
 
+.. _wininstall4:
 .. figure:: images/win-install-4.png
    :width: 400
    :align: center
 
    Scripts location dialogue.  Click **Next** to proceed.
 
-6. A dialogue that provides the opportunity to select which elements if not all of **KookaSuite** are to be installed.  
+6. A dialogue then appears, shown in :numref:`wininstall5`, that provides the opportunity to select which elements if not all of **KookaSuite** are to be installed.  
    It is recommended that all elements be installed for a fully functional **KookaSuite**.
 
+.. _wininstall5:
 .. figure:: images/win-install-5.png
    :width: 400
    :align: center
 
    Press **Install** to proceed with the **KookaSuite** installation.
 
-1. A dialogue with a progress bar that tracks the installation progress will appear.
+7. A dialogue with a progress bar that tracks the installation progress will appear as in :numref:`wininstall7`.
 
    There may be a Windows alert asking for permission to proceed.  Accept the installation by clicking **Yes**.
 
    The progress bar will then continue and when it reaches completion the Completed dialogue will appear. 
 
+.. _wininstall7:
 .. figure:: images/win-install-7.png
    :width: 400
    :align: center
@@ -122,8 +130,9 @@ Installing KookaSuite on Microsoft Windows
 Installing KookaSuite on MacOS
 ------------------------------
 
-1.  Double-click on the downloaded ``KookaSuite-<version>-macOS.dmg`` file to open it.  You will see it contains the three **KookaSuite** apps.
+1.  Double-click on the downloaded ``KookaSuite-<version>-macOS.dmg`` file to open it.  You will see it contains the three **KookaSuite** apps, as in :numref:`macinstall1`.
 
+.. _macinstall1:
 .. figure:: images/mac-install-1.png
    :width: 400
    :align: center
@@ -131,10 +140,11 @@ Installing KookaSuite on MacOS
    The contents of the MacOS **KookaSuite** download package.
 
 
-2.  Create a suitably named folder in the Macintosh ``Applications\`` folder and drag the **KookaSuite** apps into it, as shown below.
+2.  Create a suitably named folder in the Macintosh ``Applications\`` folder and drag the **KookaSuite** apps into it, as shown in :numref:`macinstall2`.
 
     **KookaBlockly** will then be available to launch (as will **KookaIDE** and **KookTW**) from the Applications icon in the Macintosh taskbar and by any other regular methods for starting Macintosh applications.
 
+.. _macinstall2:
 .. figure:: images/mac-install-2.png
    :width: 400
    :align: center
@@ -169,8 +179,9 @@ Script Folders
 During installation or first running **KookaSuite**, the ``Kookaberry Scripts\`` folder will be created 
 in the location specified during the installation process or on MacOS and Raspbian in the user's home folder.  
 
-If the ``Kookaberry Scripts\`` folder already existed it will not be altered.
+If the ``Kookaberry Scripts\`` folder already existed it will not be altered. See :numref:`wininstallfolders`.
 
+.. _wininstallfolders:
 .. figure:: images/win-install-folders.png
    :width: 500
    :align: center

@@ -5,22 +5,24 @@ Functions
 Functions are blocks that contain a sequence of other blocks.  
 
 Once defined, functions are available on the **Functions** palette for use in the **KookaBlockly** script in which they are defined.
-
-.. important:: 
-
-    The function definition must remain in the **KookaBlockly** workspace for it to remain available in the **Functions** palette.
-    Deleting the function definition will remove the function block from the palette and all instances of it from the script.
+See :numref:`funcpalette`.
 
 
-Function blocks can be used repeatedly in a script without needing to repeat all the blocks they contain.
-This simplifies scripts and saves valuable computer memory space.
-
-
+.. _funcpalette:
 .. figure:: images/functions-palette.png
    :width: 400
    :align: center
    
    The initial Functions palette
+
+Function blocks can be used repeatedly in a script without needing to repeat all the blocks they contain.
+This simplifies scripts and saves valuable computer memory space.
+
+
+.. important:: 
+
+    The function definition must remain in the **KookaBlockly** workspace for it to remain available in the **Functions** palette.
+    Deleting the function definition will remove the function block from the palette and all instances of it from the script.
 
 
 Define Function

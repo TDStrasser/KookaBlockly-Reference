@@ -3,19 +3,19 @@ Advanced
 --------
 
 The Advanced Category is provided to extend the capability of **KookaBlockly** by allowing the 
-definition of additional blocks using Python programming statements.  
+definition of additional blocks using Python programming statements.  See :numref:`advpalette`.
 
-This category is available to the more advanced user as a way of transitioning from **KookaBlockly** to Python scripts, and 
-also to add extended functionality such as using special sensors and actuators and other 
-**Kookaberry** peripherals, or using Python module libraries.
-
-
+.. _advpalette:
 .. figure:: images/advanced-palette.png
    :width: 500
    :align: center
    
    The Advanced block palette
 
+
+This category is available to the more advanced user as a way of transitioning from **KookaBlockly** to Python scripts, and 
+also to add extended functionality such as using special sensors and actuators and other 
+**Kookaberry** peripherals, or using Python module libraries.
 
 .. important:: 
    When typing in the Python statement, please do not use the single quotation mark ``'`` 

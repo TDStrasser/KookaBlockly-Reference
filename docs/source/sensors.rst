@@ -2,8 +2,9 @@
 Sensors
 -------
 
-The Sensors category provides blocks that enable the use of these sensors.
+The Sensors category provides blocks that enable the use of these sensors, as shown in :numref:`senspalette`.
 
+.. _senspalette:
 .. figure:: images/sensors-palette.png
    :width: 600
    :align: center

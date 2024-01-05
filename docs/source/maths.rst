@@ -4,9 +4,9 @@ Math
 
 Fundamental to any computer program is the ability to do mathematical computations.  
 
-The Math Category provides this repertoire of mathematical functions.
+The Math Category provides the repertoire of mathematical functions shown in :numref:`mathpalette`.
 
-
+.. _mathpalette:
 .. figure:: images/math-palette.png
    :width: 400
    :align: center

@@ -2,8 +2,9 @@
 Logging
 -------
 
-These blocks provide a facility for writing data into files on the **Kookaberry**.
+The Logging blocks, shown in :numref:`logpalette`, provide a facility for writing data into files on the **Kookaberry**.
 
+.. _logpalette:
 .. figure:: images/logging-palette.png
    :width: 400
    :align: center

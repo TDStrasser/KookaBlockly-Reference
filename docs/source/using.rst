@@ -1,8 +1,9 @@
 Using the KookaBlockly Application
 ==================================
 
-Launching **KookaBlockly** on a personal computer will result in the following display.
+Launching **KookaBlockly** on a personal computer will result in the display shown in :numref:`kblocklydisplay`.
 
+.. _kblocklydisplay:
 .. figure:: images/kookablockly-display.png
    :width: 100%
    :align: center
@@ -30,8 +31,10 @@ Resize / Exit
 
 These controls allow the **KookaBlockly** window to be minimises or maximised, and the KookBlockly application to be exited.
 
-If the KookBlockly script has not been saved before attempting to exit **KookaBlockly**, a prompt dialogue will appear providing an opportunity to save or not save the current script to a file.
+If the KookBlockly script has not been saved before attempting to exit **KookaBlockly**, 
+a prompt dialogue will appear providing an opportunity to save or not save the current script to a file, as shown in :numref:`unsavedprompt`.
 
+.. _unsavedprompt:
 .. figure:: images/unsaved-exit-prompt.png
    :width: 200
    :align: center
@@ -53,7 +56,7 @@ Blocks can be dragged into this space, repositioned, resized and deleted by usin
 Blocks Palette
 --------------
 
-Down the left of the window is a vertically-oriented list of the **KookaBlockly** palette categories. 
+Down the left of the window is a vertically-oriented list of the **KookaBlockly** palette categories, shown in :numref:`blkspalette`. 
 
 Click on any category to reveal the palette of blocks, click on and drag the desired block to the workspace, 
 position it and release to drop the block in place.  The blocks palette will then automatically close.
@@ -61,7 +64,7 @@ position it and release to drop the block in place.  The blocks palette will the
 To close the blocks palette without dragging a block into the workspace, either click on the palette icon used to open the palette,
 or press the ``Esc`` key.
 
-
+.. _blkspalette:
 .. figure:: images/blocks-palette.png
    :width: 100
    :align: center
@@ -73,9 +76,9 @@ The block categories and blocks are fully described in the :doc:`part2` section.
 Script Controls
 ---------------
 
-At the top-left of the window, a set of buttons with which **KookaBlockly** scripts may be created, loaded, saved, run and stopped.
+At the top-left of the window, a set of buttons with which **KookaBlockly** scripts may be created, loaded, saved, run and stopped. See :numref:`scriptbtns`.
 
-
+.. _scriptbtns:
 .. figure:: images/script-control-buttons.png
    :width: 500
    :align: center
@@ -85,8 +88,10 @@ At the top-left of the window, a set of buttons with which **KookaBlockly** scri
 The functions of each of the **KookaBlockly** Script Control buttons is:
 
 New
-  Empties the workspace to start a new script. If the current script contents have not been saved then a save prompt is given.
+  Empties the workspace to start a new script. 
+  If the current script contents have not been saved then a save prompt is given as shown in :numref:`newprompt`.
 
+.. _newprompt:
 .. figure:: images/unsaved-new-prompt.png
    :width: 200
    :align: center
@@ -95,10 +100,12 @@ New
 
 
 Load
-  The **Load** button allows the user to select a **KookaBlockly** program to be loaded into the Workspace, appending it to the current script.  This feature enables the assembling of scripts by combining separate script files.
+  The **Load** button allows the user to select a **KookaBlockly** program to be loaded into the Workspace, 
+  appending it to the current script.  This feature enables the assembling of scripts by combining separate script files.
 
-  Move the cursor to this button, press click on the mouse and the following file dialogue will be displayed:
+  Move the cursor to this button, press click on the mouse and the dialogue in :numref:`loaddialg` will be displayed:
 
+.. _loaddialg:
 .. figure:: images/kblockly-load-dialogue.png
    :width: 500
    :align: center
@@ -128,8 +135,9 @@ Save
 Save As
   Saves the current script to a new file within a selected folder.
 
-  Move the cursor to this button, press click on the mouse and the following file dialogue will be displayed:
+  Move the cursor to this button, press click on the mouse and the file dialogue in :numref:`savedialg` will be displayed:
 
+.. _savedialg:
 .. figure:: images/kblockly-save-dialogue.png
    :width: 500
    :align: center
@@ -142,8 +150,11 @@ and the user can navigate away from this to another folder as desired.
 
 **KookaBlockly** script files have a type designation of ``.kby.py``.
 
-Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  If the file already exists, another dialogue will open asking to confirm whether the file is to be replaced.  Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
+Enter the new file's name and press the dialogue's **Save** button will save the current script to the file.  
+If the file already exists, another dialogue shown in :numref:`filereplacedialg` will open asking to confirm whether the file is to be replaced.  
+Press **Yes** to overwrite the file, or **No** to go back and change the intended file name.
 
+.. _filereplacedialg:
 .. figure:: images/kblockly-confirm-saveas.png
    :width: 300
    :align: center
@@ -152,14 +163,17 @@ Enter the new file's name and press the dialogue's **Save** button will save the
 
 
 Print
-  Prints the current view of the script in the workspace, *which may not be the whole script*.  Using the **Zoom** buttons and **Scroll Bars**, adjust the view of the script to suit the printout desired.
+  Prints the current view of the script in the workspace, *which may not be the whole script*.  
+  Using the **Zoom** buttons and **Scroll Bars**, adjust the view of the script to suit the printout desired.
 
-  When the **Print** button is clicked, a Print dialogue (per the operating system convention) appears as below.
+  When the **Print** button is clicked, a Print dialogue (per the operating system convention) appears as in :numref:`printdialg`.
 
-  Choose the print options, which again are specific to the PC operating system and the installed printer, and then press the **Print** button to finalise prining options and then printing to the chosen printer.  
+  Choose the print options, which again are specific to the PC operating system and the installed printer, 
+  and then press the **Print** button to finalise printing options and then printing to the chosen printer.  
 
   Print options may include paper size, paper orientation, multi-page layout, printer selection and printer setup.
 
+.. _printdialg:
 .. figure:: images/kblockly-print-dialogue.png
    :width: 400
    :align: center
@@ -180,7 +194,7 @@ Inspection Buttons
 
 At the top-right of the window, the Inspection Buttons will open separate windows.
 
-
+.. _showscriptbtns:
 .. figure:: images/show-script-display-buttons.png
    :width: 250
    :align: center
@@ -188,7 +202,7 @@ At the top-right of the window, the Inspection Buttons will open separate window
    The Inspection Buttons: Show script and Show display
 
 Show display
-  This button which will open a window on which the attached **Kookaberry** is shown in virtual form.  
+  This button which will open a window, shown in :numref:`kblocklyshowdisplay`, on which the attached **Kookaberry** is shown in virtual form.  
   This includes the **Kookaberry**'s display, LEDs, buttons A to D and reset, and a button to start the **Kookaberry**'s internal menu.
 
   The display will mirror the physical display on the **Kookaberry**.
@@ -197,6 +211,7 @@ Show display
 
   The buttons can be clicked using a mouse or track-pad on the PC, and will respond in the same way as the physical buttons on the **Kookaberry**.
 
+.. _kblocklyshowdisplay:
 .. figure:: images/kblockly-show-display-window.png
    :width: 400
    :align: center
@@ -217,7 +232,8 @@ Show display
 
 
 Show script
-  This button opens a window in which the MicroPython script generated by the loaded **KookaBlockly** script is displayed.  
+  This button opens a window, shown in :numref:`kblocklyshowscript`, 
+  in which the MicroPython script generated by the loaded **KookaBlockly** script is displayed.  
 
   The size of the window showing the script can be adjusted by clicking on and dragging the edges of the script window using the cursor.
 
@@ -228,6 +244,7 @@ Show script
   This window presents a live view of the generated MicroPython script and it is possible to watch the MicroPython script being dynamically 
   altered as the **KookaBlockly** script is being edited.
 
+.. _kblocklyshowscript:
 .. figure:: images/kblockly-show-script-window.png
    :width: 400
    :align: center
@@ -239,8 +256,9 @@ Connection
 ----------
 
 At the top-centre is the "Serial" drop-down box which shows which serial USB ports are available and which is connected to a tethered **Kookaberry**.
+See :numref:`serialdropdown`.
 
-
+.. _serialdropdown:
 .. figure:: images/serial-dropdown.png
    :width: 300
    :align: center
@@ -256,23 +274,27 @@ It is also possible to block a **Kookaberry** connection by selecting ``Disable`
 Script Selection
 ----------------
 
+.. _scriptsdropdown:
 .. figure:: images/scripts-dropdowns.png
    :width: 500
    :align: center
 
-   The Script Sellection dropdown boxes
+   The Script Selection dropdown boxes
 
 
 Scripts dropdown box
-  This contains a list of folders in the ``Kookaberry Scripts/KookaBlockly`` folder.  
+  Shown in :numref:`scriptsdropdown`, this drop-down box contains a list of folders in the ``Kookaberry Scripts/KookaBlockly`` folder.  
 
 Choose a script
   This contains a list of **KookaBlockly** scripts within the folder selected in the left-hand box.  
 
 Together these dropdown-boxes allow the selection and loading of any pre-existing KookBlockly script in the **KookaBlockly** folder and sub-folders.
 
-If an unsaved **KookaBlockly** script is in the workspace, a prompt will appear giving the opportunity to save the existing script to a file before replacing it with the selected script.
+If an unsaved **KookaBlockly** script is in the workspace, 
+a prompt as shown in :numref:`unsaveprompt2` will appear giving the opportunity to save the existing script to a file 
+before replacing it with the selected script.
 
+.. _unsavedprompt2:
 .. figure:: images/unsaved-script-load.png
    :width: 200
    :align: center
@@ -285,8 +307,9 @@ If an unsaved **KookaBlockly** script is in the workspace, a prompt will appear 
 Scroll Bars, Centre, Zoom and Trash
 -----------------------------------
 
-At the bottom-right of the window is a set of control icons:
+At the bottom-right of the window is a set of control icons as shown in :numref:`zoomtrash`.
 
+.. _zoomtrash:
 .. figure:: images/workspace-zoom-trash-scrollbars.png
    :width: 400
    :align: center

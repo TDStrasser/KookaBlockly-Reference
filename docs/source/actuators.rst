@@ -2,7 +2,7 @@
 Actuators
 ---------
 
-The Actuators category provides the blocks, in :numref:`actpalette`, that enable the use of these servos.
+The Actuators category provides the blocks that enable the use of these servos. See :numref:`actpalette`.
 
 .. _actpalette:
 .. figure:: images/actuators-palette.png
