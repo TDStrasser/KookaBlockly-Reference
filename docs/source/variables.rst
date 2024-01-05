@@ -92,7 +92,7 @@ Three variables are set up: ``count_b``, ``count_c`` and ``count_d`` to count th
 The running totals are printed on the **Kookaberry**'s display.
 
 .. image:: images/variables-change-example.png
-   :height: 500
+   :width: 600
    :align: center
 
  
@@ -117,6 +117,6 @@ and display the original and converted values on the **Kookaberry** display:
 
 
 .. image:: images/variables-example.png
-   :height: 400
+   :width: 600
    :align: center
 

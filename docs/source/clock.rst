@@ -2,6 +2,16 @@
 Clock
 -----
 
+Clicking on the Clock category in the **KookaSuite** palette reveals the available blocks, as below.  
+Click and drag any of the required blocks to the **KookaBlockly** workspace and connect with other blocks to build a script that can use and/or set the time.
+
+.. figure:: images/clock-palette.png
+   :width: 600
+   :align: center
+   
+   The palette of **KookaBlockly** Clock blocks.
+
+
 The blocks in the Clock category provide the functions to read and set the electronic real-time-clocks (RTCs).  
 
 The **Kookaberry** has an internal RTC which defaults to a time of 00:00:00 on 1 January 2015 when the **Kookaberry** is turned on.  
@@ -13,16 +23,6 @@ When the **Kookaberry** is connected to **KookaBlockly**, its internal RTC is up
 An external RTC, connected as an accessory to the **Kookaberry**, usually has a battery and therefore maintains the time that has been previously set on it.  
 This provides a convenient way for the **Kookaberry** to obtain the correct time when it is not tethered to **KookaBlockly** (or **KookaIDE** or **KookaTW**).  
 The external RTC is connected to the **Kookaberry** using two Pins specified as SCL and SDA on the relevant blocks.
-
-Clicking on the Clock category in the **KookaSuite** palette reveals the available blocks, as below.  
-Click and drag any of the required blocks to the **KookaBlockly** workspace and connect with other blocks to build a script that can use and/or set the time.
-
-.. figure:: images/clock-palette.png
-   :width: 600
-   :align: center
-   
-   The palette of **KookaBlockly** Clock blocks.
-
 
 Each of the Clock blocks is described in the following sections.
 
