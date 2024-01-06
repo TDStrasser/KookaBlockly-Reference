@@ -27,7 +27,7 @@ Glossary of Terms
       Organic Light Emitting Diode - the lighting technology that is used in the Kookaberry display - see https://en.wikipedia.org/wiki/OLED
 
     LED
-      Light Emiting Diode - a semiconductor that emits a specific wavelength of light when energised.  
+      Light Emitting Diode - a semiconductor that emits a specific wavelength of light when energised.  
       The **Kookaberry** has three LEDs on the front under the display. They emit red, yellow and green light.
       There are two further LEDs on the back: a green LED indicating the Kookaberry has power, 
       and a blue LED which indicates file writing activity, or if pulsing slowly indicates the Kookaberry's power supply voltage is low.
@@ -103,7 +103,7 @@ Glossary of Terms
       See also https://en.wikipedia.org/wiki/Firmware
 
     Real Time Clock (RTC)
-      A specialised clock chip that keeps precise time.  RTCs can be built into a micrcomputer and / or be connected externally.  
+      A specialised clock chip that keeps precise time.  RTCs can be built into a microcomputer and / or be connected externally.  
       Often external RTCs have a small battery that keeps the clock running when the microcomputer is turned off.  
       The microcomputer can then synchronise its internal RTC with the battery-powered external RTC.
       See also https://en.wikipedia.org/wiki/Real-time_clock
