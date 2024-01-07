@@ -13,7 +13,7 @@ When **KookaBlockly** is first started, or when a new script is started, the **V
 
 .. _varpalette:
 .. figure:: images/variables-palette.png
-   :scale: 50%
+   :scale: 70%
    :align: center
    
    The initial **Variables** palette
@@ -27,7 +27,7 @@ Type in a name and then click on **OK**.  The figure shows an example name ``"my
 
 .. _varcreatedialg:
 .. figure:: images/variables-create-dialog.png
-   :scale: 50%
+   :scale: 70%
    :align: center
 
    Creating a **Variable** named my_variable
