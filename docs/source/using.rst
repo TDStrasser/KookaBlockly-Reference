@@ -5,7 +5,7 @@ Launching **KookaBlockly** on a personal computer will result in the display sho
 
 .. _kblocklydisplay:
 .. figure:: images/kookablockly-display.png
-   :scale: 30%
+   :width: 500
    :align: center
 
    This is the **KookaBlockly** display with the controls labelled. 
@@ -37,7 +37,7 @@ a prompt dialogue will appear providing an opportunity to save or not save the c
 
 .. _unsavedprompt:
 .. figure:: images/unsaved-exit-prompt.png
-   :scale: 50%
+   :width: 300   
    :align: center
 
    Prompt dialogue on attempted exit with unsaved script. 
@@ -81,7 +81,7 @@ At the top-left of the window, a set of buttons with which **KookaBlockly** scri
 
 .. _scriptbtns:
 .. figure:: images/script-control-buttons.png
-   :scale: 50%
+   :width: 500
    :align: center
 
    The **KookaBlockly** Script Control Buttons
@@ -94,7 +94,7 @@ New
 
 .. _newprompt:
 .. figure:: images/unsaved-new-prompt.png
-   :scale: 50%
+   :width: 300
    :align: center
 
    Prompt dialogue on attempting to clear the workspace containing an unsaved script. 
@@ -108,7 +108,7 @@ Load
 
 .. _loaddialg:
 .. figure:: images/kblockly-load-dialogue.png
-   :scale: 50%
+   :width: 400
    :align: center
 
    **KookaBlockly** script load file selection dialogue. 
@@ -140,7 +140,7 @@ Save As
 
 .. _savedialg:
 .. figure:: images/kblockly-save-dialogue.png
-   :scale: 50%
+   :width: 400
    :align: center
 
    **KookaBlockly** script save file selection dialogue. 
@@ -157,7 +157,7 @@ Press **Yes** to overwrite the file, or **No** to go back and change the intende
 
 .. _filereplacedialg:
 .. figure:: images/kblockly-confirm-saveas.png
-   :scale: 50%
+   :width: 300
    :align: center
 
    **KookaBlockly** existing file name dialogue. 
@@ -176,7 +176,7 @@ Print
 
 .. _printdialg:
 .. figure:: images/kblockly-print-dialogue.png
-   :scale: 50%
+   :width: 400
    :align: center
 
    **KookaBlockly** script Print dialogue. 
@@ -197,7 +197,7 @@ At the top-right of the window, the Inspection Buttons will open separate window
 
 .. _showscriptbtns:
 .. figure:: images/show-script-display-buttons.png
-   :scale: 100%
+   :width: 200
    :align: center
 
    The Inspection Buttons: Show script and Show display
@@ -214,7 +214,7 @@ Show display
 
 .. _kblocklyshowdisplay:
 .. figure:: images/kblockly-show-display-window.png
-   :width: 400
+   :width: 300
    :align: center
 
    Virtual **Kookaberry** window
@@ -247,7 +247,7 @@ Show script
 
 .. _kblocklyshowscript:
 .. figure:: images/kblockly-show-script-window.png
-   :width: 400
+   :width: 500
    :align: center
 
    **KookaBlockly**-generated MicroPython script window
@@ -261,7 +261,7 @@ See :numref:`serialdropdown`.
 
 .. _serialdropdown:
 .. figure:: images/serial-dropdown.png
-   :scale: 50%
+   :width: 300
    :align: center
 
    The Serial drop-down showing the available and used USB serial connection ports
@@ -277,7 +277,7 @@ Script Selection
 
 .. _scriptsdropdown:
 .. figure:: images/scripts-dropdowns.png
-   :scale: 50%
+   :width: 400
    :align: center
 
    The Script Selection dropdown boxes
@@ -298,7 +298,7 @@ before replacing it with the selected script.
 
 .. _unsavedprompt2:
 .. figure:: images/unsaved-script-load.png
-   :scale: 50%
+   :width: 300
    :align: center
 
    Prompt dialogue on script replacement when an unsaved script is in the workspace. 
