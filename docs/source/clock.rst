@@ -8,7 +8,7 @@ to build a script that can use and/or set the time.
 
 .. _clkpalette:
 .. figure:: images/clock-palette.png
-   :width: 600
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Clock** blocks.
@@ -37,12 +37,11 @@ Get Clock – Simple Time
 
 Reads the **Kookaberry’s** internal Real Time Clock (**RTC**) and returns a date or time in the chosen format selected from the drop-down menu on the block.  
 
-The value returned is a character string.
-
 .. image:: images/clock-get-simple.png
-   :height: 200
+   :scale: 50%
    :align: center
 
+The value returned is a character string.
 
 Get Clock - Extended Time
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +51,7 @@ Reads the **Kookaberry’s** internal Real Time Clock (**RTC**) and returns the 
 per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character ``-``).
 
 .. image:: images/clock-get-extended.png
-   :height: 200
+   :scale: 50%
    :align: center
 
 
@@ -60,14 +59,14 @@ In :numref:`clkgetextendedscript` is a **KookaBlockly** example script demonstra
 
 .. _clkgetextendedscript:
 .. figure:: images/clock-get-extended-script.png
-   :height: 300
+   :scale: 50%
    :align: center
    
    A **KookaBlockly** Script that shows the current time and date on the **Kookaberry** display.
 
 .. _clkgetextendeddisplay:
 .. figure:: images/clock-get-extended-display.png
-   :height: 200
+   :scale: 50%
    :align: center
    
    The **Kookaberry** display resulting from the example **KookaBlockly** Script in :numref:`clkgetextendedscript`.
@@ -77,14 +76,12 @@ Set Clock from Character String
 
 This block sets the **Kookaberry’s** internal Real Time Clock (**RTC**) to the time specified by a character string in the format "YYYY/MM/YY HH:MM:SS". 
 
-This is useful for updating the internal **RTC** with a fixed time or where the **Kookaberry** internal clock has not been 
-automatically synchronised using **KookaBlockly**.
-
-
 .. image:: images/clock-set-from-string.png
-   :height: 80
+   :scale: 50%
    :align: center
 
+This is useful for updating the internal **RTC** with a fixed time or where the **Kookaberry** internal clock has not been 
+automatically synchronised using **KookaBlockly**.
 
 
 External Clock
@@ -108,14 +105,15 @@ Get External Clock - Simple Time
 
 Reads the **Kookaberry’s** external Real Time Clock (**RTC**) and returns a date or time in the chosen format selected from the drop-down menu on the block.  
 
+.. image:: images/clock-get-external-simple.png
+   :scale: 50%
+   :align: center
+
+
 The value returned is a character string.
 
 The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
 The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
-
-.. image:: images/clock-get-external-simple.png
-   :height: 120
-   :align: center
 
 
 Get External Clock – Extended Time
@@ -124,14 +122,13 @@ Get External Clock – Extended Time
 Reads the *Kookaberry’s* external Real Time Clock (**RTC**) and returns the date and time as a character string comprising two parts 
 per the selected formats and separated by a string of characters that can be specified by the user (the default separator is the minus character ``-``).
 
-The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
-The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
-
-
 .. image:: images/clock-get-external-extended.png
-   :height: 120
+   :scale: 50%
    :align: center
 
+
+The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
+The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
 
 
 Set Internal Clock from External Clock
@@ -139,14 +136,13 @@ Set Internal Clock from External Clock
 
 Sets the **Kookaberry’s** internal Real Time Clock (**RTC**) by copying the current time from the external **RTC**.
 
-The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
-The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
-
-
 .. image:: images/clock-set-internal-from-external-clock.png
-   :height: 120
+   :scale: 50%
    :align: center
 
+
+The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
+The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
 
 
 Set External Clock from Internal Clock
@@ -154,16 +150,15 @@ Set External Clock from Internal Clock
 
 Sets the **Kookaberry’s** external Real Time Clock (**RTC**) by copying the current time from the internal **RTC**. 
 
+.. image:: images/clock-set-external-from-internal-clock.png
+   :scale: 50%
+   :align: center
+
+
 This is useful for updating the external **RTC** with the correct time when the **Kookaberry** is tethered to **KookaBlockly**.
 
 The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
 The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
-
-
-.. image:: images/clock-set-external-from-internal-clock.png
-   :height: 120
-   :align: center
-
 
 
 Set External Clock from Character String
@@ -171,17 +166,13 @@ Set External Clock from Character String
 
 Sets the **Kookaberry’s** external Real Time Clock (**RTC**) to the time specified by a character string in the format "YYYY/MM/YY HH:MM:SS". 
 
+.. image:: images/clock-set-external-from-string.png
+   :scale: 50%
+   :align: center
+
 This is useful for updating the external **RTC** with a fixed time or where the **Kookaberry's** internal clock has not been 
 automatically synchronised using **KookaBlockly**.
 
 The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
 The default setting of SCL as ``P3A`` and SDA as ``P3B`` is usually correct, meaning the external **RTC** is connected to the **Kookaberry** using the 4-pin P3 port.
-
-
-.. image:: images/clock-set-external-from-string.png
-   :height: 120
-   :align: center
-
-
-
 

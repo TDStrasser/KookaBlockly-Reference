@@ -7,7 +7,7 @@ Boolean
  
 .. _boolpalette:
 .. figure:: images/boolean-palette.png
-   :scale: 40%
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Boolean** blocks
@@ -21,7 +21,7 @@ and outputs a result of ``True`` or ``False``.
 
 
 .. image:: images/boolean-compare.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -45,7 +45,7 @@ Boolean And / Or
 The **Boolean And / Or** block performs the selected **Boolean** operation on its two inputs. 
 
 .. image:: images/boolean-and-or.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 Both inputs are required to be **Boolean**.  It is not possible to plug numbers or text strings into the inputs.
@@ -62,7 +62,7 @@ That is, ``True`` becomes ``False``, and ``False`` become ``True``.
 
 
 .. image:: images/boolean-not.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -74,7 +74,7 @@ It is generally used to initialise variables that are subsequently used in a pro
 
 
 .. image:: images/boolean-true-false.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -86,7 +86,7 @@ value that represents “none” or “nothing” but is distinct from 0.  Howev
 or ``False`` value if used.
 
 .. image:: images/boolean-null.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -96,7 +96,7 @@ Test If
 This block will output one of two input values depending on whether the **test** input is ``True`` or ``False``. 
 
 .. image:: images/boolean-test-if.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 If the block in the **Test** input socket is ``True``, the value in the **if true** input is transferred to the output.

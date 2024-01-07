@@ -7,7 +7,7 @@ Button blocks are used to specify the actions to be taken when a specific button
 
 .. _btnpalette:
 .. figure:: images/buttons-palette.png
-   :scale: 40%
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Buttons** blocks
@@ -45,7 +45,7 @@ This is a control loop that performs the actions contained within it whenever th
 button *was pressed*. 
 
 .. image:: images/buttons-when-was-pressed.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 The button options are ``A``, ``B``, ``C``, or ``D``.  
@@ -60,7 +60,7 @@ This is a control loop that performs the actions contained within it as long as 
 button *is pressed*. 
 
 .. image:: images/buttons-when-is-pressed.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -74,7 +74,7 @@ Button was pressed
 This is a value block whose result is ``True`` (= ``1``) whenever the selected button was pressed.  
 
 .. image:: images/buttons-was-pressed.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -88,7 +88,7 @@ Button is pressed
 This is a value block whose result is ``True`` (= ``1``) as long as the selected button is being pressed.  
 
 .. image:: images/buttons-is-pressed.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -103,7 +103,7 @@ Button to Exit Program
 This is a combination of two blocks: the **button was pressed** control loop, as described above, and the **exit program** action.
 
 .. image:: images/buttons-when-was-pressed-exit.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 

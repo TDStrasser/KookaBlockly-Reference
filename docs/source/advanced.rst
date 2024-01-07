@@ -7,7 +7,7 @@ definition of additional blocks using Python programming statements.  See :numre
 
 .. _advpalette:
 .. figure:: images/advanced-palette.png
-   :scale: 40%
+   :scale: 50%
    :align: center
    
    The Advanced block palette
@@ -29,7 +29,7 @@ Python Value
 This value block allows the result of any Python statement to be passed to **KookaBlockly** block input sockets.  
 
 .. image:: images/advanced-value.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 The Python statement is typed into the text box in the block.  In the default block, the statement ``1+1``
@@ -43,7 +43,7 @@ statement is typed into the text box in the block.
 
 
 .. image:: images/advanced-action.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -57,7 +57,7 @@ designating that the following text is a comment.
 
 
 .. image:: images/advanced-action-comment.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 Advanced Example
@@ -69,7 +69,7 @@ This example reads a plain text file using the **Advanced** blocks and prints ea
 
 
 .. image:: images/advanced-example.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 This script uses two **Python Action** blocks to insert in-line comments in the **KookaBlockly** and the resulting MicroPython script.
@@ -125,7 +125,7 @@ The file contains the following:
 When the script is run, the appearance of the **Kookaberry** display is as below:
 
 .. image:: images/advanced-example-display.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 

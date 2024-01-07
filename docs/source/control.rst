@@ -6,7 +6,7 @@ The **Control** blocks in :numref:`contpalette` direct program flow or provide t
 
 .. _contpalette:
 .. figure:: images/control-palette.png
-   :width: 400
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Control** blocks
@@ -19,11 +19,12 @@ On Start
 
 The "on start" block is intended to contain other action blocks that will run first and only once when the **KookaBlockly** script starts.
 
-Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
-
 .. image:: images/on-start.png
-   :height: 120
+   :scale: 50%
    :align: center
+
+
+Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
 
 
 Scheduled Loop
@@ -31,13 +32,14 @@ Scheduled Loop
 
 This block is a loop that repeatedly runs the blocks nested inside at the time interval specified in the numeric box. 
 
+.. image:: images/scheduled-loop.png
+   :scale: 50%
+   :align: center
+
+
 The loop will continue forever at the defined period unless the program is externally stopped.
 
 The time specification is a number in decimal seconds, for example: 1 is 1 second, and 0.001 is 1 millisecond.
-
-.. image:: images/scheduled-loop.png
-   :height: 120
-   :align: center
 
 
 Every Loop
@@ -45,14 +47,14 @@ Every Loop
 
 This block runs the blocks nested inside in a repeated loop.  
 
+.. image:: images/every-loop.png
+   :scale: 50%
+   :align: center
+
+
 The loop will run forever unless externally stopped by exiting the script, or resetting the **Kookaberry** or removing power from the **Kookaberry**.  
 
 Another name for this block is the Repeat Forever loop.
-
-.. image:: images/every-loop.png
-   :height: 120
-   :align: center
-
 
 Exit Program
 ------------
@@ -60,7 +62,7 @@ Exit Program
 This block directs the running program to exit.
 
 .. image:: images/exit-program.png
-   :height: 60
+   :scale: 50%
    :align: center
 
 Sleep
@@ -68,12 +70,12 @@ Sleep
  
 This block causes the program to wait / pause for the specified time before continuing to the next block.  
 
-The number in the box specifies the duration of sleep in decimal seconds.
-
 .. image:: images/sleep.png
-   :height: 60
+   :scale: 50%
    :align: center
 
+
+The number in the box specifies the duration of sleep in decimal seconds.
 
 Time (s)
 --------
@@ -81,12 +83,13 @@ Time (s)
 This block returns a value in whole seconds since the **Kookaberry’s** epoch time ( 00:00:00 on 1st 
 January 2000).  
 
+.. image:: images/time-secs.png
+   :scale: 50%
+   :align: center
+
+
 By subtracting successive values given by this block, the elapsed interval in 
 seconds between the samples may be calculated which is useful for timing functions.
-
-.. image:: images/time-secs.png
-   :height: 60
-   :align: center
 
 .. note:: 
 
@@ -97,16 +100,16 @@ seconds between the samples may be calculated which is useful for timing functio
    Using **KookaBlockly**, however, the **Kookaberry**'s internal **RTC** will be synchronised with the time on the PC it is tethered to using its USB connection.
 
 
-
 Time (ms)
 ---------
 
 This block returns a value in milliseconds since the **Kookaberry’s** epoch time (00:00:00 on 1st 
 January 2000).  
 
+.. image:: images/time-msecs.png
+   :scale: 50%
+   :align: center
+
+
 By subtracting successive values given by this block, the elapsed interval in 
 milliseconds between the samples may be calculated which is useful for high-resolution timing functions.
-
-.. image:: images/time-msecs.png
-   :height: 60
-   :align: center

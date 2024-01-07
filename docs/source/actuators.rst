@@ -6,7 +6,7 @@ The Actuators category provides the blocks that enable the use of these servos. 
 
 .. _actpalette:
 .. figure:: images/actuators-palette.png
-   :scale: 40%
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** Actuator blocks
@@ -55,7 +55,7 @@ Set Servo to Angle
 This block is for a Hobby Servo, which is a servo is a motor that rotates over a specified angular range.  
 
 .. image:: images/actuators-set-servo-to-angle.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -85,7 +85,7 @@ This block is the same as the **Set Servo to Angle** block with the addition of 
 over which the angular motion should occur.  This allows for a less abrupt and more graceful motion of the servo.
 
 .. image:: images/actuators-set-servo-to-angle-taking.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 The block has three parameters:
@@ -103,7 +103,7 @@ Set Servo to Speed
 This block is for a Continuous Servo, which is a motor that rotates at a specified rotational speed.  
 
 .. image:: images/actuators-set-servo-to-speed.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
@@ -131,7 +131,7 @@ Set Servo to Speed Taking Seconds
 This block is for a Continuous Servo, which is a motor that rotates at a specified rotational speed.  
 
 .. image:: images/actuators-set-servo-to-speed-taking.png
-   :scale: 40%
+   :scale: 50%
    :align: center
 
 
