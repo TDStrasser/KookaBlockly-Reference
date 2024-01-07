@@ -84,6 +84,10 @@ Set Servo to Angle Taking Seconds
 This block is the same as the **Set Servo to Angle** block with the addition of a parameter to set the time, in seconds,
 over which the angular motion should occur.  This allows for a less abrupt and more graceful motion of the servo.
 
+.. image:: images/actuators-set-servo-to-angle-taking.png
+   :scale: 40%
+   :align: center
+
 The block has three parameters:
 
 1. A dropdown block to select which Pin the servo's control signal is connected to. 
@@ -93,15 +97,15 @@ The block has three parameters:
 3. The time, in seconds, over which the rotation will occur.
 
 
-.. image:: images/actuators-set-servo-to-angle-taking.png
-   :height: 120
-   :align: center
-
-
 Set Servo to Speed
 ------------------
 
 This block is for a Continuous Servo, which is a motor that rotates at a specified rotational speed.  
+
+.. image:: images/actuators-set-servo-to-speed.png
+   :scale: 40%
+   :align: center
+
 
 The servo block sets the angular speed at which a servo motor should rotate specified in degrees per second.  The 
 speed can be calculated by other value blocks or be specified as a fixed value.  The option for this 
@@ -115,23 +119,21 @@ The block has two parameters:
 2. The speed at which the servo is to rotate in degrees / second.  The target speed will occur almost instantly.
 
 
-.. image:: images/actuators-set-servo-to-speed.png
-   :height: 120
-   :align: center
-
-
-
 .. important::
   Please note that all but the smallest 9g servos should not be directly plugged into a 
   **Kookaberry** connector.  These devices require special electronics to supply them with more power.  
   Plugging in large servos without the necessary driving electronics may shut down and possibly irreparably damage the **Kookaberry**!
 
 
-
 Set Servo to Speed Taking Seconds
 ---------------------------------
 
 This block is for a Continuous Servo, which is a motor that rotates at a specified rotational speed.  
+
+.. image:: images/actuators-set-servo-to-speed-taking.png
+   :scale: 40%
+   :align: center
+
 
 This block is the same as the **Set Servo to Speed** block with the addition of a parameter to set the time, in seconds,
 over which the change in angular speed should occur.  This allows for a less abrupt and more graceful transition in the speed of the servo.
@@ -143,13 +145,6 @@ The block has three parameters:
 
 2. The speed, in degrees / second, at which the servo is to rotate.  
 3. The time, in seconds, over which change to target speed will occur.
-
-
-.. image:: images/actuators-set-servo-to-speed-taking.png
-   :height: 120
-   :align: center
-
-
 
 
 More Actuator Learning Resources
