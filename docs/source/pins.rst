@@ -7,7 +7,7 @@ The **Pins** category, shown in :numref:`pinpalette`, provides the means to cont
 
 .. _pinpalette:
 .. figure:: images/pins-palette.png
-   :width: 500
+   :scale: 400
    :align: center
    
    The palette of **KookaBlockly** **Pins** blocks
@@ -35,7 +35,8 @@ In those cases type in the Pin's identifier into the **String** block, as shown 
    
    Using a **String** value block instead of a **Pins** drop-down selection.
 
-		
+There are break-out (expander) circuit boards for the **Kookaberry** and the **Pi Pico** that make more of the **GPIO Pins** available for
+connection and therefore practical use within **KookaBlockly** scripts.
 
 Pin Turn ON
 -----------

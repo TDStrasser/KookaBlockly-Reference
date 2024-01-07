@@ -23,7 +23,7 @@ The blocks click together like pieces of a jigsaw puzzle to form a series of ste
 The example shown above shows a loop that writes a welcome message on the **Kookaberry** display and flashes the **Kookaberry**'s **LEDs**.  
 It then sleeps for 2 seconds and then goes back to the beginning of the loop.  The loop will run until the **Kookaberry** is reset or power is removed.
 
-**KookaBlockly** was meticulously crafted by Damien George (George Robotics – MicroPython) in collaboration with Kookaberry Pty Ltd. 
+**KookaBlockly** was created by Damien George (George Robotics – MicroPython) in collaboration with Kookaberry Pty Ltd. 
 It also received support from the AustSTEM Foundation, the Warren Centre, and the Vonwiller Foundation.
 
 Key Features

@@ -114,7 +114,8 @@ Learn how to use the sensor here: https://learn.auststem.com.au/peripheral/ds18b
 
    The manufacturer of the temperature sensing DS18x20 chip requires a 4700 ohm (often referred to as a 4K7) pull-up resistor 
    to make the chip work correctly. The **Kookaberry**'s and **Pi Pico**'s internal pull up resistor may work on some DS18x20 chips but not all of them.
-   Try a different make of DS18x20 sensor if troublesome operation occurs.
+   Try adding a pull-up resistor between the digital input Pin and Vcc by means of a pull-up adapter module, 
+   or use a different make of DS18x20 sensor if troublesome operation occurs.
 
 Get Temperature from NTC
 ~~~~~~~~~~~~~~~~~~~~~~~~
