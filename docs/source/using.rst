@@ -5,7 +5,7 @@ Launching **KookaBlockly** on a personal computer will result in the display sho
 
 .. _kblocklydisplay:
 .. figure:: images/kookablockly-display.png
-   :width: 500
+   :width: 600
    :align: center
 
    This is the **KookaBlockly** display with the controls labelled. 
@@ -277,7 +277,7 @@ Script Selection
 
 .. _scriptsdropdown:
 .. figure:: images/scripts-dropdowns.png
-   :width: 400
+   :width: 500
    :align: center
 
    The Script Selection dropdown boxes
