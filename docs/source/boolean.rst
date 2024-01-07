@@ -7,7 +7,7 @@ Boolean
  
 .. _boolpalette:
 .. figure:: images/boolean-palette.png
-   :width: 400
+   :scale: 40%
    :align: center
    
    The palette of **KookaBlockly** **Boolean** blocks
@@ -17,7 +17,14 @@ Comparison
 ----------
 
 This Comparison block compares the two value blocks that are given with the rule selected from the dropdown menu 
-and outputs a result of ``True`` or ``False``.  
+and outputs a result of ``True`` or ``False``. 
+
+
+.. image:: images/boolean-compare.png
+   :scale: 40%
+   :align: center
+
+
 The options available in the drop-down selection box are:
 
 1. the inputs are equal (=)
@@ -32,25 +39,19 @@ Equal to (=) and not equal to (≠) work for almost anything including numbers, 
 The other operands only work for numbers.
 
 
-.. image:: images/boolean-compare.png
-   :height: 200
-   :align: center
-
-
 Boolean And / Or
 ----------------
 
 The **Boolean And / Or** block performs the selected **Boolean** operation on its two inputs. 
 
+.. image:: images/boolean-and-or.png
+   :scale: 40%
+   :align: center
+
 Both inputs are required to be **Boolean**.  It is not possible to plug numbers or text strings into the inputs.
 
 *  ``and`` will give back a ``True`` only if both of its inputs are ``True``.  
 *  ``or`` will give back ``True`` if either or both of its inputs are ``True``.
-
-.. image:: images/boolean-and-or.png
-   :height: 120
-   :align: center
-
 
 Not
 ---
@@ -61,7 +62,7 @@ That is, ``True`` becomes ``False``, and ``False`` become ``True``.
 
 
 .. image:: images/boolean-not.png
-   :height: 90
+   :scale: 40%
    :align: center
 
 
@@ -73,7 +74,7 @@ It is generally used to initialise variables that are subsequently used in a pro
 
 
 .. image:: images/boolean-true-false.png
-   :height: 120
+   :scale: 40%
    :align: center
 
 
@@ -85,7 +86,7 @@ value that represents “none” or “nothing” but is distinct from 0.  Howev
 or ``False`` value if used.
 
 .. image:: images/boolean-null.png
-   :height: 90
+   :scale: 40%
    :align: center
 
 
@@ -94,16 +95,11 @@ Test If
 
 This block will output one of two input values depending on whether the **test** input is ``True`` or ``False``. 
 
+.. image:: images/boolean-test-if.png
+   :scale: 40%
+   :align: center
+
 If the block in the **Test** input socket is ``True``, the value in the **if true** input is transferred to the output.
 
 If the block in the **Test** input socket is ``False``, the value in the **if false** input is transferred to the output.
-
-.. image:: images/boolean-test-if.png
-   :height: 160
-   :align: center
-
-
-
-
-
 

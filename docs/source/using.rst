@@ -19,7 +19,7 @@ The version of **KookaBlockly** is shown at the top-left of the **KookaBlockly**
 
 .. note::
   
-   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository 
+   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** **GitHub** repository 
    at https://github.com/kookaberry/kooka-releases/releases.
 
    See the section :doc:`installing` for instructions.

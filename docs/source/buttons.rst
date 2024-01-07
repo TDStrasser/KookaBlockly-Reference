@@ -7,7 +7,7 @@ Button blocks are used to specify the actions to be taken when a specific button
 
 .. _btnpalette:
 .. figure:: images/buttons-palette.png
-   :width: 500
+   :scale: 40%
    :align: center
    
    The palette of **KookaBlockly** **Buttons** blocks
@@ -44,13 +44,13 @@ When Button Was Pressed
 This is a control loop that performs the actions contained within it whenever the selected 
 button *was pressed*. 
 
+.. image:: images/buttons-when-was-pressed.png
+   :scale: 40%
+   :align: center
+
 The button options are ``A``, ``B``, ``C``, or ``D``.  
 
 *was pressed* means that the actions within the loop will be performed only once after the selected button press.
-
-.. image:: images/buttons-when-was-pressed.png
-   :height: 120
-   :align: center
 
 
 When Button Is Pressed
@@ -59,40 +59,42 @@ When Button Is Pressed
 This is a control loop that performs the actions contained within it as long as the selected 
 button *is pressed*. 
 
+.. image:: images/buttons-when-is-pressed.png
+   :scale: 40%
+   :align: center
+
+
 The button options are ``A``, ``B``, ``C``, or ``D``.  
 
 *is pressed* means that the actions will be performed repeatedly as long as the selected button is being pressed.
-
-.. image:: images/buttons-when-is-pressed.png
-   :height: 120
-   :align: center
-
 
 Button was pressed
 ------------------
 
 This is a value block whose result is ``True`` (= ``1``) whenever the selected button was pressed.  
 
+.. image:: images/buttons-was-pressed.png
+   :scale: 40%
+   :align: center
+
+
 The button options are ``A``, ``B``, ``C``, or ``D``.
 
 After this value block is used its output reverts to ``False`` (= ``0``) until the next time the button was pressed.
-
-.. image:: images/buttons-was-pressed.png
-   :height: 120
-   :align: center
 
 
 Button is pressed
 -----------------	
 This is a value block whose result is ``True`` (= ``1``) as long as the selected button is being pressed.  
 
+.. image:: images/buttons-is-pressed.png
+   :scale: 40%
+   :align: center
+
+
 The button options are ``A``, ``B``, ``C``, or ``D``.
 
 Th output of this value block reverts to ``False`` (= ``0``) when the button is not being pressed.
-
-.. image:: images/buttons-is-pressed.png
-   :height: 120
-   :align: center
 
 
 Button to Exit Program
@@ -100,9 +102,11 @@ Button to Exit Program
 
 This is a combination of two blocks: the **button was pressed** control loop, as described above, and the **exit program** action.
 
+.. image:: images/buttons-when-was-pressed-exit.png
+   :scale: 40%
+   :align: center
+
+
 The result of using this combination is whenever the button selected was pressed the currently running program will finish.
 
-.. image:: images/buttons-when-was-pressed-exit.png
-   :height: 120
-   :align: center
 

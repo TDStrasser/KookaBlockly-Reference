@@ -33,17 +33,17 @@ Intuitive Visual Interface:
     Users can create syntactically correct scripts and programs effortlessly, 
     even without prior knowledge of any programming language.
 
-    **KookaBlockly** enables users to assemble visual blocks into structured MicroPython (Python 3.0) code.
+    **KookaBlockly** enables users to assemble visual blocks into structured **MicroPython** (Python 3.0) code.
 
 Compatibility: 
-   The generated code can be utilized on most microprocessor boards that use MicroPython, 
-   but is particularly suited to those with **Kookaberry** firmware for STM and RP2040 microprocessors.
+   The generated code can be utilized on most microprocessor boards that use **MicroPython**, 
+   but is particularly suited to those with **Kookaberry** firmware for **STM** and **RP2040** microprocessors.
 
 Platform Compatibility: 
-   **KookaBlockly** runs as a standalone program on personal computers with Microsoft Windows 10 or 11, Apple MacOS, or Raspberry Pi Raspbian operating systems.
+   **KookaBlockly** runs as a standalone program on personal computers with **Microsoft Windows** 10 or 11, **Apple MacOS**, or **Raspberry Pi Raspbian** operating systems.
 
 Easy Access: 
-   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** Github repository 
+   The latest version of **KookaBlockly** can be conveniently downloaded from the **Kookaberry** **GitHub** repository 
    at https://github.com/kookaberry/kooka-releases/releases.
 
    Follow the :doc:`installing` guide in the next section to install **KookaBlockly**.

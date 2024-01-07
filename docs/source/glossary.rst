@@ -119,3 +119,10 @@ Glossary of Terms
       The first line of the files can be used to represent headings for the data item columns that are in the following lines.
       CSV formatted files are recognised and can be directly opened by spreadsheet programs.
       See also https://en.wikipedia.org/wiki/Comma-separated_values
+
+    GitHub
+      A software platform that allows developers to create, store, and manage their code. GitHub was acquired by **Microsoft** in 2018.
+      It is commonly used to host open source software development projects.
+      **KookaSuite** and the **Kookaberry** firmware are both distributed using **GitHub**.
+      This document is also maintained and distributed using **GitHub**.
+      See also https://en.wikipedia.org/wiki/GitHub 

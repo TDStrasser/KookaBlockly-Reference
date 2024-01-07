@@ -23,7 +23,7 @@ KookaTW
 Downloading KookaSuite
 ----------------------
 
-The latest version of **KookaBlockly** can be conveniently downloaded from the Kookaberry Github 
+The latest version of **KookaBlockly** can be conveniently downloaded from the Kookaberry **GitHub** 
 repository at https://github.com/kookaberry/kooka-releases/releases.
 
 Choose the latest version compatible with your personal computer.  **KookaSuite** versions available are for:
