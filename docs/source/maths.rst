@@ -194,7 +194,7 @@ The property to test is selected from the drop-down list which includes:
 5. **positive** - whether the input is greater than  ``0`` - see https://en.wikipedia.org/wiki/Sign_(mathematics)
 6. **negative** - whether the input is less than ``0`` - see https://en.wikipedia.org/wiki/Sign_(mathematics)
 7. **divisible by** - whether the input when divided by the number in the second input leaves no remainder.  
-   If **divisible by** is selected it will add a second socket for the number to test against. - See https://en.wikipedia.org/wiki/Remainder
+   If **divisible by** is selected it will add a second input socket for the number to test against. - See https://en.wikipedia.org/wiki/Remainder
 
 
 .. image:: images/math-is-test.png

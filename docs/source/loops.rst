@@ -97,7 +97,7 @@ On each iteration of the **Loop**, the value of the variable ``i`` is printed on
 For Each Item In List
 ---------------------
 
-This block has a socket that takes a **List**.  See the :doc:`lists` Category.
+This block has an input socket that takes a **List**.  See the :doc:`lists` Category.
 
 The **Loop** begins by setting the chosen variable to be the same as the first item from the **List** and then it runs the nested blocks.  
 The **Loop** then sets the chosen variable as the second item of the **List** and runs the nested blocks again.  

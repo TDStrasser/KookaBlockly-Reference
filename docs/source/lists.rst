@@ -60,8 +60,8 @@ Here is an example of setting the value of a variable called ``"list"`` to a **L
 Create List With Item Repeated No. of Times
 -------------------------------------------
 
-This action block creates a new **List** with the left-hand socketed item repeated several times as 
-specified by the number inserted into the right-hand socket.
+This action block creates a new **List** with the left-hand input item repeated several times as 
+specified by the number inserted into the right-hand input.
 
 In this example, a variable called ``”list”`` is set to a **List** of the number ``“123”`` repeated ``5`` 
 time, that is: ``[123, 123, 123, 123, 123]``.
@@ -75,7 +75,7 @@ time, that is: ``[123, 123, 123, 123, 123]``.
 Length Of List
 --------------
 
-This value block calculates the number of items in the socketed **List**.
+This value block calculates the number of items in the input **List**.
 
 In this example the number of items in ``"list"`` which contains ``[“alpha”, “beta”, “gamma”]`` is printed on the display as ``Length of list is 3``.
 
@@ -188,8 +188,8 @@ In this example, items from a **List** containing ``[“alpha”, “beta”, �
 In List Set / Insert Item
 -------------------------
 
-This action block either changes the value of an item at a specified location to the socketed value 
-or inserts a new item with the socketed value at the specified location in a chosen **List**.
+This action block either changes the value of an item at a specified location to the input value 
+or inserts a new item with the input value at the specified location in a chosen **List**.
 
 The first parameter is a drop-down list with the operation choices:
 

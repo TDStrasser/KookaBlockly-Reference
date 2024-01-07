@@ -17,8 +17,8 @@ If-Do
 -----
 
 The **if** input socket takes a value block or compound block that represents a ``True`` or ``False`` value.  
-If the value block in the conditional socket is ``True``, it runs the blocks nested inside.  
-If the block in the conditional socket is False, it skips the nested blocks.
+If the value block in the conditional input is ``True``, it runs the blocks nested inside.  
+If the block in the conditional input is False, it skips the nested blocks.
 
 
 .. image:: images/if-do.png
