@@ -6,7 +6,7 @@ The Actuators category provides the blocks that enable the use of these servos. 
 
 .. _actpalette:
 .. figure:: images/actuators-palette.png
-   :width: 500
+   :scale: 40%
    :align: center
    
    The palette of **KookaBlockly** Actuator blocks
@@ -54,6 +54,11 @@ Set Servo to Angle
 
 This block is for a Hobby Servo, which is a servo is a motor that rotates over a specified angular range.  
 
+.. image:: images/actuators-set-servo-to-angle.png
+   :scale: 40%
+   :align: center
+
+
 The servo block sets the angle to which a servo motor should move specified in degrees.  The 
 angle can be calculated by other value blocks or be specified as a fixed value.  The option for this 
 block is which connector the servo is attached.
@@ -65,11 +70,6 @@ The block has two parameters:
 
 2. The angle, in degrees, to which the servo is to rotate.  The angle can be between - (range of rotation) / 2 to + (range of rotation) / 2.
    The rotation will occur almost instantly.
-
-.. image:: images/actuators-set-servo-to-angle.png
-   :height: 120
-   :align: center
-
 
 
 .. important::
