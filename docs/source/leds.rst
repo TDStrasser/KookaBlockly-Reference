@@ -2,7 +2,7 @@
 LEDs
 ----
 
-This **LEDs** category, shown in :numref:`ledpalette`, supports the three LED’s that are beneath the display on the **Kookaberry**. 
+The **LEDs** category, shown in :numref:`ledpalette`, supports the three LED’s that are beneath the display on the **Kookaberry**. 
 
 These **LEDs** are coloured ``red``, ``orange`` and ``green``.
 
@@ -10,7 +10,7 @@ In addition, support is provided for NeoPixel RGB **LEDs**.
 
 .. _ledpalette:
 .. figure:: images/leds-palette.png
-   :width: 500
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** LED blocks
@@ -21,21 +21,21 @@ Each block is described in turn below.
 Turn ON LED
 -----------
 
-This block turns the LED, selected from the drop-down box, ON.
+This block turns the LED, selected from the drop-down box, ``ON``.
 
 .. image:: images/leds-turn-on.png
-   :height: 120
+   :scale: 50%
    :align: center
    
 
 Turn OFF LED
 ------------
 
-This block turns the LED, selected from the drop-down box, OFF.
+This block turns the LED, selected from the drop-down box, ``OFF``.
 
 
 .. image:: images/leds-turn-off.png
-   :height: 120
+   :scale: 50%
    :align: center
    
 
@@ -44,12 +44,12 @@ Toggle LED
 
 This block toggles the LED selected in the drop-down box. 
 
-Toggle means to change the state of the LED from OFF to ON, or from ON to OFF, depending on the LED’s state. 
-
 .. image:: images/leds-toggle.png
-   :height: 120
+   :scale: 50%
    :align: center
    
+
+Toggle means to change the state of the LED from ``OFF`` to ``ON``, or from ``ON`` to ``OFF``, depending on the LED’s state. 
 
 Set NeoPixel
 ------------
@@ -57,17 +57,17 @@ Set NeoPixel
 This block supports NeoPixel arrays connected to one of the connections selected in the drop- 
 down box. 
 
+.. image:: images/leds-set-neopixel.png
+   :scale: 50%
+   :align: center
+
+
 Neopixels are multicolour **LEDs** with Red, Green and Blue **LEDs** in every individual Neopixel.  The 
 apparent colour of a Neopixel is the result of mixing the Red Green and Blue colours, in the same 
 way that a television screen produces colours.
 
 Neopixels come as single units or in chains of multiple Neopixels.
 
-
-.. image:: images/leds-set-neopixel.png
-   :width: 500
-   :align: center
-   
 The following are the controls that can be set or manipulated on this block:
 
 Pin
@@ -79,7 +79,6 @@ Pin
     or when other microprocessor boards that are compatible with **Kookaberry** firmware are being used.
     In those cases type in the Pin's identifier into the **String** block.
   
-
 
 pixel
     This is an integer commencing at ``0`` which specifies which pixel in the array will be set.

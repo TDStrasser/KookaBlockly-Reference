@@ -6,7 +6,7 @@ The **Logging** blocks, shown in :numref:`logpalette`, provide a facility for wr
 
 .. _logpalette:
 .. figure:: images/logging-palette.png
-   :width: 400
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Logging** blocks
@@ -46,17 +46,17 @@ Clear File
 The file block creates a new empty text file with the specified name in the **Kookaberry**'s file system. 
 If a file with the same name already exists, then it will overwritten with an empty file.
 
+.. image:: images/logging-clear-file.png
+   :scale: 50%
+   :align: center
+
+
 The name of the file is specified in the **to file** parameter with ``log.csv`` the default name.  Edit this field to change the file name.
 This can be any legal filename, usually in the form ``name.typ``  where name is a text string and typ is a short, 
 usually three letter, file type description.  
 
 ``CSV`` is the recommended file type, but other common types are: ``txt`` for text files, and ``log`` for log text files.  
 File type conventions are determined by the computer operating system that will read these files.
-
-.. image:: images/logging-clear-file.png
-   :height: 80
-   :align: center
-
 
 Log To File
 -----------
@@ -66,27 +66,27 @@ If the text file name does not already exist, a new empty text file with the spe
 
 The value blocks attached as inputs to this block will provide text values to be written to the line in the file, separated by commas.
 
+.. image:: images/logging-to-file-1.png
+   :scale: 50%
+   :align: center
+
+
+.. image:: images/logging-to-file-2.png
+   :scale: 50%
+   :align: center
+
+
+.. image:: images/logging-to-file-3.png
+   :scale: 50%
+   :align: center
+ 
+
 The first input, by default, is a text representation of the current time read from the **Kookaberry**'s internal clock.  
 This input block can be replaced by any other value block that provides a text string.
 
 There are three varieties of the **Log To File** block, accepting one two or three further inputs.
 These inputs are also expected to be text string representations of the data to be recorded in the file record.
 
-
-.. image:: images/logging-to-file-1.png
-   :width: 400
-   :align: center
-
-
-.. image:: images/logging-to-file-2.png
-   :width: 400
-   :align: center
-
-
-.. image:: images/logging-to-file-3.png
-   :width: 400
-   :align: center
- 
 
 To create a heading line in the **CSV** file, use the appropriate **Log To File** block first within an **On Start** control block
 and plug in text string value blocks with the names of each of the columns.

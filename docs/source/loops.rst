@@ -7,7 +7,7 @@ They run the nested action blocks a number of times in accordance with the test 
 
 .. _loopalette:
 .. figure:: images/loops-palette.png
-   :width: 500
+   :scale: 50%
    :align: center
    
    The palette of **KookaBlockly** **Loop** blocks
@@ -19,18 +19,16 @@ Loop Repeat
 
 This block runs the blocks nested inside of it for the specified number of times. 
 
+.. image:: images/loops-repeat.png
+   :scale: 50%
+   :align: center
+
+
 The number of iterations is provided by an input from a numeric value block which can contain a fixed number (from the :doc:`maths` blocks category), 
 a numeric computation  (using blocks from the :doc:`maths` blocks category), or a variable. 
 See also the :doc:`variables` category.
 
 When the iterations of the **Loop** are complete the program moves on to the blocks below it.
-
-
-.. image:: images/loops-repeat.png
-   :height: 120
-   :align: center
-
-
 
 Loop Repeat While / Until
 -------------------------
@@ -38,14 +36,14 @@ Loop Repeat While / Until
 In this block the two operations of While and Until are very similar to each other.  Both require a :doc:`boolean` 
 ``True`` / ``False`` value block in their input socket.  
 
+.. image:: images/loops-repeat-while.png
+   :scale: 50%
+   :align: center
+
+
 Repeat While will continue as long as the input value block is ``True``.  
 
 Repeat Until will continue as long as the input value block is ``False``.  
-
-.. image:: images/loops-repeat-while.png
-   :height: 120
-   :align: center
-
 
 
 Count With Variable From-To-By
@@ -54,7 +52,7 @@ Count With Variable From-To-By
 This **Loop** will run its nested blocks several times depending upon the input numbers given.  
 
 .. image:: images/loops-count-with.png
-   :height: 120
+   :scale: 50%
    :align: center
 
 
@@ -73,21 +71,24 @@ The variable drop-down list contains the names of the available variables. The d
 The options **Rename variable** and **Delete variable** are configuration functions to manage the 
 creation of new variables or deletion of existing variables. See also the :doc:`variables` Category.
 
+Count With Variable Example
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 In :numref:`loopcountexample` is an example of the **Loop** counting between 1 and 16 by 3.  
-On each iteration of the **Loop**, the value of the variable ``i`` is printed on a new line on the display, as shown in :numref:`loopcountdisplay`.
 
 
 .. _loopcountexample:
 .. figure:: images/loops-count-with-example.png
-   :width: 400
+   :scale: 50%
    :align: center
 
    Example script counts from 1 to 16
 
+On each iteration of the **Loop**, the value of the variable ``i`` is printed on a new line on the display, as shown in :numref:`loopcountdisplay`.
 
 .. _loopcountdisplay:
 .. figure:: images/loops-count-with-example-display.png
-   :height: 200
+   :scale: 50%
    :align: center
 
    The display resulting from :numref:`loopcountexample`
@@ -99,14 +100,16 @@ For Each Item In List
 
 This block has an input socket that takes a **List**.  See the :doc:`lists` Category.
 
-The **Loop** begins by setting the chosen variable to be the same as the first item from the **List** and then it runs the nested blocks.  
-The **Loop** then sets the chosen variable as the second item of the **List** and runs the nested blocks again.  
-The **Loop** repeats until it has run once for every item from the **List**.
-
-
 .. image:: images/loops-for-item.png
-   :height: 120
+   :scale: 50%
    :align: center
+
+
+The **Loop** begins by setting the chosen variable to be the same as the first item from the **List** and then it runs the nested blocks. 
+
+The **Loop** then sets the chosen variable as the second item of the **List** and runs the nested blocks again.  
+
+The **Loop** repeats until it has run once for every item from the **List**.
 
 This type of **Loop** is useful for printing a **List** of text items in subsequent lines on the **Display**, 
 or for processing a **List** of readings gathered from sensors.
@@ -116,6 +119,14 @@ Break / Continue Loop
 
 This block must be placed inside a **Loop**.  If the block is not placed in a **Loop** it will turn white with a warning symbol - see :numref:`loopbreakwarning`.
 
+.. _loopbreakexample:
+.. figure:: images/loops-breakout-example.png
+   :scale: 50%
+   :align: center
+
+   The Loop Breakout / Continue used in a **Loop**
+
+
 This block is used to either break out of the **Loop**, or to stop the current iteration of a **Loop**.
 
 * **break out** immediately ends the **Loop** and jumps to the next block after the **Loop**.   
@@ -124,16 +135,9 @@ This block is used to either break out of the **Loop**, or to stop the current i
 
 The usual way to use this block is in an **If-Do** block where breaking a **Loop** is subject to a logical test as in :numref:`loopbreakexample`.
 
-.. _loopbreakexample:
-.. figure:: images/loops-breakout-example.png
-   :width: 400
-   :align: center
-
-   The Loop Breakout / Continue used in a **Loop**
-
 .. _loopbreakwarning:
 .. figure:: images/loops-breakout-warning.png
-   :height: 120
+   :scale: 50%
    :align: center
 
    The Warning appearance of the **Loop Breakout / Continue** block when not inside a **Loop**
