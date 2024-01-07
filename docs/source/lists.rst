@@ -261,7 +261,7 @@ In this example a smaller **List** is assigned to variable “sublist” compris
 index number 1 to the last item in the **List** containing ``[“alpha”, “beta”, “gamma”, "delta"]``.  
 
  .. image:: images/lists-get-sublist-example.png
-   :acle: 50%
+   :scale: 50%
    :align: center
 
 
