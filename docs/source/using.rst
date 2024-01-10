@@ -113,7 +113,6 @@ Load
 
    **KookaBlockly** script load file selection dialogue. 
 
-
 The default directory for **Kookaberry** scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` and the user can navigate away from this as desired.  
 
 **KookaBlockly** script files have a type designation of ``.kby.py``.
@@ -144,7 +143,6 @@ Save As
    :align: center
 
    **KookaBlockly** script save file selection dialogue. 
-
 
 The default directory for **Kookaberry** scripts within the current user’s account is ``/Kookaberry Scripts/KookaBlockly`` 
 and the user can navigate away from this to another folder as desired.  
@@ -181,13 +179,56 @@ Print
 
    **KookaBlockly** script Print dialogue. 
 
-
-
 Run
   Transfers the current script to the tethered **Kookaberry** and runs the script on the **Kookaberry**.
 
 Stop
   Terminates the script currently running on the tethered **Kookaberry**.
+
+At Start Up
+  Gives the option to automatically run a script automatically whenever the **Kookaberry** is turned on or reset.
+
+  The **Kookaberry** will look for a script file called ``main.py`` in the root folder of its file store whenever it starts up.
+  If the script is present, it will be run.  Using the **At Start Up** button, a file called ``main.py`` is created containing a small script
+  that causes a designated script in the **Kookaberry's** ``app`` folder to be run.
+  
+  For this to work correctly, the script must first be stored on the **Kookaberry's** file storage system, in the ``app`` folder.
+
+.. _atstartupdialg:
+.. figure:: images/kblockly-atstartup1.png
+   :width: 200
+   :align: center
+
+   **At Start Up** dialogue. 
+
+Click on the **At Start Up** button and a dialogue window, shown in :numref:`atstartupdialg`, will appear with a drop-down list 
+of the scripts stored on the **Kookaberry** as in :numref:`atstartuplistdialg`.
+  
+.. _atstartuplistdialg:
+.. figure:: images/kblockly-atstartup2.png
+   :width: 200
+   :align: center
+
+   **At Start Up** drop-down list of available scripts. 
+
+The first entry will be ``<none>`` followed by a list of scripts in the ``app`` folder.
+
+Select the desired script and click the **OK** button.
+
+.. _atstartupfolder:
+.. figure:: images/kblockly-atstartup-folder.png
+   :width: 400
+   :align: center
+
+   **At Start Up** folder selection dialogue. 
+
+A folder dialogue window will then open, as in :numref:`atstartupfolder`, to select where on the Kookaberry a script file called ``main.py`` 
+should be stored.
+Usually this will be in the root folder of the **Kookaberry's** file store.  However on occasion you may want to store the ``main.py`` file elsewhere.
+Select the folder and click on the **OK** button and the ``main.py`` file will be stored in the folder.
+
+To stop the script from being automatically run, select ``<none>`` in the script selection dialogue and overwrite the previously stored ``main.py``.
+A ``main.py`` file will still exist but without any instructions to start a script.
 
 
 Inspection Buttons
