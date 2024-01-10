@@ -348,10 +348,6 @@ When using a VEML7700 circuit board it is important that these signals are conne
 Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: 
-   This section is still under development in regard to the ranges and resolutions of readings that are configured by **KookaBlockly**.
-
-
 The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
 
 
@@ -399,8 +395,9 @@ A string block can also be used instead of the drop-down selector blocks and the
 
 
 The fourth option on the block is the I2C address of the board.  Up to four INA219 sensors may be connected to a single I2C bus 
-with any of the addresses ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  Each board must have a unique I2C address.
-To change the address in the block simply click on the filed and over-type the default value.
+with any of the addresses ``64`` (hex ``0x40``), ``65`` (hex ``0x41``), ``68`` (hex ``0x44``) or ``69`` (hex ``0x45``).  
+Each board must have a unique I2C address.
+To change the address in the block select the desired address from the drop-down list.
 
 
 .. image:: images/sensors-get-power-ina219-shunt.png
@@ -423,8 +420,10 @@ Power in the shunt resistor is dissipated as heat and is equal to i^2 x R, where
 
 The sixth option is a drop-down of gains applied to the current readings, and consequently the power readings.
 The available values for gain are: ``1``, ``1/2``, ``1/4`` and ``1/8``.
-Lower gains improve the resolution of the current readings, useful for monitoring low-current devices, 
-but they also limit the range of current that can be read by the sensor.
+Lower gains ensure that higher currents and/or shunt resistance values do not force the the current readings out of range.
+Lower gains also degrade the resolution of current readings.
+
+For general STEM use, involving low current loads, it is recommended that the gain setting be left on 1.
 
 
 About the INA219 Sensor
