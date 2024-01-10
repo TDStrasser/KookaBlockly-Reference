@@ -348,6 +348,10 @@ When using a VEML7700 circuit board it is important that these signals are conne
 Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. note:: 
+   This block has not been finalised and this description is provisional and subject to change.
+
+
 The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
 
 
