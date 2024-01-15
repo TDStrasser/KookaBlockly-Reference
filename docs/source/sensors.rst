@@ -417,23 +417,69 @@ Larger shunt resistance will improve the resolution of the current reading but w
 Care must also be taken to not exceed the shunt resistor's power rating which is typically 2 watts.  
 Power in the shunt resistor is dissipated as heat and is equal to i^2 x R, where i is current in amps, and R the resistance in ohms.
 
-.. image:: images/sensors-get-power-ina219-gain.png
+.. image:: images/sensors-get-power-ina219-maxamps.png
    :scale: 50%
    :align: center
 
 
-The sixth option is a drop-down of gains applied to the current readings, and consequently the power readings.
-The available values for gain are: ``1``, ``1/2``, ``1/4`` and ``1/8``.
-Lower gains ensure that higher currents and/or shunt resistance values do not force the the current readings out of range.
-Lower gains also degrade the resolution of current readings.
+The sixth option is a drop-down list of the maximum currents to be measured.
+The values in he list change according to the shunt resistance selected.  
 
-For general STEM use, involving low current loads, it is recommended that the gain setting be left on 1.
+To achieve the best resolution in current measurements, a the maximum current above and closest 
+in value to the maximum current expected through the load should be selected.  
+The block will try to optimise the INA219 sensor settings for a given shunt resistor and maximum expected current.
+The current measurement ranges are shown in :numref:`ina219currents` for each choice of shunt resistor.  
+The **max-amps** choices are intended to optimise the internal gain setting of the INA219 sensor 
+and to avoid selecting currents which are beyond the safe operating range of the sensor (indicated by a red background).
+
+.. _ina219currents:
+.. figure:: images/sensors-get-power-ina219-shunt-amps.png
+   :scale: 50%
+   :align: center
+
+   INA219 current measurement ranges.
+
+
+Lower gains ensure that higher currents and/or shunt resistance values do not force the the current readings out of range.
+Lower gains will also reduce the resolution of current readings, and consequently of power readings.
+
+The combinations of shunt resistor and max-amps are shown below.
+
+.. image:: images/sensors-get-power-ina219-maxamps-001.png
+   :scale: 50%
+   :align: center
+
+
+.. image:: images/sensors-get-power-ina219-maxamps-050.png
+   :scale: 50%
+   :align: center
+
+
+.. image:: images/sensors-get-power-ina219-maxamps-100.png
+   :scale: 50%
+   :align: center
+
 
 
 About the INA219 Sensor
 """""""""""""""""""""""
 
 The INA219 sensor measures direct current, voltage and power from the circuit to which it is connected. It is commonly called a wattmeter.
+
+In a direct current circuit, electrical power delivered to an electrical load (measured in watts) is the arithmetic product of 
+the current flowing through the load (measured in amperes) and the voltage across the load's terminals (measured in volts).
+
+To measure the current, a low value resistor is placed in series with the load, and the voltage across the resistor's terminal is measured.  
+By applying Ohm's Law, the current can be derived (current I = voltage V / resistance R).  
+
+See also 
+
+* https://en.wikipedia.org/wiki/Voltmeter, 
+* https://en.wikipedia.org/wiki/Ammeter and 
+* https://en.wikipedia.org/wiki/Ohm%27s_law
+
+The INA219 sensor is commonly mounted on a breakout board equipped with terminals to attach the load and a power supply, 
+and a shunt resistor used to measure current flowing through the load.
 
 The interface with the **Kookaberry** is the I2C serial communications bus. I2C stands for Inter-Integrated-Circuit Communications (IIC or I2C).
 See https://en.wikipedia.org/wiki/I%C2%B2C for more detail.
