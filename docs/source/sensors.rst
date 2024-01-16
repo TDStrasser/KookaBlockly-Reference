@@ -417,7 +417,7 @@ Larger shunt resistance will improve the resolution of the current reading but w
 Care must also be taken to not exceed the shunt resistor's power rating which is typically 2 watts.  
 Power in the shunt resistor is dissipated as heat and is equal to i^2 x R, where i is current in amps, and R the resistance in ohms.
 
-.. image:: images/sensors-get-power-ina219-maxamps.png
+.. image:: images/sensors-get-power-ina219-max-amps.png
    :scale: 50%
    :align: center
 
@@ -431,17 +431,6 @@ The block will try to optimise the INA219 sensor settings for a given shunt resi
 The current measurement ranges are shown in :numref:`ina219currents` for each choice of shunt resistor.  
 The **max-amps** choices are intended to optimise the internal gain setting of the INA219 sensor 
 and to avoid selecting currents which are beyond the safe operating range of the sensor (indicated by a red background).
-
-.. _ina219currents:
-.. figure:: images/sensors-get-power-ina219-shunt-amps.png
-   :scale: 50%
-   :align: center
-
-   INA219 current measurement ranges.
-
-
-Lower gains ensure that higher currents and/or shunt resistance values do not force the the current readings out of range.
-Lower gains will also reduce the resolution of current readings, and consequently of power readings.
 
 The combinations of shunt resistor and max-amps are shown below.
 
