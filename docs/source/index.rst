@@ -17,11 +17,6 @@ The document is in TWO parts:
 2. A Reference Document for the visual functional blocks in **KookaBlockly**.
 
 
-.. note::
-
-   This project is under active development.
-
-
 .. toctree::
    :caption: Contents
 
