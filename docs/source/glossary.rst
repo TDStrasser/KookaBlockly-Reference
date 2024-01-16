@@ -70,7 +70,9 @@ Glossary of Terms
       A microcomputer for STEM applications developed in the United Kingdom by the BBC (British Broadcasting Corporation).  
       It also is programmed using MicroPython, and has two official visual programming tools, being **Microsoft MakeCode**, and **Scratch**.
       The Micro:Bit differs from the Kookaberry in that it can contain only one program at a time, and it has just two buttons and an 8x8 LED matrix display.
-      See also https://en.wikipedia.org/wiki/Micro_Bit and https://en.wikipedia.org/wiki/Scratch_(programming_language)
+      Alseo visit these links: 
+      Micro Bit <https://en.wikipedia.org/wiki/Micro_Bit> and 
+      Scratch <https://en.wikipedia.org/wiki/Scratch_(programming_language)>
 
     STM
       STMicroelectronics N.V. commonly referred to as ST or STMicro is a multinational corporation and technology company of French-Italian origin.
