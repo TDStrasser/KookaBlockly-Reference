@@ -348,10 +348,6 @@ When using a VEML7700 circuit board it is important that these signals are conne
 Get Power / Voltage / Current from INA219
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: 
-   This block has not been finalised and this description is provisional and subject to change.
-
-
 The **Get Power / Voltage / Current from INA219** block is shown below with the four sets of options available from the drop-down boxes on the block.
 
 
@@ -369,11 +365,13 @@ The first drop-down box provides the list of measurements available which are:
 
 .. note::
 
-   The range and resolution of the INA219 sensor readings are set by the value of an internal shunt resistor, the gain, and the interfacing software. 
+   The range and resolution of the INA219 sensor readings are set by the value of an internal shunt resistor, the maximum amps, 
+   and the interfacing software. 
 
 
 .. important:: 
-   The safe operating range of the INA219 is given by the device's data sheet.  Nominally the maximum voltage is 26 volts, maximum current is 8 amps.
+   The safe operating range of the INA219 is given by the device's data sheet.  
+   Nominally the maximum voltage is 26 volts, maximum current is 8 amps.
 
 
 .. image:: images/sensors-get-power-ina219-pins.png
