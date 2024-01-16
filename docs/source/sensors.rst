@@ -427,12 +427,10 @@ The values in he list change according to the shunt resistance selected.
 
 To achieve the best resolution in current measurements, a the maximum current above and closest 
 in value to the maximum current expected through the load should be selected.  
-The block will try to optimise the INA219 sensor settings for a given shunt resistor and maximum expected current.
-The current measurement ranges are shown in :numref:`ina219currents` for each choice of shunt resistor.  
-The **max-amps** choices are intended to optimise the internal gain setting of the INA219 sensor 
-and to avoid selecting currents which are beyond the safe operating range of the sensor (indicated by a red background).
+The block will try to optimise the INA219 sensor settings for a given shunt resistor and 
+to avoid selecting currents which are beyond the safe operating range of the sensor.
 
-The combinations of shunt resistor and max-amps are shown below.
+The available combinations of shunt resistor and max-amps are shown below.
 
 .. image:: images/sensors-get-power-ina219-maxamps-001.png
    :scale: 50%
