@@ -66,18 +66,17 @@ Glossary of Terms
       The RP2040 microprocessor chip is used in later hardware versions of the Kookaberry.
       See also https://en.wikipedia.org/wiki/Raspberry_Pi
 
-    Micro:Bit
-      A microcomputer for STEM applications developed in the United Kingdom by the BBC (British Broadcasting Corporation).  
-      It also is programmed using MicroPython, and has two official visual programming tools, being **Microsoft MakeCode**, and **Scratch**.
-      The Micro:Bit differs from the Kookaberry in that it can contain only one program at a time, and it has just two buttons and an 8x8 LED matrix display.
-      Alseo visit these links: 
-      Micro Bit <https://en.wikipedia.org/wiki/Micro_Bit> and 
-      Scratch <https://en.wikipedia.org/wiki/Scratch_(programming_language)>
-
     STM
       STMicroelectronics N.V. commonly referred to as ST or STMicro is a multinational corporation and technology company of French-Italian origin.
       STM microprocessors are used in the original hardware version of the Kookaberry.
       See https://en.wikipedia.org/wiki/STMicroelectronics and https://en.wikipedia.org/wiki/STM32
+
+    Micro:Bit
+      A microcomputer for STEM applications developed in the United Kingdom by the BBC (British Broadcasting Corporation).  
+      It also is programmed using MicroPython, and has two official visual programming tools, being **Microsoft MakeCode**, and **Scratch**.
+      The Micro:Bit differs from the Kookaberry in that it can contain only one program at a time, it has just two buttons and an 8x8 LED matrix display, 
+      and it has no electrical sockets with which to connect peripherals, relying instead on using alligator clips or an expansion board.
+      See also https://en.wikipedia.org/wiki/Micro_Bit and https://en.wikipedia.org/wiki/Scratch_(programming_language)
 
     Windows
       A personal computer operating system licensed by Microsoft.  **KookaSuite** will run on Windows V10 and later versions.
