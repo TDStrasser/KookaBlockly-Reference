@@ -56,8 +56,8 @@ The coordinates at which text is positioned on the **Display** differs from the 
 
 To accurately position text, one can use trial-and-error, or make a calculation that depends on the text font size (the default being ``mono8x8``).
 
-* To position a pixel at the top-left of the **Display** (0,0) simply specify x=0 and y=0 in the **Display Pixel** block.
-* To position text at the top-left of the **Display**, specify (0,7) being x=0 and y=7 (the mono8x8 font height) in the **Display Print** block.
+* To position a pixel at the top-left of the **Display** (0,0) simply specify x=``0`` and y=``0`` in the **Display Pixel** block.
+* To position text at the top-left of the **Display**, specify (0,7) being x=``0`` and y=``7`` (the mono8x8 font height) in the **Display Print** block.
 
 Display Clear
 -------------
@@ -117,7 +117,7 @@ as the display Framebuffer is constructed by the **KookaBlockly** script.
 Display Print
 -------------
  
-This block prints the editable text in the input value block to the **Kookaberry** display at position x=0 on a new line.  
+This block prints the editable text in the input value block to the **Kookaberry** display at position x=``0`` on a new line.  
 The current line is set to the top of the screen immediately after the display is cleared. 
 
 .. image:: images/display-print.png
@@ -176,7 +176,7 @@ values of x, y and colour are the outputs of any value block.
 
 If the values of x or y are outside of the display dimensions then the pixel will not be visible.  
 
-The values for colour should be either 0 or 1, where 0 is pixel off (black) and 1 is pixel on (cyan).
+The values for colour should be either ``0`` or ``1``, where ``0`` is pixel off (black) and ``1`` is pixel on (cyan).
 
 Display Line
 ------------
@@ -210,11 +210,10 @@ The **fill?** box when ticked fills the rectangle with pixels of the given colou
 The **reverse?** box specifies the orientation of the rectangle with respect to the x and y coordinates:
 
 * if **reverse?** is not ticked, x and y specify the location of the top-left of the rectangle
-* if **reverse?** is ticked, x and y specify the location of the bottom-right of the rectangle.
-
+* if **reverse?** is ticked, x and y specify the location of the bottom-right of the rectangle
 
 The example script in :numref:`disprectexample` displays two rectangles of equal origin and dimensions, 
-with one of them having the **reverse?** box ticked.  The resulting display in :numref:`disprectexampledisp`shows two rectangles,
+with one of them having the **reverse?** box ticked.  The resulting display in :numref:`disprectexampledisp` shows two rectangles,
 in normal and reverse orientations about the same x and y origin.
 
 

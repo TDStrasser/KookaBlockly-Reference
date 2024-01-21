@@ -39,7 +39,8 @@ Click on the hyperlink for the appropriate version of **KookaSuite** and downloa
 Installing KookaSuite on Microsoft Windows
 ------------------------------------------
 
-1.  Double-click on the downloaded ``KookaSuite-<version>-Win64.msi`` file to launch the Windows Installer.  The display in :numref:`wininstall1` will then appear.
+1.  Double-click on the downloaded ``KookaSuite-<version>-Win64.msi`` file to launch the Windows Installer.  
+    The display in :numref:`wininstall1` will then appear.
 
 .. _wininstall1:
 .. figure:: images/win-install-1.png
@@ -49,7 +50,8 @@ Installing KookaSuite on Microsoft Windows
    Click on **Next** to proceed.
 
 
-2.  **KookaSuite** does not (as yet) have an application trust certificate, so Windows Defender will alert you with the dialogues in :numref:`winprot1` and :numref:`winprot2`.
+1.  **KookaSuite** does not (as yet) have an application trust certificate, so Windows Defender will alert you 
+    with the dialogues in :numref:`winprot1` and :numref:`winprot2`.
 
 .. _winprot1:
 .. figure:: images/windows-protect1.png
@@ -65,7 +67,7 @@ Installing KookaSuite on Microsoft Windows
 
    Click on **Run Anyway** to proceed.
 
-3. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, 
+1. The installer will then show the **Kookaberry Licence Agreement**.  The agreement contains a liability disclaimer, 
    then a series of open-source licences for the software that is embedded within **KookaSuite**.
 
    To obtain a printed copy of the licence, press **Print**.
