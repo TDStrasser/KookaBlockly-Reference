@@ -212,9 +212,11 @@ The **reverse?** box specifies the orientation of the rectangle with respect to 
 * if **reverse?** is not ticked, x and y specify the location of the top-left of the rectangle
 * if **reverse?** is ticked, x and y specify the location of the bottom-right of the rectangle.
 
-The example script in ::numref:`disprectexample` displays two rectangles of equal origin and dimensions, 
+
+The example script in :numref:`disprectexample` displays two rectangles of equal origin and dimensions, 
 with one of them having the **reverse?** box ticked.  The resulting display in :numref:`disprectexampledisp`shows two rectangles,
 in normal and reverse orientations about the same x and y origin.
+
 
 .. _disprectexample:
 .. figure:: images/display-rectangle-example-script.png
