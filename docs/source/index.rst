@@ -9,7 +9,7 @@ Welcome to the KookaBlockly Reference Guide!
 This document relates to the **KookaBlockly** visual scripting tool commissioned by the AustSTEM Foundation 
 and created by Damien George for the **Kookaberry**.
 
-This guide is for **KookaBlockly** v1.9.0.
+This guide is for **KookaBlockly** v1.10.0.
 
 The document is in TWO parts:
 

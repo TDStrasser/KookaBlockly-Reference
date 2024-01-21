@@ -32,7 +32,7 @@ Choose the latest version compatible with your personal computer.  **KookaSuite*
 
 * Apple MacOS V10.15 and later
 
-* Raspbian for the Raspberry Pi
+* Raspberry Pi OS (Debian v12 [bookworm])
 
 Click on the hyperlink for the appropriate version of **KookaSuite** and download it to a folder (default is in the **Downloads** folder) on your personal computer.
 
@@ -160,7 +160,21 @@ After that the Macintosh will trust the software and allow it to run.
 Installing KookaSuite on Raspberry Pi
 -------------------------------------
 
-Unzip the downloaded ``KookaSuite-<version>-RPI400.tgz`` file into the home folder.  
+**KookaSuite** has been compiled to run on the 32 bit version of the Raspberry Pi OS (Operating System), 
+which is based on Debian Linux v12, known as "bookworm".  **KookaSuite** will not run on earlier versions of the Raspberry Pi OS, 
+nor on the 64 bit version (unless you install dual architecture libraries, which can be complicated).
+
+If your Raspberry Pi OS is an earlier version, you will need to update it. 
+First back-up your Raspberry Pi on some removable media e.g. a USB memory stick.
+The easiest way is to flash the current 32 bit version onto a new SD-card following the instructions here: https://www.raspberrypi.com/software/
+This will set up a new Raspberry Pi OS without any of your files on it.
+Retain the old Raspberry Pi SD card in case you need to retrieve some information from the older operating system.
+Then restore your data backup data into the home folder of the new Raspberry Pi OS.
+
+Then proceed to download the ``KookaSuite-<version>-RPi.zip`` file from the the Kookaberry **GitHub** 
+repository at https://github.com/kookaberry/kooka-releases/releases.
+
+Unzip the downloaded file into the home folder.  
 This will create a folder containing the three executables **KookaBlockly**, **KookaIDE** and **KookaTW**.
 
 Using the terminal program, install the needed Qt5 modules:
@@ -169,7 +183,7 @@ Using the terminal program, install the needed Qt5 modules:
    :caption: Installing QT5
 
    sudo apt install libqt5webkit5
-   sudo apt install libqt5websockets5-dev
+   sudo apt install libqt5websockets5
    sudo apt install libqt5serialport5
 
 If desired, create Raspberry Pi menu items under ``Programming`` using the ``Preferences/Main Menu Editor``.
@@ -177,8 +191,8 @@ If desired, create Raspberry Pi menu items under ``Programming`` using the ``Pre
 Script Folders
 --------------
 
-During installation or first running **KookaSuite**, the ``Kookaberry Scripts\`` folder will be created 
-in the location specified during the installation process or on MacOS and Raspbian in the user's home folder.  
+During installation or first running of **KookaSuite**, the ``Kookaberry Scripts\`` folder will be created 
+in the location specified during the installation process or on MacOS and Raspbian in the user's home folder or documents folder.  
 
 If the ``Kookaberry Scripts\`` folder already existed it will not be altered. See :numref:`wininstallfolders`.
 

@@ -189,7 +189,7 @@ location given by the values x2,y2.
    :align: center
 
 
-The values for colour should be either 0 or 1, where 0 is pixel off (black) and 1 is pixel on (cyan).
+The value for colour should be either ``0`` or ``1``, where ``0`` is pixel off (black) and ``1`` is pixel on (cyan).
 
 
 Display Rectangle
@@ -203,7 +203,32 @@ height given by the results of the value blocks attached to those parameters.
    :align: center
 
 
-The **fill?** box when ticked fills the rectangle with visible pixels.
+The value for colour should be either ``0`` or ``1``, where ``0`` is pixel off (black) and ``1`` is pixel on (cyan).
+
+The **fill?** box when ticked fills the rectangle with pixels of the given colour.
+
+The **reverse?** box specifies the orientation of the rectangle with respect to the x and y coordinates:
+
+* if **reverse?** is not ticked, x and y specify the location of the top-left of the rectangle
+* if **reverse?** is ticked, x and y specify the location of the bottom-right of the rectangle.
+
+The example script in ::numref:`disprectexample` displays two rectangles of equal origin and dimensions, 
+with one of them having the **reverse?** box ticked.  The resulting display in :numref:`disprectexampledisp`shows two rectangles,
+in normal and reverse orientations about the same x and y origin.
+
+.. _disprectexample:
+.. figure:: images/display-rectangle-example-script.png
+   :scale: 50%
+   :align: center
+
+   Example showing the effect of the **reverse?** box on the **Display Rectangle** block
+
+.. _disprectexampledisp:
+.. figure:: images/display-rectangle-example-display.png
+   :scale: 50%
+   :align: center
+
+   The resulting display showing the effect of the **reverse?** box on the **Display Rectangle** block
 
 
 Display Text
