@@ -28,15 +28,16 @@ The document is in TWO parts:
 
 :Example Scripts:
 
-   All the scripts used in this guide are available for downloading from Github and following the instructions on the README page:
+   All the scripts used in this guide are available for downloading from Github and following the instructions on the `README` page:
 
-   Example KookaBlockly scripts <https://github.com/TDStrasser/KookaBlockly-Reference/tree/c181e89508461521955f6257cb086d9d587790c8/examples>
+.. _README: https://github.com/TDStrasser/KookaBlockly-Reference/tree/9823056ad87da55329b65082e39b0654e418a5e6/examples
+
 
 :Errata:
 
-   If errors or issues are found in the **KookaBlockly Reference Guide** please post an issue on GitHub.
+   If errors or issues are found in the **KookaBlockly Reference Guide** please `post an issue on GitHub`.
 
-   Post issue using this link <https://github.com/TDStrasser/KookaBlockly-Reference/issues>
+.. _post an issue on GitHub: https://github.com/TDStrasser/KookaBlockly-Reference/issues
 
 
 :Copyright:
