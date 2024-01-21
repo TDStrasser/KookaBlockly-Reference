@@ -6,4 +6,9 @@ This collection contains the **KookaBlockly** scripts used in the **KookaBlockly
 To use them, download them from this site and store them in your Kookaberry Scripts / KookaBlockly folder (or a sub-folder).
 Load the script using the **KookaBlockly** editor and with a **Kookaberry** tethered via USB, click on Run.
 
-These scripts here are still under development and not yet stable enough for general public release.
+There are also a couple of games written using KookaBlockly - 
+
+* Sprites - two sprites, one running across the display, another dropping.  
+  Steer the dropping sprite with the C and D buttons to hit the other sprite and score a point.
+* Tilt_n_Draw - hold the Kookaberry level and while pressing the C button tilt it to draw pixels on the display.  
+  Press D to use an eraser, and B to clear the display.

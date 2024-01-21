@@ -32,7 +32,7 @@ Choose the latest version compatible with your personal computer.  **KookaSuite*
 
 * Apple MacOS V10.15 and later
 
-* Raspberry Pi OS (Debian v12 [bookworm])
+* Raspberry Pi OS (32 bit Debian v12 [bookworm])
 
 Click on the hyperlink for the appropriate version of **KookaSuite** and download it to a folder (default is in the **Downloads** folder) on your personal computer.
 
@@ -177,7 +177,17 @@ Then proceed to download the ``KookaSuite-<version>-RPi.zip`` file from the the 
 repository at https://github.com/kookaberry/kooka-releases/releases.
 
 Unzip the downloaded file into the home folder.  
-This will create a folder containing the three executables **KookaBlockly**, **KookaIDE** and **KookaTW**.
+This will create a folder containing the three executables **KookaBlockly**, **KookaIDE** and **KookaTW** as shown in :numref:`rpiinstalled`.
+
+
+.. _rpiinstalled:
+.. figure:: images/rpi-installed.png
+   :width: 400
+   :align: center
+
+   **KookaSuite** apps copied to a folder in the **Raspberry Pi**'s home folder.
+
+
 
 Using the terminal program, install the needed Qt5 modules:
 
@@ -188,7 +198,25 @@ Using the terminal program, install the needed Qt5 modules:
    sudo apt install libqt5websockets5
    sudo apt install libqt5serialport5
 
-If desired, create Raspberry Pi menu items under ``Programming`` using the ``Preferences/Main Menu Editor``.
+If desired, create Raspberry Pi menu items under ``Programming`` using the ``Preferences/Main Menu Editor``
+as shown in :numref:`rpimenuedit` and :numref:`rpimenu`.
+
+
+.. _rpimenuedit:
+.. figure:: images/rpi-menu-editor.png
+   :width: 400
+   :align: center
+
+   Configuring **KookaSuite** apps using the **Raspberry Pi**'s menu editor.
+
+
+.. _rpimenu:
+.. figure:: images/rpi-menu.png
+   :width: 400
+   :align: center
+
+   The **KookaSuite** apps as they appear in the **Raspberry Pi**'s menu.
+
 
 Script Folders
 --------------
