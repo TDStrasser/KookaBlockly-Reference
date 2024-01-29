@@ -57,6 +57,7 @@ This block is for a Hobby Servo, which is a servo is a motor that rotates over a
 .. image:: images/actuators-set-servo-to-angle.png
    :scale: 50%
    :align: center
+   :alt: Set Servo to Angle Block
 
 
 The servo block sets the angle to which a servo motor should move specified in degrees.  The 
@@ -87,6 +88,7 @@ over which the angular motion should occur.  This allows for a less abrupt and m
 .. image:: images/actuators-set-servo-to-angle-taking.png
    :scale: 50%
    :align: center
+   :alt: Set Servo to Angle Taking Time Block
 
 The block has three parameters:
 
@@ -105,6 +107,7 @@ This block is for a Continuous Servo, which is a motor that rotates at a specifi
 .. image:: images/actuators-set-servo-to-speed.png
    :scale: 50%
    :align: center
+   :alt: Set Servo to Speed Block
 
 
 The servo block sets the angular speed at which a servo motor should rotate specified in degrees per second.  The 
@@ -133,6 +136,7 @@ This block is for a Continuous Servo, which is a motor that rotates at a specifi
 .. image:: images/actuators-set-servo-to-speed-taking.png
    :scale: 50%
    :align: center
+   :alt: Set Servo to Speed Taking Time Block
 
 
 This block is the same as the **Set Servo to Speed** block with the addition of a parameter to set the time, in seconds,

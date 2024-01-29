@@ -22,6 +22,7 @@ This block allows a user to type in text that can be used as a string value by o
 .. image:: images/strings-value.png
    :scale: 50%
    :align: center
+   :alt: String Value Block
 
 
 Type in the desired text between the double-quotes ``"``, for example ``"Hello World"``.
@@ -34,6 +35,7 @@ This block takes a numerical value block and formats its result as an integer wi
 .. image:: images/strings-format-integer.png
    :scale: 50%
    :align: center
+   :alt: String Integer Format Block
 
 
 For example, the integer ``1000`` would be formatted as the character string ``“1000”``.
@@ -57,6 +59,7 @@ the specified number of decimal places and width (not including the decimal poin
 .. image:: images/strings-format-float.png
    :scale: 50%
    :align: center
+   :alt: String Floating Point Format Block
 
 
 For example, the number 123.4567 formatted as 2 decimals with width 5, would result in the character string “123.46”.  Note that 
@@ -79,6 +82,7 @@ This block converts an input string value and outputs a numeric integer value.
 .. image:: images/strings-to-integer.png
    :scale: 50%
    :align: center
+   :alt: String to Integer Block
 
 
 For example, an input of ``"1234"`` will output the integer number ``1234``.
@@ -98,6 +102,7 @@ This block converts an input string value and outputs a numeric floating point v
 .. image:: images/strings-to-float.png
    :scale: 50%
    :align: center
+   :alt: String to Float Block
 
 
 For example, an input of ``"1234.56"`` will output the integer number ``1234.56``.

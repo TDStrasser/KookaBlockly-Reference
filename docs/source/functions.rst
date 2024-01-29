@@ -34,6 +34,7 @@ the function’s block is used.
 .. image:: images/functions-definition.png
    :scale: 50%
    :align: center
+   :alt: Define Function Block
 
 
 To define a function, drag this block into the **KookaBlockly** workspace.
@@ -46,6 +47,7 @@ Remember to leave the function definition block in the **KookaBlockly** workspac
 .. image:: images/functions-definition-paletted-block.png
    :scale: 50%
    :align: center
+   :alt: Defined Functions in Palette
 
 
 The function block will then be available in the palette for use elsewhere in the script:
@@ -58,12 +60,14 @@ A function may, or may not, have inputs that will be used by the script inside t
 .. image:: images/functions-definition-input-x.png
    :scale: 50%
    :align: center
+   :alt: Define Function Input x
 
 
 
 .. image:: images/functions-definition-input-y.png
    :scale: 50%
    :align: center
+   :alt: Define Function Input y
 
 
 To define the inputs, drag the input block on the left of the box into the bracket on the right.
@@ -84,6 +88,7 @@ Function Name
 .. image:: images/functions-definition-name.png
    :scale: 50%
    :align: center
+   :alt: Define Function Name
 
 
 To define the function name, click on its name and edit the text.
@@ -98,6 +103,7 @@ A description may say what the function does, what its inputs are, what computat
 .. image:: images/functions-definition-description.png
    :scale: 50%
    :align: center
+   :alt: Define Function Description
 
 
 Click on the question mark, **?**, and a description box will appear.  Type the description in the box.
@@ -120,6 +126,7 @@ Here is an example where a function is defined to calculate the circumference of
 .. image:: images/functions-definition-return.png
    :scale: 50%
    :align: center
+   :alt: Define Function With Returned Value
 
 
 Once the definition of the function block is complete, click on the cog symbol once again to close the definition box.  
@@ -128,6 +135,7 @@ Remember to leave the function definition block in the **KookaBlockly** workspac
 .. image:: images/functions-definition-return-paletted-block.png
    :scale: 50%
    :align: center
+   :alt: Defined Function With Returned Value in Palette
 
 
 The function block will then be available in the palette for use elsewhere in the script:
@@ -141,6 +149,7 @@ This block can be used in both the **Function Definition** and **Function Defini
 .. image:: images/functions-return-conditional.png
    :scale: 50%
    :align: center
+   :alt: Function Conditional Return Block
 
 
 It will check the True / False condition in the first value block input and if it is ``True`` it will 
@@ -154,6 +163,7 @@ This block cannot be used outside of the **Function Definition** blocks.  If thi
 .. image:: images/functions-return-conditional-warning.png
    :scale: 50%
    :align: center
+   :alt: Function Conditional Return Block Warning
 
 
 The following is an example of the use of the **If Condition Return** block with a function named ``direction``.
@@ -161,6 +171,7 @@ The following is an example of the use of the **If Condition Return** block with
 .. image:: images/functions-return-conditional-example.png
    :scale: 50%
    :align: center
+   :alt: Function Conditional Return Example
 
 
 The function tests the sign of the acceleration read from the Z axis of the internal accelerometer.  

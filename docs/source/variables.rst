@@ -40,6 +40,7 @@ Once a new **Variable** has been created, the new **Variable** will be available
 .. image:: images/variables-create-post.png
    :scale: 50%
    :align: center
+   :alt: Define Variable in Palette
 
 It is possible to right-click while hovering over the **Variable** block in the palette to reveal a number of actions 
 which can be selected by then clicking on them:
@@ -48,6 +49,7 @@ which can be selected by then clicking on them:
 .. image:: images/variables-right-click.png
    :scale: 50%
    :align: center
+   :alt: Variable Block Right-Click Options
 
 
 1. **Delete the variable** - removes the **Variable**, and its associated blocks if it was the only **Variable**.
@@ -65,6 +67,7 @@ The value can be a number, a boolean, or a character string.
 .. image:: images/variables-set.png
    :scale: 50%
    :align: center
+   :alt: Set Variable Block
 
 
 The **Variable** to be assigned the value can be selected from the drop-down-list.
@@ -74,6 +77,7 @@ The drop-down list also has some other choices:
 .. image:: images/variables-set-dropdown.png
    :scale: 50%
    :align: center
+   :alt: Set Variable Options
 
 
 1. **Rename variable** - brings up a dialogue box in which the new name can be typed.  
@@ -89,6 +93,7 @@ This action block allows the user to change the selected **Variable** by a numbe
 .. image:: images/variables-change.png
    :scale: 50%
    :align: center
+   :alt: Change Variable By Block
 
 
 This block will only work for numerical variables and will only accept numerical values.
@@ -126,6 +131,7 @@ This value block allows a user to attach a variable’s value to the input of an
 .. image:: images/variables-value.png
    :scale: 50%
    :align: center
+   :alt: Variable Value Block
 
 
 The example in :numref:`varvalexample` reads a temperature from a sensor once per 5 seconds, storing it in a **Variable** named ``"temperature"``, then using the stored value to perform a conversion calculation 

@@ -20,6 +20,7 @@ To create a **List**, first create a **Variable** with the name of the **List**,
 .. image:: images/lists-variable.png
    :scale: 50%
    :align: center
+   :alt: Set Variable to List
 
 
 
@@ -34,6 +35,7 @@ This value block gives back a new, empty **List**.
 .. image:: images/lists-create-empty.png
    :scale: 50%
    :align: center
+   :alt: Create Empty List Block
 
 The gear icon in the block allows the user custom tailor the block to add items.
 
@@ -41,11 +43,13 @@ The gear icon in the block allows the user custom tailor the block to add items.
 .. image:: images/lists-create-with-1.png
    :scale: 50%
    :align: center
+   :alt: Create List With One Item
 
 
 .. image:: images/lists-create-with-2.png
    :scale: 50%
    :align: center
+   :alt: Create List With Two Items
 
 
 Create List Example
@@ -57,6 +61,7 @@ Here is an example of setting the value of a variable called ``"list"`` to a **L
 .. image:: images/lists-create-example.png
    :scale: 50%
    :align: center
+   :alt: Create List Example
 
 
 
@@ -69,6 +74,8 @@ specified by the number inserted into the right-hand input.
 .. image:: images/lists-create-repeated-example.png
    :scale: 50%
    :align: center
+   :alt: Create List With Repeated Items Example
+
 
 
 In this example, a variable called ``”list”`` is set to a **List** of the number ``“123”`` repeated ``5`` 
@@ -86,7 +93,7 @@ In this example the number of items in ``"list"`` which contains ``[“alpha”,
 .. image:: images/lists-length-example.png
    :scale: 50%
    :align: center
-
+   :alt: List Length Example
 
 
 Is Empty
@@ -98,6 +105,8 @@ This :doc:`boolean` value block is ``True`` if the input **List** is empty (i.e.
 .. image:: images/lists-is-empty.png
    :scale: 50%
    :align: center
+   :alt: List Empty Boolean
+
 
 
 In List Find First / Last Occurrence of Item
@@ -109,6 +118,7 @@ in the **List** at which the item was found, if it was found.
 .. image:: images/lists-find-occurrence.png
    :scale: 50%
    :align: center
+   :alt: Find Occurrence in List
 
 
 A **List** index ranges from ``0`` to ``n-1``, where ``n`` is the number of items in the **List**. 
@@ -130,6 +140,7 @@ and print the result on the display as ``Index is 2``,  ``"gamma"`` being the th
 .. image:: images/lists-find-occurrence-example.png
    :scale: 50%
    :align: center
+   :alt: Find Occurrence in List Example
 
 
 In List Get / Remove Item
@@ -141,6 +152,7 @@ particular position in the **List**.  The value of the **List** item is returned
 .. image:: images/lists-get.png
    :scale: 50%
    :align: center
+   :alt: Get Item From List Block
 
 The images show the block and the drop-down list of the operation choices available in the block:
 
@@ -152,6 +164,7 @@ The images show the block and the drop-down list of the operation choices availa
 .. image:: images/lists-remove.png
    :scale: 50%
    :align: center
+   :alt: Remove Item From List Block
 
 
 The second drop-down list has a number of choices as to which item in the **List** to get or set:
@@ -167,6 +180,7 @@ The second drop-down list has a number of choices as to which item in the **List
 .. image:: images/lists-get-index.png
    :scale: 50%
    :align: center
+   :alt: Get List Item Index Block
 
 
 In List Get / Remove Examples
@@ -179,6 +193,7 @@ The result is printed on the display as ``Item is gamma``.
 .. image:: images/lists-get-example.png
    :scale: 50%
    :align: center
+   :alt: Get Item From List Example
 
 In this example, items from a **List** containing ``[“alpha”, “beta”, “gamma”]``, are removed and printed on the display until the **List** is empty.
 
@@ -186,6 +201,7 @@ In this example, items from a **List** containing ``[“alpha”, “beta”, �
 .. image:: images/lists-get-remove-example.png
    :scale: 50%
    :align: center
+   :alt: Remove Item From List Example
 
 
 
@@ -198,6 +214,7 @@ or inserts a new item with the input value at the specified location in a chosen
 .. image:: images/lists-set.png
    :scale: 50%
    :align: center
+   :alt: Set Item In List Block
 
 
 The first parameter is a drop-down list with the operation choices:
@@ -218,6 +235,7 @@ The second drop-down list has a number of choices as to which item in the **List
 .. image:: images/lists-set-index.png
    :scale: 50%
    :align: center
+   :alt: Set Item in List With Index Block
 
 In List Set / Insert Example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -228,6 +246,7 @@ By way of example, we may wish to add ``"delta"`` to the end of the **List** ini
  .. image:: images/lists-insert-at-example.png
    :scale: 50%
    :align: center
+   :alt: Set Item In List Example
 
 
 
@@ -239,6 +258,7 @@ This value block copies a portion of a chosen **List** and provides the **Sub-Li
  .. image:: images/lists-get-sublist.png
    :scale: 50%
    :align: center
+   :alt: Get Sub-List Block
 
 
 As for the **Create List** block, a variable is needed to contain the output **Sub-List**.
@@ -263,6 +283,7 @@ index number 1 to the last item in the **List** containing ``[“alpha”, “be
  .. image:: images/lists-get-sublist-example.png
    :scale: 50%
    :align: center
+   :alt: Get Sub-List Example
 
 
 The **Sub-List** will contain ``[“beta”, ”gamma”, delta”]``.
@@ -280,6 +301,7 @@ This value block will, depending on the option chosen in the drop-down list:
  .. image:: images/lists-make-with-delimiter.png
    :scale: 50%
    :align: center
+   :alt: Create/Get List With Delimited Text Block
 
 Make List / Text Examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -291,6 +313,7 @@ separated by commas.  The results is a **List** of the Greek letters as the vari
  .. image:: images/lists-create-with-delimiter.png
    :scale: 50%
    :align: center
+   :alt: Create List From Text Example
 
 
 The complementary operation is to generate the original text from the **List** containing ``[“alpha”, “beta”, “gamma”, "delta"]`` and to print 
@@ -300,6 +323,7 @@ it on the **Kookaberry’s** display.
  .. image:: images/lists-text-with-delimiter-example.png
    :scale: 50%
    :align: center
+   :alt: Create Text From List Example
 
 
 Sort List
@@ -310,6 +334,7 @@ This value block allows a **List** to be re-ordered by sorting in numeric or alp
  .. image:: images/lists-sort-type.png
    :scale: 50%
    :align: center
+   :alt: Sort List Block
 
 
 The first option is for the type of sorting:
@@ -322,6 +347,7 @@ The first option is for the type of sorting:
  .. image:: images/lists-sort-order.png
    :scale: 50%
    :align: center
+   :alt: Sort List Configuration
 
 
 The second option is for the order of sorting:
@@ -339,6 +365,7 @@ alphabetical order.
  .. image:: images/lists-sort-example.png
    :scale: 50%
    :align: center
+   :alt: Sort List Example
 
 
 The result of the example can be seen on the **Kookaberry**'s display where the sorted order of the **List** is printed on successive lines:
@@ -347,6 +374,7 @@ The result of the example can be seen on the **Kookaberry**'s display where the 
  .. image:: images/lists-sort-example-display.png
    :height: 200
    :align: center
+   :alt: Sort List Example Result
 
 
 

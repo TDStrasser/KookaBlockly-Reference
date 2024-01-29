@@ -29,6 +29,7 @@ The **Kookaberry** contains an internal 3-axis accelerometer.
 .. image:: images/sensors-get-accelerometer.png
    :scale: 50%
    :align: center
+   :alt: Get Accelerometer Block
 
 
 The accelerometer block provides the acceleration value of the selected axis (one of the X, Y and Z axes in the 
@@ -56,6 +57,7 @@ The scaled accelerometer compound block is a convenient combination applying a m
 .. image:: images/sensors-get-accelerometer-maths.png
    :scale: 50%
    :align: center
+   :alt: Get Accelerometer Scaled Block
 
 
 The scale and offset factors can be typed in directly or provided by plugging in other value blocks.
@@ -72,6 +74,7 @@ it is subjected to in three axes (X, Y and Z), as well as the total magnetic fie
 .. image:: images/sensors-get-compass-strength.png
    :scale: 50%
    :align: center
+   :alt: Get Compass Block
 
 
 * The readings for magnetic field strength are in Gauss.
@@ -106,6 +109,7 @@ block enables selection of which **Pin** connector the sensor is attached to.
 .. image:: images/sensors-get-temp-ds18b20.png
    :scale: 50%
    :align: center
+   :alt: Get DS18x20 Temperature Block
 
 
 The DS18x20 sensor is used for measuring temperature in air and in liquid.  
@@ -130,6 +134,7 @@ The **Kookaberry** performs the necessary calculations to convert the sensor’s
 .. image:: images/sensors-get-temp-ntc.png
    :scale: 50%
    :align: center
+   :alt: Get NTC Temperature Block
 
 
 The options on the NTC value block are:
@@ -150,11 +155,13 @@ This block obtains the value of the selected parameter from the DHT sensor.
 .. image:: images/sensors-get-temp-dht.png
    :scale: 50%
    :align: center
+   :alt: Get DHT11/22 Block
 
 
 .. image:: images/sensors-get-temp-dht-select.png
    :scale: 50%
    :align: center
+   :alt: Get DHT11/22 Configuration
 
 
 The drop-down boxes on the DHT value block permit the selection of:
@@ -188,6 +195,7 @@ The **Get Temperature from BME280** block is shown below with the three sets of 
 .. image:: images/sensors-get-temp-bme.png
    :scale: 50%
    :align: center
+   :alt: Get BME280 Block
 
 
 The first drop-down box provides the list of measurements available which are:
@@ -201,6 +209,7 @@ The first drop-down box provides the list of measurements available which are:
 .. image:: images/sensors-get-temp-bme-adx.png
    :scale: 50%
    :align: center
+   :alt: Get BME280 Address Configuration
 
 
 The second drop-down box provides two options for the BME280's address on the I2C bus, that is ``0x77`` or ``0x76``.  
@@ -210,6 +219,7 @@ It is possible to have two BME280 sensors, each with a different address, on the
 .. image:: images/sensors-get-temp-bme-pins.png
    :scale: 50%
    :align: center
+   :alt: Get BME280 Pins Configuration
 
 The third and fourth drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 
@@ -250,6 +260,7 @@ The **Get Acceleration from LSM303** block is shown below with the three sets of
 .. image:: images/sensors-get-accelerometer-lsm303.png
    :scale: 50%
    :align: center
+   :alt: Get External Accelerometer Block
 
 
 The first drop-down box provides the list of measurements available which are:
@@ -269,6 +280,7 @@ The first drop-down box provides the list of measurements available which are:
 .. image:: images/sensors-get-accelerometer-lsm303-pins.png
    :scale: 50%
    :align: center
+   :alt: Get External Accelerometer Pins Configuration
 
 
 The second and third drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
@@ -315,6 +327,7 @@ The **Get Lux from VEML7700** block is shown below with the two sets of options 
 .. image:: images/sensors-get-lux-veml7700-pins.png
    :scale: 50%
    :align: center
+   :alt: Get Lux Block
 
 The two drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
 
@@ -354,6 +367,7 @@ The **Get Power / Voltage / Current from INA219** block is shown below with the 
 .. image:: images/sensors-get-power-ina219.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Block
 
 
 The first drop-down box provides the list of measurements available which are:
@@ -377,6 +391,7 @@ The first drop-down box provides the list of measurements available which are:
 .. image:: images/sensors-get-power-ina219-pins.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Pins Configuration
 
 
 The second and third drop-down boxes provide options as to which **Pins** are used for the SCL and SDA signals on the **Kookaberry**.
@@ -393,6 +408,7 @@ A string block can also be used instead of the drop-down selector blocks and the
 .. image:: images/sensors-get-power-ina219-address.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Address Configuration
 
 
 
@@ -405,6 +421,7 @@ To change the address in the block select the desired address from the drop-down
 .. image:: images/sensors-get-power-ina219-shunt.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Shunt Resistor Configuration
 
 
 The fifth option is a drop-down list of shunt resistors fitted to the sensor.  
@@ -418,6 +435,7 @@ Power in the shunt resistor is dissipated as heat and is equal to i^2 x R, where
 .. image:: images/sensors-get-power-ina219-max-amps.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Maximum Current Configuration
 
 
 The sixth option is a drop-down list of the maximum currents to be measured.
@@ -433,16 +451,19 @@ The available combinations of shunt resistor and max-amps are shown below.
 .. image:: images/sensors-get-power-ina219-maxamps-001.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Shunt 001 Choices
 
 
 .. image:: images/sensors-get-power-ina219-maxamps-050.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Shunt 050 Choices
 
 
 .. image:: images/sensors-get-power-ina219-maxamps-100.png
    :scale: 50%
    :align: center
+   :alt: Get Wattmeter Shunt 100 Choices
 
 
 
@@ -487,6 +508,7 @@ The **Get Soil Moisture** block is shown below with three options available on t
 .. image:: images/sensors-get-soil-moisture.png
    :scale: 50%
    :align: center
+   :alt: Get Soil Moisture Block
 
 
 Soil moisture is given as a percentage, nominally in the range 0 to 100.  

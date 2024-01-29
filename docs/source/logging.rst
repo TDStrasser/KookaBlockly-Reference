@@ -50,6 +50,7 @@ If a file with the same name already exists, then it will overwritten with an em
 .. image:: images/logging-clear-file.png
    :scale: 50%
    :align: center
+   :alt: New CSV File Block
 
 
 The name of the file is specified in the **to file** parameter with ``log.csv`` the default name.  Edit this field to change the file name.
@@ -70,17 +71,20 @@ The value blocks attached as inputs to this block will provide text values to be
 .. image:: images/logging-to-file-1.png
    :scale: 50%
    :align: center
+   :alt: Log One Value to File Block
 
 
 .. image:: images/logging-to-file-2.png
    :scale: 50%
    :align: center
+   :alt: Log Two Values to File Block
 
 
 .. image:: images/logging-to-file-3.png
    :scale: 50%
    :align: center
- 
+   :alt: Log Three Values to File Block
+
 
 The first input, by default, is a text representation of the current time read from the **Kookaberry**'s internal clock.  
 This input block can be replaced by any other value block that provides a text string.

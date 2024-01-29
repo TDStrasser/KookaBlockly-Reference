@@ -23,6 +23,7 @@ and outputs a result of ``True`` or ``False``.
 .. image:: images/boolean-compare.png
    :scale: 50%
    :align: center
+   :alt: Boolean Comparison Block
 
 
 The options available in the drop-down selection box are:
@@ -47,6 +48,7 @@ The **Boolean And / Or** block performs the selected **Boolean** operation on it
 .. image:: images/boolean-and-or.png
    :scale: 50%
    :align: center
+   :alt: Boolean And/Or Block
 
 Both inputs are required to be **Boolean**.  It is not possible to plug numbers or text strings into the inputs.
 
@@ -64,6 +66,7 @@ That is, ``True`` becomes ``False``, and ``False`` become ``True``.
 .. image:: images/boolean-not.png
    :scale: 50%
    :align: center
+   :alt: Boolean Not Block
 
 
 True / False
@@ -76,6 +79,7 @@ It is generally used to initialise variables that are subsequently used in a pro
 .. image:: images/boolean-true-false.png
    :scale: 50%
    :align: center
+   :alt: Boolean True/False Block
 
 
 Null
@@ -88,6 +92,7 @@ or ``False`` value if used.
 .. image:: images/boolean-null.png
    :scale: 50%
    :align: center
+   :alt: Boolean Null Block
 
 
 Test If
@@ -98,6 +103,7 @@ This block will output one of two input values depending on whether the **test**
 .. image:: images/boolean-test-if.png
    :scale: 50%
    :align: center
+   :alt: Boolean Test-If Block
 
 If the block in the **Test** input socket is ``True``, the value in the **if true** input is transferred to the output.
 

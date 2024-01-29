@@ -67,6 +67,7 @@ This block clears the display’s frame buffer.  The physical display will not b
 .. image:: images/display-clear.png
    :scale: 50%
    :align: center
+   :alt: Display Clear Block
    
 
 Display Show
@@ -77,6 +78,7 @@ This block transfers the display’s frame buffer to the **Kookaberry’s** phys
 .. image:: images/display-show.png
    :scale: 50%
    :align: center
+   :alt: Display Show Block
 
 
 **KookaBlockly** automatically inserts the equivalent **Display Show** code towards the end of the generated MicroPython script.
@@ -93,6 +95,7 @@ This block sets the character font to that selected from the drop down box.
 .. image:: images/display-setfont.png
    :scale: 50%
    :align: center
+   :alt: Set Font Block
    
 
 The display fonts available for selection are from smallest to largest: 
@@ -123,6 +126,7 @@ The current line is set to the top of the screen immediately after the display i
 .. image:: images/display-print.png
    :scale: 50%
    :align: center
+   :alt: Display Print Block
    
 
 If the line is longer than the display’s width, the line is wrapped onto successive lines of the display. 
@@ -139,6 +143,7 @@ followed by the output of any value block.
 .. image:: images/display-print-and.png
    :scale: 50%
    :align: center
+   :alt: Display Print And Block
    
 
 :numref:`disprtandexample` shows an example to display the time:
@@ -172,6 +177,7 @@ values of x, y and colour are the outputs of any value block.
 .. image:: images/display-pixel.png
    :scale: 50%
    :align: center
+   :alt: Display Pixel Block
    
 
 If the values of x or y are outside of the display dimensions then the pixel will not be visible.  
@@ -187,6 +193,7 @@ location given by the values x2,y2.
 .. image:: images/display-line.png
    :scale: 50%
    :align: center
+   :alt: Display Line Block
 
 
 The value for colour should be either ``0`` or ``1``, where ``0`` is pixel off (black) and ``1`` is pixel on (cyan).
@@ -201,6 +208,7 @@ height given by the results of the value blocks attached to those parameters.
 .. image:: images/display-rectangle.png
    :scale: 50%
    :align: center
+   :alt: Display Rectangle Block
 
 
 The value for colour should be either ``0`` or ``1``, where ``0`` is pixel off (black) and ``1`` is pixel on (cyan).
@@ -242,6 +250,7 @@ value block output of 0 or 1.
 .. image:: images/display-text.png
    :scale: 50%
    :align: center
+   :alt: Display Text Block
    
 
 
@@ -256,6 +265,7 @@ This block allows for the creation of an 8 x 8 pixel array positioned on the **K
 .. image:: images/display-image.png
    :scale: 50%
    :align: center
+   :alt: Display Image Block
    
 
 The **transparent?** box if ticked will not extinguish any pixels that were already on, thereby giving an 

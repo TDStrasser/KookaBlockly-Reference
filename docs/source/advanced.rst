@@ -31,6 +31,7 @@ This value block allows the result of any Python statement to be passed to **Koo
 .. image:: images/advanced-value.png
    :scale: 50%
    :align: center
+   :alt: Python Value Block
 
 The Python statement is typed into the text box in the block.  In the default block, the statement ``1+1``
 results in the output value of ``2``.
@@ -45,6 +46,7 @@ statement is typed into the text box in the block.
 .. image:: images/advanced-action.png
    :scale: 50%
    :align: center
+   :alt: Python Action Block
 
 
 
@@ -59,6 +61,7 @@ designating that the following text is a comment.
 .. image:: images/advanced-action-comment.png
    :scale: 50%
    :align: center
+   :alt: Creating an in-line comment using the Python Action Block
 
 Advanced Example
 ----------------
@@ -71,6 +74,7 @@ This example reads a plain text file using the **Advanced** blocks and prints ea
 .. image:: images/advanced-example.png
    :scale: 50%
    :align: center
+   :alt: Text File Reading Example Using Advanced Blocks
 
 This script uses two **Python Action** blocks to insert in-line comments in the **KookaBlockly** and the resulting MicroPython script.
 
@@ -127,6 +131,7 @@ When the script is run, the appearance of the **Kookaberry** display is as below
 .. image:: images/advanced-example-display.png
    :scale: 50%
    :align: center
+   :alt: The Kookaberry Display when the Advanced Block Example Script is run
 
 
 

@@ -47,6 +47,7 @@ button *was pressed*.
 .. image:: images/buttons-when-was-pressed.png
    :scale: 50%
    :align: center
+   :alt: When Button Was Pressed Block
 
 The button options are ``A``, ``B``, ``C``, or ``D``.  
 
@@ -62,6 +63,7 @@ button *is pressed*.
 .. image:: images/buttons-when-is-pressed.png
    :scale: 50%
    :align: center
+   :alt: When Button Is Pressed Block
 
 
 The button options are ``A``, ``B``, ``C``, or ``D``.  
@@ -76,6 +78,7 @@ This is a value block whose result is ``True`` (= ``1``) whenever the selected b
 .. image:: images/buttons-was-pressed.png
    :scale: 50%
    :align: center
+   :alt: Button Was Pressed Block
 
 
 The button options are ``A``, ``B``, ``C``, or ``D``.
@@ -90,6 +93,7 @@ This is a value block whose result is ``True`` (= ``1``) as long as the selected
 .. image:: images/buttons-is-pressed.png
    :scale: 50%
    :align: center
+   :alt: Button Is Pressed Block
 
 
 The button options are ``A``, ``B``, ``C``, or ``D``.
@@ -105,6 +109,7 @@ This is a combination of two blocks: the **button was pressed** control loop, as
 .. image:: images/buttons-when-was-pressed-exit.png
    :scale: 50%
    :align: center
+   :alt: Exit When Button Was Pressed Block
 
 
 The result of using this combination is whenever the button selected was pressed the currently running program will finish.

@@ -56,6 +56,7 @@ If no message is received then no actions within the scope of the block will be 
 .. image:: images/radio-when-radio-receive.png
    :scale: 50%
    :align: center
+   :alt: When Radio Receive Block
 
 
 Radio Read
@@ -68,6 +69,7 @@ Once read the **Radio** message is deleted from the message queue.
 .. image:: images/radio-read.png
    :scale: 50%
    :align: center
+   :alt: Radio Read Block
 
 
 Radio Send
@@ -78,6 +80,7 @@ This action block sends the data within the attached value block as a message vi
 .. image:: images/radio-send.png
    :scale: 50%
    :align: center
+   :alt: Radio Send Block
 
 
 The data can be the result of a value block, or be a fixed message as shown above. 
@@ -95,6 +98,7 @@ This block enables any of the available **Radio** channels to be selected.
 .. image:: images/radio-set-channel.png
    :scale: 50%
    :align: center
+   :alt: Set Radio Channel Block
 
 
 The **Kookaberry**'s internal radio is capable of transmitting and receiving on any of 84 channels.
@@ -118,6 +122,7 @@ The **Kookaberry**'s internal radio can be configured in a variety of ways if th
 .. image:: images/radio-set-payload.png
    :scale: 50%
    :align: center
+   :alt: Set Radio Parameter Block
 
 
 This block provides access to the numerous parameters that can be set.
@@ -178,6 +183,7 @@ If no message is received then no actions within the scope of the block will be 
 .. image:: images/radio-when-HC12-on-UART.png
    :scale: 50%
    :align: center
+   :alt: When External Radio Receive Block
 
 
 The drop-down list on the block selects which of the external radios (``A`` or ``B``) is being used.
@@ -192,6 +198,7 @@ Once read the **Radio** message is deleted from the message queue.
 .. image:: images/radio-HC12-read.png
    :scale: 50%
    :align: center
+   :alt: External Radio Read Block
 
 
 The drop-down list on the block selects which of the external radios (``A`` or ``B``) is being used.
@@ -205,6 +212,7 @@ This action block sends the data within the attached value block as a message vi
 .. image:: images/radio-HC12-send.png
    :scale: 50%
    :align: center
+   :alt: External Radio Send Block
 
 
 The data can be the result of a value block, or be a fixed message as shown above.  
@@ -219,6 +227,7 @@ This action block sends the data within the attached value blocks as a message v
 .. image:: images/radio-HC12-send-and.png
    :scale: 50%
    :align: center
+   :alt: External Radio Send And Block
 
 
 The data sent is a concatenation of the two value blocks.
@@ -235,6 +244,7 @@ This block sets a virtual (named) channel for the external radio.
 .. image:: images/radio-HC12-set-channel.png
    :scale: 50%
    :align: center
+   :alt: Set External Radio Channel Block
 
 
 The external radio will send all messages with a prefix equal to the channel name.

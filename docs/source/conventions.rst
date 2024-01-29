@@ -22,6 +22,7 @@ Block Shapes
 .. image:: images/every-loop-if-do.png
    :scale: 50%
    :align: center
+   :alt: Every Loop If-Do Flow Blocks
 
 
 2.	An action or “do” block which performs an operation.  The block has an indent in the top border and a matching protrusion on the bottom border.  These blocks click together like jigsaw pieces and may be placed in a vertical column and within a C-shaped block.
@@ -29,6 +30,7 @@ Block Shapes
 .. image:: images/display-clear.png
    :scale: 50%
    :align: center
+   :alt: Display Clear Action Block
 
 
 3.	A value block which has a jigsaw tab on the left-hand edge.  These blocks evaluate an expression and assign an output value to the blocks to which they are connected.  Some value blocks have a matching receptacle on the right-hand edge which accepts other value blocks.
@@ -36,6 +38,7 @@ Block Shapes
 .. image:: images/math-number-squareroot.png
    :scale: 50%
    :align: center
+   :alt: Number Value Block
 
 
 Block Configuration
@@ -46,6 +49,7 @@ Some blocks have configuration options denoted by a cog symbol.  Clicking on the
 .. image:: images/if-do-config.png
    :scale: 50%
    :align: center
+   :alt: Block Configuration
 
 
 Right-clicking
@@ -56,6 +60,7 @@ Right-clicking on a block also presents a set of option as below.  These include
 .. image:: images/if-do-rightclick.png
    :scale: 50%
    :align: center
+   :alt: Block Right-Click Options
 
 Duplicate		
    Click on Duplicate to create a duplicate of the block and any connected sub-blocks in the workspace.

@@ -40,6 +40,7 @@ Reads the **Kookaberry’s** internal Real Time Clock (**RTC**) and returns a da
 .. image:: images/clock-get-simple.png
    :scale: 50%
    :align: center
+   :alt: Get Clock Block
 
 The value returned is a character string.
 
@@ -53,6 +54,7 @@ per the selected formats and separated by a string of characters that can be spe
 .. image:: images/clock-get-extended.png
    :scale: 50%
    :align: center
+   :alt: Get Clock Extended Block
 
 
 In :numref:`clkgetextendedscript` is a **KookaBlockly** example script demonstrating a loop which updates the **Kookaberry’s** display every second with the current time and date.
@@ -79,6 +81,7 @@ This block sets the **Kookaberry’s** internal Real Time Clock (**RTC**) to the
 .. image:: images/clock-set-from-string.png
    :scale: 50%
    :align: center
+   :alt: Set Clock From String Block
 
 This is useful for updating the internal **RTC** with a fixed time or where the **Kookaberry** internal clock has not been 
 automatically synchronised using **KookaBlockly**.
@@ -108,6 +111,7 @@ Reads the **Kookaberry’s** external Real Time Clock (**RTC**) and returns a da
 .. image:: images/clock-get-external-simple.png
    :scale: 50%
    :align: center
+   :alt: Get External Clock Block
 
 
 The value returned is a character string.
@@ -125,6 +129,7 @@ per the selected formats and separated by a string of characters that can be spe
 .. image:: images/clock-get-external-extended.png
    :scale: 50%
    :align: center
+   :alt: Get External Clock Extended Block
 
 
 The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
@@ -139,6 +144,7 @@ Sets the **Kookaberry’s** internal Real Time Clock (**RTC**) by copying the cu
 .. image:: images/clock-set-internal-from-external-clock.png
    :scale: 50%
    :align: center
+   :alt: Set Internal Clock From External Clock Block
 
 
 The external **RTC** is connected to the **Kookaberry**'s connector ports as selected from the SCL and SDA dropdown lists. 
@@ -153,6 +159,7 @@ Sets the **Kookaberry’s** external Real Time Clock (**RTC**) by copying the cu
 .. image:: images/clock-set-external-from-internal-clock.png
    :scale: 50%
    :align: center
+   :alt: Set External Clock From Internal Clock Block
 
 
 This is useful for updating the external **RTC** with the correct time when the **Kookaberry** is tethered to **KookaBlockly**.
@@ -169,6 +176,7 @@ Sets the **Kookaberry’s** external Real Time Clock (**RTC**) to the time speci
 .. image:: images/clock-set-external-from-string.png
    :scale: 50%
    :align: center
+   :alt: Set External Clock From String Block
 
 This is useful for updating the external **RTC** with a fixed time or where the **Kookaberry's** internal clock has not been 
 automatically synchronised using **KookaBlockly**.

@@ -22,6 +22,7 @@ This block runs the blocks nested inside of it for the specified number of times
 .. image:: images/loops-repeat.png
    :scale: 50%
    :align: center
+   :alt: Loop Block
 
 
 The number of iterations is provided by an input from a numeric value block which can contain a fixed number (from the :doc:`maths` blocks category), 
@@ -39,6 +40,7 @@ In this block the two operations of While and Until are very similar to each oth
 .. image:: images/loops-repeat-while.png
    :scale: 50%
    :align: center
+   :alt: Loop While/Until Block
 
 
 Repeat While will continue as long as the input value block is ``True``.  
@@ -54,6 +56,7 @@ This **Loop** will run its nested blocks several times depending upon the input 
 .. image:: images/loops-count-with.png
    :scale: 50%
    :align: center
+   :alt: Loop Count With Variable Block
 
 
 The **Loop** will start by setting the chosen variable to its starting value using the first input.  
@@ -103,6 +106,7 @@ This block has an input socket that takes a **List**.  See the :doc:`lists` Cate
 .. image:: images/loops-for-item.png
    :scale: 50%
    :align: center
+   :alt: Loop For Each Item In ListBlock
 
 
 The **Loop** begins by setting the chosen variable to be the same as the first item from the **List** and then it runs the nested blocks. 
