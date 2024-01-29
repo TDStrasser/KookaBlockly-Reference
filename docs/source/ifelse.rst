@@ -21,6 +21,7 @@ The **if** input socket takes a value block or compound block that represents a 
 .. image:: images/if-do.png
    :scale: 50%
    :align: center
+   :alt: If-Do Block
 
 
 If the value block in the conditional input is ``True``, it runs the blocks nested inside.  
@@ -36,6 +37,7 @@ It adds the **else** bracket into which the action blocks that are to be run if 
 .. image:: images/if-do-else.png
    :scale: 50%
    :align: center
+   :alt: If-Do-Else-Do Block
 
 
 If-Do-Else If-Do-Else-Do
@@ -47,6 +49,7 @@ A second conditional **else if** input is inserted and a bracket for actions to 
 .. image:: images/if-do-elseif.png
    :scale: 50%
    :align: center
+   :alt: If-Do-Else-If-Do-Else-Do Block
 
 
 
@@ -58,6 +61,7 @@ The **If-Do** block is configurable.
 .. image:: images/if-do-config.png
    :scale: 50%
    :align: center
+   :alt: If-Do Block Configuration
 
 
 By clicking the gear icon on the block, extra elections can be added by dragging the **else if** or **else** blocks 

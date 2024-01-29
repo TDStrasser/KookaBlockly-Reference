@@ -47,6 +47,7 @@ The Pin Turn ON block causes the selected pin to behave as a digital output and 
 .. image:: images/pins-turn-on.png
    :scale: 50%
    :align: center
+   :alt: Turn Pin On Block
 
 
 Pin Turn OFF
@@ -57,6 +58,7 @@ The Pin OFF block causes the selected pin to behave as a digital output and to b
 .. image:: images/pins-turn-off.png
    :scale: 50%
    :align: center
+   :alt: Turn Pin Off Block
 
 
 Pin Toggle
@@ -68,6 +70,7 @@ or from ``ON`` to ``OFF``, depending on its existing state.
 .. image:: images/pins-toggle.png
    :scale: 50%
    :align: center
+   :alt: Toggle Pin Block
 
 
 ``OFF`` sets the Pin to 0 volts DC, and ``ON`` sets the Pin to +3.3 volts DC.
@@ -80,6 +83,7 @@ The Pin Set Pin Digital Value block causes the selected pin to be set to accordi
 .. image:: images/pins-set-digital.png
    :scale: 50%
    :align: center
+   :alt: Set Pin Block
 
 If the input value is ``0``, the output of the Pin will be set to ``OFF`` which is 0 volts DC.
 
@@ -97,6 +101,7 @@ volts DC.
 .. image:: images/pins-get-digital.png
    :scale: 50%
    :align: center
+   :alt: Get Pin Block
 
 
 .. important:: 
@@ -113,6 +118,7 @@ This value block designates the selected pin as an analogue input and returns a 
 .. image:: images/pins-get-voltage.png
    :scale: 50%
    :align: center
+   :alt: Get Pin Voltage Block
 
 .. important:: 
     The allowable **Pin** input voltage range for the **Kookaberry** is 0 volts to +3.3 volts DC.  
@@ -128,6 +134,7 @@ and returns an integer percentage value of the allowable **Kookaberry** input vo
 .. image:: images/pins-get-percentage.png
    :scale: 50%
    :align: center
+   :alt: Get Pin Percentage Block
 
 
 Applying 0 volts DC to the input Pin will resturn a value of ``0``.
@@ -148,6 +155,7 @@ as an analogue output and to be set to the voltage specified by the input block.
 .. image:: images/pins-set-voltage.png
    :scale: 50%
    :align: center
+   :alt: Set Pin Voltage Block
 
 
 .. note::  **Set Pin to Voltage** is not available on **Kookaberry** using the Raspberry **Pi Pico RP2040** microprocessor.
@@ -161,6 +169,7 @@ as an analogue output and to be set to the percentage of maximum voltage specifi
 .. image:: images/pins-set-percentage.png
    :scale: 50%
    :align: center
+   :alt: Set Pin Percentage Block
 
 The output voltage will rise from 0 volts DC to +3.3 volts DC linearly with the input block rising from ``0`` to ``100``.
 
@@ -176,6 +185,7 @@ and ``1`` (+3.3 volts DC) at a given frequency and duty cycle as specified in th
 .. image:: images/pins-set-pwm.png
    :scale: 50%
    :align: center
+   :alt: Set Pin PWM Block
 
 
 The duty cycle is the proportion of each oscillation in which the output state is set to 1.  A duty cycle of 50  

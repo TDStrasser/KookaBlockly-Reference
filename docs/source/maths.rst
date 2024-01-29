@@ -22,6 +22,7 @@ This value block represents a fixed number that is specified by editing the defa
 .. image:: images/math-number.png
    :scale: 50%
    :align: center
+   :alt: Number Value Block
 
 
 The number can be any valid integer or floating point number:
@@ -40,7 +41,7 @@ This example prints a number on the **Kookaberry**'s display:
 .. image:: images/math-number-example.png
    :scale: 50%
    :align: center
-
+   :alt: Number Value Example
 
 
 Arithmetic
@@ -52,6 +53,7 @@ arithmetic operator.
 .. image:: images/math-arithmetic.png
    :scale: 50%
    :align: center
+   :alt: Arithmetic Block
 
 
 The operations that can be chosen from the drop-down list are:
@@ -71,6 +73,7 @@ This example prints the result of ``2`` raised to the power of ``3`` (ie. 2 cube
 .. image:: images/math-arithmetic-example.png
    :scale: 50%
    :align: center
+   :alt: Arithmetic Example
 
 
 Multiply and Add
@@ -82,6 +85,8 @@ and then adds the third numerical value input to the product of the first two in
 .. image:: images/math-multiply-add.png
    :scale: 50%
    :align: center
+   :alt: Arithmetic Combination Block
+
 
 This block is a convenient way to achieve the same result as using two **Arithmetic** blocks as in the example below. 
 Both blocks will print the same result (``10``).
@@ -90,7 +95,7 @@ Both blocks will print the same result (``10``).
 .. image:: images/math-multiply-add-example.png
    :scale: 50%
    :align: center
-
+   :alt: Arithmetic Combination Example
 
 
 Scale Function
@@ -103,6 +108,7 @@ from a scale defined by the second input, to another scale defined by the third 
 .. image:: images/math-scale.png
    :scale: 50%
    :align: center
+   :alt: Scale Block
 
 
 Scale Example
@@ -116,6 +122,7 @@ By way of example, this script using the **Scale** block will convert a Celsius 
 .. image:: images/math-scale-example-fahrenheit.png
    :scale: 50%
    :align: center
+   :alt: Scale Example
 
 
 Math Function
@@ -126,6 +133,7 @@ This value block performs the chosen mathematical function on the numerical valu
 .. image:: images/math-sqroot.png
    :scale: 50%
    :align: center
+   :alt: Maths Function Block
 
 
 The options that are available are:
@@ -147,6 +155,7 @@ This value block performs the basic selected trigonometric functions. on the inp
 .. image:: images/math-trig.png
    :scale: 50%
    :align: center
+   :alt: Trig Function Block
 
 
 The functions available for selection in the drop-down list are:
@@ -174,6 +183,7 @@ This value block provides several special constants that are important and often
 .. image:: images/math-constants.png
    :scale: 50%
    :align: center
+   :alt: Math Constants Value Block
 
 
 To choose a constant use the drop-down list and select from
@@ -197,6 +207,7 @@ has the chosen property or not.
 .. image:: images/math-is-test.png
    :scale: 50%
    :align: center
+   :alt: Math Property Boolean Block
 
 
 The property to test is selected from the drop-down list which includes:  
@@ -214,6 +225,7 @@ The property to test is selected from the drop-down list which includes:
 .. image:: images/math-is-divisible-by.png
    :scale: 50%
    :align: center
+   :alt: Is Divisible Boolean Block
 
 
 Round Number
@@ -224,6 +236,7 @@ This value block rounds the numerical input value to a whole number using the ch
 .. image:: images/math-round.png
    :scale: 50%
    :align: center
+   :alt: Number Rounding Block
 
 
 The method is chosen from the block's drop-down list:
@@ -246,6 +259,7 @@ This block computes a mathematical function based on the content of a **List** w
 .. image:: images/math-of-list.png
    :scale: 50%
    :align: center
+   :alt: List Function Block
 
 
 The function to be used is selected from the drop-down list:
@@ -276,6 +290,7 @@ If we changed the input **List** to ``[-123, -123, 123, -123]``, the block would
 .. image:: images/math-modes-of-list-example.png
    :scale: 50%
    :align: center
+   :alt: List Function Example
 
 
 Remainder
@@ -286,6 +301,7 @@ This block returns the fractional portion of the number that results when the nu
 .. image:: images/math-remainder.png
    :scale: 50%
    :align: center
+   :alt: Remainder Block
 
 
 For example, when ``3`` is divided by ``2`` the result is ``1.5``.  The remainder is the fractional portion which is ``0.5``.
@@ -302,6 +318,7 @@ and the maximum number defined as the third input.
 .. image:: images/math-constrain.png
    :scale: 50%
    :align: center
+   :alt: Constrain Block
 
 
 There are three possible outputs from this block:
@@ -320,6 +337,7 @@ and a maximum integer defined by the second input.
 .. image:: images/math-random-integer.png
    :scale: 50%
    :align: center
+   :alt: Random Integer Block
 
 
 For example, to simulate the roll of a six-sided die, set the minimum to ``1`` and the maximum to ``6``.
@@ -335,6 +353,7 @@ This value block creates a random floating point number from 0 up to but not inc
 .. image:: images/math-random-fraction.png
    :scale: 50%
    :align: center
+   :alt: Random Fraction Block
 
 
 See also https://en.wikipedia.org/wiki/Random_variable
@@ -348,6 +367,7 @@ This value block returns the arc tangent of two numerical values at inputs x and
 .. image:: images/math-atan2.png
    :scale: 50%
    :align: center
+   :alt: Atan2 Block
 
 This function is similar to calculating the arc tangent of y/x, except that the signs of both arguments are used to determine 
 the quadrant of the result.  The result is an angle expressed in degrees in the range ``-180`` to ``+180``.

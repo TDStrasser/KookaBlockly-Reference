@@ -26,6 +26,7 @@ This block turns the LED, selected from the drop-down box, ``ON``.
 .. image:: images/leds-turn-on.png
    :scale: 50%
    :align: center
+   :alt: Turn LED On Block
    
 
 Turn OFF LED
@@ -37,6 +38,7 @@ This block turns the LED, selected from the drop-down box, ``OFF``.
 .. image:: images/leds-turn-off.png
    :scale: 50%
    :align: center
+   :alt: Turn LED Off Block
    
 
 Toggle LED
@@ -47,6 +49,7 @@ This block toggles the LED selected in the drop-down box.
 .. image:: images/leds-toggle.png
    :scale: 50%
    :align: center
+   :alt: Toggle LED Block
    
 
 Toggle means to change the state of the LED from ``OFF`` to ``ON``, or from ``ON`` to ``OFF``, depending on the LED’s state. 
@@ -60,6 +63,7 @@ down box.
 .. image:: images/leds-set-neopixel.png
    :scale: 50%
    :align: center
+   :alt: Set NeoPixel Block
 
 
 Neopixels are multicolour **LEDs** with Red, Green and Blue **LEDs** in every individual Neopixel.  The 

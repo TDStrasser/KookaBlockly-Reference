@@ -1,12 +1,19 @@
+
 .. image:: images/kblockly-logo.png
    :width: 70%
    :align: center
+   :alt: KookaBlockly Logo
 
 """"""""""""""""""""""""""""""""""""""""""""
 Welcome to the KookaBlockly Reference Guide!
 """"""""""""""""""""""""""""""""""""""""""""
 
-This document relates to the **KookaBlockly** visual scripting tool commissioned by the AustSTEM Foundation 
+**KookaBlockly** is a powerful standalone visual editor designed for creating program scripts for **Kookaberry** and related microprocessors. 
+This editor operates on a drag-and-drop interface, making it beginner-friendly and highly intuitive.
+
+This document describes how to use to the **KookaBlockly** visual scripting tool.
+
+**KookaBlockly** is part of the **KookaSuite** script editing toolset which was commissioned by the AustSTEM Foundation 
 and created by Damien George for the **Kookaberry**.
 
 This guide is for **KookaBlockly** v1.10.0.

@@ -22,6 +22,7 @@ The "on start" block is intended to contain other action blocks that will run fi
 .. image:: images/on-start.png
    :scale: 50%
    :align: center
+   :alt: On Start Block
 
 
 Typically the blocks contained are for the initialisation of the display, variables, sensors, and actuators.
@@ -35,6 +36,7 @@ This block is a loop that repeatedly runs the blocks nested inside at the time i
 .. image:: images/scheduled-loop.png
    :scale: 50%
    :align: center
+   :alt: Timed Loop Block
 
 
 The loop will continue forever at the defined period unless the program is externally stopped.
@@ -50,6 +52,7 @@ This block runs the blocks nested inside in a repeated loop.
 .. image:: images/every-loop.png
    :scale: 50%
    :align: center
+   :alt: Every Loop Block
 
 
 The loop will run forever unless externally stopped by exiting the script, or resetting the **Kookaberry** or removing power from the **Kookaberry**.  
@@ -64,6 +67,7 @@ This block directs the running program to exit.
 .. image:: images/exit-program.png
    :scale: 50%
    :align: center
+   :alt: Exit Program Block
 
 Sleep
 -----
@@ -73,6 +77,7 @@ This block causes the program to wait / pause for the specified time before cont
 .. image:: images/sleep.png
    :scale: 50%
    :align: center
+   :alt: Timed Sleep Block
 
 
 The number in the box specifies the duration of sleep in decimal seconds.
@@ -86,6 +91,7 @@ January 2000).
 .. image:: images/time-secs.png
    :scale: 50%
    :align: center
+   :alt: Time Seconds Value Block
 
 
 By subtracting successive values given by this block, the elapsed interval in 
@@ -109,6 +115,7 @@ January 2000).
 .. image:: images/time-msecs.png
    :scale: 50%
    :align: center
+   :alt: Time Miiliseconds Value Block
 
 
 By subtracting successive values given by this block, the elapsed interval in 
