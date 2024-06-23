@@ -9,7 +9,7 @@ and is intended to demystify the vocabulary often used in association with compu
 
     Kookaberry
       The **Kookaberry** is a microcomputer specifically designed for **STEM** educational applications.  
-      See https://learn.auststem.com.au/exploring-the-kookaberry/
+      See https://kookaberry-reference-guide.readthedocs.io/en/latest/ and https://learn.auststem.com.au/exploring-the-kookaberry/
 
     KookaSuite
       A suite of programming tools for the **Kookaberry** comprising **KookaBlockly** visual coding tool,
